@@ -9,3 +9,9 @@ __pycache__/
 .env
 .DS_Store
 *.webm
+data/processed/*.csv.gz
+data/processed/311_cube.csv
+data/processed/311_resolutions_cube.csv
+data/processed/*_log.txt
+data/processed/complaints_clean.csv
+.pytest_cache/

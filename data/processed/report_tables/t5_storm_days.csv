@@ -1,0 +1,6 @@
+borough,storm_days_count,non_storm_days_count,mean_flood_storm,median_flood_storm,mean_flood_non_storm,median_flood_non_storm,mean_ratio
+BROOKLYN,19,346,57.63,39.0,12.79,9.0,4.51
+QUEENS,18,347,66.33,47.5,16.12,11.0,4.12
+BRONX,17,348,10.94,11.0,2.7,2.0,4.05
+MANHATTAN,17,348,11.06,9.0,2.81,2.0,3.94
+STATEN ISLAND,16,349,17.25,14.0,3.36,2.0,5.13
