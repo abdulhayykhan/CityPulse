@@ -16,9 +16,4 @@ Work on your own branch (`audio`, `image`, `data-ml`, `fullstack`). Phase comple
 Raw datasets are not committed. Download instructions and licenses: see `data/README.md` (to be added).
 
 ## Dataset licenses
-The MIT License below covers this repository's code only. UrbanSound8K and ESC-50 are CC BY-NC (non-commercial); RDD2022 is CC BY-SA 4.0; Open-Meteo is CC BY 4.0; OpenStreetMap is ODbL. Check each dataset's license before any reuse.
-
-## 📄 License
-This project is open-source and available for educational and commercial use under the MIT License.
----
-**Made with ❤️ by [Abdul Hayy Khan](https://www.linkedin.com/in/abdulhayykhan/)**
+This repository's code is MIT-licensed; the datasets are not. UrbanSound8K and ESC-50 are CC BY-NC (non-commercial); RDD2022 is CC BY-SA 4.0; Open-Meteo is CC BY 4.0; OpenStreetMap is ODbL. Check each dataset's license before any reuse.
