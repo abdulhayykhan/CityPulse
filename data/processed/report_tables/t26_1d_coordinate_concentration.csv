@@ -1,0 +1,13 @@
+group,threshold,num_coords_within_group,rows_within_group,share_within_group_pct,num_coords_overall_dataset,rows_overall_dataset,share_overall_dataset_pct
+flood,>50,2,198,3.587,21,242,4.3841
+flood,>200,0,0,0.0,3,6,0.1087
+flood,>1000,0,0,0.0,0,0,0.0
+noise,>50,424,65757,31.0404,432,65909,31.1122
+noise,>200,58,33460,15.7947,58,33460,15.7947
+noise,>1000,5,14413,6.8036,5,14413,6.8036
+road,>50,2,121,0.7498,17,306,1.8961
+road,>200,0,0,0.0,0,0,0.0
+road,>1000,0,0,0.0,0,0,0.0
+sewer_backup,>50,0,0,0.0,17,20,0.6653
+sewer_backup,>200,0,0,0.0,1,1,0.0333
+sewer_backup,>1000,0,0,0.0,1,1,0.0333

@@ -1,0 +1,6 @@
+group,rows_within_20m_planar,rows_within_20m_haversine,min_dist_planar_m,min_dist_haversine_m
+flood,0,0,128.735,128.8703
+noise,0,0,20.6619,20.7823
+road,0,0,101.9265,101.8667
+sewer_backup,0,0,128.735,128.8703
+overall,0,0,20.6619,20.7823

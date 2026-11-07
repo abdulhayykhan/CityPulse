@@ -1,0 +1,6 @@
+query_case,total_sewer_complaints,flood_group_complaints
+Coordinates Present (latitude IS NOT NULL AND longitude IS NOT NULL),10832,5520
+Coordinates Missing (latitude IS NULL OR longitude IS NULL),123,94
+Sum Total (API-derived long-history aggregate),10955,5614
+Clean Dataset (data/processed/complaints_clean.csv),8526,5520
+Discrepancy (API Total - Clean Dataset),2429,94

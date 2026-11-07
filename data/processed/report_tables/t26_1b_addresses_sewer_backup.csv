@@ -1,0 +1,26 @@
+group,rank,address_norm,rows,share_pct,distinct_coords
+sewer_backup,1,78 8 AVENUE,15,0.499,1
+sewer_backup,2,7 FRANKLIN AVENUE,12,0.3992,1
+sewer_backup,3,348 FULTON STREET,10,0.3327,1
+sewer_backup,4,4102 18 AVENUE,10,0.3327,1
+sewer_backup,5,5809 2 AVENUE,9,0.2994,1
+sewer_backup,6,6329 AVENUE N,9,0.2994,1
+sewer_backup,7,49 BOKEE COURT,8,0.2661,1
+sewer_backup,8,1306 AVENUE M,8,0.2661,1
+sewer_backup,9,206 TAPSCOTT STREET,7,0.2329,1
+sewer_backup,10,3171 CONEY ISLAND AVENUE,7,0.2329,1
+sewer_backup,11,559 FULTON STREET,6,0.1996,1
+sewer_backup,12,2055 OCEAN AVENUE,6,0.1996,1
+sewer_backup,13,54 EAST 32 STREET,6,0.1996,1
+sewer_backup,14,3032 BRIGHTON    7 STREET,6,0.1996,1
+sewer_backup,15,2337 STILLWELL AVENUE,6,0.1996,1
+sewer_backup,16,65 IRVING AVENUE,6,0.1996,1
+sewer_backup,17,574 RIVERDALE AVENUE,5,0.1663,1
+sewer_backup,18,28 BRIGHTON    5 WALK,5,0.1663,1
+sewer_backup,19,654 EAST   39 STREET,5,0.1663,1
+sewer_backup,20,231 NORMAN AVENUE,5,0.1663,1
+sewer_backup,21,654 EVERGREEN AVENUE,5,0.1663,1
+sewer_backup,22,83 BAY   28 STREET,5,0.1663,1
+sewer_backup,23,120 CHAUNCEY STREET,5,0.1663,1
+sewer_backup,24,2667 CROPSEY AVENUE,5,0.1663,1
+sewer_backup,25,4111 KINGS HIGHWAY,5,0.1663,1
