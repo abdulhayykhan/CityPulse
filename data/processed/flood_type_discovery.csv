@@ -1,0 +1,43 @@
+dataset,year,complaint_type,count
+76ig-c548,2010,Root/Sewer/Sidewalk Condition,9970
+76ig-c548,2010,Sewer,43693
+76ig-c548,2011,Root/Sewer/Sidewalk Condition,8065
+76ig-c548,2011,Sewer,46282
+76ig-c548,2012,Root/Sewer/Sidewalk Condition,9569
+76ig-c548,2012,Sewer,36955
+76ig-c548,2013,Root/Sewer/Sidewalk Condition,9186
+76ig-c548,2013,Sewer,31439
+76ig-c548,2014,Root/Sewer/Sidewalk Condition,9036
+76ig-c548,2014,Sewer,36512
+76ig-c548,2015,Root/Sewer/Sidewalk Condition,9963
+76ig-c548,2015,Sewer,31898
+76ig-c548,2016,Root/Sewer/Sidewalk Condition,7995
+76ig-c548,2016,Sewer,32650
+76ig-c548,2017,Root/Sewer/Sidewalk Condition,8677
+76ig-c548,2017,Sewer,32529
+76ig-c548,2018,Root/Sewer/Sidewalk Condition,8459
+76ig-c548,2018,Sewer,37759
+76ig-c548,2019,Root/Sewer/Sidewalk Condition,9998
+76ig-c548,2019,Sewer,31980
+erm2-nwe9,2020,Root/Sewer/Sidewalk Condition,8523
+erm2-nwe9,2020,Sewer,24740
+erm2-nwe9,2020,Sewer Maintenance,5
+erm2-nwe9,2021,Root/Sewer/Sidewalk Condition,9208
+erm2-nwe9,2021,Sewer,36971
+erm2-nwe9,2021,Sewer Maintenance,19
+erm2-nwe9,2022,Root/Sewer/Sidewalk Condition,8403
+erm2-nwe9,2022,Sewer,28334
+erm2-nwe9,2022,Sewer Maintenance,29
+erm2-nwe9,2023,Root/Sewer/Sidewalk Condition,9187
+erm2-nwe9,2023,Sewer,29942
+erm2-nwe9,2023,Sewer Maintenance,2847
+erm2-nwe9,2023,Water Drainage,136
+erm2-nwe9,2024,Root/Sewer/Sidewalk Condition,10538
+erm2-nwe9,2024,Sewer,26225
+erm2-nwe9,2024,Sewer Maintenance,24
+erm2-nwe9,2025,Root/Sewer/Sidewalk Condition,10446
+erm2-nwe9,2025,Sewer,26059
+erm2-nwe9,2025,Sewer Maintenance,82
+erm2-nwe9,2026,Root/Sewer/Sidewalk Condition,8913
+erm2-nwe9,2026,Sewer,18333
+erm2-nwe9,2026,Sewer Maintenance,12248

@@ -15,3 +15,5 @@ data/processed/311_resolutions_cube.csv
 data/processed/*_log.txt
 data/processed/complaints_clean.csv
 .pytest_cache/
+data/processed/flood_raw_aggregate_*.csv
+data/processed/flood_raw_erm2_quarterly/
