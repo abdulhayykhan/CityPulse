@@ -1,0 +1,62 @@
+group,complaint_type,descriptor,descriptor_group,n
+flood,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),catch_basin_clogged,1926
+flood,Sewer Maintenance,Catch Basin Clogged,catch_basin_clogged,1245
+flood,Sewer,Street Flooding (SJ),street_flooding,1002
+flood,Sewer Maintenance,Flooding on Street,street_flooding,622
+flood,Sewer Maintenance,Manhole Overflow,manhole_overflow,360
+flood,Sewer,Manhole Overflow (Use Comments) (SA1),manhole_overflow,359
+flood,Sewer,Highway Flooding (SH),street_flooding,6
+noise,Noise - Residential,Banging/Pounding,banging,52593
+noise,Noise - Residential,Loud Music/Party,music_party,52386
+noise,Noise - Street/Sidewalk,Loud Music/Party,music_party,32122
+noise,Noise - Commercial,Loud Music/Party,music_party,15602
+noise,Noise - Street/Sidewalk,Loud Talking,talking_tv,9838
+noise,Noise - Residential,Loud Talking,talking_tv,8184
+noise,Noise,Noise: Construction Before/After Hours (NM1),construction,4883
+noise,Noise - Vehicle,Car/Truck Music,vehicle,4876
+noise,Noise - Vehicle,Engine Idling,vehicle,3016
+noise,Noise,Construction,construction,2639
+noise,Noise - Helicopter,Other,helicopter,2347
+noise,Noise - Commercial,Banging/Pounding,banging,2206
+noise,Noise,Noise: Construction Equipment (NC1),construction,2144
+noise,Noise - Residential,Loud Television,talking_tv,2127
+noise,Noise - Vehicle,Car/Truck Horn,vehicle,2069
+noise,Noise,"Noise, Barking Dog (NR5)",animal,2042
+noise,Noise - Commercial,Loud Talking,talking_tv,1751
+noise,Noise,Noise: Alarms (NR3),alarm,1641
+noise,Noise - Park,Loud Music/Party,music_party,1428
+noise,Noise,Noise: air condition/ventilation equipment (NV1),machinery_hvac,968
+noise,Noise,Construction Equipment,construction,961
+noise,Noise,Dog,animal,846
+noise,Noise,Alarm,alarm,704
+noise,Noise,Noise: Manufacturing Noise (NK1),machinery_hvac,550
+noise,Noise,Noise: Jack Hammering (NC2),construction,448
+noise,Noise,Air Conditioner/Ventilation,machinery_hvac,438
+noise,Noise - Park,Loud Talking,talking_tv,331
+noise,Noise - House of Worship,Loud Music/Party,music_party,254
+noise,Noise,Manufacturing Business/Plant,machinery_hvac,240
+noise,Noise - Commercial,Car/Truck Horn,vehicle,225
+noise,Noise,Jackhammer,construction,221
+noise,Noise - Helicopter,NYPD,helicopter,219
+noise,Noise,Noise:  lawn care equipment (NCL),machinery_hvac,203
+noise,Noise - Commercial,Car/Truck Music,vehicle,168
+noise,Noise,Lawn Care Equipment,machinery_hvac,167
+noise,Noise,"Noise, Ice Cream Truck (NR4)",other,143
+noise,Noise - House of Worship,Loud Talking,talking_tv,138
+noise,Noise,Noise: Private Carting Noise (NQ1),machinery_hvac,133
+noise,Noise,"Noise: Boat(Engine,Music,Etc) (NR10)",music_party,101
+noise,Noise,Boat,other,97
+noise,Noise,Private Garbage Truck,machinery_hvac,84
+noise,Noise,Ice Cream Truck,other,79
+noise,Noise,"Noise, Other Animals (NR6)",animal,68
+noise,Noise - Commercial,Loud Television,talking_tv,50
+noise,Noise - House of Worship,Banging/Pounding,banging,45
+noise,Noise - Helicopter,News Gathering,helicopter,36
+noise,Noise,Animal Other Than Dog,animal,20
+noise,Noise,Noise: Other Noise Sources (Use Comments) (NZZ),other,12
+road,Street Condition,Pothole,pothole,7051
+road,Street Condition,Cave-in,cave_in,6851
+road,Street Condition,Failed Street Repair,failed_repair,1335
+road,Street Condition,"Rough, Pitted or Cracked Roads",cracked_rough,901
+sewer_backup,Sewer,Sewer Backup (Use Comments) (SA),backup,1965
+sewer_backup,Sewer Maintenance,Backup,backup,1041

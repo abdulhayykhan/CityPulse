@@ -1,0 +1,26 @@
+column,dtype,description,safe_as_trust_feature,notes
+id,string,Unique 311 service request identifier,yes,Source: unique_key
+lat,float,WGS84 latitude coordinate,yes,"Verified within Brooklyn bounding box [40.55, 40.74]"
+lon,float,WGS84 longitude coordinate,yes,"Verified within Brooklyn bounding box [-74.06, -73.83]"
+timestamp,string,Creation timestamp in ISO 8601 format (YYYY-MM-DDTHH:MM:SS),yes,Original request submission time
+group,string,Primary complaint classification group,yes,"Subset of {noise, road, flood, sewer_backup}"
+descriptor,string,Specific complaint descriptor from 311 agency,yes,Raw agency descriptor
+zone_id,string,Spatial cluster zone identifier,yes,empty until K-Means step
+descriptor_group,string,Standardized functional descriptor category,yes,Hierarchical rule-based assignment
+complaint_type,string,Agency complaint type category,yes,Original 311 complaint type
+borough,string,NYC Borough name,yes,All rows are BROOKLYN
+status,string,Current ticket lifecycle status,no,exists only after the agency acts (label leakage)
+closed_date,string,Resolution timestamp in ISO 8601 format,no,exists only after the agency acts (label leakage)
+time_to_close_h,float,Duration to resolve request in elapsed hours,no,exists only after the agency acts (label leakage)
+hour,int,Hour of day (0-23) when request was created,yes,Extracted from timestamp
+weekday,int,Day of week (0=Monday to 6=Sunday) when created,yes,Extracted from timestamp
+month,int,Month of year (1-12) when created,yes,Extracted from timestamp
+date,string,Calendar date (YYYY-MM-DD) when created,yes,Extracted from timestamp
+is_midnight_timestamp,bool,Boolean flag indicating exact midnight (00:00:00) timestamp,yes,Batch ingestion flag
+channel,string,"Submission channel (e.g. Mobile, Online, Phone)",yes,Open data channel type
+location_type,string,Type of location where incident occurred,yes,Reported location environment
+incident_address,string,Raw incident street address,yes,Reported location address
+address_norm,string,Standardized uppercase alphanumeric street address,yes,Normalized address string
+resolution_id,string,Agency resolution action code,no,exists only after the agency acts (label leakage)
+x_m,float,Local planar x-coordinate in meters relative to Brooklyn centroid,yes,"Equirectangular projection using fixed lat0, lon0"
+y_m,float,Local planar y-coordinate in meters relative to Brooklyn centroid,yes,"Equirectangular projection using fixed lat0, lon0"
