@@ -1,0 +1,4 @@
+date,daily_rain_sum_mm,max_hourly_rain_mm,hour_of_max_rain,max_hourly_flood_count,hour_of_max_flood,daily_flood_count
+2026-05-20,7.2,2.1,18,63,19,145
+2026-05-21,7.2,2.3,12,21,10,148
+2026-07-06,49.6,6.0,18,39,10,228

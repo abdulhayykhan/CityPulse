@@ -1,0 +1,5 @@
+group,total_rows,distinct_lat_lon_pairs,ratio_rows_per_coord
+flood,5520,3594,1.536
+noise,211843,46484,4.557
+road,16138,8378,1.926
+sewer_backup,3006,2273,1.322

@@ -1,0 +1,5 @@
+group,total_rows,missing_location_type_count,missing_location_type_pct
+flood,5520,3293,59.66
+noise,211843,13336,6.3
+road,16138,7051,43.69
+sewer_backup,3006,1965,65.37
