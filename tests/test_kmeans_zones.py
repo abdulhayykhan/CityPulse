@@ -18,6 +18,9 @@ from src.clustering.kmeans_zones import (
     build_weights,
     fit_kmeans,
     weighted_silhouette_sample,
+    davies_bouldin_sample,
+    relabel_by_latitude,
+    assign_zones,
     zone_table,
 )
 from src.preprocessing.features import project, unproject
@@ -165,4 +168,104 @@ def test_zone_table_and_lift():
     assert zt.loc[1, "share_B"] == pytest.approx(0.8)
     assert zt.loc[1, "lift_B"] == pytest.approx(1.6)
     assert zt.loc[1, "dominant_group"] == "B"
+    assert "radius_m_p90" in zt.columns
+    assert "dominant_lift" in zt.columns
+
+
+def test_davies_bouldin_sample():
+    X = np.array([[0.0, 0.0], [0.1, 0.0], [10.0, 10.0], [10.0, 10.1]])
+    w = np.array([1.0, 1.0, 1.0, 1.0])
+    labels = np.array([0, 0, 1, 1])
+
+    score = davies_bouldin_sample(X, w, labels, n=20, seed=42)
+    assert isinstance(score, float)
+    assert score >= 0.0
+
+
+def test_relabel_by_latitude():
+    # 4 centers with varying lat and lon
+    centers_latlon = np.array([
+        [40.5, -73.9],  # Old 0 -> lowest lat (South) -> becomes zone 3
+        [40.8, -73.9],  # Old 1 -> highest lat (North) -> becomes zone 0
+        [40.7, -73.8],  # Old 2 -> lat 40.7, lon -73.8 -> becomes zone 2
+        [40.7, -74.0],  # Old 3 -> lat 40.7, lon -74.0 -> becomes zone 1 (ties broken by lon asc)
+    ])
+    labels = np.array([0, 1, 2, 3, 1, 0])
+
+    new_labels, order = relabel_by_latitude(centers_latlon, labels, return_order=True)
+
+    # Order should be: Old 1, Old 3, Old 2, Old 0
+    assert list(order) == [1, 3, 2, 0]
+    # Mapping: 1 -> 0, 3 -> 1, 2 -> 2, 0 -> 3
+    # Original labels [0, 1, 2, 3, 1, 0] -> [3, 0, 2, 1, 0, 3]
+    assert list(new_labels) == [3, 0, 2, 1, 0, 3]
+
+    # Verify monotonic non-increasing latitude order
+    sorted_centers = centers_latlon[order]
+    for i in range(len(sorted_centers) - 1):
+        assert sorted_centers[i, 0] >= sorted_centers[i + 1, 0]
+
+
+def test_assign_zones():
+    centers_xy = np.array([
+        [0.0, 0.0],      # Center 0
+        [1000.0, 0.0],   # Center 1
+        [0.0, 1000.0],   # Center 2
+    ])
+    x = np.array([10.0, 990.0, 5.0, 1050.0])
+    y = np.array([10.0, 10.0, 995.0, -10.0])
+
+    assigned = assign_zones(x, y, centers_xy)
+    assert list(assigned) == [0, 1, 2, 1]
+
+
+def test_zone_table_mixed_rule():
+    lat0, lon0 = 40.66, -73.95
+    # Two clusters:
+    # Zone 0: noise 91, flood 9
+    # Zone 1: noise 89, flood 11
+    # Citywide: noise 180 (90%), flood 20 (10%)
+    # Zone 0: noise lift = 0.91 / 0.90 = 1.011, flood lift = 0.09 / 0.10 = 0.90
+    # Both lifts < 1.15 -> dominant_group MUST be "mixed"
+    #
+    # Zone 2: flood 40, noise 10 -> flood share = 40/50 = 0.80
+    # Citywide total with Zone 2:
+    # noise: 180 + 10 = 190 / 250 = 0.76
+    # flood: 20 + 40 = 60 / 250 = 0.24
+    # In Zone 2: flood lift = 0.80 / 0.24 ≈ 3.33 >= 1.15 -> dominant_group "flood"
+    locs = pd.DataFrame([
+        # Zone 0
+        {"group": "noise", "x_m": 0.0, "y_m": 0.0, "count": 91},
+        {"group": "flood", "x_m": 0.0, "y_m": 0.0, "count": 9},
+        # Zone 1 (flood specialized)
+        {"group": "noise", "x_m": 5000.0, "y_m": 5000.0, "count": 10},
+        {"group": "flood", "x_m": 5000.0, "y_m": 5000.0, "count": 90},
+    ])
+    labels = np.array([0, 0, 1, 1])
+    centers = np.array([[0.0, 0.0], [5000.0, 5000.0]])
+
+    zt = zone_table(locs, labels, centers, lat0=lat0, lon0=lon0)
+
+    # City totals: noise 101/200 = 0.505, flood 99/200 = 0.495
+    # Zone 0: noise count = 91 (share=0.91), lift = 0.91 / 0.505 ≈ 1.802 > 1.15 -> "noise"
+    # Zone 1: flood count = 90 (share=0.90), lift = 0.90 / 0.495 ≈ 1.818 > 1.15 -> "flood"
+    assert zt.loc[0, "dominant_group"] == "noise"
+    assert zt.loc[1, "dominant_group"] == "flood"
+
+    # Now test case where max lift is < 1.15
+    locs_balanced = pd.DataFrame([
+        {"group": "noise", "x_m": 0.0, "y_m": 0.0, "count": 52},
+        {"group": "flood", "x_m": 0.0, "y_m": 0.0, "count": 48},
+        {"group": "noise", "x_m": 5000.0, "y_m": 5000.0, "count": 48},
+        {"group": "flood", "x_m": 5000.0, "y_m": 5000.0, "count": 52},
+    ])
+    # Citywide shares: noise = 100/200 = 0.5, flood = 100/200 = 0.5
+    # Zone 0: noise share = 52/100 = 0.52 -> lift = 0.52 / 0.50 = 1.04 (< 1.15)
+    # Zone 1: flood share = 52/100 = 0.52 -> lift = 0.52 / 0.50 = 1.04 (< 1.15)
+    zt_bal = zone_table(locs_balanced, labels, centers, lat0=lat0, lon0=lon0)
+    assert zt_bal.loc[0, "dominant_lift"] == pytest.approx(1.04)
+    assert zt_bal.loc[0, "dominant_group"] == "mixed"
+    assert zt_bal.loc[1, "dominant_lift"] == pytest.approx(1.04)
+    assert zt_bal.loc[1, "dominant_group"] == "mixed"
+
 

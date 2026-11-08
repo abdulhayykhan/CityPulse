@@ -128,11 +128,15 @@ def test_group_values_subset(clean_df):
     )
 
 
-def test_zone_id_entirely_empty(clean_df):
-    """Assert zone_id is entirely empty for every row."""
-    # When keep_default_na=False, empty strings are ""
-    non_empty = (clean_df["zone_id"] != "").sum()
-    assert non_empty == 0, f"zone_id has {non_empty} non-empty values (should be 0)"
+def test_zone_id_valid(clean_df):
+    """Assert zone_id has int dtype, no NaN, and set of values is {0..7}."""
+    assert pd.api.types.is_integer_dtype(clean_df["zone_id"]), (
+        f"Expected int dtype for zone_id, got {clean_df['zone_id'].dtype}"
+    )
+    assert not clean_df["zone_id"].isna().any(), "zone_id contains NaN values"
+    assert set(clean_df["zone_id"].unique()) == set(range(8)), (
+        f"Expected zone_id values to be {{0..7}}, got {set(clean_df['zone_id'].unique())}"
+    )
 
 
 def test_resolution_id_empty_count(clean_df):
