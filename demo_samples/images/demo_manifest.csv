@@ -1,0 +1,11 @@
+file,true_label,predicted,confidence,correct,source,origin
+crack_01.jpg,crack,crack,0.6668,True,rdd2022,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\crack\India_007997.jpg
+crack_02.jpg,crack,crack,0.6987,True,rdd2022,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\crack\India_006058.jpg
+crack_03.jpg,crack,crack,0.7598,True,rdd2022,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\crack\India_003616.jpg
+flood_01.jpg,flood,flood,0.999,True,alleyfloodnet,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\flood\alley_test_00060.jpg
+flood_02.jpg,flood,flood,0.7938,True,alleyfloodnet,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\flood\alley_test_00096.jpg
+normal_01.jpg,normal,flood,0.599,False,alleyfloodnet,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\normal\alley_test_00227.jpg
+normal_02.jpg,normal,normal,0.8863,True,alleyfloodnet,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\normal\alley_test_00235.jpg
+pothole_01.jpg,pothole,pothole,0.6867,True,rdd2022,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\pothole\India_003164.jpg
+pothole_02.jpg,pothole,pothole,0.4619,True,rdd2022,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\pothole\India_007219.jpg
+pothole_03.jpg,pothole,pothole,0.4709,True,rdd2022,C:\Users\bushr\OneDrive\Desktop\city pulse project\CityPulse_Part2_Imagee\data\processed\image\dataset\test\pothole\India_009413.jpg
