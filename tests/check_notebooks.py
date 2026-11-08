@@ -6,7 +6,7 @@ Ensures:
 - Notebook file size is under 2 MB
 - No absolute 'C:\\Users' or 'C:/Users' strings in output text
 - The last code cell output contains 'CHECKS: N passed, M failed'
-- Exits non-zero on structural failures; non-zero failed checks result in a WARNING status.
+- Exits non-zero on structural failures or failed checks; non-zero failed checks result in a FAIL status.
 """
 
 import sys
@@ -98,7 +98,7 @@ def check_notebook(nb_path: Path):
         status = "FAIL: " + "; ".join(structural_errors)
         has_structural_error = True
     elif n_failed > 0:
-        status = f"WARNING ({n_failed} failed checks)"
+        status = "FAIL"
         has_structural_error = False
     else:
         status = "PASS"
@@ -111,6 +111,7 @@ def check_notebook(nb_path: Path):
         "checks_line": checks_line,
         "status": status,
         "has_structural_error": has_structural_error,
+        "n_failed": n_failed,
     }
 
 
@@ -147,9 +148,9 @@ def main():
         row = f"| {r['notebook'].ljust(col_nb)} | {str(r['cells']).rjust(col_cells)} | {r['size_kb'].rjust(col_size)} | {r['checks_line'].ljust(col_chk)} | {r['status'].ljust(col_st)} |"
         print(row)
 
-    has_any_structural_failure = any(r["has_structural_error"] for r in results) or stray_failure
-    if has_any_structural_failure:
-        print("\nResult: STRUCTURAL FAILURE detected.")
+    has_any_failure = any(r["has_structural_error"] or r["n_failed"] > 0 for r in results) or stray_failure
+    if has_any_failure:
+        print("\nResult: FAIL")
         sys.exit(1)
     else:
         print("\nResult: All notebooks passed structural checks.")

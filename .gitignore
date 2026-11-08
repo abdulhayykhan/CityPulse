@@ -17,3 +17,6 @@ data/processed/complaints_clean.csv
 .pytest_cache/
 data/processed/flood_raw_aggregate_*.csv
 data/processed/flood_raw_erm2_quarterly/
+
+data/processed/incidents.csv
+data/processed/complaint_incident_map.csv

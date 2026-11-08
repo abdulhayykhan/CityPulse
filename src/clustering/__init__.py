@@ -23,6 +23,13 @@ from src.clustering.hierarchical_dedup import (
     cluster_block,
     cluster_all,
     precompute_block_linkages,
+    make_time_chunks,
+    linkage_per_chunk,
+    cut_incidents,
+    pair_prf,
+    build_incidents,
+    build_complaint_incident_map,
+    online_assign,
 )
 
 __all__ = [
@@ -44,5 +51,12 @@ __all__ = [
     "cluster_block",
     "cluster_all",
     "precompute_block_linkages",
+    "make_time_chunks",
+    "linkage_per_chunk",
+    "cut_incidents",
+    "pair_prf",
+    "build_incidents",
+    "build_complaint_incident_map",
+    "online_assign",
 ]
 

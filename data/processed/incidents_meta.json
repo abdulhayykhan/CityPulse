@@ -1,0 +1,13 @@
+{
+  "time_scale": 50.0,
+  "T": 200.0,
+  "rule_text": "time_scale = 50, T* = smallest T in [50, 100, 150, 200, 300, 450, 600] such that F1(T) >= max(F1) - 0.02",
+  "rows": 236507,
+  "incident_count": 154599,
+  "projection_origin": {
+    "lat0": 40.661641,
+    "lon0": -73.952455
+  },
+  "creation_date": "2026-11-08T17:49:36.987802+00:00",
+  "equivalence_test_result": "30/30 random chunks matched sklearn AgglomerativeClustering with ARI=1.0 at T in {50, 150, 450}"
+}
