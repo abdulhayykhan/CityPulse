@@ -123,9 +123,7 @@ def clean_complaints(
     Returns:
         (clean_df, step_table)
     """
-    if dropped_path is None:
-        dropped_path = PROCESSED_DIR / "dropped_outside_area.csv"
-    else:
+    if dropped_path is not None:
         dropped_path = Path(dropped_path)
 
     steps = []
@@ -209,15 +207,18 @@ def clean_complaints(
         print(f"STOPPING: {msg}")
         raise RuntimeError(msg)
 
-    # Save dropped rows (even if 0, write CSV to document)
+    # Save dropped rows (even if 0, write CSV to document) if dropped_path is specified
     dropped_df = df_step4[outside_mask].copy()
-    dropped_path.parent.mkdir(parents=True, exist_ok=True)
-    # When saving dropped rows, convert datetimes to ISO strings
-    dropped_save = dropped_df.copy()
-    dropped_save["created_date"] = dropped_save["created_date"].dt.strftime("%Y-%m-%dT%H:%M:%S")
-    dropped_save["closed_date"] = dropped_save["closed_date"].dt.strftime("%Y-%m-%dT%H:%M:%S").fillna("")
-    dropped_save.to_csv(dropped_path, index=False)
-    print(f"Saved {len(dropped_df):,} dropped rows outside area to: {dropped_path}")
+    if dropped_path is not None:
+        dropped_path.parent.mkdir(parents=True, exist_ok=True)
+        # When saving dropped rows, convert datetimes to ISO strings
+        dropped_save = dropped_df.copy()
+        dropped_save["created_date"] = dropped_save["created_date"].dt.strftime("%Y-%m-%dT%H:%M:%S")
+        dropped_save["closed_date"] = dropped_save["closed_date"].dt.strftime("%Y-%m-%dT%H:%M:%S").fillna("")
+        dropped_save.to_csv(dropped_path, index=False)
+        print(f"Saved {len(dropped_df):,} dropped rows outside area to: {dropped_path}")
+    else:
+        print("Dropped rows not saved (dropped_path=None)")
 
     df_step5 = df_step4[~outside_mask].copy()
     n5 = len(df_step5)

@@ -8,7 +8,8 @@ Helper functions for CityPulse thin notebooks:
 """
 
 from pathlib import Path
-from typing import Any, Optional
+import re
+from typing import Any, Optional, Union
 
 
 def find_root() -> Path:
@@ -17,6 +18,16 @@ def find_root() -> Path:
         if (p / "environment.yml").exists():
             return p.resolve()
     raise FileNotFoundError("Could not find root directory containing environment.yml")
+
+
+def sanitize_paths(text: str, root: Optional[Union[str, Path]] = None) -> str:
+    """Sanitize repository root paths from text in both backslash and forward-slash forms."""
+    if root is None:
+        root = find_root()
+    s = str(text)
+    s = re.sub(re.escape(str(root)), ".", s, flags=re.IGNORECASE)
+    s = re.sub(re.escape(Path(root).as_posix()), ".", s, flags=re.IGNORECASE)
+    return s
 
 
 def md(text: Any) -> None:
