@@ -12,4 +12,5 @@
 10. Never fit scalers or encoders before the train/test split; supervised models use time-based splits.
 11. If a check fails, do not change the expected value: show expected and actual and report it.
 12. Notebooks never write into data/ or notebooks/. Every read and write uses ROOT-based paths; figures go only to ROOT / 'report/figures'.
+13. Notebook outputs must come from nbconvert execution. After running cells in an IDE, re-execute with nbconvert before committing.
 
