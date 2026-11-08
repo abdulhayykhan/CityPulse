@@ -1,0 +1,4 @@
+experiment,train_set,test_set,n_test,n_flood_test,accuracy,ci95_low,ci95_high,flood_precision,flood_recall,false_alarm_rate,note
+A in-dataset,AlleyFloodNet(train),AlleyFloodNet(test),262,133,0.9275,0.8931,0.958,0.9254,0.9323,0.0775,"same source, official split"
+"B external negatives (RDD2022, all classes)",AlleyFloodNet(train),RDD2022 road images,4056,0,0.6344,0.6201,0.6492,,,0.3656,all labels are non-flood; accuracy = 1 - false-alarm rate; recall not measurable
+B2 external negatives (RDD2022 'normal' only),AlleyFloodNet(train),RDD2022 normal,1500,0,0.6053,0.5813,0.63,,,0.3947,dry road photos only
