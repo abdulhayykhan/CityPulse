@@ -17,6 +17,13 @@ from src.clustering.kmeans_zones import (
     plot_silhouette,
     GROUPS,
 )
+from src.clustering.hierarchical_dedup import (
+    weak_labels,
+    make_blocks,
+    cluster_block,
+    cluster_all,
+    precompute_block_linkages,
+)
 
 __all__ = [
     "distinct_locations",
@@ -32,5 +39,10 @@ __all__ = [
     "plot_elbow",
     "plot_silhouette",
     "GROUPS",
+    "weak_labels",
+    "make_blocks",
+    "cluster_block",
+    "cluster_all",
+    "precompute_block_linkages",
 ]
 
