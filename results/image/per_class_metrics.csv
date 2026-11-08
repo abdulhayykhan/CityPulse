@@ -1,0 +1,17 @@
+model,split,class,precision,recall,f1,support
+SVM,val,crack,0.6579,0.6787,0.6682,221
+SVM,val,flood,0.8961,0.9718,0.9324,71
+SVM,val,normal,0.6578,0.6996,0.6781,283
+SVM,val,pothole,0.6031,0.4877,0.5392,162
+SVM,test,crack,0.6806,0.6391,0.6592,230
+SVM,test,flood,0.8993,0.9398,0.9191,133
+SVM,test,normal,0.7059,0.7458,0.7253,354
+SVM,test,pothole,0.6056,0.5584,0.5811,154
+RandomForest,val,crack,0.6117,0.5701,0.5902,221
+RandomForest,val,flood,0.9365,0.831,0.8806,71
+RandomForest,val,normal,0.5387,0.7633,0.6316,283
+RandomForest,val,pothole,0.597,0.2469,0.3493,162
+RandomForest,test,crack,0.6516,0.6261,0.6386,230
+RandomForest,test,flood,0.9055,0.8647,0.8846,133
+RandomForest,test,normal,0.6123,0.7853,0.6881,354
+RandomForest,test,pothole,0.5507,0.2468,0.3408,154
