@@ -1,0 +1,5 @@
+model,split,n,accuracy,balanced_accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,cv_macro_f1_train
+SVM,val,737,0.673,0.7095,0.7037,0.7095,0.7045,0.6691,0.7037
+SVM,test,871,0.7141,0.7208,0.7228,0.7208,0.7212,0.7119,0.7037
+RandomForest,val,737,0.5984,0.6028,0.671,0.6028,0.6129,0.5811,0.6266
+RandomForest,test,871,0.6602,0.6307,0.68,0.6307,0.638,0.6436,0.6266
