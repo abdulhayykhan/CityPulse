@@ -1,4 +1,6 @@
-experiment,train_set,test_set,n_test,n_flood_test,accuracy,ci95_low,ci95_high,flood_precision,flood_recall,false_alarm_rate,note
-A in-dataset,AlleyFloodNet(train),AlleyFloodNet(test),262,133,0.9275,0.8931,0.958,0.9254,0.9323,0.0775,"same source, official split"
-"B external negatives (RDD2022, all classes)",AlleyFloodNet(train),RDD2022 road images,4056,0,0.6344,0.6201,0.6492,,,0.3656,all labels are non-flood; accuracy = 1 - false-alarm rate; recall not measurable
-B2 external negatives (RDD2022 'normal' only),AlleyFloodNet(train),RDD2022 normal,1500,0,0.6053,0.5813,0.63,,,0.3947,dry road photos only
+experiment,train_set,test_set,n_test,n_flood_test,n_nonflood_test,accuracy,ci95_low,ci95_high,flood_precision,flood_recall,false_alarm_rate,note
+A in-dataset,AlleyFloodNet(train),AlleyFloodNet(test),262,133,129,0.9237,0.8893,0.9542,0.9313,0.9173,0.0698,"same source, official split"
+"B external negatives (RDD2022, all classes)",AlleyFloodNet(train),RDD2022 road images,4056,0,4056,0.6038,0.589,0.6191,,,0.3962,all labels are non-flood; accuracy = 1 - false-alarm rate; recall not measurable
+B2 external negatives (RDD2022 'normal' only),AlleyFloodNet(train),RDD2022 normal,1500,0,1500,0.5807,0.5567,0.606,,,0.4193,dry road photos only
+C1 cross-set (Mendeley roadway),AlleyFloodNet(all),Mendeley Roadway Flooding,441,441,0,0.9388,0.9161,0.9615,,0.9388,,"positive-only dataset (n_nonflood=0, Mendeley images/labels masks); accuracy = flood_recall"
+C1b cross-set (Mendeley + RDD2022 negatives),AlleyFloodNet(all),Mendeley Roadway Flooding + RDD2022 test,1050,441,609,0.7829,0.7571,0.8067,0.6732,0.9388,0.33,two-class cross-dataset test: Mendeley flood (n=441) + RDD2022 test non-flood (n=609)

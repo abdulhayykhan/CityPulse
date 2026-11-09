@@ -1,0 +1,16 @@
+{
+  "svm": {
+    "svc__C": 10,
+    "svc__gamma": "scale"
+  },
+  "rf": {
+    "rf__n_estimators": 200
+  },
+  "cv_macro_f1_train": {
+    "SVM": 0.7054450405471018,
+    "RandomForest": 0.6756414236885406
+  },
+  "cv": "GroupKFold(5) by image id",
+  "scoring": "f1_macro (predict_proba argmax)",
+  "sklearn_version": "1.9.1"
+}
