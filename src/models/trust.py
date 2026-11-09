@@ -1,6 +1,6 @@
 """
-CityPulse - Citizen Complaint Trust Scoring Model (Step 6.2 / Lab 3)
-=====================================================================
+CityPulse - Citizen Complaint Trust Scoring Model (Step 6.1d & Step 6.2 / Lab 3)
+=================================================================================
 Provides standardized trust-label assignment, leak-free causal feature
 engineering, balanced logistic regression training, evaluation helpers,
 and production inference routines (`score_trust`).
@@ -18,12 +18,17 @@ Features constructed by `build_trust_features(df)`:
     within 200 m Euclidean distance on local planar `(x_m, y_m)` coordinates.
     Strictly excludes self and simultaneous complaints (`t_prior < t_current`).
 
-Labeling rules (Step 6.1c standardized order):
-  0. Gate: `unclosed == 1` (`closed_date == ""` or `status != "Closed"`) or empty `resolution_id` -> `'excluded'`
-  1. `EXCLUDED` substrings (27) -> `'excluded'`
-  2. `VALID` substrings (19) -> `'valid'` (target = 1)
-  3. `INVALID` substrings (15) -> `'invalid'` (target = 0)
-  4. Everything else -> `'unmatched'` (dropped with `'excluded'` during supervised training)
+Labeling rules (Step 6.1d standardized CSV rules):
+  0. Rule source: `src/models/trust_label_rules.csv` ONLY (lowercase, collapsed whitespace,
+     case-insensitive substring match).
+     - Matching rules from BOTH classes (`valid` & `invalid`) or >1 distinct rule raises `ValueError`.
+     - No rule match defaults to `'excluded'`.
+  1. Gate (`apply_gate=True`): resolved rows with empty `closed_date`, or rows with empty
+     `resolution_id`, are labeled `'excluded'`.
+  2. Sensitivity overrides (`S1`, `S2`, `S3`):
+     - `S1`: text containing `"no criminal violation existed"` -> `'invalid'`
+     - `S2`: text containing `"no criminal violation existed"` -> `'valid'`
+     - `S3`: text containing `"unable to gain entry"` -> `'invalid'`
 """
 
 from datetime import datetime
@@ -57,112 +62,168 @@ TRUST_CATEGORICAL_COLS: List[str] = [
 ]
 TRUST_NUMERIC_COLS: List[str] = ["nearby_prior_24h_200m"]
 
-# Step 6.1c standardized keyword rules (applied in strict priority order: excluded > valid > invalid)
-EXCLUDED_KEYWORDS: List[str] = [
-    "duplicate",
-    "previously reported",
-    "re-inspected",
-    "could be closed",
-    "referred",
-    "additional information",
-    "requires contact",
-    "insufficient",
-    "undeliverable",
-    "incorrect",
-    "jurisdiction",
-    "will inspect",
-    "capital project",
-    "not accessible",
-    "didn't include",
-    "complainant's request",
-    "observation",
-    "regular schedule",
-    "further information",
-    "assigned to a unit",
-    "home or business owner",
-    "re-assignment",
-    "not available online",
-    "sufficient information",
-    "report was prepared",
-    "requires an appointment",
-    "specific tow is required",
-]
+TRUST_RULES_PATH: Path = Path(__file__).resolve().parent / "trust_label_rules.csv"
 
-VALID_KEYWORDS: List[str] = [
-    "corrected",
-    "repaired",
-    "took action",
-    "summons",
-    "arrest",
-    "obstructing",
-    "cleaned",
-    "warning letter",
-    "surcharge conditions",
-    "resolved",
-    "flushing",
-    "made a repair",
-    "hydrant",
-    "defect",
-    "problem was fixed",
-    "repairs were made",
-    "repair work",
-    "correct the condition",
-    "issued a notice",
-]
-
-INVALID_KEYWORDS: List[str] = [
-    "no evidence",
-    "not necessary",
-    "unable to gain",
-    "didn't observe",
-    "no criminal violation",
-    "meets its standards",
-    "no sewer",
-    "could not find",
-    "no indication",
-    "were gone",
-    "not found",
-    "overtaxed",
-    "no encampment",
-    "did not find",
-    "functioning properly",
-]
+# Cache parsed rules keyed by (resolved_path, mtime_ns)
+_RULES_CACHE: Dict[Tuple[str, int], List[Tuple[str, str]]] = {}
 
 # Cache loaded trust model bundles keyed by resolved file path
 _TRUST_MODEL_CACHE: Dict[str, Dict[str, Any]] = {}
 
 
-def classify_resolution_text(text: Any) -> str:
+def _normalize_rule_text(text: Any) -> str:
+    """Lowercase text and collapse all whitespace runs to single spaces."""
+    if not isinstance(text, str):
+        return ""
+    return " ".join(text.lower().split())
+
+
+def load_trust_label_rules(
+    rules_path: Optional[Union[str, Path]] = None,
+) -> List[Tuple[str, str]]:
     """
-    Classify a 311 resolution description using Step 6.1c case-insensitive
-    substring rules in strict priority order:
-      1. EXCLUDED -> 'excluded'
-      2. VALID    -> 'valid'
-      3. INVALID  -> 'invalid'
-      4. else     -> 'unmatched'
+    Load `(class, substring)` trust classification rules strictly from CSV
+    (`src/models/trust_label_rules.csv` by default), normalizing whitespace and case.
     """
-    if not isinstance(text, str) or not text.strip():
-        return "unmatched"
-    t_lower = text.lower()
-    if any(kw in t_lower for kw in EXCLUDED_KEYWORDS):
-        return "excluded"
-    if any(kw in t_lower for kw in VALID_KEYWORDS):
-        return "valid"
-    if any(kw in t_lower for kw in INVALID_KEYWORDS):
-        return "invalid"
-    return "unmatched"
+    path = TRUST_RULES_PATH if rules_path is None else Path(rules_path)
+    if not path.exists():
+        raise FileNotFoundError(f"Trust label rules file not found: {path}")
+
+    stat = path.stat()
+    cache_key = (str(path.resolve()), int(stat.st_mtime_ns))
+    if cache_key in _RULES_CACHE:
+        return list(_RULES_CACHE[cache_key])
+
+    rules_df = pd.read_csv(path, dtype=str, keep_default_na=False)
+    if not {"class", "substring"}.issubset(rules_df.columns):
+        raise ValueError(f"Rules CSV must contain 'class' and 'substring' columns: {path}")
+
+    seen: set = set()
+    rules: List[Tuple[str, str]] = []
+    for _, row in rules_df.iterrows():
+        cls = row["class"].strip().lower()
+        sub = _normalize_rule_text(row["substring"])
+        if cls not in {"valid", "invalid"}:
+            raise ValueError(f"Invalid rule class {cls!r} in {path}; expected 'valid' or 'invalid'.")
+        if not sub:
+            raise ValueError(f"Empty rule substring for class {cls!r} in {path}.")
+        if (cls, sub) not in seen:
+            seen.add((cls, sub))
+            rules.append((cls, sub))
+
+    _RULES_CACHE[cache_key] = rules
+    return list(rules)
+
+
+def classify_resolution_text(
+    text: Any,
+    rules_path: Optional[Union[str, Path]] = None,
+    sensitivity: Optional[str] = None,
+    s1: bool = False,
+    s2: bool = False,
+    s3: bool = False,
+    return_rule: bool = False,
+) -> Union[str, Tuple[str, str]]:
+    """
+    Classify a 311 resolution description using ONLY `src/models/trust_label_rules.csv`.
+
+    Matching rules:
+    - Both rule substrings and input text are lowercased with whitespace collapsed.
+    - Case-insensitive substring matching across all rules in the CSV.
+    - Raises `ValueError` (listing matched rules and offending text) if a text matches
+      rules of BOTH classes ('valid' and 'invalid') OR matches more than one distinct rule.
+    - Unmatched or empty text returns `'excluded'`.
+
+    Optional sensitivity parameters:
+    - `S1` / `s1=True`: text containing `"no criminal violation existed"` -> `'invalid'`
+    - `S2` / `s2=True`: text containing `"no criminal violation existed"` -> `'valid'`
+    - `S3` / `s3=True`: text containing `"unable to gain entry"` -> `'invalid'`
+    """
+    if sensitivity is not None:
+        sens_key = str(sensitivity).strip().upper()
+        if sens_key in {"", "NONE", "BASE"}:
+            pass
+        elif sens_key == "S1":
+            s1 = True
+        elif sens_key == "S2":
+            s2 = True
+        elif sens_key == "S3":
+            s3 = True
+        else:
+            raise ValueError(
+                f"Unknown sensitivity {sensitivity!r}; expected None, 'S1', 'S2', or 'S3'."
+            )
+
+    if s1 and s2:
+        raise ValueError(
+            "Sensitivity options S1 and S2 are mutually exclusive "
+            "(both match 'no criminal violation existed' with opposite classes)."
+        )
+
+    norm_text = _normalize_rule_text(text)
+    if not norm_text:
+        return ("excluded", "") if return_rule else "excluded"
+
+    rules = load_trust_label_rules(rules_path=rules_path)
+    matched: List[Tuple[str, str]] = [
+        (cls, sub) for cls, sub in rules if sub in norm_text
+    ]
+
+    if s1 and "no criminal violation existed" in norm_text:
+        matched.append(("invalid", "S1: no criminal violation existed"))
+    if s2 and "no criminal violation existed" in norm_text:
+        matched.append(("valid", "S2: no criminal violation existed"))
+    if s3 and "unable to gain entry" in norm_text:
+        matched.append(("invalid", "S3: unable to gain entry"))
+
+    # Deduplicate exact (class, rule) entries while preserving conflict detection across distinct rules
+    unique_matched: List[Tuple[str, str]] = []
+    seen_rules: set = set()
+    for cls, sub in matched:
+        if (cls, sub) not in seen_rules:
+            seen_rules.add((cls, sub))
+            unique_matched.append((cls, sub))
+
+    distinct_classes = sorted({cls for cls, _ in unique_matched})
+    formatted_matches = [f"{cls}:{sub}" for cls, sub in unique_matched]
+
+    if len(distinct_classes) > 1:
+        raise ValueError(
+            f"Resolution text matches rules of BOTH classes ({distinct_classes}): "
+            f"matched_rules={formatted_matches}; text={norm_text!r}"
+        )
+    if len(unique_matched) > 1:
+        raise ValueError(
+            f"Resolution text matches more than one distinct rule ({len(unique_matched)}): "
+            f"matched_rules={formatted_matches}; text={norm_text!r}"
+        )
+
+    if not unique_matched:
+        return ("excluded", "") if return_rule else "excluded"
+
+    chosen_cls, chosen_sub = unique_matched[0]
+    if return_rule:
+        return chosen_cls, chosen_sub
+    return chosen_cls
 
 
 def assign_trust_labels(
     df: pd.DataFrame,
     lookup_df: Optional[pd.DataFrame] = None,
+    rules_path: Optional[Union[str, Path]] = None,
+    apply_gate: bool = True,
+    sensitivity: Optional[str] = None,
+    s1: bool = False,
+    s2: bool = False,
+    s3: bool = False,
 ) -> pd.Series:
     """
-    Assign trust class labels ('valid', 'invalid', 'excluded', 'unmatched')
-    following Step 6.1c exact gate and keyword priority rules.
+    Assign trust class labels ('valid', 'invalid', 'excluded') from
+    `src/models/trust_label_rules.csv` and the Step 6.1d gate.
 
-    Gate 0: rows with unclosed == 1 (missing closed_date or status != 'Closed')
-    or missing resolution_id are always labeled 'excluded'.
+    Gate (`apply_gate=True`):
+    - Rows with no `resolution_id` (empty string / NaN) -> `'excluded'`.
+    - Resolved rows with empty `closed_date` -> `'excluded'`.
     """
     if lookup_df is None:
         root = Path(__file__).resolve().parents[2]
@@ -175,32 +236,40 @@ def assign_trust_labels(
         lookup_df = lookup_df.copy()
         lookup_df["resolution_id"] = lookup_df["resolution_id"].fillna("").astype(str)
 
-    res_class_map = {
-        rid: classify_resolution_text(txt)
-        for rid, txt in zip(lookup_df["resolution_id"], lookup_df["text"])
-    }
+    res_class_map: Dict[str, str] = {}
+    for rid, txt in zip(lookup_df["resolution_id"], lookup_df["text"]):
+        try:
+            res_class_map[rid] = str(
+                classify_resolution_text(
+                    txt,
+                    rules_path=rules_path,
+                    sensitivity=sensitivity,
+                    s1=s1,
+                    s2=s2,
+                    s3=s3,
+                )
+            )
+        except ValueError as exc:
+            raise ValueError(f"Rule conflict on resolution_id={rid!r}: {exc}") from exc
 
     res_ids = (
-        df["resolution_id"].fillna("").astype(str)
+        df["resolution_id"].fillna("").astype(str).str.strip()
         if "resolution_id" in df.columns
         else pd.Series("", index=df.index)
     )
-    labels = res_ids.map(res_class_map).fillna("unmatched")
-
-    closed_vals = (
-        df["closed_date"].fillna("").astype(str)
-        if "closed_date" in df.columns
-        else pd.Series("", index=df.index)
-    )
-    status_vals = (
-        df["status"].fillna("").astype(str)
-        if "status" in df.columns
-        else pd.Series("Closed", index=df.index)
-    )
-    unclosed_mask = (closed_vals == "") | (status_vals != "Closed")
+    labels = res_ids.map(res_class_map).fillna("excluded")
     empty_res_mask = res_ids == ""
+    labels = labels.where(~empty_res_mask, "excluded")
 
-    labels = labels.where(~(unclosed_mask | empty_res_mask), "excluded")
+    if apply_gate:
+        closed_vals = (
+            df["closed_date"].fillna("").astype(str).str.strip()
+            if "closed_date" in df.columns
+            else pd.Series("", index=df.index)
+        )
+        gate_mask = (closed_vals == "") | empty_res_mask
+        labels = labels.where(~gate_mask, "excluded")
+
     return pd.Series(labels.values, index=df.index, name="trust_label")
 
 

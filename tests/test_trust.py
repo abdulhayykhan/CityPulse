@@ -1,8 +1,9 @@
 """
-Unit tests for src/models/trust.py (Step 6.2 / Lab 3)
-====================================================
+Unit tests for src/models/trust.py (Step 6.1d & Step 6.2 / Lab 3)
+==================================================================
 Tests:
-- Trust label priority order (unclosed gate -> excluded > valid > invalid > unmatched)
+- CSV-only trust label classification (`src/models/trust_label_rules.csv`), whitespace/case normalization,
+  3 corrected Step 6.1d behaviors, 2 conflict error conditions, gate rules, and S1/S2/S3 sensitivities
 - Strictly causal nearby_prior_24h_200m (t_prior < t_current; excludes self, simultaneous, >24h, >200m)
 - Leak-free OHE build_trust_features (encoder fit on train only, handle_unknown='ignore')
 - train_trust_model drops 'excluded' / 'unmatched' / -1 and enforces LogisticRegression(class_weight='balanced')
@@ -32,37 +33,129 @@ from src.models import (
 )
 
 
-def test_classify_resolution_text_priority_and_gate():
-    """Verify exact priority order: Gate unclosed==1 > EXCLUDED > VALID > INVALID > UNMATCHED."""
-    # Excluded overrides both valid and invalid keywords
-    txt_overlap_excl = "Complaint was referred; condition was corrected with no criminal violation."
-    assert classify_resolution_text(txt_overlap_excl) == "excluded"
+def test_classify_resolution_text_rules_and_corrected_behaviors():
+    """Verify CSV-only matching, whitespace/case folding, and the 3 Step 6.1d behavior fixes."""
+    # 1. Fixed behaviour #1: DEP didn't observe a violation ... couldn't issue a summons -> invalid
+    dep_no_viol = (
+        "The Department of Environmental Protection (DEP) didn't observe a violation of the "
+        "NYC Air or Noise Code at the time of inspection and couldn't issue a summons. "
+        "If the problem still exists, please go to nyc.gov/311."
+    )
+    assert classify_resolution_text(dep_no_viol) == "invalid"
 
-    # Valid overrides invalid
-    txt_overlap_val = "Didn't observe violation and couldn't issue a summons."
-    assert classify_resolution_text(txt_overlap_val) == "valid"
+    # 2. Fixed behaviour #2: observed no evidence of a criminal violation -> invalid
+    nypd_no_evidence = (
+        "The New York City Police Department responded to the complaint and with the "
+        "information available observed no evidence of a criminal violation at that time."
+    )
+    assert classify_resolution_text(nypd_no_evidence) == "invalid"
 
-    # Pure valid, invalid, unmatched
-    assert classify_resolution_text("Department made a repair.") == "valid"
-    assert classify_resolution_text("Officers were unable to gain entry.") == "invalid"
-    assert classify_resolution_text("Some completely novel status note.") == "unmatched"
-    assert classify_resolution_text("") == "unmatched"
+    # 3. Fixed behaviour #3: unable to gain entry -> excluded (no longer invalid)
+    nypd_no_entry = (
+        "The New York City Police Department responded to the complaint but officers were "
+        "unable to gain entry into the premises."
+    )
+    assert classify_resolution_text(nypd_no_entry) == "excluded"
+
+    # Case-insensitive + collapsed whitespace matching + valid/no-match defaults
+    assert classify_resolution_text("  DOT   INSPECTED  THIS COMPLAINT \n\t AND   REPAIRED THE PROBLEM. ") == "valid"
+    assert classify_resolution_text("Some completely novel status note.") == "excluded"
+    assert classify_resolution_text("") == "excluded"
+    assert classify_resolution_text(None) == "excluded"
+
+
+def test_classify_resolution_text_conflict_errors():
+    """Matching rules of BOTH classes OR >1 distinct rule must raise ValueError and list matches."""
+    # Conflict 1: matches rules of BOTH classes (valid + invalid)
+    both_classes_txt = (
+        "The agency inspected this complaint and repaired the problem, "
+        "and police action was not necessary."
+    )
+    with pytest.raises(ValueError) as exc_both:
+        classify_resolution_text(both_classes_txt)
+    msg_both = str(exc_both.value)
+    assert "BOTH classes" in msg_both
+    assert "inspected this complaint and repaired the problem" in msg_both
+    assert "police action was not necessary" in msg_both
+
+    # Conflict 2: matches MORE THAN ONE distinct rule (same class)
+    multi_same_class_txt = (
+        "The agency inspected this complaint and repaired the problem "
+        "and also cleaned the catch basin."
+    )
+    with pytest.raises(ValueError) as exc_multi:
+        classify_resolution_text(multi_same_class_txt)
+    msg_multi = str(exc_multi.value)
+    assert "more than one distinct rule" in msg_multi
+    assert "inspected this complaint and repaired the problem" in msg_multi
+    assert "cleaned the catch basin" in msg_multi
+
+
+def test_assign_trust_labels_gate_and_sensitivities():
+    """Verify Gate (empty closed_date / empty resolution_id -> excluded) and S1/S2/S3 sensitivities."""
+    no_crim_existed_txt = (
+        "The New York City Police Department responded to the complaint and their investigation "
+        "determined that no criminal violation existed. The condition was corrected without "
+        "the need to issue a summons or effect an arrest."
+    )
+    unable_entry_txt = (
+        "The New York City Police Department responded to the complaint but officers were "
+        "unable to gain entry into the premises."
+    )
+
+    # Sensitivities on classify_resolution_text
+    assert classify_resolution_text(no_crim_existed_txt) == "excluded"
+    assert classify_resolution_text(no_crim_existed_txt, sensitivity="S1") == "invalid"
+    assert classify_resolution_text(no_crim_existed_txt, s1=True) == "invalid"
+    assert classify_resolution_text(no_crim_existed_txt, sensitivity="S2") == "valid"
+    assert classify_resolution_text(no_crim_existed_txt, s2=True) == "valid"
+
+    assert classify_resolution_text(unable_entry_txt) == "excluded"
+    assert classify_resolution_text(unable_entry_txt, sensitivity="S3") == "invalid"
+    assert classify_resolution_text(unable_entry_txt, s3=True) == "invalid"
+
+    with pytest.raises(ValueError):
+        classify_resolution_text(no_crim_existed_txt, s1=True, s2=True)
+    with pytest.raises(ValueError):
+        classify_resolution_text(no_crim_existed_txt, sensitivity="INVALID_SENS")
 
     lookup_df = pd.DataFrame({
-        "resolution_id": ["10", "20", "30"],
+        "resolution_id": ["10", "20", "30", "2", "3"],
         "text": [
-            "Department made a repair.",
-            "No evidence of violation found.",
+            "The Department inspected this complaint and repaired the problem.",
+            "The Department observed no evidence of a criminal violation.",
             "Completely unseen description.",
+            no_crim_existed_txt,
+            unable_entry_txt,
         ],
     })
     complaints = pd.DataFrame({
-        "resolution_id": ["10", "10", "20", "30", ""],
-        "closed_date": ["2026-01-01T12:00:00", "", "2026-01-01T12:00:00", "2026-01-01T12:00:00", "2026-01-01T12:00:00"],
-        "status": ["Closed", "Open", "Closed", "Closed", "Closed"],
+        "resolution_id": ["10", "10", "20", "30", "", "2", "3", "20"],
+        "closed_date": [
+            "2026-01-01T12:00:00",
+            "",  # Resolved but empty closed_date -> Gate excludes when apply_gate=True
+            "2026-01-01T12:00:00",
+            "2026-01-01T12:00:00",
+            "2026-01-01T12:00:00",  # No resolution_id -> excluded even if closed_date present
+            "2026-01-01T12:00:00",
+            "2026-01-01T12:00:00",
+            "2026-01-02T12:00:00",  # Non-Closed status WITH non-empty closed_date keeps rule label
+        ],
+        "status": ["Closed", "Open", "Closed", "Closed", "Closed", "Closed", "Closed", "In Progress"],
     })
-    labels = assign_trust_labels(complaints, lookup_df=lookup_df)
-    assert labels.tolist() == ["valid", "excluded", "invalid", "unmatched", "excluded"]
+
+    # Post-gate base
+    assert assign_trust_labels(complaints, lookup_df=lookup_df).tolist() == [
+        "valid", "excluded", "invalid", "excluded", "excluded", "excluded", "excluded", "invalid"
+    ]
+    # Pre-gate base
+    assert assign_trust_labels(complaints, lookup_df=lookup_df, apply_gate=False).tolist() == [
+        "valid", "valid", "invalid", "excluded", "excluded", "excluded", "excluded", "invalid"
+    ]
+    # Post-gate S1, S2, S3
+    assert assign_trust_labels(complaints, lookup_df=lookup_df, sensitivity="S1").tolist()[5] == "invalid"
+    assert assign_trust_labels(complaints, lookup_df=lookup_df, sensitivity="S2").tolist()[5] == "valid"
+    assert assign_trust_labels(complaints, lookup_df=lookup_df, sensitivity="S3").tolist()[6] == "invalid"
 
 
 def test_compute_nearby_prior_strictly_earlier():
