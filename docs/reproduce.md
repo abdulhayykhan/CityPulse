@@ -23,7 +23,7 @@ Large data artifacts and intermediate extracts are excluded from version control
 
 Large files: Drive link TODO
 
-> **Prerequisite Notice**: Notebooks `01_311_window_and_groups.ipynb`, `02_brooklyn_cleaning_lab1.ipynb`, `03_features_and_projection.ipynb`, and `06_label_readiness_and_duplicates.ipynb` require the presence of these gitignored files (`complaints_window_all.csv.gz`, `brooklyn_stage1.csv.gz`, `brooklyn_stage2.csv.gz`, `311_cube.csv`, and `complaints_clean.csv`) in `data/processed/` to execute.
+> **Prerequisite Notice**: Analytical notebooks (`00` through `22`) rely on the cleaned/derived datasets and model artifacts under `data/processed/` and `models/`; in particular, early audit notebooks (`01`, `02`, `03`, and `06`) read the gitignored intermediate archives (`complaints_window_all.csv.gz`, `brooklyn_stage1.csv.gz`, `brooklyn_stage2.csv.gz`, `311_cube.csv`, and `complaints_clean.csv`).
 
 ---
 
@@ -122,7 +122,7 @@ All preprocessing scripts are located under `src/preprocessing/` and must be exe
 
 ## 2. Jupyter Notebook Execution Order
 
-All notebooks are executed in sequence using `jupyter nbconvert` with the `--execute` and `--inplace` flags:
+Notebooks `00` through `22` are already generated in the `notebooks/` folder—no generator scripts need to be run. Simply execute the notebooks in numerical order (`00` through `22`) from the repository root using `jupyter nbconvert` with `--execute` and `--inplace` (or interactively via the `Python (citypulse)` Jupyter kernel):
 
 ```powershell
 python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=1800 notebooks/<notebook_name>.ipynb
@@ -139,12 +139,26 @@ python -m jupyter nbconvert --to notebook --execute --inplace --ExecutePreproces
 | 7 | `06_label_readiness_and_duplicates.ipynb` | `complaints_clean.csv`, `rain_hourly_brooklyn.csv` | Sub-daily rain lags, duplicate clustering, label maturity | ~30 s |
 | 8 | `07_flood_history_and_taxonomy_drift.ipynb` | `flood_daily_all_years.csv`, `rain_daily.csv`, aggregates, `311_cube.csv` | 16-year panel integrity, taxonomy drift, dry-spell tests | ~25 s |
 | 9 | `08_hotspot_sanity.ipynb` | `complaints_clean.csv`, `projection.json` | Coordinate concentration, weak clusters, capping limits | ~20 s |
+| 10 | `09_kmeans_zone_selection.ipynb` | `complaints_clean.csv`, `projection.json` | K-Means (`K=8`) zone selection and sensitivity analysis | ~20 s |
+| 11 | `10_zones_freeze.ipynb` | `complaints_clean.csv`, `projection.json` | Frozen `data/processed/zones.json` and zone profile figures | ~20 s |
+| 12 | `11_dedup_evidence.ipynb` | `complaints_clean.csv`, `projection.json` | Empirical spatio-temporal duplicate merging evidence (`time_scale`, `T`) | ~25 s |
+| 13 | `12_dedup_grid_and_freeze.ipynb` | `complaints_clean.csv` | Frozen `incidents.csv` and `complaint_incident_map.csv` | ~30 s |
+| 14 | `13_flood_regression.ipynb` | `flood_daily_all_years.csv`, `rain_daily.csv` | `models/flood_model.joblib`, rolling-origin flood regression evaluation | ~15 s |
+| 15 | `14_noise_regression.ipynb` | `complaints_clean.csv` | `models/noise_model.joblib`, additive diurnal/weekly baseline evaluation | ~15 s |
+| 16 | `15_regression_audit.ipynb` | `flood_daily_all_years.csv`, `rain_daily.csv`, `complaints_clean.csv`, saved models | Independent flood calibration & noise diurnal/weekly residual audit | ~20 s |
+| 17 | `16_trust_label_evidence.ipynb` | `complaints_clean.csv`, `resolution_lookup.csv` | Initial trust-label evidence, keyword rules, and leakage audit | ~25 s |
+| 18 | `17_trust_label_evidence_v2.ipynb` | `complaints_clean.csv`, `resolution_lookup.csv` | Standardized trust-label rules and subgroup balance audit | ~25 s |
+| 19 | `18_noise_interaction.ipynb` | `complaints_clean.csv` | `models/noise_model_v2.joblib` (`hour * weekday` interaction model) | ~15 s |
+| 20 | `19_trust_scorer.ipynb` | `complaints_clean.csv`, `resolution_lookup.csv` | Initial submission-time trust scorer training and generalization analysis | ~30 s |
+| 21 | `20_trust_labels_final.ipynb` | `complaints_clean.csv`, `resolution_lookup.csv`, `src/models/trust_label_rules.csv` | Single-rule CSV audit (`valid`/`invalid`/`excluded`) and conflict checks | ~25 s |
+| 22 | `21_trust_scorer_v2.ipynb` | `complaints_clean.csv`, `resolution_lookup.csv`, `src/models/trust_label_rules.csv` | Retrained & prior-shifted `models/trust_model.joblib` (`R1`–`R3` evaluation) | ~90 s |
+| 23 | `22_optional_baselines.ipynb` | `complaints_clean.csv` | Leak-free multi-class baselines (`MultinomialNB`, `DecisionTree`, `KNN`) & `report/figures/22_*.png` | ~110 s |
 
 ---
 
 ## 3. Automated Verification
 
-After generating or updating notebooks, verify structural validity, cell executions, file sizes, and assertions:
+After executing or updating notebooks, verify structural validity, cell executions, file sizes, and assertions:
 
 ```powershell
 python tests/check_notebooks.py

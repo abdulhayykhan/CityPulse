@@ -31,9 +31,8 @@ CityPulse/
 │   └── nbutils.py       # Shared notebook setup and programmatic Checker utilities
 ├── models/              # Serialized joblib model bundles (flood, noise, trust)
 ├── notebooks/           # Executed end-to-end analysis, audit, and modeling notebooks
-├── tools/               # Notebook generator scripts
 ├── tests/               # Unit tests (pytest) and notebook structural verifier (check_notebooks.py)
-├── docs/                # Notebook rules, reproduction guide, and integration handoff docs
+├── docs/                # Pipeline reproduction guide and integration handoff docs
 ├── report/              # Project proposal, execution guide, figures/, and ethics_and_limitations.md
 ├── backend/             # Backend API service workspace
 ├── frontend/            # Frontend web application workspace
@@ -74,8 +73,6 @@ Run unit tests and the notebook structural/execution verification suite from the
 python -m pytest tests
 python tests/check_notebooks.py
 ```
-
-When authoring or updating notebooks, follow [`docs/notebook_rules.md`](docs/notebook_rules.md) (thin notebooks importing from `src/`, `nbconvert --execute`, `< 2 MB` size limit, and zero absolute user paths in outputs).
 
 ---
 
