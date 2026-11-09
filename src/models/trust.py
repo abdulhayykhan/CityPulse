@@ -25,12 +25,14 @@ Labeling rules (Step 6.1d standardized CSV rules):
      - No rule match defaults to `'excluded'`.
   1. Gate (`apply_gate=True`): resolved rows with empty `closed_date`, or rows with empty
      `resolution_id`, are labeled `'excluded'`.
-  2. Sensitivity overrides (`S1`, `S2`, `S3`):
+  2. Sensitivity overrides (`S1`, `S2`, `S3`, `S4`):
      - `S1`: text containing `"no criminal violation existed"` -> `'invalid'`
      - `S2`: text containing `"no criminal violation existed"` -> `'valid'`
      - `S3`: text containing `"unable to gain entry"` -> `'invalid'`
+     - `S4`: text containing `"sent the dog owner a warning letter"` -> `'excluded'`
 """
 
+import hashlib
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Sequence, Tuple, Union
@@ -64,11 +66,25 @@ TRUST_NUMERIC_COLS: List[str] = ["nearby_prior_24h_200m"]
 
 TRUST_RULES_PATH: Path = Path(__file__).resolve().parent / "trust_label_rules.csv"
 
+NEARBY_PRIOR_DEFINITION: str = (
+    "nearby_prior_24h_200m: count of prior complaints across ANY group "
+    "(flood, noise, road, sewer_backup pooled in the input stream) within Euclidean distance "
+    "<= 200.0 m on local planar (x_m, y_m) coordinates over the strictly backward-looking "
+    "24-hour window [t_current - 24h, t_current). Self and exact timestamp ties "
+    "(t_prior == t_current) are strictly excluded via `t_prior < t_current`."
+)
+
 # Cache parsed rules keyed by (resolved_path, mtime_ns)
 _RULES_CACHE: Dict[Tuple[str, int], List[Tuple[str, str]]] = {}
 
 # Cache loaded trust model bundles keyed by resolved file path
 _TRUST_MODEL_CACHE: Dict[str, Dict[str, Any]] = {}
+
+
+def compute_file_sha256(path: Union[str, Path], uppercase: bool = False) -> str:
+    """Compute SHA-256 hex digest for a local file."""
+    digest = hashlib.sha256(Path(path).read_bytes()).hexdigest()
+    return digest.upper() if uppercase else digest.lower()
 
 
 def _normalize_rule_text(text: Any) -> str:
@@ -122,6 +138,7 @@ def classify_resolution_text(
     s1: bool = False,
     s2: bool = False,
     s3: bool = False,
+    s4: bool = False,
     return_rule: bool = False,
 ) -> Union[str, Tuple[str, str]]:
     """
@@ -138,6 +155,7 @@ def classify_resolution_text(
     - `S1` / `s1=True`: text containing `"no criminal violation existed"` -> `'invalid'`
     - `S2` / `s2=True`: text containing `"no criminal violation existed"` -> `'valid'`
     - `S3` / `s3=True`: text containing `"unable to gain entry"` -> `'invalid'`
+    - `S4` / `s4=True`: text containing `"sent the dog owner a warning letter"` -> `'excluded'`
     """
     if sensitivity is not None:
         sens_key = str(sensitivity).strip().upper()
@@ -149,9 +167,11 @@ def classify_resolution_text(
             s2 = True
         elif sens_key == "S3":
             s3 = True
+        elif sens_key == "S4":
+            s4 = True
         else:
             raise ValueError(
-                f"Unknown sensitivity {sensitivity!r}; expected None, 'S1', 'S2', or 'S3'."
+                f"Unknown sensitivity {sensitivity!r}; expected None, 'S1', 'S2', 'S3', or 'S4'."
             )
 
     if s1 and s2:
@@ -163,6 +183,9 @@ def classify_resolution_text(
     norm_text = _normalize_rule_text(text)
     if not norm_text:
         return ("excluded", "") if return_rule else "excluded"
+
+    if s4 and "sent the dog owner a warning letter" in norm_text:
+        return ("excluded", "S4: sent the dog owner a warning letter") if return_rule else "excluded"
 
     rules = load_trust_label_rules(rules_path=rules_path)
     matched: List[Tuple[str, str]] = [
@@ -216,6 +239,7 @@ def assign_trust_labels(
     s1: bool = False,
     s2: bool = False,
     s3: bool = False,
+    s4: bool = False,
 ) -> pd.Series:
     """
     Assign trust class labels ('valid', 'invalid', 'excluded') from
@@ -247,6 +271,7 @@ def assign_trust_labels(
                     s1=s1,
                     s2=s2,
                     s3=s3,
+                    s4=s4,
                 )
             )
         except ValueError as exc:
@@ -453,6 +478,64 @@ def build_trust_features(
     return X_df
 
 
+def build_trust_feature_subset(
+    df: Union[pd.DataFrame, Dict[str, Any]],
+    categorical_cols: Sequence[str] = TRUST_CATEGORICAL_COLS,
+    include_nearby: bool = True,
+    encoder: Optional[OneHotEncoder] = None,
+    recompute_nearby: bool = False,
+    return_encoder: bool = False,
+) -> Union[pd.DataFrame, Tuple[pd.DataFrame, Optional[OneHotEncoder]]]:
+    """
+    Generalized submission-time feature builder supporting categorical column subsets
+    and optional exclusion of `nearby_prior_24h_200m` for ablation experiments.
+    When `categorical_cols` is empty, only `nearby_prior_24h_200m` is included.
+    """
+    if isinstance(df, dict):
+        work = pd.DataFrame([df])
+    elif isinstance(df, pd.DataFrame):
+        work = df
+    else:
+        raise TypeError(f"Expected pandas DataFrame or dict, got {type(df).__name__}")
+
+    cat_list = list(categorical_cols)
+    if not cat_list and not include_nearby:
+        raise ValueError("At least one categorical column or include_nearby=True is required.")
+
+    parts: List[np.ndarray] = []
+    feature_names: List[str] = []
+
+    if cat_list:
+        full_cat_df = _normalize_categorical_frame(work)
+        sub_cat_df = full_cat_df[cat_list]
+        if encoder is None:
+            encoder = OneHotEncoder(handle_unknown="ignore", sparse_output=False)
+            X_cat = encoder.fit_transform(sub_cat_df)
+        else:
+            X_cat = encoder.transform(sub_cat_df)
+        if hasattr(X_cat, "toarray"):
+            X_cat = X_cat.toarray()
+        parts.append(np.asarray(X_cat, dtype=float))
+        feature_names.extend(list(encoder.get_feature_names_out(cat_list)))
+
+    if include_nearby:
+        if not recompute_nearby and "nearby_prior_24h_200m" in work.columns:
+            nearby_arr = pd.to_numeric(work["nearby_prior_24h_200m"], errors="raise").astype(float).to_numpy()
+        else:
+            nearby_arr = compute_nearby_prior_24h_200m(work).astype(float)
+        parts.append(nearby_arr.reshape(-1, 1))
+        feature_names.extend(TRUST_NUMERIC_COLS)
+
+    X_mat = np.column_stack(parts) if len(parts) > 1 else parts[0]
+    X_df = pd.DataFrame(X_mat, index=work.index, columns=feature_names)
+    X_df.attrs["encoder"] = encoder
+    X_df.attrs["feature_names"] = feature_names
+
+    if return_encoder:
+        return X_df, encoder
+    return X_df
+
+
 def _filter_valid_invalid_targets(
     X: Union[pd.DataFrame, np.ndarray],
     y: Union[pd.Series, np.ndarray, Sequence[Any]],
@@ -530,6 +613,90 @@ def train_trust_model(
     return clf
 
 
+def prior_shift(
+    p: Union[float, np.ndarray, pd.Series, Sequence[float]],
+    logit_shift: float = 0.0,
+    eps: float = 1e-15,
+) -> Union[float, np.ndarray]:
+    """
+    Apply prior-odds logit shift:
+        prior_shift(p, logit_shift) = sigmoid(logit(p) + logit_shift)
+    Used to recalibrate `class_weight='balanced'` predictions to the training prior
+    via `logit_shift = log(n_valid_train / n_invalid_train)`.
+    Returns an exact clipped identity when `logit_shift == 0.0`.
+    """
+    is_scalar = np.isscalar(p)
+    p_arr = np.asarray(p, dtype=float)
+    shift = float(logit_shift)
+    if shift == 0.0:
+        shifted = np.clip(p_arr, 0.0, 1.0)
+    else:
+        p_clip = np.clip(p_arr, float(eps), 1.0 - float(eps))
+        logits = np.log(p_clip / (1.0 - p_clip)) + shift
+        logits_safe = np.clip(logits, -500.0, 500.0)
+        shifted = np.where(
+            logits_safe >= 0.0,
+            1.0 / (1.0 + np.exp(-logits_safe)),
+            np.exp(logits_safe) / (1.0 + np.exp(logits_safe)),
+        )
+        shifted = np.clip(shifted, 0.0, 1.0)
+
+    if is_scalar:
+        return float(shifted)
+    return np.asarray(shifted, dtype=float)
+
+
+def select_top_noise_coords(
+    train_df: pd.DataFrame,
+    top_k: int = 5,
+    label_col: Optional[str] = "trust_label",
+) -> Tuple[List[Dict[str, Any]], set]:
+    """
+    Identify the top-k highest-volume noise coordinates strictly from TRAIN noise rows.
+    Returns `(records_list, set_of_(x_m, y_m))`.
+    """
+    noise_tr = train_df[train_df["group"] == "noise"].copy()
+    if len(noise_tr) == 0:
+        return [], set()
+
+    has_addr = "address_norm" in noise_tr.columns
+    has_latlon = ("lat" in noise_tr.columns) and ("lon" in noise_tr.columns)
+    has_lbl = label_col is not None and label_col in noise_tr.columns
+
+    grouped = (
+        noise_tr.groupby(["x_m", "y_m"], sort=True)
+        .agg(train_total=("id", "count") if "id" in noise_tr.columns else ("x_m", "count"))
+        .sort_values("train_total", ascending=False)
+        .head(int(top_k))
+    )
+
+    records: List[Dict[str, Any]] = []
+    coord_set: set = set()
+    for (xm, ym), row in grouped.iterrows():
+        sub = noise_tr[(noise_tr["x_m"] == xm) & (noise_tr["y_m"] == ym)]
+        rec: Dict[str, Any] = {
+            "x_m": float(xm),
+            "y_m": float(ym),
+            "train_total": int(row["train_total"]),
+        }
+        if has_addr:
+            rec["address"] = str(sub["address_norm"].value_counts().index[0])
+        if has_latlon:
+            rec["lat"] = float(sub["lat"].iloc[0])
+            rec["lon"] = float(sub["lon"].iloc[0])
+        if has_lbl:
+            vc = sub[label_col].value_counts()
+            n_val = int(vc.get("valid", 0))
+            n_inv = int(vc.get("invalid", 0))
+            rec["train_valid"] = n_val
+            rec["train_invalid"] = n_inv
+            rec["train_labelled"] = n_val + n_inv
+        records.append(rec)
+        coord_set.add((float(xm), float(ym)))
+
+    return records, coord_set
+
+
 def save_trust_model(
     model: LogisticRegression,
     encoder: OneHotEncoder,
@@ -537,12 +704,19 @@ def save_trust_model(
     model_path: Optional[Union[str, Path]] = None,
     metadata: Optional[Dict[str, Any]] = None,
 ) -> Path:
-    """Persist trained trust model bundle (classifier + OHE encoder + feature schema) via joblib."""
+    """
+    Persist trained trust model bundle via joblib with full Step 6.2b schema:
+    model, encoder, feature_names, categorical_cols, numeric_cols, sklearn_version,
+    created_date, variant, train_cutoff_ts, excluded_top5_noise_coords_train,
+    label_rules_sha256, usable_groups, logit_shift, calibrated, group_train_valid_rate.
+    """
     if model_path is None:
         root = Path(__file__).resolve().parents[2]
         model_path = root / "models/trust_model.joblib"
     else:
         model_path = Path(model_path)
+
+    rules_sha = compute_file_sha256(TRUST_RULES_PATH) if TRUST_RULES_PATH.exists() else ""
 
     bundle: Dict[str, Any] = {
         "model": model,
@@ -552,9 +726,22 @@ def save_trust_model(
         "numeric_cols": list(TRUST_NUMERIC_COLS),
         "sklearn_version": sklearn.__version__,
         "created_date": datetime.now().strftime("%Y-%m-%d"),
+        "variant": "",
+        "train_cutoff_ts": "",
+        "excluded_top5_noise_coords_train": [],
+        "label_rules_sha256": rules_sha,
+        "usable_groups": [],
+        "logit_shift": 0.0,
+        "calibrated": False,
+        "group_train_valid_rate": {},
     }
     if metadata:
         bundle.update(metadata)
+
+    bundle["calibrated"] = bool(bundle.get("calibrated", False))
+    bundle["logit_shift"] = float(bundle.get("logit_shift", 0.0))
+    bundle["usable_groups"] = list(bundle.get("usable_groups", []))
+    bundle["group_train_valid_rate"] = dict(bundle.get("group_train_valid_rate", {}))
 
     model_path.parent.mkdir(parents=True, exist_ok=True)
     joblib.dump(bundle, model_path)
@@ -639,9 +826,169 @@ def score_trust(
             X_in = arr2d
 
     probs = np.clip(model.predict_proba(X_in)[:, 1].astype(float), 0.0, 1.0)
+    if bool(bundle.get("calibrated", False)):
+        probs = prior_shift(probs, float(bundle.get("logit_shift", 0.0)))
+    probs = np.clip(probs, 0.0, 1.0)
     if scalar_output:
         return float(probs[0])
     return probs
+
+
+def compute_calibration_table(
+    y_true: Union[pd.Series, np.ndarray],
+    y_prob: Union[pd.Series, np.ndarray],
+    n_bins: int = 10,
+    strategy: str = "uniform",
+) -> Tuple[pd.DataFrame, float, float]:
+    """
+    Compute reliability table, ECE, and Brier score across `n_bins`.
+    - `strategy="uniform"` uses equal-width probability bins on [0.0, 1.0].
+    - `strategy="quantile"` uses empirical quantile edges.
+    Returns `(reliability_df, ece, brier)`.
+    """
+    y_arr = np.asarray(y_true, dtype=int)
+    p_arr = np.clip(np.asarray(y_prob, dtype=float), 0.0, 1.0)
+    n_total = int(len(y_arr))
+    brier = float(brier_score_loss(y_arr, p_arr)) if n_total > 0 else float("nan")
+
+    if strategy == "uniform":
+        edges = np.linspace(0.0, 1.0, int(n_bins) + 1)
+    elif strategy == "quantile":
+        edges = np.quantile(p_arr, np.linspace(0.0, 1.0, int(n_bins) + 1)) if n_total > 0 else np.linspace(0.0, 1.0, int(n_bins) + 1)
+    else:
+        raise ValueError(f"Unknown binning strategy {strategy!r}; expected 'uniform' or 'quantile'.")
+
+    rows: List[Dict[str, Any]] = []
+    ece = 0.0
+    for b in range(int(n_bins)):
+        lo = float(edges[b])
+        hi = float(edges[b + 1])
+        if n_total == 0:
+            mask = np.zeros(0, dtype=bool)
+        elif b < int(n_bins) - 1:
+            mask = (p_arr >= lo) & (p_arr < hi)
+        else:
+            mask = (p_arr >= lo) & (p_arr <= hi)
+
+        cnt = int(mask.sum())
+        if cnt > 0:
+            mean_p = float(p_arr[mask].mean())
+            obs_r = float(y_arr[mask].mean())
+            gap = abs(obs_r - mean_p)
+            ece += (cnt / n_total) * gap
+        else:
+            mean_p = float("nan")
+            obs_r = float("nan")
+            gap = float("nan")
+
+        rows.append({
+            "bin": b + 1,
+            "bin_range": f"[{lo:.1f}, {hi:.1f}" + ("]" if b == int(n_bins) - 1 else ")"),
+            "n": cnt,
+            "mean_pred": mean_p,
+            "obs_rate": obs_r,
+            "abs_gap": gap,
+        })
+
+    return pd.DataFrame(rows), float(ece), brier
+
+
+def bootstrap_auc_ci(
+    y_true: Union[pd.Series, np.ndarray],
+    y_prob: Union[pd.Series, np.ndarray],
+    n_boot: int = 1000,
+    seed: int = 42,
+    alpha: float = 0.05,
+) -> Dict[str, float]:
+    """
+    Compute ROC AUC, PR AUC, and percentile bootstrap 95% CIs (`seed=42`, `n_boot=1000`).
+    """
+    y_arr = np.asarray(y_true, dtype=int)
+    p_arr = np.clip(np.asarray(y_prob, dtype=float), 0.0, 1.0)
+    n = len(y_arr)
+    has_both = (n > 0) and (y_arr.sum() > 0) and (y_arr.sum() < n)
+
+    roc_pt = float(roc_auc_score(y_arr, p_arr)) if has_both else float("nan")
+    pr_pt = float(average_precision_score(y_arr, p_arr)) if (n > 0 and y_arr.sum() > 0) else float("nan")
+
+    if not has_both or int(n_boot) <= 0:
+        return {
+            "roc_auc": roc_pt,
+            "roc_ci_low": float("nan"),
+            "roc_ci_high": float("nan"),
+            "pr_auc": pr_pt,
+            "pr_ci_low": float("nan"),
+            "pr_ci_high": float("nan"),
+        }
+
+    rng = np.random.default_rng(int(seed))
+    roc_boots: List[float] = []
+    pr_boots: List[float] = []
+    for _ in range(int(n_boot)):
+        idx = rng.integers(0, n, size=n)
+        yb = y_arr[idx]
+        pb = p_arr[idx]
+        n_pos_b = int(yb.sum())
+        if n_pos_b == 0 or n_pos_b == n:
+            continue
+        roc_boots.append(float(roc_auc_score(yb, pb)))
+        pr_boots.append(float(average_precision_score(yb, pb)))
+
+    q_lo = 100.0 * (float(alpha) / 2.0)
+    q_hi = 100.0 * (1.0 - float(alpha) / 2.0)
+    return {
+        "roc_auc": roc_pt,
+        "roc_ci_low": float(np.percentile(roc_boots, q_lo)) if roc_boots else float("nan"),
+        "roc_ci_high": float(np.percentile(roc_boots, q_hi)) if roc_boots else float("nan"),
+        "pr_auc": pr_pt,
+        "pr_ci_low": float(np.percentile(pr_boots, q_lo)) if pr_boots else float("nan"),
+        "pr_ci_high": float(np.percentile(pr_boots, q_hi)) if pr_boots else float("nan"),
+    }
+
+
+def evaluate_with_ci_and_bss(
+    y_true: Union[pd.Series, np.ndarray],
+    y_prob: Union[pd.Series, np.ndarray],
+    train_base_rate: float,
+    n_boot: int = 1000,
+    seed: int = 42,
+    n_bins: int = 10,
+) -> Dict[str, Any]:
+    """
+    Compute full Step 6.2b evaluation metrics:
+    n_test, n_valid, n_invalid, test_base_rate, train_base_rate,
+    ROC/PR AUC + 95% percentile bootstrap CIs, Brier, constant train-rate Brier,
+    Brier skill score (BSS = 1 - brier / brier_const), equal-width 10-bin ECE, and mean_pred.
+    """
+    y_arr = np.asarray(y_true, dtype=int)
+    p_arr = np.clip(np.asarray(y_prob, dtype=float), 0.0, 1.0)
+    n_test = int(len(y_arr))
+    n_valid = int(y_arr.sum())
+    n_invalid = n_test - n_valid
+
+    auc_stats = bootstrap_auc_ci(y_arr, p_arr, n_boot=n_boot, seed=seed)
+    _, ece, brier = compute_calibration_table(y_arr, p_arr, n_bins=n_bins, strategy="uniform")
+    brier_const = float(np.mean((float(train_base_rate) - y_arr.astype(float)) ** 2)) if n_test > 0 else float("nan")
+    bss = float(1.0 - (brier / brier_const)) if (n_test > 0 and brier_const > 0.0) else float("nan")
+
+    return {
+        "n_test": n_test,
+        "n_valid": n_valid,
+        "n_invalid": n_invalid,
+        "test_base_rate": float(n_valid / n_test) if n_test > 0 else float("nan"),
+        "train_base_rate": float(train_base_rate),
+        "roc_auc": auc_stats["roc_auc"],
+        "roc_ci_low": auc_stats["roc_ci_low"],
+        "roc_ci_high": auc_stats["roc_ci_high"],
+        "pr_auc": auc_stats["pr_auc"],
+        "pr_ci_low": auc_stats["pr_ci_low"],
+        "pr_ci_high": auc_stats["pr_ci_high"],
+        "brier": brier,
+        "brier_const": brier_const,
+        "bss": bss,
+        "ece": ece,
+        "mean_pred": float(p_arr.mean()) if n_test > 0 else float("nan"),
+    }
 
 
 def evaluate_trust_predictions(
@@ -744,4 +1091,191 @@ def evaluate_by_group(
         "precision", "recall", "f1", "accuracy", "roc_auc", "pr_auc", "brier", "ece",
     ]
     return pd.DataFrame(rows)[cols]
+
+
+def evaluate_ablation_suite(
+    train_df: pd.DataFrame,
+    test_df: pd.DataFrame,
+    label_col: str = "trust_label",
+    group_col: str = "group",
+    groups: Sequence[str] = ("noise", "road", "flood", "sewer_backup"),
+) -> pd.DataFrame:
+    """
+    Evaluate Step 6.2b feature ablations (A..E) trained ONLY on labelled rows of
+    `train_df` and evaluated ONLY on labelled rows of `test_df`:
+    - A: full feature set
+    - B: complaint_type + descriptor_group only
+    - C: full minus nearby_prior_24h_200m
+    - D: without complaint_type and descriptor_group
+    - E: no model, empirical train valid rate per complaint_type lookup
+    """
+    tr_lab = train_df[train_df[label_col].isin(["valid", "invalid"])].copy()
+    te_lab = test_df[test_df[label_col].isin(["valid", "invalid"])].copy()
+    y_tr = (tr_lab[label_col] == "valid").astype(int).to_numpy()
+    y_te = (te_lab[label_col] == "valid").astype(int).to_numpy()
+
+    ablation_specs = [
+        ("A: full", list(TRUST_CATEGORICAL_COLS), True),
+        ("B: complaint_type + descriptor_group only", ["complaint_type", "descriptor_group"], False),
+        ("C: full minus nearby_prior_24h_200m", list(TRUST_CATEGORICAL_COLS), False),
+        ("D: without complaint_type and descriptor_group", ["channel", "location_type", "hour", "weekday"], True),
+    ]
+
+    rows: List[Dict[str, Any]] = []
+    for name, cat_cols, inc_nearby in ablation_specs:
+        X_tr, enc = build_trust_feature_subset(
+            tr_lab, categorical_cols=cat_cols, include_nearby=inc_nearby, return_encoder=True
+        )
+        clf = train_trust_model(X_tr, y_tr)
+        X_te = build_trust_feature_subset(
+            te_lab, categorical_cols=cat_cols, include_nearby=inc_nearby, encoder=enc
+        )
+        probs = np.clip(clf.predict_proba(X_te)[:, 1].astype(float), 0.0, 1.0)
+        rec: Dict[str, Any] = {"ablation": name, "n_features": int(X_tr.shape[1])}
+        for g in list(groups) + ["POOLED"]:
+            mask = np.ones(len(te_lab), dtype=bool) if g == "POOLED" else (te_lab[group_col].to_numpy() == g)
+            yt_g = y_te[mask]
+            rec[g] = float(roc_auc_score(yt_g, probs[mask])) if (yt_g.sum() > 0 and yt_g.sum() < len(yt_g)) else float("nan")
+        rows.append(rec)
+
+    # E: empirical train valid rate per complaint_type lookup (fallback to pooled train valid rate)
+    tr_tmp = tr_lab[["complaint_type"]].copy()
+    tr_tmp["_y"] = y_tr
+    ct_rates = tr_tmp.groupby("complaint_type")["_y"].mean().to_dict()
+    global_rate = float(y_tr.mean())
+    probs_e = te_lab["complaint_type"].map(ct_rates).fillna(global_rate).to_numpy(dtype=float)
+    rec_e: Dict[str, Any] = {"ablation": "E: complaint_type train valid-rate lookup (no model)", "n_features": 1}
+    for g in list(groups) + ["POOLED"]:
+        mask = np.ones(len(te_lab), dtype=bool) if g == "POOLED" else (te_lab[group_col].to_numpy() == g)
+        yt_g = y_te[mask]
+        rec_e[g] = float(roc_auc_score(yt_g, probs_e[mask])) if (yt_g.sum() > 0 and yt_g.sum() < len(yt_g)) else float("nan")
+    rows.append(rec_e)
+
+    return pd.DataFrame(rows)
+
+
+def classify_noise_agency(text: Any) -> str:
+    """Classify resolving agency from resolution text substring."""
+    norm = _normalize_rule_text(text)
+    if "police department" in norm:
+        return "NYPD"
+    if "environmental protection" in norm:
+        return "DEP"
+    return "OTHER"
+
+
+def classify_noise_valid_text_group(text: Any) -> str:
+    """Group valid noise resolutions into interpretable agency/action buckets."""
+    norm = _normalize_rule_text(text)
+    if "police department" in norm:
+        if "summons" in norm:
+            return "NYPD summons"
+        if "arrest" in norm:
+            return "NYPD arrest"
+        if "took action" in norm:
+            return "NYPD action"
+        return "NYPD other"
+    if "environmental protection" in norm:
+        if "sent the dog owner a warning letter" in norm:
+            return "dog letters (DEP)"
+        if "summons" in norm:
+            return "DEP summons"
+        if "obstructing the catch basin" in norm:
+            return "DEP catch basin debris"
+        return "DEP other"
+    return "OTHER"
+
+
+def evaluate_noise_agency_slices(
+    noise_test_df: pd.DataFrame,
+    y_prob: Union[pd.Series, np.ndarray],
+    lookup_df: pd.DataFrame,
+    y_col: str = "y",
+) -> pd.DataFrame:
+    """Evaluate M2 test noise performance stratified by resolving agency (NYPD vs DEP)."""
+    lkp_map = dict(zip(lookup_df["resolution_id"].astype(str), lookup_df["text"]))
+    agencies = noise_test_df["resolution_id"].astype(str).map(lkp_map).map(classify_noise_agency).to_numpy()
+    y_arr = noise_test_df[y_col].to_numpy(dtype=int)
+    p_arr = np.clip(np.asarray(y_prob, dtype=float), 0.0, 1.0)
+
+    rows: List[Dict[str, Any]] = []
+    for ag in ("NYPD", "DEP", "OTHER"):
+        mask = agencies == ag
+        if not mask.any():
+            continue
+        yt = y_arr[mask]
+        pt = p_arr[mask]
+        n_val = int(yt.sum())
+        n_inv = int(len(yt) - n_val)
+        roc = float(roc_auc_score(yt, pt)) if (n_val > 0 and n_inv > 0) else float("nan")
+        pr = float(average_precision_score(yt, pt)) if n_val > 0 else float("nan")
+        rows.append({
+            "agency": ag,
+            "n_test": int(len(yt)),
+            "n_valid": n_val,
+            "n_invalid": n_inv,
+            "test_base_rate": float(n_val / len(yt)),
+            "roc_auc": roc,
+            "pr_auc": pr,
+        })
+    return pd.DataFrame(rows)
+
+
+def evaluate_sensitivity_suite(
+    df: pd.DataFrame,
+    train_cutoff_ts: Any,
+    top5_noise_coords: set,
+    lookup_df: pd.DataFrame,
+    sensitivities: Sequence[Optional[str]] = (None, "S1", "S2", "S3", "S4"),
+    groups: Sequence[str] = ("noise", "road", "flood", "sewer_backup"),
+) -> pd.DataFrame:
+    """
+    Re-assign trust labels under Base and S1..S4 sensitivities, fit M2 strictly on
+    labelled train rows (excluding top-5 noise train coordinates), and evaluate
+    per-group and pooled ROC AUC, PR AUC, and test base rate on labelled test rows.
+    """
+    ts_col = pd.to_datetime(df["ts"]) if "ts" in df.columns else _extract_time_series(df)
+    cutoff = pd.Timestamp(train_cutoff_ts)
+    coord_in_top5 = pd.Series(list(zip(df["x_m"], df["y_m"])), index=df.index).isin(top5_noise_coords)
+    is_noise_top5 = (df["group"] == "noise") & coord_in_top5
+
+    rows: List[Dict[str, Any]] = []
+    for sens in sensitivities:
+        sens_name = "Base" if sens is None else str(sens)
+        lbl = assign_trust_labels(df, lookup_df=lookup_df, apply_gate=True, sensitivity=sens)
+        is_lab = lbl.isin(["valid", "invalid"])
+        tr_mask = (ts_col < cutoff) & is_lab & (~is_noise_top5)
+        te_mask = (ts_col >= cutoff) & is_lab
+
+        tr_df = df.loc[tr_mask].copy()
+        te_df = df.loc[te_mask].copy()
+        y_tr = (lbl.loc[tr_mask] == "valid").astype(int).to_numpy()
+        y_te = (lbl.loc[te_mask] == "valid").astype(int).to_numpy()
+
+        X_tr, enc = build_trust_features(tr_df, return_encoder=True)
+        clf = train_trust_model(X_tr, y_tr)
+        X_te = build_trust_features(te_df, encoder=enc)
+        probs = np.clip(clf.predict_proba(X_te)[:, 1].astype(float), 0.0, 1.0)
+
+        for g in list(groups) + ["POOLED"]:
+            g_mask = np.ones(len(te_df), dtype=bool) if g == "POOLED" else (te_df["group"].to_numpy() == g)
+            yt = y_te[g_mask]
+            pt = probs[g_mask]
+            n_val = int(yt.sum())
+            n_inv = int(len(yt) - n_val)
+            roc = float(roc_auc_score(yt, pt)) if (n_val > 0 and n_inv > 0) else float("nan")
+            pr = float(average_precision_score(yt, pt)) if n_val > 0 else float("nan")
+            rows.append({
+                "sensitivity": sens_name,
+                "group": g,
+                "n_test": int(len(yt)),
+                "n_valid": n_val,
+                "n_invalid": n_inv,
+                "base_rate": float(n_val / len(yt)) if len(yt) > 0 else float("nan"),
+                "roc_auc": roc,
+                "pr_auc": pr,
+            })
+
+    return pd.DataFrame(rows)
+
 

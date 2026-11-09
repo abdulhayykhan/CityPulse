@@ -19,14 +19,17 @@ import pandas as pd
 import pytest
 from sklearn.linear_model import LogisticRegression
 
-from src.models import (
+from src.models.trust import (
+    TRUST_RULES_PATH,
     assign_trust_labels,
     build_trust_features,
     classify_resolution_text,
+    compute_file_sha256,
     compute_nearby_prior_24h_200m,
     evaluate_by_group,
     evaluate_trust_predictions,
     load_trust_model,
+    prior_shift,
     save_trust_model,
     score_trust,
     train_trust_model,
@@ -308,4 +311,124 @@ def test_evaluate_helpers():
     grp_df = evaluate_by_group(eval_df, probs)
     assert set(grp_df["group"]) == {"ALL", "flood", "noise"}
     assert (grp_df["roc_auc"] == 1.0).all()
+
+
+def test_s4_dog_warning_letter_excluded():
+    """Verify Step 6.2b sensitivity S4 excludes texts containing dog owner warning letter."""
+    dog_txt = (
+        "The Department of Environmental Protection (DEP) sent the dog owner a warning letter. "
+        "It includes recommendations on how to reduce their dog's barking."
+    )
+    mixed_dog_txt = "The Department issued a summons and sent the dog owner a warning letter."
+
+    assert classify_resolution_text(dog_txt) == "valid"
+    assert classify_resolution_text(dog_txt, sensitivity="S4") == "excluded"
+    assert classify_resolution_text(dog_txt, s4=True) == "excluded"
+    assert classify_resolution_text(mixed_dog_txt, sensitivity="S4") == "excluded"
+
+    lookup_df = pd.DataFrame({
+        "resolution_id": ["19", "50"],
+        "text": [
+            dog_txt,
+            "The Department of Environmental Protection (DEP) observed a violation. DEP issued a summons.",
+        ],
+    })
+    df_sub = pd.DataFrame({
+        "resolution_id": ["19", "50", "19"],
+        "closed_date": ["2026-06-01T12:00:00", "2026-06-01T12:00:00", ""],
+    })
+    assert assign_trust_labels(df_sub, lookup_df=lookup_df).tolist() == ["valid", "valid", "excluded"]
+    assert assign_trust_labels(df_sub, lookup_df=lookup_df, sensitivity="S4").tolist() == [
+        "excluded", "valid", "excluded"
+    ]
+
+
+def test_prior_shift_identity_and_calibrated_scoring():
+    """Verify prior_shift(p, 0) is exact identity on [0, 1] and calibrated score_trust uses logit_shift."""
+    for s in [0.0, 0.123456, 0.5, 0.987654, 1.0]:
+        out_s = prior_shift(s, 0.0)
+        assert isinstance(out_s, float)
+        assert out_s == s
+
+    arr = np.array([0.0, 0.05, 0.25, 0.5, 0.75, 0.99, 1.0])
+    out_arr = prior_shift(arr, 0.0)
+    np.testing.assert_array_equal(out_arr, arr)
+
+    # Prior-odds check: sigmoid(logit(0.5) + log(1/3)) == 0.25
+    assert abs(prior_shift(0.5, float(np.log(1.0 / 3.0))) - 0.25) < 1e-12
+
+    # Check calibrated=False vs calibrated=True toggle on save/score_trust
+    rng = np.random.default_rng(7)
+    df = pd.DataFrame({
+        "complaint_type": ["Noise"] * 20 + ["Street Condition"] * 20,
+        "descriptor_group": ["construction"] * 20 + ["pothole"] * 20,
+        "channel": ["ONLINE"] * 40,
+        "location_type": ["Street/Sidewalk"] * 40,
+        "hour": rng.integers(0, 24, size=40),
+        "weekday": rng.integers(0, 7, size=40),
+        "nearby_prior_24h_200m": np.zeros(40),
+    })
+    y = ["invalid"] * 20 + ["valid"] * 20
+    X, enc = build_trust_features(df, return_encoder=True)
+    clf = train_trust_model(X, y)
+
+    sample_in = {
+        "complaint_type": "Unseen_Complaint_Type",
+        "descriptor_group": "unseen_desc",
+        "channel": "CARRIER_PIGEON",
+        "location_type": "Moon",
+        "hour": 14,
+        "weekday": 3,
+        "nearby_prior_24h_200m": 0,
+    }
+    with tempfile.TemporaryDirectory() as tmpdir:
+        p_raw = Path(tmpdir) / "raw.joblib"
+        p_cal = Path(tmpdir) / "cal.joblib"
+        save_trust_model(clf, enc, list(X.columns), model_path=p_raw, metadata={"calibrated": False, "logit_shift": -1.5})
+        save_trust_model(clf, enc, list(X.columns), model_path=p_cal, metadata={"calibrated": True, "logit_shift": -1.5})
+        s_raw = score_trust(sample_in, model_path=p_raw)
+        s_cal = score_trust(sample_in, model_path=p_cal)
+        assert isinstance(s_raw, float) and 0.0 <= s_raw <= 1.0
+        assert isinstance(s_cal, float) and 0.0 <= s_cal <= 1.0
+        assert abs(s_cal - prior_shift(s_raw, -1.5)) < 1e-12
+
+
+def test_shipped_trust_bundle_hash_and_unseen_category():
+    """Verify models/trust_model.joblib schema, rules sha256 match, and unseen category scoring."""
+    expected_keys = {
+        "model",
+        "encoder",
+        "feature_names",
+        "categorical_cols",
+        "numeric_cols",
+        "sklearn_version",
+        "created_date",
+        "variant",
+        "train_cutoff_ts",
+        "excluded_top5_noise_coords_train",
+        "label_rules_sha256",
+        "usable_groups",
+        "logit_shift",
+        "calibrated",
+        "group_train_valid_rate",
+    }
+    bundle = load_trust_model()
+    assert expected_keys.issubset(bundle.keys())
+    assert isinstance(bundle["calibrated"], bool)
+    assert bundle["label_rules_sha256"] == compute_file_sha256(TRUST_RULES_PATH)
+
+    unseen_row = {
+        "complaint_type": "Totally Unseen Complaint Type XYZ",
+        "descriptor_group": "totally_unseen_descriptor",
+        "channel": "UNKNOWN_CHANNEL",
+        "location_type": "Unseen Location Type",
+        "hour": 23,
+        "weekday": 5,
+        "nearby_prior_24h_200m": 3,
+    }
+    p = score_trust(unseen_row, bundle=bundle)
+    assert isinstance(p, float)
+    assert not np.isnan(p)
+    assert 0.0 <= p <= 1.0
+
 
