@@ -32,6 +32,18 @@ from src.models.trust import (
     evaluate_trust_predictions,
     evaluate_by_group,
 )
+from src.models.baselines import (
+    BASELINE_FEATURE_COLS,
+    BASELINE_TARGET_COL,
+    prepare_baseline_data,
+    build_baseline_pipeline,
+    evaluate_baselines,
+    chronological_train_test_split,
+    downsample_training_data,
+    compute_binary_calibration,
+    run_dt_depth_study,
+    run_knn_k_curve,
+)
 
 __all__ = [
     "build_flood_features",
@@ -60,5 +72,15 @@ __all__ = [
     "score_trust",
     "evaluate_trust_predictions",
     "evaluate_by_group",
+    "BASELINE_FEATURE_COLS",
+    "BASELINE_TARGET_COL",
+    "prepare_baseline_data",
+    "build_baseline_pipeline",
+    "evaluate_baselines",
+    "chronological_train_test_split",
+    "downsample_training_data",
+    "compute_binary_calibration",
+    "run_dt_depth_study",
+    "run_knn_k_curve",
 ]
 
