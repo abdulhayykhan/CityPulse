@@ -1,5 +1,5 @@
 model,source,n,accuracy,macro_f1,classes_present
-SVM,alleyfloodnet,262,0.916,0.9159,"['flood', 'normal']"
-SVM,rdd2022,609,0.6273,0.6221,"['crack', 'normal', 'pothole']"
-RandomForest,alleyfloodnet,262,0.8855,0.8855,"['flood', 'normal']"
-RandomForest,rdd2022,609,0.5632,0.5238,"['crack', 'normal', 'pothole']"
+SVM,alleyfloodnet,262,0.9237,0.9236,"['flood', 'normal']"
+SVM,rdd2022,609,0.6305,0.6248,"['crack', 'normal', 'pothole']"
+RandomForest,alleyfloodnet,262,0.8664,0.8652,"['flood', 'normal']"
+RandomForest,rdd2022,609,0.5484,0.5403,"['crack', 'normal', 'pothole']"
