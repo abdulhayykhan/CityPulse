@@ -1,0 +1,738 @@
+rel_path,split,label,source,group,origin_path,orig_split,box,mode
+val/crack/India_006537.jpg,val,crack,rdd2022,India_006537,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_006537.jpg,test,,image
+val/crack/India_009185.jpg,val,crack,rdd2022,India_009185,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009185.jpg,train,,image
+val/crack/India_005917.jpg,val,crack,rdd2022,India_005917,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005917.jpg,train,,image
+val/crack/India_007387.jpg,val,crack,rdd2022,India_007387,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_007387.jpg,test,,image
+val/crack/India_004612.jpg,val,crack,rdd2022,India_004612,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004612.jpg,train,,image
+val/crack/India_004730.jpg,val,crack,rdd2022,India_004730,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004730.jpg,train,,image
+val/crack/India_009339.jpg,val,crack,rdd2022,India_009339,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_009339.jpg,test,,image
+val/crack/India_002187.jpg,val,crack,rdd2022,India_002187,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002187.jpg,train,,image
+val/crack/India_004348.jpg,val,crack,rdd2022,India_004348,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004348.jpg,train,,image
+val/crack/India_007136.jpg,val,crack,rdd2022,India_007136,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007136.jpg,train,,image
+val/crack/India_002025.jpg,val,crack,rdd2022,India_002025,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002025.jpg,train,,image
+val/crack/India_004706.jpg,val,crack,rdd2022,India_004706,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004706.jpg,train,,image
+val/crack/India_004703.jpg,val,crack,rdd2022,India_004703,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004703.jpg,train,,image
+val/crack/India_006589.jpg,val,crack,rdd2022,India_006589,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006589.jpg,train,,image
+val/crack/India_003392.jpg,val,crack,rdd2022,India_003392,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003392.jpg,train,,image
+val/crack/India_002172.jpg,val,crack,rdd2022,India_002172,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002172.jpg,test,,image
+val/crack/India_007016.jpg,val,crack,rdd2022,India_007016,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007016.jpg,train,,image
+val/crack/India_007275.jpg,val,crack,rdd2022,India_007275,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007275.jpg,train,,image
+val/crack/India_008059.jpg,val,crack,rdd2022,India_008059,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008059.jpg,val,,image
+val/crack/India_002363.jpg,val,crack,rdd2022,India_002363,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002363.jpg,val,,image
+val/crack/India_005314.jpg,val,crack,rdd2022,India_005314,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005314.jpg,train,,image
+val/crack/India_001561.jpg,val,crack,rdd2022,India_001561,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001561.jpg,train,,image
+val/crack/India_007702.jpg,val,crack,rdd2022,India_007702,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007702.jpg,train,,image
+val/crack/India_009510.jpg,val,crack,rdd2022,India_009510,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009510.jpg,train,,image
+val/crack/India_006670.jpg,val,crack,rdd2022,India_006670,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006670.jpg,train,,image
+val/crack/India_003954.jpg,val,crack,rdd2022,India_003954,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_003954.jpg,val,,image
+val/crack/India_007390.jpg,val,crack,rdd2022,India_007390,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007390.jpg,train,,image
+val/crack/India_004316.jpg,val,crack,rdd2022,India_004316,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_004316.jpg,test,,image
+val/crack/India_008254.jpg,val,crack,rdd2022,India_008254,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008254.jpg,train,,image
+val/crack/India_008852.jpg,val,crack,rdd2022,India_008852,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008852.jpg,train,,image
+val/crack/India_009715.jpg,val,crack,rdd2022,India_009715,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_009715.jpg,test,,image
+val/crack/India_008701.jpg,val,crack,rdd2022,India_008701,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008701.jpg,test,,image
+val/crack/India_004842.jpg,val,crack,rdd2022,India_004842,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004842.jpg,train,,image
+val/crack/India_006414.jpg,val,crack,rdd2022,India_006414,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006414.jpg,train,,image
+val/crack/India_005576.jpg,val,crack,rdd2022,India_005576,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005576.jpg,train,,image
+val/crack/India_008860.jpg,val,crack,rdd2022,India_008860,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008860.jpg,train,,image
+val/crack/India_009112.jpg,val,crack,rdd2022,India_009112,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009112.jpg,train,,image
+val/crack/India_007094.jpg,val,crack,rdd2022,India_007094,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007094.jpg,train,,image
+val/crack/India_006672.jpg,val,crack,rdd2022,India_006672,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006672.jpg,train,,image
+val/crack/India_000683.jpg,val,crack,rdd2022,India_000683,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000683.jpg,train,,image
+val/crack/India_005557.jpg,val,crack,rdd2022,India_005557,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005557.jpg,test,,image
+val/crack/India_009051.jpg,val,crack,rdd2022,India_009051,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009051.jpg,train,,image
+val/crack/India_001266.jpg,val,crack,rdd2022,India_001266,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001266.jpg,train,,image
+val/crack/India_007533.jpg,val,crack,rdd2022,India_007533,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_007533.jpg,test,,image
+val/crack/India_002784.jpg,val,crack,rdd2022,India_002784,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002784.jpg,val,,image
+val/crack/India_002230.jpg,val,crack,rdd2022,India_002230,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002230.jpg,train,,image
+val/crack/India_002321.jpg,val,crack,rdd2022,India_002321,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002321.jpg,test,,image
+val/crack/India_000884.jpg,val,crack,rdd2022,India_000884,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000884.jpg,train,,image
+val/crack/India_000511.jpg,val,crack,rdd2022,India_000511,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000511.jpg,train,,image
+val/crack/India_000996.jpg,val,crack,rdd2022,India_000996,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000996.jpg,train,,image
+val/crack/India_002121.jpg,val,crack,rdd2022,India_002121,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002121.jpg,train,,image
+val/crack/India_001966.jpg,val,crack,rdd2022,India_001966,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001966.jpg,train,,image
+val/crack/India_002320.jpg,val,crack,rdd2022,India_002320,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002320.jpg,train,,image
+val/crack/India_006395.jpg,val,crack,rdd2022,India_006395,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006395.jpg,train,,image
+val/crack/India_003589.jpg,val,crack,rdd2022,India_003589,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003589.jpg,train,,image
+val/crack/India_001585.jpg,val,crack,rdd2022,India_001585,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001585.jpg,train,,image
+val/crack/India_000298.jpg,val,crack,rdd2022,India_000298,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_000298.jpg,val,,image
+val/crack/India_003321.jpg,val,crack,rdd2022,India_003321,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003321.jpg,train,,image
+val/crack/India_007789.jpg,val,crack,rdd2022,India_007789,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007789.jpg,train,,image
+val/crack/India_007172.jpg,val,crack,rdd2022,India_007172,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007172.jpg,train,,image
+val/crack/India_009271.jpg,val,crack,rdd2022,India_009271,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009271.jpg,train,,image
+val/crack/India_009663.jpg,val,crack,rdd2022,India_009663,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009663.jpg,val,,image
+val/crack/India_003565.jpg,val,crack,rdd2022,India_003565,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003565.jpg,train,,image
+val/crack/India_000582.jpg,val,crack,rdd2022,India_000582,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000582.jpg,train,,image
+val/crack/India_008853.jpg,val,crack,rdd2022,India_008853,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008853.jpg,test,,image
+val/crack/India_006960.jpg,val,crack,rdd2022,India_006960,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_006960.jpg,test,,image
+val/crack/India_002703.jpg,val,crack,rdd2022,India_002703,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002703.jpg,train,,image
+val/crack/India_007487.jpg,val,crack,rdd2022,India_007487,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007487.jpg,train,,image
+val/crack/India_006210.jpg,val,crack,rdd2022,India_006210,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006210.jpg,train,,image
+val/crack/India_004450.jpg,val,crack,rdd2022,India_004450,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004450.jpg,train,,image
+val/crack/India_002903.jpg,val,crack,rdd2022,India_002903,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002903.jpg,train,,image
+val/crack/India_002095.jpg,val,crack,rdd2022,India_002095,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002095.jpg,train,,image
+val/crack/India_002470.jpg,val,crack,rdd2022,India_002470,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002470.jpg,train,,image
+val/crack/India_008238.jpg,val,crack,rdd2022,India_008238,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008238.jpg,val,,image
+val/crack/India_003242.jpg,val,crack,rdd2022,India_003242,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003242.jpg,train,,image
+val/crack/India_000860.jpg,val,crack,rdd2022,India_000860,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000860.jpg,train,,image
+val/crack/India_005611.jpg,val,crack,rdd2022,India_005611,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005611.jpg,train,,image
+val/crack/India_009245.jpg,val,crack,rdd2022,India_009245,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_009245.jpg,test,,image
+val/crack/India_006316.jpg,val,crack,rdd2022,India_006316,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006316.jpg,val,,image
+val/crack/India_002215.jpg,val,crack,rdd2022,India_002215,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002215.jpg,train,,image
+val/crack/India_005424.jpg,val,crack,rdd2022,India_005424,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005424.jpg,train,,image
+val/crack/India_000500.jpg,val,crack,rdd2022,India_000500,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_000500.jpg,test,,image
+val/crack/India_008667.jpg,val,crack,rdd2022,India_008667,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008667.jpg,train,,image
+val/crack/India_001142.jpg,val,crack,rdd2022,India_001142,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_001142.jpg,val,,image
+val/crack/India_007911.jpg,val,crack,rdd2022,India_007911,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007911.jpg,train,,image
+val/crack/India_006976.jpg,val,crack,rdd2022,India_006976,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_006976.jpg,test,,image
+val/crack/India_006342.jpg,val,crack,rdd2022,India_006342,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006342.jpg,train,,image
+val/crack/India_009272.jpg,val,crack,rdd2022,India_009272,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_009272.jpg,test,,image
+val/crack/India_008340.jpg,val,crack,rdd2022,India_008340,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008340.jpg,train,,image
+val/crack/India_003445.jpg,val,crack,rdd2022,India_003445,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003445.jpg,train,,image
+val/crack/India_005844.jpg,val,crack,rdd2022,India_005844,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005844.jpg,train,,image
+val/crack/India_006121.jpg,val,crack,rdd2022,India_006121,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006121.jpg,train,,image
+val/crack/India_000184.jpg,val,crack,rdd2022,India_000184,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000184.jpg,train,,image
+val/crack/India_004770.jpg,val,crack,rdd2022,India_004770,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_004770.jpg,test,,image
+val/crack/India_002009.jpg,val,crack,rdd2022,India_002009,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002009.jpg,train,,image
+val/crack/India_009640.jpg,val,crack,rdd2022,India_009640,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_009640.jpg,test,,image
+val/crack/India_008989.jpg,val,crack,rdd2022,India_008989,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008989.jpg,train,,image
+val/crack/India_008062.jpg,val,crack,rdd2022,India_008062,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008062.jpg,train,,image
+val/crack/India_006330.jpg,val,crack,rdd2022,India_006330,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006330.jpg,train,,image
+val/crack/India_004427.jpg,val,crack,rdd2022,India_004427,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004427.jpg,train,,image
+val/crack/India_002175.jpg,val,crack,rdd2022,India_002175,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002175.jpg,train,,image
+val/crack/India_008997.jpg,val,crack,rdd2022,India_008997,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008997.jpg,train,,image
+val/crack/India_002678.jpg,val,crack,rdd2022,India_002678,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002678.jpg,val,,image
+val/crack/India_001679.jpg,val,crack,rdd2022,India_001679,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_001679.jpg,test,,image
+val/crack/India_009096.jpg,val,crack,rdd2022,India_009096,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009096.jpg,train,,image
+val/crack/India_003820.jpg,val,crack,rdd2022,India_003820,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003820.jpg,test,,image
+val/crack/India_001560.jpg,val,crack,rdd2022,India_001560,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001560.jpg,train,,image
+val/crack/India_004959.jpg,val,crack,rdd2022,India_004959,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004959.jpg,train,,image
+val/crack/India_007831.jpg,val,crack,rdd2022,India_007831,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007831.jpg,train,,image
+val/crack/India_007319.jpg,val,crack,rdd2022,India_007319,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007319.jpg,train,,image
+val/crack/India_003654.jpg,val,crack,rdd2022,India_003654,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003654.jpg,train,,image
+val/crack/India_008344.jpg,val,crack,rdd2022,India_008344,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008344.jpg,train,,image
+val/crack/India_006607.jpg,val,crack,rdd2022,India_006607,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006607.jpg,train,,image
+val/crack/India_004756.jpg,val,crack,rdd2022,India_004756,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_004756.jpg,test,,image
+val/crack/India_005022.jpg,val,crack,rdd2022,India_005022,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005022.jpg,test,,image
+val/crack/India_001449.jpg,val,crack,rdd2022,India_001449,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001449.jpg,train,,image
+val/crack/India_004242.jpg,val,crack,rdd2022,India_004242,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004242.jpg,train,,image
+val/crack/India_005225.jpg,val,crack,rdd2022,India_005225,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005225.jpg,train,,image
+val/crack/India_002553.jpg,val,crack,rdd2022,India_002553,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002553.jpg,train,,image
+val/crack/India_004134.jpg,val,crack,rdd2022,India_004134,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004134.jpg,train,,image
+val/crack/India_003592.jpg,val,crack,rdd2022,India_003592,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003592.jpg,train,,image
+val/crack/India_004575.jpg,val,crack,rdd2022,India_004575,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004575.jpg,train,,image
+val/crack/India_004066.jpg,val,crack,rdd2022,India_004066,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004066.jpg,train,,image
+val/crack/India_009766.jpg,val,crack,rdd2022,India_009766,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009766.jpg,train,,image
+val/crack/India_009423.jpg,val,crack,rdd2022,India_009423,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009423.jpg,train,,image
+val/crack/India_003247.jpg,val,crack,rdd2022,India_003247,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003247.jpg,train,,image
+val/crack/India_006152.jpg,val,crack,rdd2022,India_006152,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006152.jpg,train,,image
+val/crack/India_003754.jpg,val,crack,rdd2022,India_003754,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003754.jpg,train,,image
+val/crack/India_008940.jpg,val,crack,rdd2022,India_008940,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008940.jpg,train,,image
+val/crack/India_008540.jpg,val,crack,rdd2022,India_008540,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008540.jpg,train,,image
+val/crack/India_009294.jpg,val,crack,rdd2022,India_009294,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009294.jpg,val,,image
+val/crack/India_000862.jpg,val,crack,rdd2022,India_000862,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000862.jpg,train,,image
+val/crack/India_005121.jpg,val,crack,rdd2022,India_005121,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005121.jpg,test,,image
+val/crack/India_006925.jpg,val,crack,rdd2022,India_006925,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006925.jpg,train,,image
+val/crack/India_009335.jpg,val,crack,rdd2022,India_009335,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009335.jpg,train,,image
+val/crack/India_002611.jpg,val,crack,rdd2022,India_002611,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002611.jpg,test,,image
+val/crack/India_005151.jpg,val,crack,rdd2022,India_005151,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005151.jpg,train,,image
+val/crack/India_003605.jpg,val,crack,rdd2022,India_003605,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003605.jpg,train,,image
+val/crack/India_008953.jpg,val,crack,rdd2022,India_008953,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008953.jpg,val,,image
+val/crack/India_005717.jpg,val,crack,rdd2022,India_005717,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005717.jpg,test,,image
+val/crack/India_005876.jpg,val,crack,rdd2022,India_005876,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005876.jpg,test,,image
+val/crack/India_005519.jpg,val,crack,rdd2022,India_005519,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005519.jpg,train,,image
+val/crack/India_008813.jpg,val,crack,rdd2022,India_008813,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008813.jpg,test,,image
+val/crack/India_001821.jpg,val,crack,rdd2022,India_001821,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001821.jpg,train,,image
+val/crack/India_008480.jpg,val,crack,rdd2022,India_008480,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008480.jpg,val,,image
+val/crack/India_003052.jpg,val,crack,rdd2022,India_003052,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003052.jpg,train,,image
+val/crack/India_007966.jpg,val,crack,rdd2022,India_007966,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_007966.jpg,test,,image
+val/crack/India_008249.jpg,val,crack,rdd2022,India_008249,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008249.jpg,test,,image
+val/crack/India_008553.jpg,val,crack,rdd2022,India_008553,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008553.jpg,train,,image
+val/crack/India_002775.jpg,val,crack,rdd2022,India_002775,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002775.jpg,train,,image
+val/crack/India_008854.jpg,val,crack,rdd2022,India_008854,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008854.jpg,val,,image
+val/crack/India_003587.jpg,val,crack,rdd2022,India_003587,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003587.jpg,train,,image
+val/crack/India_009134.jpg,val,crack,rdd2022,India_009134,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009134.jpg,train,,image
+val/crack/India_007456.jpg,val,crack,rdd2022,India_007456,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007456.jpg,train,,image
+val/crack/India_007912.jpg,val,crack,rdd2022,India_007912,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007912.jpg,train,,image
+val/crack/India_002366.jpg,val,crack,rdd2022,India_002366,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002366.jpg,test,,image
+val/crack/India_004533.jpg,val,crack,rdd2022,India_004533,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_004533.jpg,val,,image
+val/crack/India_002281.jpg,val,crack,rdd2022,India_002281,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002281.jpg,train,,image
+val/crack/India_005423.jpg,val,crack,rdd2022,India_005423,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005423.jpg,train,,image
+val/crack/India_006644.jpg,val,crack,rdd2022,India_006644,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006644.jpg,train,,image
+val/crack/India_003469.jpg,val,crack,rdd2022,India_003469,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003469.jpg,train,,image
+val/crack/India_006177.jpg,val,crack,rdd2022,India_006177,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006177.jpg,train,,image
+val/crack/India_006369.jpg,val,crack,rdd2022,India_006369,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006369.jpg,train,,image
+val/crack/India_002757.jpg,val,crack,rdd2022,India_002757,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002757.jpg,test,,image
+val/crack/India_003769.jpg,val,crack,rdd2022,India_003769,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003769.jpg,train,,image
+val/crack/India_008680.jpg,val,crack,rdd2022,India_008680,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008680.jpg,train,,image
+val/crack/India_008376.jpg,val,crack,rdd2022,India_008376,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008376.jpg,test,,image
+val/crack/India_001077.jpg,val,crack,rdd2022,India_001077,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001077.jpg,train,,image
+val/crack/India_003116.jpg,val,crack,rdd2022,India_003116,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003116.jpg,train,,image
+val/crack/India_003215.jpg,val,crack,rdd2022,India_003215,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003215.jpg,test,,image
+val/crack/India_000269.jpg,val,crack,rdd2022,India_000269,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_000269.jpg,val,,image
+val/crack/India_004778.jpg,val,crack,rdd2022,India_004778,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004778.jpg,train,,image
+val/crack/India_008195.jpg,val,crack,rdd2022,India_008195,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008195.jpg,test,,image
+val/crack/India_008105.jpg,val,crack,rdd2022,India_008105,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008105.jpg,train,,image
+val/crack/India_001588.jpg,val,crack,rdd2022,India_001588,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_001588.jpg,val,,image
+val/crack/India_002696.jpg,val,crack,rdd2022,India_002696,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002696.jpg,train,,image
+val/crack/India_002730.jpg,val,crack,rdd2022,India_002730,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002730.jpg,train,,image
+val/crack/India_007691.jpg,val,crack,rdd2022,India_007691,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_007691.jpg,test,,image
+val/crack/India_005493.jpg,val,crack,rdd2022,India_005493,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005493.jpg,train,,image
+val/crack/India_008035.jpg,val,crack,rdd2022,India_008035,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008035.jpg,train,,image
+val/crack/India_004342.jpg,val,crack,rdd2022,India_004342,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_004342.jpg,val,,image
+val/crack/India_004183.jpg,val,crack,rdd2022,India_004183,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004183.jpg,train,,image
+val/crack/India_009847.jpg,val,crack,rdd2022,India_009847,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009847.jpg,train,,image
+val/crack/India_003086.jpg,val,crack,rdd2022,India_003086,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003086.jpg,train,,image
+val/crack/India_000609.jpg,val,crack,rdd2022,India_000609,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000609.jpg,train,,image
+val/crack/India_005147.jpg,val,crack,rdd2022,India_005147,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005147.jpg,train,,image
+val/crack/India_008558.jpg,val,crack,rdd2022,India_008558,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008558.jpg,train,,image
+val/crack/India_008282.jpg,val,crack,rdd2022,India_008282,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008282.jpg,train,,image
+val/crack/India_006339.jpg,val,crack,rdd2022,India_006339,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006339.jpg,train,,image
+val/crack/India_006885.jpg,val,crack,rdd2022,India_006885,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006885.jpg,train,,image
+val/crack/India_004364.jpg,val,crack,rdd2022,India_004364,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_004364.jpg,val,,image
+val/crack/India_002968.jpg,val,crack,rdd2022,India_002968,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002968.jpg,train,,image
+val/crack/India_006310.jpg,val,crack,rdd2022,India_006310,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006310.jpg,val,,image
+val/crack/India_002047.jpg,val,crack,rdd2022,India_002047,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002047.jpg,train,,image
+val/crack/India_009240.jpg,val,crack,rdd2022,India_009240,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009240.jpg,train,,image
+val/crack/India_005369.jpg,val,crack,rdd2022,India_005369,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005369.jpg,train,,image
+val/crack/India_007420.jpg,val,crack,rdd2022,India_007420,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007420.jpg,train,,image
+val/crack/India_003814.jpg,val,crack,rdd2022,India_003814,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_003814.jpg,val,,image
+val/crack/India_003788.jpg,val,crack,rdd2022,India_003788,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003788.jpg,train,,image
+val/crack/India_005975.jpg,val,crack,rdd2022,India_005975,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005975.jpg,test,,image
+val/crack/India_001017.jpg,val,crack,rdd2022,India_001017,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_001017.jpg,val,,image
+val/crack/India_009607.jpg,val,crack,rdd2022,India_009607,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009607.jpg,train,,image
+val/crack/India_002089.jpg,val,crack,rdd2022,India_002089,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002089.jpg,train,,image
+val/crack/India_001877.jpg,val,crack,rdd2022,India_001877,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_001877.jpg,test,,image
+val/crack/India_001122.jpg,val,crack,rdd2022,India_001122,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001122.jpg,train,,image
+val/crack/India_002681.jpg,val,crack,rdd2022,India_002681,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002681.jpg,train,,image
+val/crack/India_009095.jpg,val,crack,rdd2022,India_009095,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009095.jpg,train,,image
+val/crack/India_005568.jpg,val,crack,rdd2022,India_005568,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005568.jpg,train,,image
+val/crack/India_002644.jpg,val,crack,rdd2022,India_002644,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002644.jpg,test,,image
+val/crack/India_003246.jpg,val,crack,rdd2022,India_003246,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003246.jpg,train,,image
+val/crack/India_001415.jpg,val,crack,rdd2022,India_001415,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001415.jpg,train,,image
+val/crack/India_005811.jpg,val,crack,rdd2022,India_005811,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_005811.jpg,val,,image
+val/crack/India_005210.jpg,val,crack,rdd2022,India_005210,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005210.jpg,test,,image
+val/crack/India_008802.jpg,val,crack,rdd2022,India_008802,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008802.jpg,test,,image
+val/crack/India_001232.jpg,val,crack,rdd2022,India_001232,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001232.jpg,train,,image
+val/crack/India_004200.jpg,val,crack,rdd2022,India_004200,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004200.jpg,train,,image
+val/crack/India_005535.jpg,val,crack,rdd2022,India_005535,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005535.jpg,train,,image
+val/crack/India_008986.jpg,val,crack,rdd2022,India_008986,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008986.jpg,train,,image
+val/crack/India_008322.jpg,val,crack,rdd2022,India_008322,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008322.jpg,val,,image
+val/crack/India_003452.jpg,val,crack,rdd2022,India_003452,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003452.jpg,train,,image
+val/crack/India_007946.jpg,val,crack,rdd2022,India_007946,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007946.jpg,train,,image
+val/normal/India_003809.jpg,val,normal,rdd2022,India_003809,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003809.jpg,test,,image
+val/normal/India_002580.jpg,val,normal,rdd2022,India_002580,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002580.jpg,test,,image
+val/normal/India_005307.jpg,val,normal,rdd2022,India_005307,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005307.jpg,test,,image
+val/normal/India_001259.jpg,val,normal,rdd2022,India_001259,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_001259.jpg,test,,image
+val/normal/India_006578.jpg,val,normal,rdd2022,India_006578,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006578.jpg,train,,image
+val/normal/India_002904.jpg,val,normal,rdd2022,India_002904,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002904.jpg,train,,image
+val/normal/India_005953.jpg,val,normal,rdd2022,India_005953,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005953.jpg,test,,image
+val/normal/India_009606.jpg,val,normal,rdd2022,India_009606,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009606.jpg,train,,image
+val/normal/India_006919.jpg,val,normal,rdd2022,India_006919,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006919.jpg,val,,image
+val/normal/India_003216.jpg,val,normal,rdd2022,India_003216,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003216.jpg,train,,image
+val/normal/India_004620.jpg,val,normal,rdd2022,India_004620,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004620.jpg,train,,image
+val/normal/India_005382.jpg,val,normal,rdd2022,India_005382,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005382.jpg,train,,image
+val/normal/India_002828.jpg,val,normal,rdd2022,India_002828,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002828.jpg,train,,image
+val/normal/India_000437.jpg,val,normal,rdd2022,India_000437,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_000437.jpg,val,,image
+val/normal/India_007085.jpg,val,normal,rdd2022,India_007085,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007085.jpg,val,,image
+val/normal/India_008894.jpg,val,normal,rdd2022,India_008894,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008894.jpg,train,,image
+val/normal/India_000134.jpg,val,normal,rdd2022,India_000134,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_000134.jpg,test,,image
+val/normal/India_001810.jpg,val,normal,rdd2022,India_001810,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001810.jpg,train,,image
+val/normal/India_008743.jpg,val,normal,rdd2022,India_008743,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008743.jpg,train,,image
+val/normal/India_001510.jpg,val,normal,rdd2022,India_001510,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001510.jpg,train,,image
+val/normal/India_007854.jpg,val,normal,rdd2022,India_007854,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007854.jpg,train,,image
+val/normal/India_003046.jpg,val,normal,rdd2022,India_003046,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003046.jpg,train,,image
+val/normal/India_001858.jpg,val,normal,rdd2022,India_001858,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_001858.jpg,val,,image
+val/normal/India_001833.jpg,val,normal,rdd2022,India_001833,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001833.jpg,train,,image
+val/normal/India_006632.jpg,val,normal,rdd2022,India_006632,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006632.jpg,train,,image
+val/normal/India_001609.jpg,val,normal,rdd2022,India_001609,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001609.jpg,train,,image
+val/normal/India_007154.jpg,val,normal,rdd2022,India_007154,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_007154.jpg,test,,image
+val/normal/India_002033.jpg,val,normal,rdd2022,India_002033,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002033.jpg,train,,image
+val/normal/India_009835.jpg,val,normal,rdd2022,India_009835,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009835.jpg,train,,image
+val/normal/India_006688.jpg,val,normal,rdd2022,India_006688,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006688.jpg,val,,image
+val/normal/India_001720.jpg,val,normal,rdd2022,India_001720,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_001720.jpg,test,,image
+val/normal/India_003965.jpg,val,normal,rdd2022,India_003965,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003965.jpg,train,,image
+val/normal/India_008970.jpg,val,normal,rdd2022,India_008970,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008970.jpg,val,,image
+val/normal/India_006139.jpg,val,normal,rdd2022,India_006139,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006139.jpg,val,,image
+val/normal/India_008302.jpg,val,normal,rdd2022,India_008302,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008302.jpg,train,,image
+val/normal/India_003407.jpg,val,normal,rdd2022,India_003407,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003407.jpg,test,,image
+val/normal/India_006485.jpg,val,normal,rdd2022,India_006485,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006485.jpg,train,,image
+val/normal/India_003530.jpg,val,normal,rdd2022,India_003530,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003530.jpg,train,,image
+val/normal/India_000626.jpg,val,normal,rdd2022,India_000626,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000626.jpg,train,,image
+val/normal/India_006291.jpg,val,normal,rdd2022,India_006291,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006291.jpg,train,,image
+val/normal/India_002380.jpg,val,normal,rdd2022,India_002380,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002380.jpg,val,,image
+val/normal/India_004010.jpg,val,normal,rdd2022,India_004010,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_004010.jpg,val,,image
+val/normal/India_007216.jpg,val,normal,rdd2022,India_007216,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_007216.jpg,test,,image
+val/normal/India_001029.jpg,val,normal,rdd2022,India_001029,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001029.jpg,train,,image
+val/normal/India_004267.jpg,val,normal,rdd2022,India_004267,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004267.jpg,train,,image
+val/normal/India_005769.jpg,val,normal,rdd2022,India_005769,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005769.jpg,train,,image
+val/normal/India_002358.jpg,val,normal,rdd2022,India_002358,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002358.jpg,train,,image
+val/normal/India_008786.jpg,val,normal,rdd2022,India_008786,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008786.jpg,train,,image
+val/normal/India_007466.jpg,val,normal,rdd2022,India_007466,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007466.jpg,val,,image
+val/normal/India_008951.jpg,val,normal,rdd2022,India_008951,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008951.jpg,val,,image
+val/normal/India_000305.jpg,val,normal,rdd2022,India_000305,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000305.jpg,train,,image
+val/normal/India_001618.jpg,val,normal,rdd2022,India_001618,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001618.jpg,train,,image
+val/normal/India_002541.jpg,val,normal,rdd2022,India_002541,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002541.jpg,train,,image
+val/normal/India_002698.jpg,val,normal,rdd2022,India_002698,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002698.jpg,test,,image
+val/normal/India_006922.jpg,val,normal,rdd2022,India_006922,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006922.jpg,train,,image
+val/normal/India_007547.jpg,val,normal,rdd2022,India_007547,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007547.jpg,train,,image
+val/normal/India_001252.jpg,val,normal,rdd2022,India_001252,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_001252.jpg,test,,image
+val/normal/India_000794.jpg,val,normal,rdd2022,India_000794,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_000794.jpg,test,,image
+val/normal/India_002742.jpg,val,normal,rdd2022,India_002742,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002742.jpg,train,,image
+val/normal/India_007848.jpg,val,normal,rdd2022,India_007848,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007848.jpg,train,,image
+val/normal/India_009645.jpg,val,normal,rdd2022,India_009645,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009645.jpg,train,,image
+val/normal/India_001072.jpg,val,normal,rdd2022,India_001072,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001072.jpg,train,,image
+val/normal/India_001445.jpg,val,normal,rdd2022,India_001445,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001445.jpg,train,,image
+val/normal/India_000639.jpg,val,normal,rdd2022,India_000639,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000639.jpg,train,,image
+val/normal/India_004688.jpg,val,normal,rdd2022,India_004688,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_004688.jpg,test,,image
+val/normal/India_000679.jpg,val,normal,rdd2022,India_000679,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_000679.jpg,val,,image
+val/normal/India_001846.jpg,val,normal,rdd2022,India_001846,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001846.jpg,train,,image
+val/normal/India_001033.jpg,val,normal,rdd2022,India_001033,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_001033.jpg,test,,image
+val/normal/India_004594.jpg,val,normal,rdd2022,India_004594,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004594.jpg,train,,image
+val/normal/India_009443.jpg,val,normal,rdd2022,India_009443,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009443.jpg,train,,image
+val/normal/India_008031.jpg,val,normal,rdd2022,India_008031,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008031.jpg,test,,image
+val/normal/India_000787.jpg,val,normal,rdd2022,India_000787,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_000787.jpg,test,,image
+val/normal/India_003374.jpg,val,normal,rdd2022,India_003374,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003374.jpg,train,,image
+val/normal/India_000308.jpg,val,normal,rdd2022,India_000308,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000308.jpg,train,,image
+val/normal/India_004631.jpg,val,normal,rdd2022,India_004631,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004631.jpg,train,,image
+val/normal/India_007410.jpg,val,normal,rdd2022,India_007410,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007410.jpg,val,,image
+val/normal/India_005963.jpg,val,normal,rdd2022,India_005963,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005963.jpg,test,,image
+val/normal/India_001539.jpg,val,normal,rdd2022,India_001539,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001539.jpg,train,,image
+val/normal/India_002103.jpg,val,normal,rdd2022,India_002103,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002103.jpg,train,,image
+val/normal/India_007041.jpg,val,normal,rdd2022,India_007041,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_007041.jpg,test,,image
+val/normal/India_004095.jpg,val,normal,rdd2022,India_004095,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_004095.jpg,val,,image
+val/normal/India_009733.jpg,val,normal,rdd2022,India_009733,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009733.jpg,val,,image
+val/normal/India_002482.jpg,val,normal,rdd2022,India_002482,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002482.jpg,train,,image
+val/normal/India_000651.jpg,val,normal,rdd2022,India_000651,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000651.jpg,train,,image
+val/normal/India_005309.jpg,val,normal,rdd2022,India_005309,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005309.jpg,train,,image
+val/normal/India_005058.jpg,val,normal,rdd2022,India_005058,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005058.jpg,train,,image
+val/normal/India_006720.jpg,val,normal,rdd2022,India_006720,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006720.jpg,train,,image
+val/normal/India_000107.jpg,val,normal,rdd2022,India_000107,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000107.jpg,train,,image
+val/normal/India_009757.jpg,val,normal,rdd2022,India_009757,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009757.jpg,train,,image
+val/normal/India_008150.jpg,val,normal,rdd2022,India_008150,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008150.jpg,train,,image
+val/normal/India_005263.jpg,val,normal,rdd2022,India_005263,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005263.jpg,train,,image
+val/normal/India_001273.jpg,val,normal,rdd2022,India_001273,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001273.jpg,train,,image
+val/normal/India_005687.jpg,val,normal,rdd2022,India_005687,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005687.jpg,train,,image
+val/normal/India_000508.jpg,val,normal,rdd2022,India_000508,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000508.jpg,train,,image
+val/normal/India_009599.jpg,val,normal,rdd2022,India_009599,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009599.jpg,train,,image
+val/normal/India_007916.jpg,val,normal,rdd2022,India_007916,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007916.jpg,val,,image
+val/normal/India_008092.jpg,val,normal,rdd2022,India_008092,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008092.jpg,train,,image
+val/normal/India_003158.jpg,val,normal,rdd2022,India_003158,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003158.jpg,train,,image
+val/normal/India_005744.jpg,val,normal,rdd2022,India_005744,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005744.jpg,test,,image
+val/normal/India_003802.jpg,val,normal,rdd2022,India_003802,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003802.jpg,train,,image
+val/normal/India_003043.jpg,val,normal,rdd2022,India_003043,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003043.jpg,train,,image
+val/normal/India_004781.jpg,val,normal,rdd2022,India_004781,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_004781.jpg,val,,image
+val/normal/India_002182.jpg,val,normal,rdd2022,India_002182,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002182.jpg,val,,image
+val/normal/India_009674.jpg,val,normal,rdd2022,India_009674,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009674.jpg,train,,image
+val/normal/India_002941.jpg,val,normal,rdd2022,India_002941,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002941.jpg,train,,image
+val/normal/India_005468.jpg,val,normal,rdd2022,India_005468,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005468.jpg,test,,image
+val/normal/India_008858.jpg,val,normal,rdd2022,India_008858,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008858.jpg,test,,image
+val/normal/India_002690.jpg,val,normal,rdd2022,India_002690,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002690.jpg,val,,image
+val/normal/India_001686.jpg,val,normal,rdd2022,India_001686,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001686.jpg,train,,image
+val/normal/India_000677.jpg,val,normal,rdd2022,India_000677,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000677.jpg,train,,image
+val/normal/India_001208.jpg,val,normal,rdd2022,India_001208,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_001208.jpg,val,,image
+val/normal/India_009686.jpg,val,normal,rdd2022,India_009686,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009686.jpg,train,,image
+val/normal/India_006879.jpg,val,normal,rdd2022,India_006879,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_006879.jpg,test,,image
+val/normal/India_003618.jpg,val,normal,rdd2022,India_003618,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_003618.jpg,val,,image
+val/normal/India_008828.jpg,val,normal,rdd2022,India_008828,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008828.jpg,train,,image
+val/normal/India_009796.jpg,val,normal,rdd2022,India_009796,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_009796.jpg,test,,image
+val/normal/India_004014.jpg,val,normal,rdd2022,India_004014,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004014.jpg,train,,image
+val/normal/India_002824.jpg,val,normal,rdd2022,India_002824,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002824.jpg,val,,image
+val/normal/India_006796.jpg,val,normal,rdd2022,India_006796,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006796.jpg,val,,image
+val/normal/India_001373.jpg,val,normal,rdd2022,India_001373,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_001373.jpg,val,,image
+val/normal/India_006223.jpg,val,normal,rdd2022,India_006223,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006223.jpg,train,,image
+val/normal/India_001778.jpg,val,normal,rdd2022,India_001778,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001778.jpg,train,,image
+val/normal/India_007210.jpg,val,normal,rdd2022,India_007210,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007210.jpg,val,,image
+val/normal/India_002953.jpg,val,normal,rdd2022,India_002953,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002953.jpg,val,,image
+val/normal/India_006695.jpg,val,normal,rdd2022,India_006695,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006695.jpg,val,,image
+val/normal/India_005764.jpg,val,normal,rdd2022,India_005764,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005764.jpg,train,,image
+val/normal/India_004680.jpg,val,normal,rdd2022,India_004680,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_004680.jpg,test,,image
+val/normal/India_005637.jpg,val,normal,rdd2022,India_005637,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005637.jpg,train,,image
+val/normal/India_003383.jpg,val,normal,rdd2022,India_003383,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003383.jpg,test,,image
+val/normal/India_009849.jpg,val,normal,rdd2022,India_009849,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009849.jpg,train,,image
+val/normal/India_006034.jpg,val,normal,rdd2022,India_006034,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_006034.jpg,test,,image
+val/normal/India_000121.jpg,val,normal,rdd2022,India_000121,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000121.jpg,train,,image
+val/normal/India_003331.jpg,val,normal,rdd2022,India_003331,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_003331.jpg,val,,image
+val/normal/India_000847.jpg,val,normal,rdd2022,India_000847,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_000847.jpg,val,,image
+val/normal/India_000984.jpg,val,normal,rdd2022,India_000984,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000984.jpg,train,,image
+val/normal/India_006254.jpg,val,normal,rdd2022,India_006254,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006254.jpg,train,,image
+val/normal/India_007251.jpg,val,normal,rdd2022,India_007251,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007251.jpg,train,,image
+val/normal/India_008081.jpg,val,normal,rdd2022,India_008081,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008081.jpg,train,,image
+val/normal/India_006179.jpg,val,normal,rdd2022,India_006179,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_006179.jpg,test,,image
+val/normal/India_004653.jpg,val,normal,rdd2022,India_004653,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004653.jpg,train,,image
+val/normal/India_005333.jpg,val,normal,rdd2022,India_005333,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005333.jpg,train,,image
+val/normal/India_004506.jpg,val,normal,rdd2022,India_004506,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004506.jpg,train,,image
+val/normal/India_004963.jpg,val,normal,rdd2022,India_004963,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_004963.jpg,test,,image
+val/normal/India_009036.jpg,val,normal,rdd2022,India_009036,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009036.jpg,train,,image
+val/normal/India_007373.jpg,val,normal,rdd2022,India_007373,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007373.jpg,val,,image
+val/normal/India_002935.jpg,val,normal,rdd2022,India_002935,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002935.jpg,train,,image
+val/normal/India_001183.jpg,val,normal,rdd2022,India_001183,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_001183.jpg,val,,image
+val/normal/India_009512.jpg,val,normal,rdd2022,India_009512,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009512.jpg,val,,image
+val/normal/India_004307.jpg,val,normal,rdd2022,India_004307,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004307.jpg,train,,image
+val/normal/India_001430.jpg,val,normal,rdd2022,India_001430,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001430.jpg,train,,image
+val/normal/India_008248.jpg,val,normal,rdd2022,India_008248,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008248.jpg,test,,image
+val/normal/India_002741.jpg,val,normal,rdd2022,India_002741,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002741.jpg,test,,image
+val/normal/India_002300.jpg,val,normal,rdd2022,India_002300,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002300.jpg,val,,image
+val/normal/India_008608.jpg,val,normal,rdd2022,India_008608,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008608.jpg,train,,image
+val/normal/India_009822.jpg,val,normal,rdd2022,India_009822,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009822.jpg,train,,image
+val/normal/India_008337.jpg,val,normal,rdd2022,India_008337,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008337.jpg,train,,image
+val/normal/India_002862.jpg,val,normal,rdd2022,India_002862,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002862.jpg,train,,image
+val/normal/India_003134.jpg,val,normal,rdd2022,India_003134,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003134.jpg,test,,image
+val/normal/India_005010.jpg,val,normal,rdd2022,India_005010,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005010.jpg,train,,image
+val/normal/India_002915.jpg,val,normal,rdd2022,India_002915,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002915.jpg,val,,image
+val/normal/India_006200.jpg,val,normal,rdd2022,India_006200,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006200.jpg,val,,image
+val/normal/India_002820.jpg,val,normal,rdd2022,India_002820,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002820.jpg,val,,image
+val/normal/India_006052.jpg,val,normal,rdd2022,India_006052,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006052.jpg,train,,image
+val/normal/India_005360.jpg,val,normal,rdd2022,India_005360,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005360.jpg,train,,image
+val/normal/India_003327.jpg,val,normal,rdd2022,India_003327,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003327.jpg,train,,image
+val/normal/India_009483.jpg,val,normal,rdd2022,India_009483,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009483.jpg,train,,image
+val/normal/India_003281.jpg,val,normal,rdd2022,India_003281,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003281.jpg,test,,image
+val/normal/India_001713.jpg,val,normal,rdd2022,India_001713,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001713.jpg,train,,image
+val/normal/India_003793.jpg,val,normal,rdd2022,India_003793,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003793.jpg,train,,image
+val/normal/India_007311.jpg,val,normal,rdd2022,India_007311,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_007311.jpg,test,,image
+val/normal/India_003218.jpg,val,normal,rdd2022,India_003218,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003218.jpg,train,,image
+val/normal/India_004823.jpg,val,normal,rdd2022,India_004823,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004823.jpg,train,,image
+val/normal/India_005906.jpg,val,normal,rdd2022,India_005906,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005906.jpg,test,,image
+val/normal/India_008272.jpg,val,normal,rdd2022,India_008272,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008272.jpg,train,,image
+val/normal/India_007841.jpg,val,normal,rdd2022,India_007841,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007841.jpg,train,,image
+val/normal/India_003234.jpg,val,normal,rdd2022,India_003234,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003234.jpg,train,,image
+val/normal/India_003314.jpg,val,normal,rdd2022,India_003314,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003314.jpg,train,,image
+val/normal/India_007242.jpg,val,normal,rdd2022,India_007242,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007242.jpg,train,,image
+val/normal/India_002727.jpg,val,normal,rdd2022,India_002727,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002727.jpg,train,,image
+val/normal/India_002645.jpg,val,normal,rdd2022,India_002645,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002645.jpg,train,,image
+val/normal/India_002636.jpg,val,normal,rdd2022,India_002636,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002636.jpg,train,,image
+val/normal/India_004356.jpg,val,normal,rdd2022,India_004356,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004356.jpg,train,,image
+val/normal/India_005782.jpg,val,normal,rdd2022,India_005782,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005782.jpg,test,,image
+val/normal/India_004190.jpg,val,normal,rdd2022,India_004190,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004190.jpg,train,,image
+val/normal/India_004518.jpg,val,normal,rdd2022,India_004518,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004518.jpg,train,,image
+val/normal/India_009741.jpg,val,normal,rdd2022,India_009741,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009741.jpg,val,,image
+val/normal/India_005512.jpg,val,normal,rdd2022,India_005512,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005512.jpg,test,,image
+val/normal/India_006434.jpg,val,normal,rdd2022,India_006434,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006434.jpg,val,,image
+val/normal/India_002218.jpg,val,normal,rdd2022,India_002218,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002218.jpg,val,,image
+val/normal/India_006037.jpg,val,normal,rdd2022,India_006037,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006037.jpg,train,,image
+val/normal/India_002919.jpg,val,normal,rdd2022,India_002919,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002919.jpg,train,,image
+val/normal/India_000835.jpg,val,normal,rdd2022,India_000835,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000835.jpg,train,,image
+val/normal/India_001179.jpg,val,normal,rdd2022,India_001179,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001179.jpg,train,,image
+val/normal/India_003176.jpg,val,normal,rdd2022,India_003176,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003176.jpg,test,,image
+val/normal/India_006224.jpg,val,normal,rdd2022,India_006224,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006224.jpg,train,,image
+val/normal/India_003608.jpg,val,normal,rdd2022,India_003608,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003608.jpg,test,,image
+val/normal/India_004114.jpg,val,normal,rdd2022,India_004114,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004114.jpg,train,,image
+val/normal/India_007571.jpg,val,normal,rdd2022,India_007571,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007571.jpg,train,,image
+val/normal/India_003418.jpg,val,normal,rdd2022,India_003418,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003418.jpg,train,,image
+val/normal/India_001637.jpg,val,normal,rdd2022,India_001637,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_001637.jpg,test,,image
+val/normal/India_004146.jpg,val,normal,rdd2022,India_004146,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004146.jpg,train,,image
+val/normal/India_007879.jpg,val,normal,rdd2022,India_007879,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007879.jpg,val,,image
+val/normal/India_005259.jpg,val,normal,rdd2022,India_005259,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005259.jpg,train,,image
+val/normal/India_009007.jpg,val,normal,rdd2022,India_009007,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009007.jpg,train,,image
+val/normal/India_009701.jpg,val,normal,rdd2022,India_009701,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009701.jpg,train,,image
+val/normal/India_001546.jpg,val,normal,rdd2022,India_001546,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001546.jpg,train,,image
+val/normal/India_007585.jpg,val,normal,rdd2022,India_007585,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007585.jpg,val,,image
+val/normal/India_001021.jpg,val,normal,rdd2022,India_001021,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001021.jpg,train,,image
+val/normal/India_002913.jpg,val,normal,rdd2022,India_002913,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002913.jpg,train,,image
+val/normal/India_002164.jpg,val,normal,rdd2022,India_002164,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002164.jpg,val,,image
+val/normal/India_003968.jpg,val,normal,rdd2022,India_003968,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003968.jpg,train,,image
+val/normal/India_002467.jpg,val,normal,rdd2022,India_002467,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002467.jpg,train,,image
+val/normal/India_007976.jpg,val,normal,rdd2022,India_007976,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007976.jpg,val,,image
+val/normal/India_009730.jpg,val,normal,rdd2022,India_009730,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009730.jpg,val,,image
+val/normal/India_004231.jpg,val,normal,rdd2022,India_004231,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004231.jpg,train,,image
+val/normal/India_003528.jpg,val,normal,rdd2022,India_003528,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003528.jpg,train,,image
+val/normal/India_008615.jpg,val,normal,rdd2022,India_008615,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008615.jpg,train,,image
+val/normal/India_001471.jpg,val,normal,rdd2022,India_001471,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_001471.jpg,test,,image
+val/normal/India_007607.jpg,val,normal,rdd2022,India_007607,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007607.jpg,train,,image
+val/normal/India_003361.jpg,val,normal,rdd2022,India_003361,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003361.jpg,train,,image
+val/normal/India_001110.jpg,val,normal,rdd2022,India_001110,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001110.jpg,train,,image
+val/normal/India_003880.jpg,val,normal,rdd2022,India_003880,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003880.jpg,train,,image
+val/normal/India_007225.jpg,val,normal,rdd2022,India_007225,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007225.jpg,val,,image
+val/normal/India_001750.jpg,val,normal,rdd2022,India_001750,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001750.jpg,train,,image
+val/normal/India_002632.jpg,val,normal,rdd2022,India_002632,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002632.jpg,train,,image
+val/normal/India_006729.jpg,val,normal,rdd2022,India_006729,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006729.jpg,train,,image
+val/pothole/India_004394.jpg,val,pothole,rdd2022,India_004394,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004394.jpg,train,,image
+val/pothole/India_005815.jpg,val,pothole,rdd2022,India_005815,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005815.jpg,train,,image
+val/pothole/India_000812.jpg,val,pothole,rdd2022,India_000812,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000812.jpg,train,,image
+val/pothole/India_006948.jpg,val,pothole,rdd2022,India_006948,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006948.jpg,val,,image
+val/pothole/India_002751.jpg,val,pothole,rdd2022,India_002751,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002751.jpg,train,,image
+val/pothole/India_003677.jpg,val,pothole,rdd2022,India_003677,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003677.jpg,test,,image
+val/pothole/India_004649.jpg,val,pothole,rdd2022,India_004649,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004649.jpg,train,,image
+val/pothole/India_008133.jpg,val,pothole,rdd2022,India_008133,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008133.jpg,test,,image
+val/pothole/India_008083.jpg,val,pothole,rdd2022,India_008083,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008083.jpg,train,,image
+val/pothole/India_003981.jpg,val,pothole,rdd2022,India_003981,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_003981.jpg,val,,image
+val/pothole/India_001368.jpg,val,pothole,rdd2022,India_001368,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001368.jpg,train,,image
+val/pothole/India_007083.jpg,val,pothole,rdd2022,India_007083,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007083.jpg,train,,image
+val/pothole/India_001411.jpg,val,pothole,rdd2022,India_001411,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001411.jpg,train,,image
+val/pothole/India_006003.jpg,val,pothole,rdd2022,India_006003,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006003.jpg,val,,image
+val/pothole/India_007500.jpg,val,pothole,rdd2022,India_007500,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007500.jpg,train,,image
+val/pothole/India_004149.jpg,val,pothole,rdd2022,India_004149,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004149.jpg,train,,image
+val/pothole/India_000747.jpg,val,pothole,rdd2022,India_000747,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000747.jpg,train,,image
+val/pothole/India_005901.jpg,val,pothole,rdd2022,India_005901,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_005901.jpg,val,,image
+val/pothole/India_005873.jpg,val,pothole,rdd2022,India_005873,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005873.jpg,train,,image
+val/pothole/India_005949.jpg,val,pothole,rdd2022,India_005949,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005949.jpg,train,,image
+val/pothole/India_002493.jpg,val,pothole,rdd2022,India_002493,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002493.jpg,train,,image
+val/pothole/India_008679.jpg,val,pothole,rdd2022,India_008679,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008679.jpg,train,,image
+val/pothole/India_002004.jpg,val,pothole,rdd2022,India_002004,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002004.jpg,train,,image
+val/pothole/India_006954.jpg,val,pothole,rdd2022,India_006954,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006954.jpg,train,,image
+val/pothole/India_009203.jpg,val,pothole,rdd2022,India_009203,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009203.jpg,val,,image
+val/pothole/India_005419.jpg,val,pothole,rdd2022,India_005419,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005419.jpg,train,,image
+val/pothole/India_006014.jpg,val,pothole,rdd2022,India_006014,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006014.jpg,train,,image
+val/pothole/India_004743.jpg,val,pothole,rdd2022,India_004743,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004743.jpg,train,,image
+val/pothole/India_005670.jpg,val,pothole,rdd2022,India_005670,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005670.jpg,train,,image
+val/pothole/India_002589.jpg,val,pothole,rdd2022,India_002589,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002589.jpg,train,,image
+val/pothole/India_001422.jpg,val,pothole,rdd2022,India_001422,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001422.jpg,train,,image
+val/pothole/India_005431.jpg,val,pothole,rdd2022,India_005431,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005431.jpg,train,,image
+val/pothole/India_000682.jpg,val,pothole,rdd2022,India_000682,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_000682.jpg,val,,image
+val/pothole/India_000969.jpg,val,pothole,rdd2022,India_000969,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000969.jpg,train,,image
+val/pothole/India_001443.jpg,val,pothole,rdd2022,India_001443,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001443.jpg,train,,image
+val/pothole/India_004664.jpg,val,pothole,rdd2022,India_004664,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004664.jpg,train,,image
+val/pothole/India_006576.jpg,val,pothole,rdd2022,India_006576,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_006576.jpg,test,,image
+val/pothole/India_006741.jpg,val,pothole,rdd2022,India_006741,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006741.jpg,train,,image
+val/pothole/India_003001.jpg,val,pothole,rdd2022,India_003001,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003001.jpg,train,,image
+val/pothole/India_001820.jpg,val,pothole,rdd2022,India_001820,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001820.jpg,train,,image
+val/pothole/India_009562.jpg,val,pothole,rdd2022,India_009562,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009562.jpg,val,,image
+val/pothole/India_007316.jpg,val,pothole,rdd2022,India_007316,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007316.jpg,val,,image
+val/pothole/India_008250.jpg,val,pothole,rdd2022,India_008250,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008250.jpg,test,,image
+val/pothole/India_000772.jpg,val,pothole,rdd2022,India_000772,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000772.jpg,train,,image
+val/pothole/India_004666.jpg,val,pothole,rdd2022,India_004666,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004666.jpg,train,,image
+val/pothole/India_006847.jpg,val,pothole,rdd2022,India_006847,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006847.jpg,val,,image
+val/pothole/India_003728.jpg,val,pothole,rdd2022,India_003728,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003728.jpg,train,,image
+val/pothole/India_007634.jpg,val,pothole,rdd2022,India_007634,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007634.jpg,val,,image
+val/pothole/India_006675.jpg,val,pothole,rdd2022,India_006675,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006675.jpg,train,,image
+val/pothole/India_000163.jpg,val,pothole,rdd2022,India_000163,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000163.jpg,train,,image
+val/pothole/India_005507.jpg,val,pothole,rdd2022,India_005507,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_005507.jpg,test,,image
+val/pothole/India_007668.jpg,val,pothole,rdd2022,India_007668,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_007668.jpg,val,,image
+val/pothole/India_002384.jpg,val,pothole,rdd2022,India_002384,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002384.jpg,train,,image
+val/pothole/India_009139.jpg,val,pothole,rdd2022,India_009139,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009139.jpg,train,,image
+val/pothole/India_003299.jpg,val,pothole,rdd2022,India_003299,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003299.jpg,train,,image
+val/pothole/India_006262.jpg,val,pothole,rdd2022,India_006262,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006262.jpg,train,,image
+val/pothole/India_002162.jpg,val,pothole,rdd2022,India_002162,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002162.jpg,train,,image
+val/pothole/India_007769.jpg,val,pothole,rdd2022,India_007769,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007769.jpg,train,,image
+val/pothole/India_004120.jpg,val,pothole,rdd2022,India_004120,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004120.jpg,train,,image
+val/pothole/India_008645.jpg,val,pothole,rdd2022,India_008645,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008645.jpg,val,,image
+val/pothole/India_006947.jpg,val,pothole,rdd2022,India_006947,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006947.jpg,val,,image
+val/pothole/India_000379.jpg,val,pothole,rdd2022,India_000379,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000379.jpg,train,,image
+val/pothole/India_006883.jpg,val,pothole,rdd2022,India_006883,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006883.jpg,train,,image
+val/pothole/India_001868.jpg,val,pothole,rdd2022,India_001868,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001868.jpg,train,,image
+val/pothole/India_001912.jpg,val,pothole,rdd2022,India_001912,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001912.jpg,train,,image
+val/pothole/India_007819.jpg,val,pothole,rdd2022,India_007819,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007819.jpg,train,,image
+val/pothole/India_005046.jpg,val,pothole,rdd2022,India_005046,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005046.jpg,train,,image
+val/pothole/India_008165.jpg,val,pothole,rdd2022,India_008165,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008165.jpg,test,,image
+val/pothole/India_007148.jpg,val,pothole,rdd2022,India_007148,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007148.jpg,train,,image
+val/pothole/India_000815.jpg,val,pothole,rdd2022,India_000815,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_000815.jpg,test,,image
+val/pothole/India_000201.jpg,val,pothole,rdd2022,India_000201,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000201.jpg,train,,image
+val/pothole/India_002782.jpg,val,pothole,rdd2022,India_002782,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002782.jpg,train,,image
+val/pothole/India_008518.jpg,val,pothole,rdd2022,India_008518,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008518.jpg,train,,image
+val/pothole/India_005988.jpg,val,pothole,rdd2022,India_005988,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005988.jpg,train,,image
+val/pothole/India_004264.jpg,val,pothole,rdd2022,India_004264,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004264.jpg,train,,image
+val/pothole/India_006375.jpg,val,pothole,rdd2022,India_006375,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006375.jpg,train,,image
+val/pothole/India_008218.jpg,val,pothole,rdd2022,India_008218,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008218.jpg,test,,image
+val/pothole/India_006373.jpg,val,pothole,rdd2022,India_006373,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006373.jpg,train,,image
+val/pothole/India_003153.jpg,val,pothole,rdd2022,India_003153,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003153.jpg,train,,image
+val/pothole/India_002967.jpg,val,pothole,rdd2022,India_002967,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002967.jpg,train,,image
+val/pothole/India_001542.jpg,val,pothole,rdd2022,India_001542,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_001542.jpg,val,,image
+val/pothole/India_008825.jpg,val,pothole,rdd2022,India_008825,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008825.jpg,train,,image
+val/pothole/India_004230.jpg,val,pothole,rdd2022,India_004230,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004230.jpg,train,,image
+val/pothole/India_009595.jpg,val,pothole,rdd2022,India_009595,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_009595.jpg,test,,image
+val/pothole/India_003717.jpg,val,pothole,rdd2022,India_003717,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003717.jpg,train,,image
+val/pothole/India_007247.jpg,val,pothole,rdd2022,India_007247,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007247.jpg,train,,image
+val/pothole/India_001390.jpg,val,pothole,rdd2022,India_001390,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001390.jpg,train,,image
+val/pothole/India_007768.jpg,val,pothole,rdd2022,India_007768,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007768.jpg,train,,image
+val/pothole/India_006846.jpg,val,pothole,rdd2022,India_006846,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006846.jpg,train,,image
+val/pothole/India_007609.jpg,val,pothole,rdd2022,India_007609,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007609.jpg,train,,image
+val/pothole/India_008168.jpg,val,pothole,rdd2022,India_008168,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008168.jpg,test,,image
+val/pothole/India_000335.jpg,val,pothole,rdd2022,India_000335,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000335.jpg,train,,image
+val/pothole/India_003181.jpg,val,pothole,rdd2022,India_003181,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003181.jpg,train,,image
+val/pothole/India_002880.jpg,val,pothole,rdd2022,India_002880,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002880.jpg,test,,image
+val/pothole/India_000099.jpg,val,pothole,rdd2022,India_000099,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000099.jpg,train,,image
+val/pothole/India_004390.jpg,val,pothole,rdd2022,India_004390,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_004390.jpg,val,,image
+val/pothole/India_003120.jpg,val,pothole,rdd2022,India_003120,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003120.jpg,test,,image
+val/pothole/India_007584.jpg,val,pothole,rdd2022,India_007584,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007584.jpg,train,,image
+val/pothole/India_004151.jpg,val,pothole,rdd2022,India_004151,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004151.jpg,train,,image
+val/pothole/India_007163.jpg,val,pothole,rdd2022,India_007163,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007163.jpg,train,,image
+val/pothole/India_008874.jpg,val,pothole,rdd2022,India_008874,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_008874.jpg,val,,image
+val/pothole/India_008543.jpg,val,pothole,rdd2022,India_008543,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008543.jpg,train,,image
+val/pothole/India_000459.jpg,val,pothole,rdd2022,India_000459,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000459.jpg,train,,image
+val/pothole/India_000142.jpg,val,pothole,rdd2022,India_000142,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000142.jpg,train,,image
+val/pothole/India_000146.jpg,val,pothole,rdd2022,India_000146,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_000146.jpg,train,,image
+val/pothole/India_007463.jpg,val,pothole,rdd2022,India_007463,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007463.jpg,train,,image
+val/pothole/India_008430.jpg,val,pothole,rdd2022,India_008430,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008430.jpg,train,,image
+val/pothole/India_008258.jpg,val,pothole,rdd2022,India_008258,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008258.jpg,test,,image
+val/pothole/India_003435.jpg,val,pothole,rdd2022,India_003435,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_003435.jpg,test,,image
+val/pothole/India_009317.jpg,val,pothole,rdd2022,India_009317,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009317.jpg,val,,image
+val/pothole/India_006562.jpg,val,pothole,rdd2022,India_006562,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006562.jpg,train,,image
+val/pothole/India_002113.jpg,val,pothole,rdd2022,India_002113,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002113.jpg,train,,image
+val/pothole/India_005316.jpg,val,pothole,rdd2022,India_005316,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_005316.jpg,val,,image
+val/pothole/India_004817.jpg,val,pothole,rdd2022,India_004817,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004817.jpg,train,,image
+val/pothole/India_007520.jpg,val,pothole,rdd2022,India_007520,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007520.jpg,train,,image
+val/pothole/India_002936.jpg,val,pothole,rdd2022,India_002936,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002936.jpg,train,,image
+val/pothole/India_004464.jpg,val,pothole,rdd2022,India_004464,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004464.jpg,train,,image
+val/pothole/India_000870.jpg,val,pothole,rdd2022,India_000870,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_000870.jpg,val,,image
+val/pothole/India_008486.jpg,val,pothole,rdd2022,India_008486,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_008486.jpg,test,,image
+val/pothole/India_004154.jpg,val,pothole,rdd2022,India_004154,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004154.jpg,train,,image
+val/pothole/India_006305.jpg,val,pothole,rdd2022,India_006305,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_006305.jpg,val,,image
+val/pothole/India_006832.jpg,val,pothole,rdd2022,India_006832,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_006832.jpg,train,,image
+val/pothole/India_003627.jpg,val,pothole,rdd2022,India_003627,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003627.jpg,train,,image
+val/pothole/India_009177.jpg,val,pothole,rdd2022,India_009177,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009177.jpg,train,,image
+val/pothole/India_005257.jpg,val,pothole,rdd2022,India_005257,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_005257.jpg,val,,image
+val/pothole/India_008657.jpg,val,pothole,rdd2022,India_008657,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008657.jpg,train,,image
+val/pothole/India_001822.jpg,val,pothole,rdd2022,India_001822,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001822.jpg,train,,image
+val/pothole/India_007178.jpg,val,pothole,rdd2022,India_007178,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007178.jpg,train,,image
+val/pothole/India_003185.jpg,val,pothole,rdd2022,India_003185,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003185.jpg,train,,image
+val/pothole/India_007106.jpg,val,pothole,rdd2022,India_007106,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007106.jpg,train,,image
+val/pothole/India_001454.jpg,val,pothole,rdd2022,India_001454,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_001454.jpg,val,,image
+val/pothole/India_004227.jpg,val,pothole,rdd2022,India_004227,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_004227.jpg,val,,image
+val/pothole/India_002492.jpg,val,pothole,rdd2022,India_002492,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002492.jpg,train,,image
+val/pothole/India_005967.jpg,val,pothole,rdd2022,India_005967,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_005967.jpg,val,,image
+val/pothole/India_007906.jpg,val,pothole,rdd2022,India_007906,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007906.jpg,train,,image
+val/pothole/India_002932.jpg,val,pothole,rdd2022,India_002932,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002932.jpg,train,,image
+val/pothole/India_007287.jpg,val,pothole,rdd2022,India_007287,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007287.jpg,train,,image
+val/pothole/India_005972.jpg,val,pothole,rdd2022,India_005972,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005972.jpg,train,,image
+val/pothole/India_005561.jpg,val,pothole,rdd2022,India_005561,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005561.jpg,train,,image
+val/pothole/India_005433.jpg,val,pothole,rdd2022,India_005433,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_005433.jpg,val,,image
+val/pothole/India_007888.jpg,val,pothole,rdd2022,India_007888,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007888.jpg,train,,image
+val/pothole/India_009445.jpg,val,pothole,rdd2022,India_009445,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009445.jpg,train,,image
+val/pothole/India_009880.jpg,val,pothole,rdd2022,India_009880,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009880.jpg,train,,image
+val/pothole/India_005654.jpg,val,pothole,rdd2022,India_005654,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_005654.jpg,train,,image
+val/pothole/India_006841.jpg,val,pothole,rdd2022,India_006841,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_006841.jpg,test,,image
+val/pothole/India_002115.jpg,val,pothole,rdd2022,India_002115,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_002115.jpg,val,,image
+val/pothole/India_009155.jpg,val,pothole,rdd2022,India_009155,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_009155.jpg,test,,image
+val/pothole/India_004633.jpg,val,pothole,rdd2022,India_004633,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_004633.jpg,val,,image
+val/pothole/India_003240.jpg,val,pothole,rdd2022,India_003240,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_003240.jpg,train,,image
+val/pothole/India_007218.jpg,val,pothole,rdd2022,India_007218,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_007218.jpg,train,,image
+val/pothole/India_009150.jpg,val,pothole,rdd2022,India_009150,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\val\images\India_009150.jpg,val,,image
+val/pothole/India_000892.jpg,val,pothole,rdd2022,India_000892,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_000892.jpg,test,,image
+val/pothole/India_002780.jpg,val,pothole,rdd2022,India_002780,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_002780.jpg,test,,image
+val/pothole/India_001844.jpg,val,pothole,rdd2022,India_001844,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001844.jpg,train,,image
+val/pothole/India_008726.jpg,val,pothole,rdd2022,India_008726,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008726.jpg,train,,image
+val/pothole/India_008265.jpg,val,pothole,rdd2022,India_008265,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_008265.jpg,train,,image
+val/pothole/India_004339.jpg,val,pothole,rdd2022,India_004339,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_004339.jpg,train,,image
+val/pothole/India_002464.jpg,val,pothole,rdd2022,India_002464,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_002464.jpg,train,,image
+val/pothole/India_009021.jpg,val,pothole,rdd2022,India_009021,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009021.jpg,train,,image
+val/pothole/India_009397.jpg,val,pothole,rdd2022,India_009397,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_009397.jpg,train,,image
+val/pothole/India_001910.jpg,val,pothole,rdd2022,India_001910,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\train\images\India_001910.jpg,train,,image
+val/pothole/India_009048.jpg,val,pothole,rdd2022,India_009048,C:\Users\bushr\OneDrive\Desktop\city pulse project\RDD_SPLIT\test\images\India_009048.jpg,test,,image
+val/flood/alley_train_00275.jpg,val,flood,alleyfloodnet,alley_00275,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\4846_12990_4717.jpg,train,,image
+val/flood/alley_train_00282.jpg,val,flood,alleyfloodnet,alley_00282,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\721750ca-9b42-42b5-8b16-353112338174-Flood3.jpg,train,,image
+val/flood/alley_train_00283.jpg,val,flood,alleyfloodnet,alley_00283,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\939cf7ba3afa4a60bbb76760f3fd5aba.jpg,train,,image
+val/flood/alley_train_00296.jpg,val,flood,alleyfloodnet,alley_00296,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (12) 2.jpg,train,,image
+val/flood/alley_train_00310.jpg,val,flood,alleyfloodnet,alley_00310,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (2).jpg,train,,image
+val/flood/alley_train_00311.jpg,val,flood,alleyfloodnet,alley_00311,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (20) 2.jpg,train,,image
+val/flood/alley_train_00312.jpg,val,flood,alleyfloodnet,alley_00312,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (20).jpg,train,,image
+val/flood/alley_train_00314.jpg,val,flood,alleyfloodnet,alley_00314,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (21).jpg,train,,image
+val/flood/alley_train_00316.jpg,val,flood,alleyfloodnet,alley_00316,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (23) 2.jpg,train,,image
+val/flood/alley_train_00320.jpg,val,flood,alleyfloodnet,alley_00320,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (26).jpg,train,,image
+val/flood/alley_train_00333.jpg,val,flood,alleyfloodnet,alley_00333,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (4).jpg,train,,image
+val/flood/alley_train_00342.jpg,val,flood,alleyfloodnet,alley_00342,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (51).jpg,train,,image
+val/flood/alley_train_00349.jpg,val,flood,alleyfloodnet,alley_00349,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (58).jpg,train,,image
+val/flood/alley_train_00350.jpg,val,flood,alleyfloodnet,alley_00350,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (6).jpg,train,,image
+val/flood/alley_train_00353.jpg,val,flood,alleyfloodnet,alley_00353,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (62).jpg,train,,image
+val/flood/alley_train_00361.jpg,val,flood,alleyfloodnet,alley_00361,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (73).jpg,train,,image
+val/flood/alley_train_00364.jpg,val,flood,alleyfloodnet,alley_00364,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (76).jpg,train,,image
+val/flood/alley_train_00368.jpg,val,flood,alleyfloodnet,alley_00368,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (82).jpg,train,,image
+val/flood/alley_train_00383.jpg,val,flood,alleyfloodnet,alley_00383,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images (99).jpg,train,,image
+val/flood/alley_train_00392.jpg,val,flood,alleyfloodnet,alley_00392,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T151335.142.jpg,train,,image
+val/flood/alley_train_00396.jpg,val,flood,alleyfloodnet,alley_00396,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T151404.786.jpg,train,,image
+val/flood/alley_train_00411.jpg,val,flood,alleyfloodnet,alley_00411,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T151845.883.jpg,train,,image
+val/flood/alley_train_00413.jpg,val,flood,alleyfloodnet,alley_00413,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T151858.089.jpg,train,,image
+val/flood/alley_train_00422.jpg,val,flood,alleyfloodnet,alley_00422,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T152003.285.jpg,train,,image
+val/flood/alley_train_00428.jpg,val,flood,alleyfloodnet,alley_00428,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T152109.380.jpg,train,,image
+val/flood/alley_train_00431.jpg,val,flood,alleyfloodnet,alley_00431,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T152308.506.jpg,train,,image
+val/flood/alley_train_00436.jpg,val,flood,alleyfloodnet,alley_00436,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T152650.023.jpg,train,,image
+val/flood/alley_train_00449.jpg,val,flood,alleyfloodnet,alley_00449,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T154026.869.jpg,train,,image
+val/flood/alley_train_00450.jpg,val,flood,alleyfloodnet,alley_00450,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T154034.580.jpg,train,,image
+val/flood/alley_train_00451.jpg,val,flood,alleyfloodnet,alley_00451,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T154048.164.jpg,train,,image
+val/flood/alley_train_00453.jpg,val,flood,alleyfloodnet,alley_00453,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T154100.222.jpg,train,,image
+val/flood/alley_train_00467.jpg,val,flood,alleyfloodnet,alley_00467,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T154416.248.jpg,train,,image
+val/flood/alley_train_00476.jpg,val,flood,alleyfloodnet,alley_00476,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T155237.362.jpg,train,,image
+val/flood/alley_train_00497.jpg,val,flood,alleyfloodnet,alley_00497,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T162718.539.jpg,train,,image
+val/flood/alley_train_00503.jpg,val,flood,alleyfloodnet,alley_00503,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T162932.551.jpg,train,,image
+val/flood/alley_train_00505.jpg,val,flood,alleyfloodnet,alley_00505,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T162955.160.jpg,train,,image
+val/flood/alley_train_00514.jpg,val,flood,alleyfloodnet,alley_00514,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T163121.864.jpg,train,,image
+val/flood/alley_train_00519.jpg,val,flood,alleyfloodnet,alley_00519,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T163215.057.jpg,train,,image
+val/flood/alley_train_00525.jpg,val,flood,alleyfloodnet,alley_00525,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T163935.282.jpg,train,,image
+val/flood/alley_train_00526.jpg,val,flood,alleyfloodnet,alley_00526,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T163953.945.jpg,train,,image
+val/flood/alley_train_00532.jpg,val,flood,alleyfloodnet,alley_00532,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T164148.602.jpg,train,,image
+val/flood/alley_train_00535.jpg,val,flood,alleyfloodnet,alley_00535,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T164315.489.jpg,train,,image
+val/flood/alley_train_00538.jpg,val,flood,alleyfloodnet,alley_00538,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T164335.071.jpg,train,,image
+val/flood/alley_train_00555.jpg,val,flood,alleyfloodnet,alley_00555,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T164606.682.jpg,train,,image
+val/flood/alley_train_00568.jpg,val,flood,alleyfloodnet,alley_00568,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T164843.885.jpg,train,,image
+val/flood/alley_train_00570.jpg,val,flood,alleyfloodnet,alley_00570,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T164859.119.jpg,train,,image
+val/flood/alley_train_00575.jpg,val,flood,alleyfloodnet,alley_00575,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T184436.464.jpg,train,,image
+val/flood/alley_train_00577.jpg,val,flood,alleyfloodnet,alley_00577,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T184858.157.jpg,train,,image
+val/flood/alley_train_00581.jpg,val,flood,alleyfloodnet,alley_00581,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T184938.568.jpg,train,,image
+val/flood/alley_train_00590.jpg,val,flood,alleyfloodnet,alley_00590,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T185200.363.jpg,train,,image
+val/flood/alley_train_00592.jpg,val,flood,alleyfloodnet,alley_00592,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T185223.638.jpg,train,,image
+val/flood/alley_train_00601.jpg,val,flood,alleyfloodnet,alley_00601,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\images - 2025-01-28T185543.419.jpg,train,,image
+val/flood/alley_train_00605.jpg,val,flood,alleyfloodnet,alley_00605,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\istockphoto-105934727-612x612.jpg,train,,image
+val/flood/alley_train_00606.png,val,flood,alleyfloodnet,alley_00606,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\JWDX52S32BAFTERZHXMH26GFVE.png,train,,image
+val/flood/alley_train_00607.jpg,val,flood,alleyfloodnet,alley_00607,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\Mua-lon-nhieu-tuyen-duong-bi-chia-cat-do-ngap.jpg,train,,image
+val/flood/alley_train_00610.jpg,val,flood,alleyfloodnet,alley_00610,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\NISI20180831_0014421289_web.jpg,train,,image
+val/flood/alley_train_00621.jpg,val,flood,alleyfloodnet,alley_00621,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\다운로드 (14).jpg,train,,image
+val/flood/alley_train_00625.jpg,val,flood,alleyfloodnet,alley_00625,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\다운로드 (18).jpg,train,,image
+val/flood/alley_train_00628.jpg,val,flood,alleyfloodnet,alley_00628,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\다운로드 (23).jpg,train,,image
+val/flood/alley_train_00634.jpg,val,flood,alleyfloodnet,alley_00634,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\다운로드 (29).jpg,train,,image
+val/flood/alley_train_00647.jpg,val,flood,alleyfloodnet,alley_00647,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\다운로드 (44).jpg,train,,image
+val/flood/alley_train_00649.jpg,val,flood,alleyfloodnet,alley_00649,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\다운로드 (46).jpg,train,,image
+val/flood/alley_train_00675.jpg,val,flood,alleyfloodnet,alley_00675,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\화면 캡처 2025-03-05 161103.jpg,train,,image
+val/flood/alley_train_00677.jpg,val,flood,alleyfloodnet,alley_00677,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\화면 캡처 2025-03-05 161128.jpg,train,,image
+val/flood/alley_train_00697.jpg,val,flood,alleyfloodnet,alley_00697,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\화면 캡처 2025-03-05 163856.jpg,train,,image
+val/flood/alley_train_00705.jpg,val,flood,alleyfloodnet,alley_00705,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\화면 캡처 2025-03-05 164114.jpg,train,,image
+val/flood/alley_train_00712.jpg,val,flood,alleyfloodnet,alley_00712,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\화면 캡처 2025-03-05 164330.jpg,train,,image
+val/flood/alley_train_00714.jpg,val,flood,alleyfloodnet,alley_00714,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\화면 캡처 2025-03-05 164421.jpg,train,,image
+val/flood/alley_train_00722.jpg,val,flood,alleyfloodnet,alley_00722,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\화면 캡처 2025-03-05 165738.jpg,train,,image
+val/flood/alley_train_00726.jpg,val,flood,alleyfloodnet,alley_00726,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\화면 캡처 2025-03-05 165827.jpg,train,,image
+val/flood/alley_train_00729.jpg,val,flood,alleyfloodnet,alley_00729,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\flooded\화면 캡처 2025-03-05 174619.jpg,train,,image
+val/normal/alley_train_00733.jpg,val,normal,alleyfloodnet,alley_00733,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\1210_5594_1621.jpg,train,,image
+val/normal/alley_train_00739.jpg,val,normal,alleyfloodnet,alley_00739,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\20180405_152525.jpg,train,,image
+val/normal/alley_train_00741.jpg,val,normal,alleyfloodnet,alley_00741,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\202004131748333233_e.jpg,train,,image
+val/normal/alley_train_00745.jpg,val,normal,alleyfloodnet,alley_00745,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\202309111114430145_l.jpg,train,,image
+val/normal/alley_train_00752.jpg,val,normal,alleyfloodnet,alley_00752,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\31361_25265_2717.jpg,train,,image
+val/normal/alley_train_00762.jpg,val,normal,alleyfloodnet,alley_00762,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\827778_739893_3348.jpg,train,,image
+val/normal/alley_train_00768.jpg,val,normal,alleyfloodnet,alley_00768,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\alley-5050499_1280.jpg,train,,image
+val/normal/alley_train_00772.jpg,val,normal,alleyfloodnet,alley_00772,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\f505096b10874776ee52afdcf02de1a6.jpg,train,,image
+val/normal/alley_train_00773.jpg,val,normal,alleyfloodnet,alley_00773,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\hq720.jpg,train,,image
+val/normal/alley_train_00776.jpg,val,normal,alleyfloodnet,alley_00776,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\images (12).jpg,train,,image
+val/normal/alley_train_00794.jpg,val,normal,alleyfloodnet,alley_00794,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\images (32).jpg,train,,image
+val/normal/alley_train_00798.jpg,val,normal,alleyfloodnet,alley_00798,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\images (38).jpg,train,,image
+val/normal/alley_train_00815.jpg,val,normal,alleyfloodnet,alley_00815,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\images (58).jpg,train,,image
+val/normal/alley_train_00823.jpg,val,normal,alleyfloodnet,alley_00823,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\images (66).jpg,train,,image
+val/normal/alley_train_00824.jpg,val,normal,alleyfloodnet,alley_00824,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\images (67).jpg,train,,image
+val/normal/alley_train_00825.jpg,val,normal,alleyfloodnet,alley_00825,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\images (68).jpg,train,,image
+val/normal/alley_train_00829.jpg,val,normal,alleyfloodnet,alley_00829,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\images.jpg,train,,image
+val/normal/alley_train_00830.jpg,val,normal,alleyfloodnet,alley_00830,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\img (1).jpg,train,,image
+val/normal/alley_train_00876.jpg,val,normal,alleyfloodnet,alley_00876,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (25).jpg,train,,image
+val/normal/alley_train_00881.jpg,val,normal,alleyfloodnet,alley_00881,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (28) 3.jpg,train,,image
+val/normal/alley_train_00889.jpg,val,normal,alleyfloodnet,alley_00889,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (32) 3.jpg,train,,image
+val/normal/alley_train_00892.jpg,val,normal,alleyfloodnet,alley_00892,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (33).jpg,train,,image
+val/normal/alley_train_00897.jpg,val,normal,alleyfloodnet,alley_00897,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (36) 3.jpg,train,,image
+val/normal/alley_train_00907.jpg,val,normal,alleyfloodnet,alley_00907,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (41) 3.jpg,train,,image
+val/normal/alley_train_00908.jpg,val,normal,alleyfloodnet,alley_00908,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (41).jpg,train,,image
+val/normal/alley_train_00909.jpg,val,normal,alleyfloodnet,alley_00909,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (42) 3.jpg,train,,image
+val/normal/alley_train_00914.jpg,val,normal,alleyfloodnet,alley_00914,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (44).jpg,train,,image
+val/normal/alley_train_00933.jpg,val,normal,alleyfloodnet,alley_00933,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\다운로드 (61) 3.jpg,train,,image
+val/normal/alley_train_00947.jpg,val,normal,alleyfloodnet,alley_00947,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 151912.jpg,train,,image
+val/normal/alley_train_00949.jpg,val,normal,alleyfloodnet,alley_00949,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 151943.jpg,train,,image
+val/normal/alley_train_00951.jpg,val,normal,alleyfloodnet,alley_00951,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 152017.jpg,train,,image
+val/normal/alley_train_00952.jpg,val,normal,alleyfloodnet,alley_00952,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 152031.jpg,train,,image
+val/normal/alley_train_00967.jpg,val,normal,alleyfloodnet,alley_00967,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 152545.jpg,train,,image
+val/normal/alley_train_00975.jpg,val,normal,alleyfloodnet,alley_00975,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 152839.jpg,train,,image
+val/normal/alley_train_00976.jpg,val,normal,alleyfloodnet,alley_00976,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 152904.jpg,train,,image
+val/normal/alley_train_00979.jpg,val,normal,alleyfloodnet,alley_00979,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 153034.jpg,train,,image
+val/normal/alley_train_00982.jpg,val,normal,alleyfloodnet,alley_00982,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 153152.jpg,train,,image
+val/normal/alley_train_00983.jpg,val,normal,alleyfloodnet,alley_00983,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 153209.jpg,train,,image
+val/normal/alley_train_00986.jpg,val,normal,alleyfloodnet,alley_00986,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 153348.jpg,train,,image
+val/normal/alley_train_00987.jpg,val,normal,alleyfloodnet,alley_00987,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 153403.jpg,train,,image
+val/normal/alley_train_00997.jpg,val,normal,alleyfloodnet,alley_00997,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 153712.jpg,train,,image
+val/normal/alley_train_01009.jpg,val,normal,alleyfloodnet,alley_01009,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 172154.jpg,train,,image
+val/normal/alley_train_01014.jpg,val,normal,alleyfloodnet,alley_01014,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 172249.jpg,train,,image
+val/normal/alley_train_01018.jpg,val,normal,alleyfloodnet,alley_01018,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 172657.jpg,train,,image
+val/normal/alley_train_01019.jpg,val,normal,alleyfloodnet,alley_01019,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 172713.jpg,train,,image
+val/normal/alley_train_01031.jpg,val,normal,alleyfloodnet,alley_01031,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 173938.jpg,train,,image
+val/normal/alley_train_01052.jpg,val,normal,alleyfloodnet,alley_01052,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 175003.jpg,train,,image
+val/normal/alley_train_01054.jpg,val,normal,alleyfloodnet,alley_01054,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 175024.jpg,train,,image
+val/normal/alley_train_01059.jpg,val,normal,alleyfloodnet,alley_01059,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 175319.jpg,train,,image
+val/normal/alley_train_01065.jpg,val,normal,alleyfloodnet,alley_01065,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 175636.jpg,train,,image
+val/normal/alley_train_01069.jpg,val,normal,alleyfloodnet,alley_01069,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 175742.jpg,train,,image
+val/normal/alley_train_01070.jpg,val,normal,alleyfloodnet,alley_01070,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 175752.jpg,train,,image
+val/normal/alley_train_01086.jpg,val,normal,alleyfloodnet,alley_01086,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 181150.jpg,train,,image
+val/normal/alley_train_01088.jpg,val,normal,alleyfloodnet,alley_01088,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 181215.jpg,train,,image
+val/normal/alley_train_01091.jpg,val,normal,alleyfloodnet,alley_01091,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 181325.jpg,train,,image
+val/normal/alley_train_01097.jpg,val,normal,alleyfloodnet,alley_01097,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 181559.jpg,train,,image
+val/normal/alley_train_01107.jpg,val,normal,alleyfloodnet,alley_01107,C:\Users\bushr\OneDrive\Desktop\city pulse project\AlleyFloodNet\floodtrain\non_flooded\화면 캡처 2025-03-05 183124.jpg,train,,image

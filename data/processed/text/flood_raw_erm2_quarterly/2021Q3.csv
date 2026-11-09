@@ -1,0 +1,2648 @@
+day,borough,complaint_type,descriptor,n
+2021-07-01,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-07-01,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-01,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-01,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-01,BRONX,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-01,BRONX,Sewer,Street Flooding (SJ),3
+2021-07-01,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-07-01,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-01,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-01,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-07-01,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-07-01,BROOKLYN,Sewer,Street Flooding (SJ),6
+2021-07-01,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-01,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-01,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-01,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-01,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2021-07-01,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-01,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),18
+2021-07-01,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-07-01,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-01,QUEENS,Sewer,Highway Flooding (SH),1
+2021-07-01,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-01,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),3
+2021-07-01,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),25
+2021-07-01,QUEENS,Sewer,Street Flooding (SJ),5
+2021-07-01,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-07-01,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-01,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-01,STATEN ISLAND,Sewer,Street Flooding (SJ),6
+2021-07-02,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-02,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-02,BRONX,Sewer,Highway Flooding (SH),1
+2021-07-02,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-02,BRONX,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-02,BRONX,Sewer,Sewer Odor (SA2),2
+2021-07-02,BRONX,Sewer,Street Flooding (SJ),4
+2021-07-02,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-07-02,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-02,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-02,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),14
+2021-07-02,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-07-02,BROOKLYN,Sewer,Street Flooding (SJ),6
+2021-07-02,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-02,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-02,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),21
+2021-07-02,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-02,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),6
+2021-07-02,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-07-02,QUEENS,Sewer,Highway Flooding (SH),2
+2021-07-02,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-02,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),4
+2021-07-02,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-02,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-02,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),55
+2021-07-02,QUEENS,Sewer,Street Flooding (SJ),18
+2021-07-02,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-02,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-02,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-02,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-02,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-07-02,STATEN ISLAND,Sewer,Street Flooding (SJ),10
+2021-07-03,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-03,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-03,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-03,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-03,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-03,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-03,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-03,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),14
+2021-07-03,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-03,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-07-03,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-03,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-03,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-03,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-03,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-03,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2021-07-03,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-03,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-03,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-07-03,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-03,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),35
+2021-07-03,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-03,QUEENS,Sewer,Street Flooding (SJ),10
+2021-07-03,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-03,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-03,Unspecified,Sewer,Street Flooding (SJ),1
+2021-07-04,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-04,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-04,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-04,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-04,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-04,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-04,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-04,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-04,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-04,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-04,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2021-07-04,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-04,QUEENS,Sewer,Street Flooding (SJ),1
+2021-07-04,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-04,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-04,STATEN ISLAND,Sewer,Sewer Odor (SA2),2
+2021-07-05,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-05,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-05,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-05,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-05,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-05,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-07-05,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-05,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-05,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-05,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-05,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-05,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-05,QUEENS,Sewer,Street Flooding (SJ),1
+2021-07-05,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-05,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-06,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-06,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-06,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-06,BRONX,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-06,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-07-06,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-06,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-06,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),12
+2021-07-06,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-06,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-07-06,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-06,MANHATTAN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-06,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-06,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-06,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-06,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-06,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-06,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-06,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-06,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-06,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-06,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-06,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-06,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),20
+2021-07-06,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-06,QUEENS,Sewer,Street Flooding (SJ),3
+2021-07-06,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-07-06,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-06,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-06,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-07-06,STATEN ISLAND,Sewer,Street Flooding (SJ),16
+2021-07-06,Unspecified,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-07,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-07,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-07,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-07,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-07,BRONX,Sewer,Sewer Odor (SA2),2
+2021-07-07,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-07,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-07,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-07,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-07,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-07,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),19
+2021-07-07,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-07,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-07-07,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-07,MANHATTAN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-07,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-07,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-07,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),14
+2021-07-07,QUEENS,Sewer,Catch Basin Grating Missing (SA4),2
+2021-07-07,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),7
+2021-07-07,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-07,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-07,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-07-07,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-07,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-07-07,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-07-07,QUEENS,Sewer,Street Flooding (SJ),3
+2021-07-07,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-07,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-07,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-07,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-07,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),21
+2021-07-07,STATEN ISLAND,Sewer,Street Flooding (SJ),9
+2021-07-07,Unspecified,Sewer,Highway Flooding (SH),1
+2021-07-08,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),32
+2021-07-08,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-07-08,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),5
+2021-07-08,BRONX,Sewer,Highway Flooding (SH),3
+2021-07-08,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),11
+2021-07-08,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),4
+2021-07-08,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-08,BRONX,Sewer,Sewer Backup (Use Comments) (SA),105
+2021-07-08,BRONX,Sewer,Sewer Odor (SA2),2
+2021-07-08,BRONX,Sewer,Street Flooding (SJ),23
+2021-07-08,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-08,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-08,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2021-07-08,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-08,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-08,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-08,BROOKLYN,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-07-08,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-07-08,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-08,BROOKLYN,Sewer,Street Flooding (SJ),5
+2021-07-08,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-07-08,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-08,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-08,MANHATTAN,Sewer,Highway Flooding (SH),3
+2021-07-08,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),5
+2021-07-08,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-08,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-07-08,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),37
+2021-07-08,MANHATTAN,Sewer,Street Flooding (SJ),15
+2021-07-08,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),28
+2021-07-08,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-08,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-08,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),5
+2021-07-08,QUEENS,Sewer,Highway Flooding (SH),2
+2021-07-08,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2021-07-08,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-08,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),43
+2021-07-08,QUEENS,Sewer,Street Flooding (SJ),18
+2021-07-08,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2021-07-08,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11
+2021-07-08,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-08,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-08,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-08,STATEN ISLAND,Sewer,Street Flooding (SJ),2
+2021-07-09,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),21
+2021-07-09,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),4
+2021-07-09,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-09,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-09,BRONX,Sewer,Sewer Backup (Use Comments) (SA),54
+2021-07-09,BRONX,Sewer,Sewer Odor (SA2),1
+2021-07-09,BRONX,Sewer,Street Flooding (SJ),14
+2021-07-09,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),24
+2021-07-09,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-09,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-09,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-09,BROOKLYN,Sewer,Highway Flooding (SH),1
+2021-07-09,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-09,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),5
+2021-07-09,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-09,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),29
+2021-07-09,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-07-09,BROOKLYN,Sewer,Street Flooding (SJ),26
+2021-07-09,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-09,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-09,MANHATTAN,Sewer,Highway Flooding (SH),1
+2021-07-09,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-09,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-09,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),6
+2021-07-09,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-09,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-09,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-07-09,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-07-09,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-09,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-07-09,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-09,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-09,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-07-09,QUEENS,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-07-09,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),42
+2021-07-09,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-09,QUEENS,Sewer,Street Flooding (SJ),16
+2021-07-09,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),20
+2021-07-09,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-07-09,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-09,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-09,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),56
+2021-07-09,STATEN ISLAND,Sewer,Street Flooding (SJ),21
+2021-07-10,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-07-10,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-10,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-10,BRONX,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-07-10,BRONX,Sewer,Street Flooding (SJ),1
+2021-07-10,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-10,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-10,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-10,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-07-10,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-10,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-10,MANHATTAN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-10,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-10,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-10,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-07-10,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-10,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-10,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-10,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),6
+2021-07-10,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-10,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-10,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-10,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-07-10,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-10,QUEENS,Sewer,Street Flooding (SJ),4
+2021-07-10,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),12
+2021-07-10,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-10,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2021-07-10,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-10,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),35
+2021-07-10,STATEN ISLAND,Sewer,Street Flooding (SJ),6
+2021-07-11,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-11,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-11,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-11,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-11,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-11,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-11,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-07-11,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-11,MANHATTAN,Sewer,Street Flooding (SJ),2
+2021-07-11,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-07-11,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-11,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-11,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-11,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-07-11,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-11,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-11,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-11,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-11,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-07-11,STATEN ISLAND,Sewer,Street Flooding (SJ),2
+2021-07-12,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-07-12,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-12,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-12,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),9
+2021-07-12,BRONX,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-07-12,BRONX,Sewer,Sewer Backup (Use Comments) (SA),17
+2021-07-12,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),18
+2021-07-12,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-12,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2021-07-12,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-12,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-12,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),17
+2021-07-12,BROOKLYN,Sewer,Street Flooding (SJ),9
+2021-07-12,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-12,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-07-12,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-12,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-12,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),6
+2021-07-12,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),14
+2021-07-12,MANHATTAN,Sewer,Street Flooding (SJ),3
+2021-07-12,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),18
+2021-07-12,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-12,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-07-12,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-12,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-12,QUEENS,Sewer,Highway Flooding (SH),2
+2021-07-12,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-12,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-12,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),32
+2021-07-12,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-07-12,QUEENS,Sewer,Street Flooding (SJ),8
+2021-07-12,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),20
+2021-07-12,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-12,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-12,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-12,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-07-12,STATEN ISLAND,Sewer,Street Flooding (SJ),12
+2021-07-13,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-13,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-13,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-13,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-13,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),12
+2021-07-13,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-13,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-13,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-13,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-07-13,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-13,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-07-13,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-13,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-13,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-13,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),7
+2021-07-13,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-13,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-13,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11
+2021-07-13,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-13,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-07-13,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-13,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-13,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-13,QUEENS,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-07-13,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-07-13,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-13,QUEENS,Sewer,Street Flooding (SJ),4
+2021-07-13,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),12
+2021-07-13,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-13,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-13,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-13,STATEN ISLAND,Sewer,Street Flooding (SJ),4
+2021-07-14,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-14,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-14,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-14,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-14,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-14,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-14,BRONX,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-14,BRONX,Sewer,Sewer Odor (SA2),1
+2021-07-14,BRONX,Sewer,Street Flooding (SJ),1
+2021-07-14,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-14,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-14,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-14,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-14,BROOKLYN,Sewer,Manhole Sunken/Damaged/Raised (SB1),1
+2021-07-14,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-14,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-14,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-14,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-07-14,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-14,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-14,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-14,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-14,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-14,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-14,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-07-14,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-14,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-14,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-14,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-07-14,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-14,QUEENS,Sewer,Street Flooding (SJ),2
+2021-07-14,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),21
+2021-07-14,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-07-14,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-14,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-14,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-07-14,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-07-14,STATEN ISLAND,Sewer,Street Flooding (SJ),6
+2021-07-14,Unspecified,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-15,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-15,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-15,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-15,BRONX,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),1
+2021-07-15,BRONX,Sewer,Street Flooding (SJ),1
+2021-07-15,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-07-15,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-15,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-15,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-15,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-07-15,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-07-15,BROOKLYN,Sewer,Street Flooding (SJ),4
+2021-07-15,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-15,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-15,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-15,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-15,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-15,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2021-07-15,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-15,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-15,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),5
+2021-07-15,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-15,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),9
+2021-07-15,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),8
+2021-07-15,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-07-15,QUEENS,Sewer,Street Flooding (SJ),5
+2021-07-15,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2021-07-15,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-15,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-07-15,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-15,STATEN ISLAND,Sewer,Street Flooding (SJ),5
+2021-07-16,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-07-16,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-16,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-16,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-16,BRONX,Sewer,Street Flooding (SJ),1
+2021-07-16,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-07-16,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-07-16,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-16,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-07-16,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-07-16,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-16,BROOKLYN,Sewer,Street Flooding (SJ),5
+2021-07-16,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-16,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-16,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-16,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-16,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-16,MANHATTAN,Sewer,Sewer Odor (SA2),4
+2021-07-16,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-16,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-16,QUEENS,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),1
+2021-07-16,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-16,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-16,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-16,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-07-16,QUEENS,Sewer,Street Flooding (SJ),2
+2021-07-16,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-07-16,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-16,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-07-16,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-07-17,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-17,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-17,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-07-17,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-17,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-17,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-17,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-17,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-17,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-17,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-17,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),5
+2021-07-17,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-17,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-17,QUEENS,Sewer,Street Flooding (SJ),1
+2021-07-17,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),14
+2021-07-17,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-17,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-17,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-17,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-07-17,STATEN ISLAND,Sewer,Street Flooding (SJ),8
+2021-07-18,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-18,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-18,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-18,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-18,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-18,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-18,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-18,BROOKLYN,Sewer,Street Flooding (SJ),5
+2021-07-18,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-18,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-18,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-18,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-18,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-18,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-18,QUEENS,Sewer,Street Flooding (SJ),1
+2021-07-18,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-18,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-18,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-18,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-18,STATEN ISLAND,Sewer,Street Flooding (SJ),9
+2021-07-19,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-19,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-19,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-19,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-19,BRONX,Sewer,Sewer Odor (SA2),1
+2021-07-19,BRONX,Sewer,Street Flooding (SJ),1
+2021-07-19,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-07-19,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-19,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-19,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-19,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),8
+2021-07-19,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-19,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-07-19,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-19,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-19,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-07-19,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-19,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-07-19,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-19,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-19,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-19,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-19,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-07-19,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),12
+2021-07-19,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-19,QUEENS,Sewer,Street Flooding (SJ),1
+2021-07-19,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-19,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-19,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-19,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-19,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-19,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-07-20,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-20,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-20,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-20,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-20,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-20,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-20,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-20,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-20,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-20,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-20,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-07-20,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-20,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-07-20,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-20,MANHATTAN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-20,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-20,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-20,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-20,MANHATTAN,Sewer,Sewer Odor (SA2),4
+2021-07-20,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-20,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-20,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-20,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-20,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-07-20,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-20,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-07-20,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-20,QUEENS,Sewer,Street Flooding (SJ),4
+2021-07-20,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-20,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-20,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-07-20,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-20,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-07-21,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-21,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-21,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-21,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-21,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-21,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-21,BRONX,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-21,BRONX,Sewer,Sewer Odor (SA2),2
+2021-07-21,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2021-07-21,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),5
+2021-07-21,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-21,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-21,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-07-21,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-21,BROOKLYN,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),1
+2021-07-21,BROOKLYN,Sewer,Street Flooding (SJ),5
+2021-07-21,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-21,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-21,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-21,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-21,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),28
+2021-07-21,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-07-21,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-21,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-21,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-21,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-21,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-21,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),3
+2021-07-21,QUEENS,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-07-21,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),15
+2021-07-21,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-07-21,QUEENS,Sewer,Street Flooding (SJ),14
+2021-07-21,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-21,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-07-21,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-21,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-07-22,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-07-22,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-22,BRONX,Sewer,Sewer Odor (SA2),1
+2021-07-22,BRONX,Sewer,Street Flooding (SJ),1
+2021-07-22,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-22,BROOKLYN,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),1
+2021-07-22,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-22,BROOKLYN,Sewer,Manhole Cover Broken/Making Noise (SB),1
+2021-07-22,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-22,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-22,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),8
+2021-07-22,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-22,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-07-22,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-22,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-22,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-22,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-22,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),14
+2021-07-22,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),6
+2021-07-22,QUEENS,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),1
+2021-07-22,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-07-22,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-22,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-22,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),3
+2021-07-22,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),8
+2021-07-22,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-22,QUEENS,Sewer,Street Flooding (SJ),5
+2021-07-22,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-22,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-22,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-22,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-07-22,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-07-23,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-23,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-23,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-23,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-23,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-23,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-23,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-23,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-07-23,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-07-23,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-23,MANHATTAN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-23,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-23,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-23,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-07-23,MANHATTAN,Sewer,Street Flooding (SJ),6
+2021-07-23,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-23,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-23,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-23,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-23,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),12
+2021-07-23,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-07-23,QUEENS,Sewer,Street Flooding (SJ),2
+2021-07-23,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-23,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-23,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-23,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-23,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-07-24,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-07-24,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-24,BRONX,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-24,BRONX,Sewer,Street Flooding (SJ),1
+2021-07-24,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-24,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-24,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-24,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-24,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-07-24,BROOKLYN,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),1
+2021-07-24,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-07-24,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-24,MANHATTAN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-24,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-24,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-07-24,MANHATTAN,Sewer,Street Flooding (SJ),8
+2021-07-24,QUEENS,Sewer,Catch Basin Search (SC2),1
+2021-07-24,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-24,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-24,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-07-25,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-25,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-25,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-25,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-25,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-25,BROOKLYN,Sewer,Street Flooding (SJ),6
+2021-07-25,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-25,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-25,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-25,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-25,MANHATTAN,Sewer,Street Flooding (SJ),4
+2021-07-25,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-25,QUEENS,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),2
+2021-07-25,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-25,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-25,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-25,QUEENS,Sewer,Street Flooding (SJ),1
+2021-07-25,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-25,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-25,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-07-26,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-26,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-26,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-26,BRONX,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-07-26,BRONX,Sewer,Sewer Odor (SA2),1
+2021-07-26,BRONX,Sewer,Street Flooding (SJ),2
+2021-07-26,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-26,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-26,BROOKLYN,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),1
+2021-07-26,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-26,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-26,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-07-26,BROOKLYN,Sewer,Sewer Odor (SA2),4
+2021-07-26,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-07-26,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-26,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-26,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-07-26,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-26,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-26,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),19
+2021-07-26,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-26,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-26,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-26,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),3
+2021-07-26,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),54
+2021-07-26,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-26,QUEENS,Sewer,Street Flooding (SJ),6
+2021-07-26,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-26,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-26,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-26,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-07-27,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-07-27,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-27,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-27,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-27,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-27,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-07-27,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-27,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-07-27,BROOKLYN,Sewer,Sewer Odor (SA2),8
+2021-07-27,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-07-27,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2021-07-27,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-27,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-27,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-07-27,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2021-07-27,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-07-27,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-27,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-27,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-27,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-27,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),17
+2021-07-27,QUEENS,Sewer,Sewer Odor (SA2),8
+2021-07-27,QUEENS,Sewer,Street Flooding (SJ),2
+2021-07-27,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-27,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-27,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-28,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-28,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-28,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-28,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-28,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-28,BRONX,Sewer,Sewer Odor (SA2),1
+2021-07-28,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-28,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-28,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-07-28,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-07-28,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-07-28,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-28,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-28,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-28,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),15
+2021-07-28,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-28,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-07-28,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-28,QUEENS,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-07-28,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),13
+2021-07-28,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-28,QUEENS,Sewer,Street Flooding (SJ),3
+2021-07-28,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-07-28,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-07-28,STATEN ISLAND,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-28,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-28,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-28,STATEN ISLAND,Sewer,Street Flooding (SJ),2
+2021-07-29,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-07-29,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-29,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-07-29,BRONX,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-29,BRONX,Sewer,Street Flooding (SJ),2
+2021-07-29,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-29,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-29,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-07-29,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-07-29,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-07-29,BROOKLYN,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-07-29,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-07-29,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-29,BROOKLYN,Sewer,Street Flooding (SJ),4
+2021-07-29,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-07-29,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-29,MANHATTAN,Sewer,Street Flooding (SJ),4
+2021-07-29,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-29,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-29,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-29,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-07-29,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-07-29,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),12
+2021-07-29,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-07-29,QUEENS,Sewer,Street Flooding (SJ),3
+2021-07-29,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-07-29,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-07-29,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-29,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-07-29,STATEN ISLAND,Sewer,Street Flooding (SJ),7
+2021-07-30,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-07-30,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-07-30,BRONX,Sewer,Sewer Odor (SA2),2
+2021-07-30,BRONX,Sewer,Street Flooding (SJ),1
+2021-07-30,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-07-30,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-30,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-30,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-30,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-07-30,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-30,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-30,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-07-30,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-07-30,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-07-30,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-07-30,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-30,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-07-30,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),15
+2021-07-30,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-07-30,QUEENS,Sewer,Street Flooding (SJ),3
+2021-07-30,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-30,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-07-30,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-07-31,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-07-31,BRONX,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-07-31,BRONX,Sewer,Street Flooding (SJ),1
+2021-07-31,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-07-31,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-07-31,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-07-31,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-07-31,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-07-31,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-31,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-07-31,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-07-31,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-07-31,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-07-31,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-07-31,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-07-31,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-07-31,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-07-31,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-01,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-01,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-01,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-01,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-01,BRONX,Sewer,Street Flooding (SJ),1
+2021-08-01,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-01,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-08-01,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-01,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-01,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-01,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-01,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-01,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-01,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-01,MANHATTAN,Sewer,Street Flooding (SJ),10
+2021-08-01,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-01,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-01,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-01,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-01,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-01,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-01,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-02,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-02,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-02,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-02,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-02,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-02,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-08-02,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-02,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-02,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-08-02,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-02,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-08-02,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-02,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-02,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-02,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),12
+2021-08-02,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-02,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-02,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),13
+2021-08-02,QUEENS,Sewer,Sewer Odor (SA2),5
+2021-08-02,QUEENS,Sewer,Street Flooding (SJ),4
+2021-08-02,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-02,STATEN ISLAND,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-02,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-02,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-02,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-02,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-08-03,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-03,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-03,BRONX,Sewer,Highway Flooding (SH),1
+2021-08-03,BRONX,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-03,BRONX,Sewer,Sewer Odor (SA2),2
+2021-08-03,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-03,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-08-03,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-03,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-03,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-08-03,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-03,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-03,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-03,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2021-08-03,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-08-03,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-08-03,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-03,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-03,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),12
+2021-08-03,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-08-03,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-03,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-03,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-03,STATEN ISLAND,Sewer,Street Flooding (SJ),4
+2021-08-04,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-04,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-04,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-04,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-04,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-04,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-04,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-04,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-08-04,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-04,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-04,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-04,BROOKLYN,Sewer,Sewer Odor (SA2),4
+2021-08-04,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-04,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-04,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-04,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-04,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-04,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-08-04,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-04,QUEENS,Sewer,Sewer Odor (SA2),7
+2021-08-04,QUEENS,Sewer,Street Flooding (SJ),1
+2021-08-04,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-04,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-05,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-05,BRONX,Sewer,Catch Basin Grating Missing (SA4),2
+2021-08-05,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-05,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-05,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-05,BRONX,Sewer,Street Flooding (SJ),1
+2021-08-05,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-05,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-05,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-05,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-08-05,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-08-05,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-05,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-05,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-05,MANHATTAN,Sewer,Highway Flooding (SH),1
+2021-08-05,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-05,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-05,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-05,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2021-08-05,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-05,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-08-05,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-05,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-05,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-05,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-05,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-08-05,QUEENS,Sewer,Street Flooding (SJ),4
+2021-08-05,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-05,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-05,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-08-06,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-06,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-06,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-06,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-06,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-06,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-06,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-06,BRONX,Sewer,Street Flooding (SJ),3
+2021-08-06,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-06,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-06,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-06,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-06,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-06,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-06,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-06,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-06,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-06,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2021-08-06,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-08-06,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-06,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-06,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-06,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-08-06,QUEENS,Sewer,Street Flooding (SJ),1
+2021-08-06,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-06,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-06,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-07,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-07,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-07,BRONX,Sewer,Street Flooding (SJ),2
+2021-08-07,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-07,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-07,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-08-07,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-07,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),8
+2021-08-07,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-08-07,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-07,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-07,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-07,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-07,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-07,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-07,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-07,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-08-07,QUEENS,Sewer,Street Flooding (SJ),1
+2021-08-07,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-07,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-07,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-08-08,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-08,BRONX,Sewer,Street Flooding (SJ),8
+2021-08-08,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-08,BROOKLYN,Sewer,Catch Basin Connection Broken *Dep Internal Use Only* (SC5),1
+2021-08-08,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-08,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-08,BROOKLYN,Sewer,Street Flooding (SJ),5
+2021-08-08,MANHATTAN,Sewer,Street Flooding (SJ),3
+2021-08-08,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-08,QUEENS,Sewer,Catch Basin Grating Missing (SA4),2
+2021-08-08,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-08,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-08,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-08-08,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-08,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-08,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-08-08,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-08-09,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-09,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-09,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-09,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-09,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-09,BRONX,Sewer,Sewer Odor (SA2),2
+2021-08-09,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-09,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-09,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-08-09,BROOKLYN,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-08-09,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-09,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-08-09,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-09,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-09,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-09,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-09,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-09,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-09,MANHATTAN,Sewer,Street Flooding (SJ),11
+2021-08-09,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-08-09,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-09,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-09,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-08-09,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-08-09,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-08-09,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-08-09,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-09,QUEENS,Sewer,Street Flooding (SJ),8
+2021-08-09,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-09,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-09,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-08-10,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-10,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-10,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-10,BRONX,Sewer,Street Flooding (SJ),4
+2021-08-10,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-08-10,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),2
+2021-08-10,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-10,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-10,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-10,BROOKLYN,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-08-10,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-08-10,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-08-10,BROOKLYN,Sewer,Street Flooding (SJ),5
+2021-08-10,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-10,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-10,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-10,MANHATTAN,Sewer,Sewer Odor (SA2),3
+2021-08-10,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-08-10,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-10,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-10,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-10,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-10,QUEENS,Sewer,Street Flooding (SJ),3
+2021-08-10,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-10,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-10,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-10,STATEN ISLAND,Sewer,Street Flooding (SJ),2
+2021-08-11,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-11,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-11,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-11,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-11,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),12
+2021-08-11,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-11,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-11,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),8
+2021-08-11,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-11,BROOKLYN,Sewer,Street Flooding (SJ),4
+2021-08-11,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-11,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-11,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-11,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-11,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-11,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-11,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2021-08-11,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-11,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-11,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-11,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-08-11,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-11,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-11,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-08-11,QUEENS,Sewer,Street Flooding (SJ),4
+2021-08-11,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-11,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-11,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-11,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-08-11,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-08-12,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-12,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-12,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-12,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-12,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-12,BRONX,Sewer,Street Flooding (SJ),15
+2021-08-12,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-08-12,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-12,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-12,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-12,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-12,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-12,BROOKLYN,Sewer,Street Flooding (SJ),7
+2021-08-12,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-12,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-08-12,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2021-08-12,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-08-12,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-12,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-12,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-12,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-12,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-12,QUEENS,Sewer,Street Flooding (SJ),1
+2021-08-12,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-12,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-12,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-12,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-13,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-13,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-08-13,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-13,BRONX,Sewer,Street Flooding (SJ),11
+2021-08-13,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-13,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-13,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-13,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-13,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-08-13,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-08-13,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-08-13,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-13,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-13,MANHATTAN,Sewer,Manhole Cover Broken/Making Noise (SB),1
+2021-08-13,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-13,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-13,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-13,MANHATTAN,Sewer,Street Flooding (SJ),2
+2021-08-13,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-13,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-08-13,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-13,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-08-13,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),12
+2021-08-13,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-13,QUEENS,Sewer,Street Flooding (SJ),1
+2021-08-13,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-13,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-13,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-08-14,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-14,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-08-14,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-14,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-14,BRONX,Sewer,Street Flooding (SJ),5
+2021-08-14,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-14,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-14,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-14,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-14,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-08-14,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-14,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-14,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-14,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-14,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-14,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),8
+2021-08-14,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-08-14,QUEENS,Sewer,Street Flooding (SJ),2
+2021-08-14,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-14,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-14,Unspecified,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-15,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-15,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-15,BRONX,Sewer,Street Flooding (SJ),2
+2021-08-15,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-15,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-15,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-15,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-15,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-15,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-15,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-15,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-08-15,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-15,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-15,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-15,MANHATTAN,Sewer,Street Flooding (SJ),10
+2021-08-15,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-15,QUEENS,Sewer,Catch Basin Search (SC2),1
+2021-08-15,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-15,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-15,QUEENS,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),1
+2021-08-15,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-15,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-15,QUEENS,Sewer,Street Flooding (SJ),1
+2021-08-15,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-15,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-16,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-16,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-16,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-16,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-16,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-16,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-16,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-16,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-08-16,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-16,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-16,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-08-16,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-08-16,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-16,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-16,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-08-16,MANHATTAN,Sewer,Street Flooding (SJ),3
+2021-08-16,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-16,QUEENS,Sewer,Catch Basin Grating Missing (SA4),2
+2021-08-16,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-16,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-08-16,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),13
+2021-08-16,QUEENS,Sewer Maintenance,Curb Piece,1
+2021-08-16,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-08-16,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-17,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-17,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-17,BRONX,Sewer,Street Flooding (SJ),1
+2021-08-17,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-17,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-17,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-08-17,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-08-17,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-17,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-17,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-08-17,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-08-17,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-17,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-17,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-17,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-17,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),5
+2021-08-17,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-08-17,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-17,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-17,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-08-17,QUEENS,Sewer,Sewer Odor (SA2),4
+2021-08-17,QUEENS,Sewer,Street Flooding (SJ),1
+2021-08-17,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-08-17,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-17,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-18,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-18,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-08-18,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-18,BRONX,Sewer,Sewer Odor (SA2),3
+2021-08-18,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-18,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-18,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-18,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-18,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-18,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-18,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-18,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-18,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-18,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-18,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-18,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-18,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-08-18,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-08-18,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-18,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-18,QUEENS,Sewer,Street Flooding (SJ),4
+2021-08-18,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-18,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-18,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-18,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-19,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-19,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-19,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-19,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-19,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-19,BRONX,Sewer,Street Flooding (SJ),6
+2021-08-19,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11
+2021-08-19,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-19,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-19,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-19,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),20
+2021-08-19,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-19,BROOKLYN,Sewer,Street Flooding (SJ),6
+2021-08-19,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-19,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-19,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-19,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-19,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-19,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-08-19,MANHATTAN,Sewer,Street Flooding (SJ),4
+2021-08-19,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11
+2021-08-19,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-19,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-08-19,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-08-19,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-19,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-19,QUEENS,Sewer,Street Flooding (SJ),3
+2021-08-19,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-19,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-19,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-19,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-19,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-08-20,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-20,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-20,BRONX,Sewer,Street Flooding (SJ),2
+2021-08-20,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-08-20,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-08-20,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-20,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-08-20,BROOKLYN,Sewer,Sewer Odor (SA2),4
+2021-08-20,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-20,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-20,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-20,MANHATTAN,Sewer,Street Flooding (SJ),5
+2021-08-20,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11
+2021-08-20,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-20,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-20,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-08-20,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-20,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-20,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-20,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-08-20,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),13
+2021-08-20,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-20,QUEENS,Sewer,Street Flooding (SJ),1
+2021-08-20,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-20,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-20,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-08-21,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-21,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-21,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-21,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-21,BRONX,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-08-21,BRONX,Sewer,Street Flooding (SJ),8
+2021-08-21,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),26
+2021-08-21,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-21,BROOKLYN,Sewer,Highway Flooding (SH),1
+2021-08-21,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-21,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-21,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-21,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),130
+2021-08-21,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-08-21,BROOKLYN,Sewer,Street Flooding (SJ),43
+2021-08-21,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-21,MANHATTAN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-21,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-21,MANHATTAN,Sewer,Street Flooding (SJ),5
+2021-08-21,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),19
+2021-08-21,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-21,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-21,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-21,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-08-21,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),49
+2021-08-21,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-08-21,QUEENS,Sewer,Street Flooding (SJ),15
+2021-08-21,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-21,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-21,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-22,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-08-22,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-22,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-22,BRONX,Sewer,Highway Flooding (SH),1
+2021-08-22,BRONX,Sewer,Sewer Backup (Use Comments) (SA),35
+2021-08-22,BRONX,Sewer,Street Flooding (SJ),10
+2021-08-22,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),64
+2021-08-22,BROOKLYN,Sewer,Catch Basin Connection Broken *Dep Internal Use Only* (SC5),1
+2021-08-22,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-22,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-22,BROOKLYN,Sewer,Highway Flooding (SH),2
+2021-08-22,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-08-22,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2021-08-22,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-22,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),271
+2021-08-22,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-22,BROOKLYN,Sewer,Street Flooding (SJ),45
+2021-08-22,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-08-22,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-22,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-22,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-08-22,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),6
+2021-08-22,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-08-22,MANHATTAN,Sewer,Street Flooding (SJ),6
+2021-08-22,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),31
+2021-08-22,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-22,QUEENS,Sewer,Highway Flooding (SH),3
+2021-08-22,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-08-22,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2021-08-22,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-22,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),99
+2021-08-22,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-22,QUEENS,Sewer,Street Flooding (SJ),30
+2021-08-22,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),21
+2021-08-22,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-22,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-08-22,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),7
+2021-08-22,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),4
+2021-08-22,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-22,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),122
+2021-08-22,STATEN ISLAND,Sewer,Street Flooding (SJ),66
+2021-08-22,Unspecified,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-22,Unspecified,Sewer,Highway Flooding (SH),2
+2021-08-22,Unspecified,Sewer,Street Flooding (SJ),1
+2021-08-23,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2021-08-23,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-23,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-23,BRONX,Sewer,Sewer Backup (Use Comments) (SA),13
+2021-08-23,BRONX,Sewer,Street Flooding (SJ),6
+2021-08-23,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),43
+2021-08-23,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-23,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-08-23,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-23,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-23,BROOKLYN,Sewer,Highway Flooding (SH),4
+2021-08-23,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-23,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-08-23,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),115
+2021-08-23,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-08-23,BROOKLYN,Sewer,Street Flooding (SJ),14
+2021-08-23,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-23,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-08-23,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-23,MANHATTAN,Sewer,Street Flooding (SJ),13
+2021-08-23,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),29
+2021-08-23,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-23,QUEENS,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),1
+2021-08-23,QUEENS,Sewer,Highway Flooding (SH),1
+2021-08-23,QUEENS,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-08-23,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),41
+2021-08-23,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-08-23,QUEENS,Sewer,Street Flooding (SJ),17
+2021-08-23,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),21
+2021-08-23,STATEN ISLAND,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-23,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-08-23,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-23,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-08-23,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),45
+2021-08-23,STATEN ISLAND,Sewer,Street Flooding (SJ),13
+2021-08-24,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-08-24,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-24,BRONX,Sewer,Sewer Backup (Use Comments) (SA),13
+2021-08-24,BRONX,Sewer,Sewer Odor (SA2),1
+2021-08-24,BRONX,Sewer,Street Flooding (SJ),2
+2021-08-24,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2021-08-24,BROOKLYN,Sewer,Catch Basin Connection Broken *Dep Internal Use Only* (SC5),1
+2021-08-24,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-08-24,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-08-24,BROOKLYN,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-08-24,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),47
+2021-08-24,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-08-24,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-08-24,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-24,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-24,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-24,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-24,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-08-24,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-08-24,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),12
+2021-08-24,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-08-24,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-08-24,QUEENS,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),1
+2021-08-24,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-24,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-24,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-08-24,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-08-24,QUEENS,Sewer,Street Flooding (SJ),4
+2021-08-24,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-08-24,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-24,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),15
+2021-08-24,STATEN ISLAND,Sewer,Street Flooding (SJ),5
+2021-08-25,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-25,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-25,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-25,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-25,BRONX,Sewer,Street Flooding (SJ),1
+2021-08-25,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),21
+2021-08-25,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-25,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-25,BROOKLYN,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-08-25,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),31
+2021-08-25,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-08-25,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-08-25,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-25,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-25,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-25,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-08-25,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),15
+2021-08-25,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-25,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-08-25,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-25,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-08-25,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-08-25,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-08-25,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-08-25,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-25,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-25,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-25,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-08-26,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-08-26,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-26,BRONX,Sewer,Sewer Odor (SA2),2
+2021-08-26,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),12
+2021-08-26,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-26,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-26,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-08-26,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-26,BROOKLYN,Sewer,Street Flooding (SJ),7
+2021-08-26,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-26,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-26,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-26,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-08-26,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-26,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-26,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-08-26,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-08-26,QUEENS,Sewer,Street Flooding (SJ),2
+2021-08-26,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-26,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-26,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-26,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-26,STATEN ISLAND,Sewer,Street Flooding (SJ),2
+2021-08-27,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-27,BRONX,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-08-27,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-27,BRONX,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-08-27,BRONX,Sewer,Street Flooding (SJ),2
+2021-08-27,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-08-27,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-27,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-27,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-27,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),22
+2021-08-27,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-27,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-08-27,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-27,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-27,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-27,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),15
+2021-08-27,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-27,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-27,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-27,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-27,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),27
+2021-08-27,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-08-27,QUEENS,Sewer,Street Flooding (SJ),8
+2021-08-27,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2021-08-27,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-27,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-27,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),4
+2021-08-27,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-08-27,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-08-27,STATEN ISLAND,Sewer,Street Flooding (SJ),16
+2021-08-28,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-28,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-28,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-28,BRONX,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-28,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-08-28,BRONX,Sewer,Street Flooding (SJ),1
+2021-08-28,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-28,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-28,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-28,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-28,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-08-28,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-28,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-08-28,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-28,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-28,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-08-28,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-28,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-08-28,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),14
+2021-08-28,QUEENS,Sewer,Street Flooding (SJ),2
+2021-08-28,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-28,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-28,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-08-28,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-08-28,STATEN ISLAND,Sewer,Street Flooding (SJ),5
+2021-08-29,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-08-29,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-29,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-29,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-29,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-29,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-08-29,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-08-29,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-08-29,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-29,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-29,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-29,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-08-29,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-08-29,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-08-29,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-29,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),8
+2021-08-29,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-08-29,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-29,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-30,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-30,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-30,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-08-30,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),20
+2021-08-30,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-30,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-30,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-30,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),26
+2021-08-30,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-08-30,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-08-30,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-30,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-30,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-30,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),14
+2021-08-30,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-08-30,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-30,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-08-30,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),13
+2021-08-30,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-08-30,QUEENS,Sewer,Street Flooding (SJ),1
+2021-08-30,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-08-30,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-30,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-08-30,STATEN ISLAND,Sewer,Street Flooding (SJ),4
+2021-08-31,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-08-31,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-08-31,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-08-31,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-31,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-31,BRONX,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-08-31,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2021-08-31,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-31,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-31,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-08-31,BROOKLYN,Sewer,Sewer Odor (SA2),4
+2021-08-31,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-08-31,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-08-31,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-31,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-08-31,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-08-31,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-31,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-08-31,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-08-31,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-08-31,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-08-31,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),14
+2021-08-31,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-08-31,QUEENS,Sewer,Street Flooding (SJ),4
+2021-08-31,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2021-08-31,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-08-31,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-08-31,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-08-31,STATEN ISLAND,Sewer,Street Flooding (SJ),4
+2021-09-01,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-09-01,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-01,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),4
+2021-09-01,BRONX,Sewer,Highway Flooding (SH),2
+2021-09-01,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-01,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-09-01,BRONX,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-01,BRONX,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-09-01,BRONX,Sewer,Sewer Backup (Use Comments) (SA),125
+2021-09-01,BRONX,Sewer,Sewer Odor (SA2),2
+2021-09-01,BRONX,Sewer,Street Flooding (SJ),30
+2021-09-01,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),70
+2021-09-01,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-09-01,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),4
+2021-09-01,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-01,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-01,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),6
+2021-09-01,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),7
+2021-09-01,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),317
+2021-09-01,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-01,BROOKLYN,Sewer,Street Flooding (SJ),78
+2021-09-01,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-09-01,MANHATTAN,Sewer,Highway Flooding (SH),2
+2021-09-01,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-01,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-01,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-09-01,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),30
+2021-09-01,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-01,MANHATTAN,Sewer,Street Flooding (SJ),7
+2021-09-01,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),41
+2021-09-01,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-01,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),5
+2021-09-01,QUEENS,Sewer,Highway Flooding (SH),3
+2021-09-01,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),7
+2021-09-01,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),9
+2021-09-01,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-01,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),353
+2021-09-01,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-09-01,QUEENS,Sewer,Street Flooding (SJ),115
+2021-09-01,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),50
+2021-09-01,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-01,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-01,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),5
+2021-09-01,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),4
+2021-09-01,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),208
+2021-09-01,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-09-01,STATEN ISLAND,Sewer,Street Flooding (SJ),114
+2021-09-02,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),38
+2021-09-02,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-02,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-02,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-02,BRONX,Sewer,Highway Flooding (SH),4
+2021-09-02,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-02,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2021-09-02,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),29
+2021-09-02,BRONX,Sewer,Sewer Backup (Use Comments) (SA),330
+2021-09-02,BRONX,Sewer,Street Flooding (SJ),27
+2021-09-02,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),96
+2021-09-02,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-02,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-02,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-02,BROOKLYN,Sewer,Highway Flooding (SH),2
+2021-09-02,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),9
+2021-09-02,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),8
+2021-09-02,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),9
+2021-09-02,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),740
+2021-09-02,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-02,BROOKLYN,Sewer,Street Flooding (SJ),99
+2021-09-02,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),15
+2021-09-02,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-02,MANHATTAN,Sewer,Highway Flooding (SH),3
+2021-09-02,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),5
+2021-09-02,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-02,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),38
+2021-09-02,MANHATTAN,Sewer,Street Flooding (SJ),10
+2021-09-02,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),90
+2021-09-02,QUEENS,Sewer,Catch Basin Grating Missing (SA4),2
+2021-09-02,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),5
+2021-09-02,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),6
+2021-09-02,QUEENS,Sewer,Highway Flooding (SH),4
+2021-09-02,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),27
+2021-09-02,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),19
+2021-09-02,QUEENS,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-09-02,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),835
+2021-09-02,QUEENS,Sewer,Sewer Odor (SA2),4
+2021-09-02,QUEENS,Sewer,Street Flooding (SJ),132
+2021-09-02,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),56
+2021-09-02,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-09-02,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-02,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),7
+2021-09-02,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),8
+2021-09-02,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-02,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),428
+2021-09-02,STATEN ISLAND,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),1
+2021-09-02,STATEN ISLAND,Sewer,Street Flooding (SJ),82
+2021-09-02,Unspecified,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-02,Unspecified,Sewer,Highway Flooding (SH),1
+2021-09-02,Unspecified,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-03,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-09-03,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-09-03,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-03,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-03,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),50
+2021-09-03,BRONX,Sewer,Sewer Backup (Use Comments) (SA),50
+2021-09-03,BRONX,Sewer,Sewer Odor (SA2),1
+2021-09-03,BRONX,Sewer,Street Flooding (SJ),5
+2021-09-03,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),33
+2021-09-03,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-03,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-09-03,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-03,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),5
+2021-09-03,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-03,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),192
+2021-09-03,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-09-03,BROOKLYN,Sewer,Street Flooding (SJ),22
+2021-09-03,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-03,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-03,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-03,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-09-03,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-09-03,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-03,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-03,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),45
+2021-09-03,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),5
+2021-09-03,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),5
+2021-09-03,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),6
+2021-09-03,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-03,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-03,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),265
+2021-09-03,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-03,QUEENS,Sewer,Street Flooding (SJ),18
+2021-09-03,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),19
+2021-09-03,STATEN ISLAND,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-03,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-03,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-03,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-03,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),69
+2021-09-03,STATEN ISLAND,Sewer,Street Flooding (SJ),17
+2021-09-03,Unspecified,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-09-04,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-04,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-04,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-04,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-04,BRONX,Sewer,Sewer Backup (Use Comments) (SA),38
+2021-09-04,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-04,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),18
+2021-09-04,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-04,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-04,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-04,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),91
+2021-09-04,BROOKLYN,Sewer,Street Flooding (SJ),5
+2021-09-04,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-04,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-09-04,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-04,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),6
+2021-09-04,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-09-04,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-04,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-04,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),127
+2021-09-04,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-04,QUEENS,Sewer,Street Flooding (SJ),7
+2021-09-04,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-09-04,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-09-04,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-04,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-04,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-04,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),49
+2021-09-04,STATEN ISLAND,Sewer,Street Flooding (SJ),4
+2021-09-05,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-05,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-05,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-05,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-05,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-05,BRONX,Sewer,Sewer Backup (Use Comments) (SA),35
+2021-09-05,BRONX,Sewer,Sewer Odor (SA2),2
+2021-09-05,BRONX,Sewer,Street Flooding (SJ),3
+2021-09-05,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),19
+2021-09-05,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-05,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),51
+2021-09-05,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-09-05,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,1
+2021-09-05,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-09-05,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-05,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-05,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-05,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-05,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),14
+2021-09-05,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-09-05,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-05,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-05,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-05,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),114
+2021-09-05,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-05,QUEENS,Sewer,Street Flooding (SJ),7
+2021-09-05,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-05,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-05,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-05,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-05,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-05,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),46
+2021-09-05,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-09-06,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-09-06,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),5
+2021-09-06,BRONX,Sewer,Sewer Backup (Use Comments) (SA),38
+2021-09-06,BRONX,Sewer,Street Flooding (SJ),3
+2021-09-06,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2021-09-06,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-06,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-06,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-06,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-06,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),56
+2021-09-06,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-06,BROOKLYN,Sewer,Street Flooding (SJ),8
+2021-09-06,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-06,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-09-06,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-06,MANHATTAN,Sewer,Street Flooding (SJ),3
+2021-09-06,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),20
+2021-09-06,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-06,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),84
+2021-09-06,QUEENS,Sewer,Sewer Odor (SA2),5
+2021-09-06,QUEENS,Sewer,Street Flooding (SJ),4
+2021-09-06,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2021-09-06,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-06,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-06,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-06,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),41
+2021-09-06,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-09-07,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-09-07,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-07,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-07,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),16
+2021-09-07,BRONX,Sewer,Sewer Backup (Use Comments) (SA),34
+2021-09-07,BRONX,Sewer,Sewer Odor (SA2),2
+2021-09-07,BRONX,Sewer,Street Flooding (SJ),2
+2021-09-07,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),34
+2021-09-07,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-07,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-07,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-07,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-07,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-07,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-07,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),91
+2021-09-07,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-07,BROOKLYN,Sewer,Street Flooding (SJ),6
+2021-09-07,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-09-07,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-09-07,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-07,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-09-07,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),25
+2021-09-07,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-07,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-07,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),8
+2021-09-07,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-07,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),122
+2021-09-07,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-09-07,QUEENS,Sewer,Street Flooding (SJ),6
+2021-09-07,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),15
+2021-09-07,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-07,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-07,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),37
+2021-09-07,STATEN ISLAND,Sewer,Street Flooding (SJ),4
+2021-09-08,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-09-08,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-09-08,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-08,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-08,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),26
+2021-09-08,BRONX,Sewer,Sewer Backup (Use Comments) (SA),25
+2021-09-08,BRONX,Sewer,Sewer Odor (SA2),1
+2021-09-08,BRONX,Sewer,Street Flooding (SJ),2
+2021-09-08,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),29
+2021-09-08,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-08,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),4
+2021-09-08,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-08,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-08,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-09-08,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),80
+2021-09-08,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-09-08,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-09-08,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-08,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-08,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-09-08,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-09-08,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-08,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),33
+2021-09-08,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),5
+2021-09-08,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-09-08,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-08,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-08,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-09-08,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-08,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),104
+2021-09-08,QUEENS,Sewer,Street Flooding (SJ),8
+2021-09-08,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),27
+2021-09-08,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-08,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),34
+2021-09-08,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-09-08,STATEN ISLAND,Sewer,Street Flooding (SJ),7
+2021-09-08,Unspecified,Sewer,Street Flooding (SJ),1
+2021-09-09,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2021-09-09,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-09,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-09,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),15
+2021-09-09,BRONX,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-09-09,BRONX,Sewer,Street Flooding (SJ),4
+2021-09-09,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),30
+2021-09-09,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-09,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-09,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-09,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-09,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),64
+2021-09-09,BROOKLYN,Sewer,Street Flooding (SJ),4
+2021-09-09,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-09-09,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-09,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-09,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),48
+2021-09-09,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),6
+2021-09-09,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-09,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2021-09-09,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-09,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),81
+2021-09-09,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-09,QUEENS,Sewer,Street Flooding (SJ),10
+2021-09-09,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-09-09,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-09,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-09,STATEN ISLAND,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-09,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-09,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-09,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),20
+2021-09-09,STATEN ISLAND,Sewer,Sewer Odor (SA2),3
+2021-09-09,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-09-10,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-09-10,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-10,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-10,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-10,BRONX,Sewer,Sewer Backup (Use Comments) (SA),20
+2021-09-10,BRONX,Sewer,Sewer Odor (SA2),1
+2021-09-10,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-10,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-09-10,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-10,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-10,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-10,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-10,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),39
+2021-09-10,BROOKLYN,Sewer,Street Flooding (SJ),5
+2021-09-10,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-10,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-10,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-10,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-10,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-09-10,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),21
+2021-09-10,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-09-10,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-10,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-10,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-10,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),35
+2021-09-10,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-10,QUEENS,Sewer,Street Flooding (SJ),5
+2021-09-10,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11
+2021-09-10,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-10,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),14
+2021-09-11,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-09-11,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-11,BRONX,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-09-11,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-11,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-11,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-11,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-11,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),17
+2021-09-11,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-09-11,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-09-11,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-09-11,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-11,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-09-11,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-11,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-11,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-11,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-11,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2021-09-11,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-11,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),44
+2021-09-11,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-09-11,QUEENS,Sewer,Street Flooding (SJ),5
+2021-09-11,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-11,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-11,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-09-11,STATEN ISLAND,Sewer,Sewer Odor (SA2),2
+2021-09-12,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-12,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-12,BRONX,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-09-12,BRONX,Sewer,Sewer Odor (SA2),1
+2021-09-12,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-09-12,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-12,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-12,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-12,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-09-12,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-09-12,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-09-12,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-09-12,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-12,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-12,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-12,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-12,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-12,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),24
+2021-09-12,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-12,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-12,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-09-13,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2021-09-13,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-13,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-13,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-13,BRONX,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-09-13,BRONX,Sewer,Sewer Odor (SA2),3
+2021-09-13,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-09-13,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2021-09-13,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-13,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),37
+2021-09-13,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-09-13,BROOKLYN,Sewer,Street Flooding (SJ),3
+2021-09-13,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-13,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-13,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-13,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-13,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2021-09-13,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),29
+2021-09-13,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-13,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-13,QUEENS,Sewer,Manhole Cover Broken/Making Noise (SB),2
+2021-09-13,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-13,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-13,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-13,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),42
+2021-09-13,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-09-13,QUEENS,Sewer,Street Flooding (SJ),1
+2021-09-13,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-09-13,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-13,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),13
+2021-09-13,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-09-14,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-09-14,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-14,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-14,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-14,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),5
+2021-09-14,BRONX,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-09-14,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-14,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),26
+2021-09-14,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-14,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2021-09-14,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-09-14,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),37
+2021-09-14,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-09-14,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-09-14,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-09-14,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-14,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-14,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-14,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),5
+2021-09-14,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-09-14,MANHATTAN,Sewer,Sewer Odor (SA2),4
+2021-09-14,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),18
+2021-09-14,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-14,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2021-09-14,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-14,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),44
+2021-09-14,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-09-14,QUEENS,Sewer,Street Flooding (SJ),1
+2021-09-14,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2021-09-14,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-14,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-14,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),12
+2021-09-14,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-09-14,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-09-15,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-15,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-15,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-15,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),6
+2021-09-15,BRONX,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-09-15,BRONX,Sewer,Sewer Odor (SA2),2
+2021-09-15,BRONX,Sewer,Street Flooding (SJ),3
+2021-09-15,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),15
+2021-09-15,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-15,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-15,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-15,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-15,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),28
+2021-09-15,BROOKLYN,Sewer,Sewer Break (SBR),1
+2021-09-15,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-09-15,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-09-15,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-09-15,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-15,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-15,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-15,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-09-15,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-15,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-15,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),14
+2021-09-15,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-15,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),4
+2021-09-15,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-15,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-15,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),32
+2021-09-15,QUEENS,Sewer,Street Flooding (SJ),4
+2021-09-15,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-09-15,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-15,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-15,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),6
+2021-09-15,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-09-15,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-09-16,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-16,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-09-16,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-16,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-16,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-16,BRONX,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-09-16,BRONX,Sewer,Sewer Odor (SA2),1
+2021-09-16,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-16,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-09-16,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-16,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-16,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-16,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),20
+2021-09-16,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-16,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-09-16,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-09-16,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-16,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-09-16,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-16,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),21
+2021-09-16,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-16,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-16,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-16,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2021-09-16,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),24
+2021-09-16,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-09-16,QUEENS,Sewer,Street Flooding (SJ),1
+2021-09-16,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-09-16,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-16,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2021-09-16,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-16,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-09-16,STATEN ISLAND,Sewer,Street Flooding (SJ),2
+2021-09-17,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-17,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-17,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-17,BRONX,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-09-17,BRONX,Sewer,Sewer Odor (SA2),3
+2021-09-17,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-09-17,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-17,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-17,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-17,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-17,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),22
+2021-09-17,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-09-17,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-17,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-17,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-09-17,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2021-09-17,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2021-09-17,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),5
+2021-09-17,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-17,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-17,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2021-09-17,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-17,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-17,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),27
+2021-09-17,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-09-17,QUEENS,Sewer,Street Flooding (SJ),2
+2021-09-17,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-09-17,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-17,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-09-17,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-09-17,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-09-18,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-18,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-18,BRONX,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-09-18,BRONX,Sewer,Sewer Odor (SA2),1
+2021-09-18,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-18,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-18,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),2
+2021-09-18,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),12
+2021-09-18,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-09-18,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-09-18,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-09-18,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-18,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-18,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-18,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-18,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2021-09-18,QUEENS,Sewer,Sewer Odor (SA2),2
+2021-09-18,QUEENS,Sewer,Street Flooding (SJ),2
+2021-09-18,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-09-18,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-18,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-18,STATEN ISLAND,Sewer,Manhole Sunken/Damaged/Raised (SB1),1
+2021-09-18,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-09-18,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-09-19,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-19,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-19,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-19,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-19,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-19,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-09-19,BROOKLYN,Sewer,Street Flooding (SJ),1
+2021-09-19,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-09-19,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-19,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-19,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-19,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-19,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-09-19,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-19,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-19,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-09-19,QUEENS,Sewer,Sewer Odor (SA2),4
+2021-09-19,QUEENS,Sewer,Street Flooding (SJ),2
+2021-09-19,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-09-19,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-19,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-09-19,Unspecified,Sewer,Street Flooding (SJ),1
+2021-09-20,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-20,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-20,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+2021-09-20,BRONX,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-09-20,BRONX,Sewer,Sewer Odor (SA2),2
+2021-09-20,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-20,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-09-20,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-20,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-20,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),18
+2021-09-20,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-09-20,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-09-20,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-09-20,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-20,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-20,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-20,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-20,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-20,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-20,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-20,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-20,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-20,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-20,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-20,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-20,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-20,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),2
+2021-09-20,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),27
+2021-09-20,QUEENS,Sewer,Sewer Odor (SA2),6
+2021-09-20,QUEENS,Sewer,Street Flooding (SJ),3
+2021-09-20,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-09-20,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-20,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-20,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2021-09-20,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-09-20,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-09-21,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-09-21,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-21,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-21,BRONX,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-09-21,BRONX,Sewer,Sewer Odor (SA2),4
+2021-09-21,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-21,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-09-21,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-21,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-21,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),25
+2021-09-21,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-09-21,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-09-21,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-21,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-21,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-21,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-09-21,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-09-21,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-21,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-21,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),22
+2021-09-21,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-21,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-21,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-21,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-21,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-21,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),25
+2021-09-21,QUEENS,Sewer,Sewer Odor (SA2),6
+2021-09-21,QUEENS,Sewer,Street Flooding (SJ),1
+2021-09-21,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-21,STATEN ISLAND,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-21,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-21,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-09-21,STATEN ISLAND,Sewer,Street Flooding (SJ),2
+2021-09-22,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-09-22,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-22,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-22,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-22,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-22,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2021-09-22,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-09-22,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-22,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-22,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-22,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-22,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-09-22,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-09-22,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-09-22,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-22,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-22,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-22,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),20
+2021-09-22,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-22,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-22,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-09-22,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-22,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-22,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),15
+2021-09-22,QUEENS,Sewer,Sewer Odor (SA2),5
+2021-09-22,QUEENS,Sewer,Street Flooding (SJ),1
+2021-09-22,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2021-09-22,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-09-22,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-22,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-22,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-22,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-23,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),23
+2021-09-23,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-23,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-23,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-23,BRONX,Sewer,Sewer Backup (Use Comments) (SA),17
+2021-09-23,BRONX,Sewer,Sewer Odor (SA2),1
+2021-09-23,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-23,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),32
+2021-09-23,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-23,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-23,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-23,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-23,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-23,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),35
+2021-09-23,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-23,BROOKLYN,Sewer,Street Flooding (SJ),14
+2021-09-23,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-23,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-23,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-09-23,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-23,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),32
+2021-09-23,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-09-23,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),5
+2021-09-23,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-23,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-23,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),33
+2021-09-23,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-23,QUEENS,Sewer,Street Flooding (SJ),7
+2021-09-23,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),37
+2021-09-23,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-23,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),16
+2021-09-23,STATEN ISLAND,Sewer,Street Flooding (SJ),9
+2021-09-24,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),12
+2021-09-24,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-24,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),4
+2021-09-24,BRONX,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-09-24,BRONX,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-09-24,BRONX,Sewer,Sewer Odor (SA2),1
+2021-09-24,BRONX,Sewer,Street Flooding (SJ),4
+2021-09-24,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),18
+2021-09-24,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-24,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-24,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-24,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-24,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),27
+2021-09-24,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2021-09-24,BROOKLYN,Sewer,Street Flooding (SJ),5
+2021-09-24,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-24,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2021-09-24,MANHATTAN,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-24,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-24,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-24,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-24,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-24,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-24,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),22
+2021-09-24,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-24,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-24,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-24,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-24,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-24,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-24,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),37
+2021-09-24,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-24,QUEENS,Sewer,Street Flooding (SJ),7
+2021-09-24,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),15
+2021-09-24,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),6
+2021-09-24,STATEN ISLAND,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-24,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-24,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-09-25,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-25,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2021-09-25,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-25,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-25,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-25,BRONX,Sewer,Sewer Odor (SA2),1
+2021-09-25,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-25,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-25,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-09-25,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-25,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-25,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-25,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-09-25,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2021-09-25,QUEENS,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+2021-09-25,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),9
+2021-09-25,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-09-25,QUEENS,Sewer,Street Flooding (SJ),3
+2021-09-25,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-25,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-25,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-25,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-26,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2021-09-26,BRONX,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-09-26,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2021-09-26,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-26,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-26,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-26,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-26,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-09-26,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-26,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-09-26,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-26,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-26,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),10
+2021-09-26,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-26,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-09-26,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2021-09-27,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-09-27,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-09-27,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11
+2021-09-27,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-27,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-27,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-27,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),18
+2021-09-27,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-27,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-27,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-27,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-27,MANHATTAN,Sewer,Street Flooding (SJ),1
+2021-09-27,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2021-09-27,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-27,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2021-09-27,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-27,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-27,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-27,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),14
+2021-09-27,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-27,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2021-09-27,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-27,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2021-09-27,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-27,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-27,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-09-28,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-28,BRONX,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-28,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2021-09-28,BRONX,Sewer,Street Flooding (SJ),1
+2021-09-28,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),12
+2021-09-28,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-28,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-28,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-28,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),19
+2021-09-28,BROOKLYN,Sewer,Sewer Break (SBR),1
+2021-09-28,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-28,BROOKLYN,Sewer,Street Flooding (SJ),4
+2021-09-28,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-09-28,MANHATTAN,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+2021-09-28,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-28,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2021-09-28,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2021-09-28,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2021-09-28,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2021-09-28,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2021-09-28,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),12
+2021-09-28,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-28,QUEENS,Sewer,Street Flooding (SJ),1
+2021-09-28,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2021-09-28,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2021-09-28,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),4
+2021-09-28,STATEN ISLAND,Sewer,Street Flooding (SJ),4
+2021-09-28,Unspecified,Sewer,Street Flooding (SJ),1
+2021-09-29,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-29,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-29,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-29,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-09-29,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-29,BROOKLYN,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-29,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),15
+2021-09-29,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2021-09-29,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2021-09-29,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2021-09-29,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-29,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-09-29,QUEENS,Sewer,RAIN GARDEN DEBRIS (SRGDBR),1
+2021-09-29,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),6
+2021-09-29,QUEENS,Sewer,Sewer Odor (SA2),3
+2021-09-29,QUEENS,Sewer,Street Flooding (SJ),1
+2021-09-29,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2021-09-29,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-29,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-29,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2021-09-29,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2021-09-30,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2021-09-30,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-30,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-30,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2021-09-30,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2021-09-30,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),11
+2021-09-30,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2021-09-30,BROOKLYN,Sewer,Street Flooding (SJ),2
+2021-09-30,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-09-30,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-30,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2021-09-30,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2021-09-30,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2021-09-30,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2021-09-30,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-30,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),2
+2021-09-30,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2021-09-30,QUEENS,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+2021-09-30,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),15
+2021-09-30,QUEENS,Sewer,Sewer Odor (SA2),1
+2021-09-30,QUEENS,Sewer,Street Flooding (SJ),1
+2021-09-30,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2021-09-30,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2021-09-30,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2021-09-30,STATEN ISLAND,Sewer,Street Flooding (SJ),2
