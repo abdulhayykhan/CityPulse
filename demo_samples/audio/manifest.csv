@@ -1,0 +1,11 @@
+file,source,original_path,fold,true_class,original_class
+construction_us8k_99192-4-0-40.wav,us8k,data/raw/UrbanSound8K/audio/fold10/99192-4-0-40.wav,10,construction,drilling
+construction_us8k_162134-7-15-4.wav,us8k,data/raw/UrbanSound8K/audio/fold10/162134-7-15-4.wav,10,construction,jackhammer
+hvac_us8k_73524-0-0-92.wav,us8k,data/raw/UrbanSound8K/audio/fold10/73524-0-0-92.wav,10,hvac,air_conditioner
+hvac_us8k_189985-0-0-0.wav,us8k,data/raw/UrbanSound8K/audio/fold10/189985-0-0-0.wav,10,hvac,air_conditioner
+music_loudspeaker_us8k_83191-9-0-11.wav,us8k,data/raw/UrbanSound8K/audio/fold10/83191-9-0-11.wav,10,music_loudspeaker,street_music
+music_loudspeaker_us8k_171478-9-0-4.wav,us8k,data/raw/UrbanSound8K/audio/fold10/171478-9-0-4.wav,10,music_loudspeaker,street_music
+siren_us8k_159742-8-0-12.wav,us8k,data/raw/UrbanSound8K/audio/fold10/159742-8-0-12.wav,10,siren,siren
+traffic_horn_us8k_24076-1-1-0.wav,us8k,data/raw/UrbanSound8K/audio/fold10/24076-1-1-0.wav,10,traffic_horn,car_horn
+siren_esc50_3-51909-A-42.wav,esc50,data/raw/ESC-50/audio/3-51909-A-42.wav,3,siren,siren
+traffic_horn_esc50_3-155130-A-43.wav,esc50,data/raw/ESC-50/audio/3-155130-A-43.wav,3,traffic_horn,car_horn

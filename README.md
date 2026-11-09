@@ -79,6 +79,9 @@ python tests/check_notebooks.py
 ## Docs (`docs/`)
 * [`docs/image_rules.md`](docs/image_rules.md) — Part 2 image pipeline guidelines (`image_rules.md`: `GroupShuffleSplit` on `image_id`, relative manifest paths, bootstrap confidence intervals, and `scikit-learn 1.9.1` model packaging).
 
+## Docs (`docs/`)
+* [`docs/audio_rules.md`](docs/audio_rules.md) — Part 3 audio pipeline guidelines (source-grouped splits, 22,050 Hz / 4 s fixed clips, 64-band log-Mel features, train-only `relative_intensity` bounds, degraded-data training, and cross-dataset evaluation).
+
 ## Data
 
 **Raw datasets are NOT committed to this repository.**
