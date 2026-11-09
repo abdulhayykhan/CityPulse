@@ -10,7 +10,7 @@ Output required by the guide: `predict_image(path)`, a saved model, a metrics ta
 | 5 Embeddings (MobileNetV2, 1280-d) | `s5_extract_embeddings.py` | `X_{train,val,test}.npy` + labels + meta |
 | 6 SVM vs Random Forest | `s6_train_models.py` | `metrics_summary.csv`, `per_class_metrics.csv`, confusion matrices, `models/image_model.joblib` |
 | 7 Flood cross-set + bootstrap CI | `s7_flood_crossset.py` | `flood_crossset_results.csv`, `flood_crossset_ci.png` |
-| 8 Package for Zainab | `s8_package_demo.py` + `src/models/image.py` | `demo_samples/images/` (10 photos + `demo_manifest.csv`) |
+| 8 Package for Zainab | `s8_package_demo.py` + `src/models/image.py` | `demo_samples/images/` (10 photos) + `results/image/demo_manifest.csv` |
 | 9 Optional augmentation | `s9_augmentation_experiment.py` | `augmentation_experiment.csv` |
 | Report material | `s10_report_material.py` | `report_material.md`, `metrics_for_group_chat.md` |
 
@@ -28,7 +28,7 @@ Other locations work too: pass `--rdd-root` / `--alley-root`.
 conda activate citypulse
 python src/image/run_all.py                       # everything, in guide order
 python src/image/run_all.py --skip-flood          # guide fallback: no flood class
-python src/image/run_all.py --flood2-root PATH    # if you obtain a 2nd flood dataset (flood/ + non_flood/ folders)
+python src/image/run_all.py --flood2-root PATH    # 2nd flood dataset (Mendeley images/labels or flood/ + non_flood/)
 python src/image/run_all.py --with-augmentation   # adds optional Step 9
 ```
 Or run the steps one by one (`python src/image/s1_s2_inspect_rdd.py`, ...). Each step only needs the previous step's files and prints its own "Done when" check.
