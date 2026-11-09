@@ -76,6 +76,9 @@ python tests/check_notebooks.py
 
 ---
 
+## Docs (`docs/`)
+* [`docs/image_rules.md`](docs/image_rules.md) — Part 2 image pipeline guidelines (`image_rules.md`: `GroupShuffleSplit` on `image_id`, relative manifest paths, bootstrap confidence intervals, and `scikit-learn 1.9.1` model packaging).
+
 ## Data
 
 **Raw datasets are NOT committed to this repository.**
