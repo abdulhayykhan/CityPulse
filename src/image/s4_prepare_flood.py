@@ -1,7 +1,7 @@
 """
 Guide Part 2, Step 4 - flood images (AlleyFloodNet from Kaggle)
 
-AlleyFloodNet layout:  train/{flooded,non_flooded}  and  test/{flooded,non_flooded}
+AlleyFloodNet layout:  train/{flooded,non_flooded}, [val/{flooded,non_flooded}], and test/{flooded,non_flooded}
 
 What this does
   1. Puts every AlleyFloodNet image into  data/processed/image/flood_sources/alleyfloodnet/{flood,non_flood}/
@@ -9,8 +9,8 @@ What this does
   2. Adds them to the classifier dataset:
         flooded      -> class 'flood'
         non_flooded  -> class 'normal'   (guide: "non-flood images can be added to the normal class")
-     Original AlleyFloodNet TEST  -> our test split.
-     Original AlleyFloodNet TRAIN -> our train (85%) / val (15%), stratified.
+     Strictly preserves the official train / val / test splits provided by the source layout
+     (no random re-splitting across subsets).
   3. Writes manifest.csv (RDD + flood) and the final class-count table + figure.
 
 Fallback (guide): if you cannot use the flood data, run with --skip-flood. The classifier
@@ -28,7 +28,6 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
-from sklearn.model_selection import train_test_split
 
 import common as cm
 import config as C
@@ -48,7 +47,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--alley-root", default=str(C.ALLEY_ROOT))
     ap.add_argument("--skip-flood", action="store_true", help="drop the flood class (guide fallback)")
-    ap.add_argument("--seed", type=int, default=C.SEED)
+    ap.add_argument("--seed", type=int, default=C.SEED, help="unused (official splits strictly preserved)")
     a = ap.parse_args()
 
     cm.ensure_dirs()
@@ -87,18 +86,19 @@ def main():
             dst.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(r.path, dst)
 
-        # 2) assign to our splits ----------------------------------------------
+        # 2) strictly preserve official train / val / test splits -------------
         al = al.reset_index(drop=True)
-        al["split"] = ""
-        is_test = al.orig_split == "test"
-        al.loc[is_test, "split"] = "test"
-        rest = al[~is_test]
-        if len(rest):
-            tr_idx, va_idx = train_test_split(rest.index, test_size=0.15, stratify=rest.cls, random_state=a.seed)
-            al.loc[tr_idx, "split"] = "train"
-            al.loc[va_idx, "split"] = "val"
-        if (al.split == "").any():
-            raise SystemExit("[error] could not assign splits for some AlleyFloodNet images")
+        bad = ~al.orig_split.isin(["train", "val", "test"])
+        if bad.any():
+            examples = [str(p) for p in al.loc[bad, "path"].head(5)]
+            raise SystemExit(
+                "[error] could not detect official split (train/val/test) for "
+                f"{int(bad.sum())} AlleyFloodNet image(s), e.g.: {examples}"
+            )
+        al["split"] = al["orig_split"]
+        if (al.split == "val").sum() == 0:
+            print("[warn] AlleyFloodNet source layout has no official val/ split; "
+                  "strictly preserving train/ and test/ only (0 AlleyFloodNet val samples).")
 
         # remove a previous run of this step, then copy
         for old in C.DATASET_DIR.rglob("alley_*"):

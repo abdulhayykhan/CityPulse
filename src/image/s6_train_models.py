@@ -39,9 +39,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
+import sklearn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import (accuracy_score, balanced_accuracy_score, confusion_matrix,
-                             precision_recall_fscore_support)
+                             f1_score, precision_recall_fscore_support)
 from sklearn.model_selection import GridSearchCV, GroupKFold
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
@@ -56,6 +57,12 @@ warnings.filterwarnings("ignore", category=FutureWarning)   # sklearn>=1.9 notes
 def predict_via_proba(model, X):
     proba = model.predict_proba(X)
     return model.classes_[proba.argmax(axis=1)], proba
+
+
+def proba_macro_f1(estimator, X, y):
+    """Macro-F1 matching deployment argmax(predict_proba) inference."""
+    pred, _ = predict_via_proba(estimator, X)
+    return f1_score(y, pred, average="macro", zero_division=0)
 
 
 def summarize(name, split, y_true, y_pred, classes):
@@ -110,18 +117,15 @@ def main():
     t0 = time.time()
 
     # ---------------------------------------------------------------- SVM
-    print("\n[SVM] grid search (grouped CV, macro-F1) ...")
+    print("\n[SVM] grid search (grouped CV, predict_proba macro-F1, probability=True) ...")
     svm_pipe = Pipeline([("scaler", StandardScaler()),
-                         ("svc", SVC(kernel="rbf", class_weight="balanced", probability=False, random_state=C.SEED))])
+                         ("svc", SVC(kernel="rbf", class_weight="balanced", probability=True, random_state=C.SEED))])
     svm_grid = {"svc__C": [0.1, 1, 10, 100], "svc__gamma": ["scale", 0.001, 0.0001]}
-    gs_svm = GridSearchCV(svm_pipe, svm_grid, scoring="f1_macro", cv=cv, n_jobs=a.n_jobs, refit=False, verbose=1)
+    gs_svm = GridSearchCV(svm_pipe, svm_grid, scoring=proba_macro_f1, cv=cv, n_jobs=a.n_jobs, refit=True, verbose=1)
     gs_svm.fit(Xtr, ytr, groups=groups)
     best_svm_params = gs_svm.best_params_
     print("[SVM] best:", best_svm_params, "| CV macro-F1 = %.4f" % gs_svm.best_score_)
-    svm = Pipeline([("scaler", StandardScaler()),
-                    ("svc", SVC(kernel="rbf", class_weight="balanced", probability=True, random_state=C.SEED,
-                                C=best_svm_params["svc__C"], gamma=best_svm_params["svc__gamma"]))])
-    svm.fit(Xtr, ytr)          # probability=True -> final fit with Platt scaling (used by predict_image)
+    svm = gs_svm.best_estimator_
 
     # ---------------------------------------------------------------- RF
     print("\n[RF] grid search (200 vs 300 trees) ...")
@@ -129,7 +133,7 @@ def main():
         return Pipeline([("scaler", StandardScaler()),
                          ("rf", RandomForestClassifier(class_weight="balanced", n_jobs=1, random_state=C.SEED, **kw))])
     rf_grid = {"rf__n_estimators": [200, 300]}
-    gs_rf = GridSearchCV(make_rf(), rf_grid, scoring="f1_macro", cv=cv, n_jobs=a.n_jobs, refit=False, verbose=1)
+    gs_rf = GridSearchCV(make_rf(), rf_grid, scoring=proba_macro_f1, cv=cv, n_jobs=a.n_jobs, refit=False, verbose=1)
     gs_rf.fit(Xtr, ytr, groups=groups)
     best_rf_params = gs_rf.best_params_
     print("[RF] best:", best_rf_params, "| CV macro-F1 = %.4f" % gs_rf.best_score_)
@@ -190,7 +194,8 @@ def main():
 
     (C.RESULTS / "best_params.json").write_text(json.dumps(
         dict(svm=best_svm_params, rf=best_rf_params, cv_macro_f1_train=cv_scores,
-             cv="GroupKFold(%d) by image id" % cv.n_splits, scoring="f1_macro"), indent=2, default=str))
+             cv="GroupKFold(%d) by image id" % cv.n_splits, scoring="f1_macro (predict_proba argmax)",
+             sklearn_version=sklearn.__version__), indent=2, default=str))
 
     print("\n" + "=" * 70)
     print("SVM vs RANDOM FOREST")
@@ -214,6 +219,7 @@ def main():
         estimator=best, classes=list(best.classes_), model_name=best_name,
         backbone="mobilenet_v2", backbone_state=sd, pretrained=bool(info["pretrained"]),
         img_size=C.IMG_SIZE, mean=C.IMAGENET_MEAN, std=C.IMAGENET_STD,
+        sklearn_version=sklearn.__version__,
         test_metrics=dict(accuracy=float(test_row.accuracy), macro_f1=float(test_row.macro_f1)),
         note="predict_image(): MobileNetV2 1280-d embedding -> estimator.predict_proba; type=argmax, confidence=max proba",
     )
@@ -227,7 +233,8 @@ def main():
 
     reload = joblib.load(out)
     Xt = D["test"][0][:5]
-    print("reload check, first 5 test rows ->", list(reload["estimator"].predict(Xt)), "| truth", list(D["test"][1][:5]))
+    print("reload check, sklearn_version =", reload.get("sklearn_version"),
+          "| first 5 test rows ->", list(predict_via_proba(reload["estimator"], Xt)[0]), "| truth", list(D["test"][1][:5]))
     print(f"\nDONE (Step 6) in {time.time() - t0:.0f} s. Post the table above in the group chat. Next: s7, s8.")
 
 

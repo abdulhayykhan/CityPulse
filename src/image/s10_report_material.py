@@ -22,7 +22,12 @@ def md(df, floatfmt=3):
     for _, r in df.iterrows():
         cells = []
         for v in r:
-            cells.append(f"{v:.{floatfmt}f}" if isinstance(v, float) else str(v))
+            if pd.isna(v):
+                cells.append("-")
+            elif isinstance(v, float):
+                cells.append(f"{v:.{floatfmt}f}")
+            else:
+                cells.append(str(v))
         out.append("| " + " | ".join(cells) + " |")
     return "\n".join(out)
 
@@ -75,7 +80,9 @@ def main():
           "See `confusion_matrix_svm_test.png` and `confusion_matrix_rf_test.png` (counts and row-normalised).", ""]
     R += ["## 4. Flood cross-set result", ""]
     if flood is not None:
-        R += [md(flood[["experiment", "train_set", "test_set", "n_test", "accuracy", "ci95_low", "ci95_high", "flood_recall", "false_alarm_rate"]]), "",
+        fcols = [c for c in ["experiment", "train_set", "test_set", "n_test", "accuracy", "ci95_low", "ci95_high",
+                             "flood_precision", "flood_recall", "false_alarm_rate"] if c in flood.columns]
+        R += [md(flood[fcols]), "",
               "95% percentile bootstrap CI over test images (2,000 resamples).", ""]
         if not flood.experiment.str.startswith("C").any():
             R += ["**Only one flood dataset was available**, so the two-way cross-set test of the guide (train on one dataset, "

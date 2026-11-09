@@ -12,6 +12,9 @@ python -c "import librosa, sklearn, fastapi; print('ok')"
 ## Branch workflow
 Work on your own branch (`audio`, `image`, `data-ml`, `fullstack`). Phase complete -> merge into `dev` via PR. Finalized -> `dev` into `main`. Never push directly to `main`.
 
+## Docs (`docs/`)
+* [`docs/image_rules.md`](docs/image_rules.md) — Part 2 image pipeline guidelines (`image_rules.md`: `GroupShuffleSplit` on `image_id`, relative manifest paths, bootstrap confidence intervals, and `scikit-learn 1.9.1` model packaging).
+
 ## Data
 Raw datasets are not committed. Download instructions and licenses: see `data/README.md` (to be added).
 
