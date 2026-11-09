@@ -12,6 +12,9 @@ python -c "import librosa, sklearn, fastapi; print('ok')"
 ## Branch workflow
 Work on your own branch (`audio`, `image`, `data-ml`, `fullstack`). Phase complete -> merge into `dev` via PR. Finalized -> `dev` into `main`. Never push directly to `main`.
 
+## Docs (`docs/`)
+* [`docs/audio_rules.md`](docs/audio_rules.md) — Part 3 audio pipeline guidelines (source-grouped splits, 22,050 Hz / 4 s fixed clips, 64-band log-Mel features, train-only `relative_intensity` bounds, degraded-data training, and cross-dataset evaluation).
+
 ## Data
 Raw datasets are not committed. Download instructions and licenses: see `data/README.md` (to be added).
 
