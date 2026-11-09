@@ -1,19 +1,140 @@
 # CityPulse: A Multi-Sensor Urban Hazard Network
 
-ML pipeline and web app for road-hazard photos and urban-noise audio. Trained and evaluated on public datasets only (UrbanSound8K, ESC-50, RDD2022, flood image sets, NYC 311, Open-Meteo).
+CityPulse is a multi-sensor machine learning pipeline and web application for detecting, prioritizing, and forecasting urban hazards—combining road-hazard imagery, urban-noise audio, municipal 311 service requests, and historical weather feeds. All models and analytics are trained and evaluated exclusively on public datasets (**UrbanSound8K**, **ESC-50**, **RDD2022**, public flood image sets, **NYC 311**, **Open-Meteo**, and **OpenStreetMap**).
+
+---
+
+## Overview
+
+CityPulse unifies multimodal hazard sensing with municipal analytics across three core pillars:
+
+- **Audio & Visual Hazard Sensing**: Audio classification for urban noise events and computer vision detection for road damage and surface flooding (`backend/`, `frontend/`).
+- **Municipal Spatio-Temporal Analytics (`src/preprocessing/`, `src/clustering/`)**: Ingestion, cleaning, planar equirectangular projection, descriptor taxonomy mapping, spatio-temporal incident deduplication (`within 200 m and 4 h`), and balanced 8-zone hotspot profiling across Brooklyn 311 complaints (`data/processed/zones.json`).
+- **Predictive Modeling & Triage (`src/models/`, `models/`)**:
+  - **Daily Flood Risk (`predict_flood_risk`)**: Linear regression (`models/flood_model.joblib`) linking daily and lagged **Open-Meteo** precipitation to expected municipal flood complaints for risk-tier alerting.
+  - **Hourly Noise Baseline (`predict_noise_v2`)**: Hour-by-weekday interaction regression (`models/noise_model_v2.joblib`) capturing late-night weekend surges and diurnal noise profiles.
+  - **Complaint Trust Scoring (`score_trust`)**: Calibrated, prior-shifted logistic regression (`models/trust_model.joblib`) estimating empirical resolution validity from complaint metadata and causal 24-hour spatial density (`nearby_prior_24h_200m`).
+
+For methodological caveats, proxy-label scope, and deployment guardrails, see [`report/ethics_and_limitations.md`](report/ethics_and_limitations.md).
+
+---
+
+## Repository Structure
+
+```text
+CityPulse/
+├── src/
+│   ├── preprocessing/   # 311 extraction, Open-Meteo ingestion, cleaning, feature engineering
+│   ├── clustering/      # Spatio-temporal hierarchical deduplication & K-Means zone profiling
+│   ├── models/          # Flood regression, noise interaction model, trust scorer & label rules
+│   ├── inventory.py     # Processed dataset & schema inventory helpers
+│   └── nbutils.py       # Shared notebook setup and programmatic Checker utilities
+├── models/              # Serialized joblib model bundles (flood, noise, trust)
+├── notebooks/           # Executed end-to-end analysis, audit, and modeling notebooks
+├── tools/               # Notebook generator scripts
+├── tests/               # Unit tests (pytest) and notebook structural verifier (check_notebooks.py)
+├── docs/                # Notebook rules, reproduction guide, and integration handoff docs
+├── report/              # Project proposal, execution guide, figures/, and ethics_and_limitations.md
+├── backend/             # Backend API service workspace
+├── frontend/            # Frontend web application workspace
+├── environment.yml      # Conda environment specification (Python 3.11 + ffmpeg)
+└── requirements.txt     # Python package dependencies
+```
+
+---
 
 ## Setup
+
+### 1. Create and Activate the Conda Environment
+
 ```bash
 conda env create -f environment.yml
 conda activate citypulse
+```
+
+### 2. Register the Jupyter Kernel
+
+Register the `citypulse` environment as a Jupyter kernel before running or executing notebooks:
+
+```bash
+python -m ipykernel install --user --name citypulse --display-name "Python (citypulse)"
+```
+
+### 3. Verify Installation
+
+Confirm core audio, ML, and API dependencies import cleanly:
+
+```bash
 python -c "import librosa, sklearn, fastapi; print('ok')"
 ```
 
-## Branch workflow
-Work on your own branch (`audio`, `image`, `data-ml`, `fullstack`). Phase complete -> merge into `dev` via PR. Finalized -> `dev` into `main`. Never push directly to `main`.
+Run unit tests and the notebook structural/execution verification suite from the repository root:
+
+```bash
+python -m pytest tests
+python tests/check_notebooks.py
+```
+
+When authoring or updating notebooks, follow [`docs/notebook_rules.md`](docs/notebook_rules.md) (thin notebooks importing from `src/`, `nbconvert --execute`, `< 2 MB` size limit, and zero absolute user paths in outputs).
+
+---
 
 ## Data
-Raw datasets are not committed. Download instructions and licenses: see `data/README.md` (to be added).
 
-## Dataset licenses
-This repository's code is MIT-licensed; the datasets are not. UrbanSound8K and ESC-50 are CC BY-NC (non-commercial); RDD2022 is CC BY-SA 4.0; Open-Meteo is CC BY 4.0; OpenStreetMap is ODbL. Check each dataset's license before any reuse.
+**Raw datasets are NOT committed to this repository.**
+
+To keep the repository lightweight and respect upstream data terms, raw dumps under `data/raw/*` (such as full **NYC 311** CSV exports) and large intermediate/derived tables under `data/processed/` (including `*.csv.gz`, `311_cube.csv`, `311_resolutions_cube.csv`, `complaints_clean.csv`, `incidents.csv`, and `complaint_incident_map.csv`) are excluded via [`.gitignore`](.gitignore).
+
+Primary public data sources:
+- **NYC 311**: *311 Service Requests from 2020 to Present* via NYC Open Data / Socrata APIs.
+- **Open-Meteo**: Historical daily and hourly precipitation feeds via the Open-Meteo Historical Weather API.
+- **Audio, Road & Map Corpora**: UrbanSound8K, ESC-50, RDD2022, public flood image sets, and OpenStreetMap.
+
+For full pipeline execution order, script commands, and intermediate artifact specifications, see [`docs/reproduce.md`](docs/reproduce.md). For downstream backend/frontend model signatures, CSV reading conventions, and schema contracts, see [`docs/handoff_zainab.md`](docs/handoff_zainab.md).
+
+---
+
+## Branch Workflow
+
+Contributors develop features on dedicated domain branches (`audio`, `image`, `data-ml`, `fullstack`). Completed phases merge into `dev` via pull request, and finalized releases merge from `dev` into `main`. Never push directly to `main`.
+
+---
+
+## Dataset Licenses
+
+Upstream public datasets carry their own terms and licenses—verify each source before redistribution or commercial reuse:
+- **UrbanSound8K & ESC-50**: CC BY-NC (non-commercial)
+- **RDD2022**: CC BY-SA 4.0
+- **Open-Meteo**: CC BY 4.0
+- **OpenStreetMap**: ODbL
+- **NYC 311 (NYC Open Data)**: Public open data
+
+---
+
+## License
+
+This project's source code and documentation are released under the **MIT License** — see [`LICENSE`](LICENSE) for the full license text.
+
+```text
+MIT License
+
+Copyright (c) 2026 Abdul Hayy Khan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
