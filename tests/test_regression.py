@@ -24,6 +24,7 @@ from src.models.regression import (
     chrono_split,
     fit_eval,
     build_noise_hourly,
+    add_noise_interaction_features,
     predict_flood_risk,
     predict_noise,
 )
@@ -207,4 +208,60 @@ def test_noise_grid_has_24_hours_per_date():
     assert sub_10["count"].iloc[0] == 1
     sub_11 = grid_df[(grid_df["date"] == "2026-01-01") & (grid_df["hour"] == 11)]
     assert sub_11["count"].iloc[0] == 0
+
+
+def test_noise_interaction_features_and_predict():
+    """Verify hour * weekday interaction columns (23 * 6 = 138) and predict_noise interaction inference."""
+    df_sample = pd.DataFrame([
+        {"group": "noise", "date": "2026-01-01", "hour": 23, "is_midnight_timestamp": False},  # Thu (weekday=3)
+        {"group": "noise", "date": "2026-01-03", "hour": 23, "is_midnight_timestamp": False},  # Sat (weekday=5)
+    ])
+    grid_df, meta = build_noise_hourly(
+        df_sample,
+        start_date="2026-01-01",
+        end_date="2026-01-03",
+        include_interactions=True,
+    )
+    assert len(meta["hour_features"]) == 23
+    assert len(meta["weekday_features"]) == 6
+    assert len(meta["interaction_features"]) == 23 * 6
+    assert len(meta["all_features"]) == 167
+
+    # Check exact cell indicator for Sat (weekday=5), hour=23
+    sat_23 = grid_df[(grid_df["weekday"] == 5) & (grid_df["hour"] == 23)].iloc[0]
+    assert sat_23["hour_23"] == 1.0
+    assert sat_23["weekday_5"] == 1.0
+    assert sat_23["hour_23_x_weekday_5"] == 1.0
+    assert sat_23["hour_23_x_weekday_3"] == 0.0
+
+    # Fit synthetic interaction model where hour=23 & weekday=5 has a +50 surge
+    feature_names = meta["all_features"]
+    lr = LinearRegression()
+    X_syn = np.eye(len(feature_names) + 1)[:, :len(feature_names)]
+    y_syn = np.full(len(feature_names) + 1, 10.0)
+    # Last row is all zeros (hour=0, weekday=0 -> intercept 10.0)
+    idx_h23 = feature_names.index("hour_23")
+    idx_w5 = feature_names.index("weekday_5")
+    idx_inter = feature_names.index("hour_23_x_weekday_5")
+    y_syn[idx_h23] = 20.0   # +10 for hour 23
+    y_syn[idx_w5] = 15.0    # +5 for weekday 5
+    y_syn[idx_inter] = 60.0 # +50 extra for interaction (23, 5)
+    lr.fit(X_syn, y_syn)
+
+    bundle = {
+        "model": lr,
+        "feature_names": feature_names,
+        "target": "count",
+        "variant": "interaction_hour_weekday_v2",
+    }
+    with tempfile.TemporaryDirectory() as tmpdir:
+        v2_path = Path(tmpdir) / "noise_model_v2.joblib"
+        joblib.dump(bundle, v2_path)
+        # Expected prediction for (23, 5) = 10 + 10 + 5 + 50 = 75.0
+        pred_sat_23 = predict_noise(hour=23, weekday=5, model_path=v2_path)
+        assert pytest.approx(pred_sat_23, abs=1e-4) == 75.0
+        # Expected prediction for (23, 4) = 10 + 10 + 0 + 0 = 20.0 (no Sat interaction)
+        pred_fri_23 = predict_noise(hour=23, weekday=4, model_path=v2_path)
+        assert pytest.approx(pred_fri_23, abs=1e-4) == 20.0
+
 
