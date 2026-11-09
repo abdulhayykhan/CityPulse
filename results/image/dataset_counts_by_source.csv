@@ -1,0 +1,6 @@
+source,label,train,val,test
+alleyfloodnet,flood,397,71,133
+alleyfloodnet,normal,323,57,129
+rdd2022,crack,1049,221,230
+rdd2022,normal,1049,226,225
+rdd2022,pothole,740,162,154

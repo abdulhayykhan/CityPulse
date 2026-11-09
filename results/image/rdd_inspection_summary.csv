@@ -1,0 +1,10 @@
+metric,value
+images_for_country,7706
+labeled_files,7706
+zero_object_label_files,3921
+no_label_file_assumed_empty,0
+no_label_file_unlabeled,0
+images_pothole,1056
+images_crack,2052
+images_normal,3921
+images_other_only,677
