@@ -76,6 +76,77 @@ python tests/check_notebooks.py
 
 ---
 
+## Running the Web Application (Full-Stack)
+
+The FastAPI backend loads every team model and the processed 311 data, and serves the
+dashboard frontend from the same origin — so the whole app runs from **one command**.
+
+### Quick start
+
+```bash
+conda activate citypulse
+```
+
+Windows (PowerShell):
+
+```powershell
+.\run.ps1
+```
+
+macOS / Linux:
+
+```bash
+./run.sh
+```
+
+…or run it directly:
+
+```bash
+uvicorn backend.main:app --reload
+```
+
+Then open **http://localhost:8000/** for the dashboard (API docs at **/docs**).
+
+> The first time you click **Plan route**, the backend downloads the Brooklyn drive
+> network from OpenStreetMap (internet required) and caches it to
+> `data/brooklyn_drive.graphml`; every call after that is offline and fast.
+> On startup the backend builds `data/citypulse.db` from `incidents.csv` once.
+
+### Endpoints
+
+| Method & path | Purpose |
+|---|---|
+| `GET /` | Dashboard (served from `frontend/`) |
+| `GET /incidents` | Incident hotspots, ranked by report count (`?limit=&group=&min_count=`) |
+| `GET /zones` | 8 K-Means hotspot zones with per-group counts |
+| `POST /predict` | `rain_mm` → flood risk, `hour`+`weekday` → noise, spread across zones |
+| `POST /report` | Upload clip/photo → `predict_audio`/`predict_image` + trust score (webm→wav via ffmpeg) |
+| `POST /route` | Calm & safe route: osmnx graph penalised near incidents, `networkx` shortest path |
+| `GET /admin` | Incidents ranked by report count × severity |
+| `GET /demo_list`, `GET /reports` | Demo samples list; persisted demo submissions |
+
+### Dashboard features
+
+- Dark Leaflet map with incident markers, livability-scored zones, and a legend.
+- **Demo mode**: pick a bundled clip/photo, click the map to place it, get a live
+  classification with confidence / relative-intensity / trust meters and a map pin.
+- **Live mic** (optional): records 5 s and classifies it through the same path.
+- **Forecast**: rainfall and time sliders recolour zones by flood / noise risk;
+  a report-density mode flags low-data areas.
+- **Calm & safe route**: draws the plain route and a hazard-avoiding route; dropping a
+  report on a route makes the safe path detour around it.
+- **Priority board** and a Chart.js livability chart.
+
+### Screenshots
+
+| Dashboard | Report result | Safe route |
+|---|---|---|
+| ![Dashboard](docs/screenshots/01_dashboard.jpg) | ![Report result](docs/screenshots/02_report_result.jpg) | ![Safe route](docs/screenshots/03_safe_route.jpg) |
+
+See [`docs/demo_script.md`](docs/demo_script.md) for the rehearsed demo walkthrough.
+
+---
+
 ## Docs (`docs/`)
 * [`docs/image_rules.md`](docs/image_rules.md) — Part 2 image pipeline guidelines (`image_rules.md`: `GroupShuffleSplit` on `image_id`, relative manifest paths, bootstrap confidence intervals, and `scikit-learn 1.9.1` model packaging).
 
