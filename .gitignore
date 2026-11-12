@@ -4,6 +4,13 @@ data/raw/*
 
 __pycache__/
 *.pyc
+
+# backend runtime database (rebuilt from incidents.csv on startup)
+*.db
+data/*.db
+# cached osmnx drive network (re-downloaded on first /route call)
+*.graphml
+data/*.graphml
 .ipynb_checkpoints/
 .venv/
 .env

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CityPulse — Urban Health Dashboard</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- ───────────────────── Top bar ───────────────────── -->
+    <header class="topbar">
+      <div class="brand">
+        <span class="pulse-dot"></span>
+        <div>
+          <h1>City<span>Pulse</span></h1>
+          <p class="tagline">Brooklyn urban-health operations</p>
+        </div>
+      </div>
+      <div class="stat-strip" id="statStrip">
+        <div class="stat"><span class="stat-val" id="statIncidents">—</span><span class="stat-lbl">Incidents</span></div>
+        <div class="stat"><span class="stat-val" id="statZones">—</span><span class="stat-lbl">Zones</span></div>
+        <div class="stat"><span class="stat-val" id="statLiv">—</span><span class="stat-lbl">Avg livability</span></div>
+        <div class="stat"><span class="stat-val" id="statHot">—</span><span class="stat-lbl">Hotspot group</span></div>
+      </div>
+      <div class="conn" id="conn"><span class="conn-dot"></span><span id="connText">connecting…</span></div>
+    </header>
+
+    <!-- ───────────────────── Main layout ───────────────────── -->
+    <div class="layout">
+
+      <!-- Left control rail -->
+      <aside class="rail left">
+        <!-- Report / demo mode -->
+        <section class="card">
+          <div class="card-head"><h2>Submit a report</h2><span class="chip" id="locChip">pick a spot</span></div>
+          <div class="seg" id="modSeg">
+            <button class="seg-btn active" data-mod="audio">🎧 Audio</button>
+            <button class="seg-btn" data-mod="image">📷 Image</button>
+          </div>
+          <label class="lbl">Demo sample</label>
+          <select id="demoSelect" class="select"></select>
+          <p class="hint" id="pickHint">Click anywhere on the map to drop the report location.</p>
+          <div class="btn-row">
+            <button id="submitBtn" class="btn primary" disabled>Analyze &amp; drop pin</button>
+            <button id="recBtn" class="btn ghost" title="Record 5s from your mic">● Rec</button>
+          </div>
+          <div id="resultCard" class="result hidden"></div>
+        </section>
+
+        <!-- Forecast -->
+        <section class="card">
+          <div class="card-head"><h2>Forecast</h2></div>
+          <label class="lbl">Map coloring</label>
+          <select id="colorMode" class="select">
+            <option value="livability">Livability score</option>
+            <option value="flood">Flood risk (rain)</option>
+            <option value="noise">Noise risk (time)</option>
+            <option value="density">Report density</option>
+          </select>
+
+          <div class="slider-block">
+            <div class="slider-top"><span>🌧 Rainfall</span><span class="slider-val" id="rainVal">12 mm</span></div>
+            <input type="range" id="rain" min="0" max="80" value="12" />
+          </div>
+
+          <div class="slider-block">
+            <div class="slider-top"><span>🕐 Hour</span><span class="slider-val" id="hourVal">22:00</span></div>
+            <input type="range" id="hour" min="0" max="23" value="22" />
+          </div>
+          <label class="lbl">Day</label>
+          <select id="weekday" class="select">
+            <option value="0">Monday</option><option value="1">Tuesday</option>
+            <option value="2">Wednesday</option><option value="3">Thursday</option>
+            <option value="4">Friday</option><option value="5" selected>Saturday</option>
+            <option value="6">Sunday</option>
+          </select>
+        </section>
+
+        <!-- Route -->
+        <section class="card">
+          <div class="card-head"><h2>Calm &amp; safe route</h2></div>
+          <p class="hint">Toggle route mode, then click a start and an end on the map.</p>
+          <div class="btn-row">
+            <button id="routeMode" class="btn ghost">📍 Set points</button>
+            <button id="routeClear" class="btn ghost">Clear</button>
+          </div>
+          <div class="route-pts">
+            <span id="ptA" class="route-pt">A: —</span>
+            <span id="ptB" class="route-pt">B: —</span>
+          </div>
+          <button id="routeBtn" class="btn primary" disabled>Plan route</button>
+        </section>
+      </aside>
+
+      <!-- Map -->
+      <main class="map-wrap">
+        <div id="map"></div>
+        <div class="map-legend" id="legend"></div>
+        <div class="layer-toggles">
+          <label class="tgl"><input type="checkbox" id="tglIncidents" checked /> Incidents</label>
+          <label class="tgl"><input type="checkbox" id="tglZones" checked /> Zones</label>
+          <label class="tgl"><input type="checkbox" id="tglReports" checked /> My reports</label>
+        </div>
+        <div class="toast" id="toast"></div>
+      </main>
+
+      <!-- Right insights -->
+      <aside class="rail right">
+        <section class="card">
+          <div class="card-head"><h2>Zone livability</h2></div>
+          <div class="chart-box"><canvas id="livChart"></canvas></div>
+        </section>
+        <section class="card grow">
+          <div class="card-head"><h2>Priority board</h2><span class="chip" id="adminCount">—</span></div>
+          <div class="table-wrap">
+            <table class="ptable">
+              <thead><tr><th>Incident</th><th>Group</th><th>Reports</th><th>Priority</th></tr></thead>
+              <tbody id="adminBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Libs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="/static/app.js"></script>
+</body>
+</html>
