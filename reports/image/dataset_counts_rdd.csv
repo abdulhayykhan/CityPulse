@@ -1,0 +1,5 @@
+label,train,val,test,total
+crack,1049,221,230,1500
+normal,1049,226,225,1500
+pothole,740,162,154,1056
+TOTAL,2838,609,609,4056

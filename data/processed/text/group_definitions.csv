@@ -1,0 +1,66 @@
+complaint_type,descriptor,group,n_in_window
+Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),flood,5828
+Sewer Maintenance,Catch Basin Clogged,flood,3812
+Sewer,Street Flooding (SJ),flood,2847
+Sewer Maintenance,Flooding on Street,flood,1717
+Sewer,Manhole Overflow (Use Comments) (SA1),flood,1107
+Sewer Maintenance,Manhole Overflow,flood,726
+Sewer,Highway Flooding (SH),flood,11
+Noise - Residential,Loud Music/Party,noise,231236
+Noise - Residential,Banging/Pounding,noise,149772
+Noise - Street/Sidewalk,Loud Music/Party,noise,139007
+Noise - Commercial,Loud Music/Party,noise,47050
+Noise - Street/Sidewalk,Loud Talking,noise,35353
+Noise - Residential,Loud Talking,noise,29786
+Noise - Vehicle,Car/Truck Music,noise,21693
+Noise - Vehicle,Car/Truck Horn,noise,20182
+Noise,Noise: Construction Before/After Hours (NM1),noise,15098
+Noise - Helicopter,Other,noise,10593
+Noise - Vehicle,Engine Idling,noise,10048
+Noise,Construction,noise,7407
+Noise - Residential,Loud Television,noise,7257
+Noise - Commercial,Banging/Pounding,noise,7103
+Noise - Park,Loud Music/Party,noise,6741
+Noise,"Noise, Barking Dog (NR5)",noise,6100
+Noise,Noise: Alarms (NR3),noise,5667
+Noise,Noise: Construction Equipment (NC1),noise,5581
+Noise - Commercial,Loud Talking,noise,5141
+Noise,Noise: air condition/ventilation equipment (NV1),noise,3341
+Noise,Dog,noise,2513
+Noise,Construction Equipment,noise,2320
+Noise,Alarm,noise,2069
+Noise - House of Worship,Loud Talking,noise,1817
+Noise,Noise: Jack Hammering (NC2),noise,1594
+Noise,Noise: Manufacturing Noise (NK1),noise,1503
+Noise - Park,Loud Talking,noise,1488
+Noise,Air Conditioner/Ventilation,noise,1455
+Noise - Commercial,Car/Truck Music,noise,866
+Noise,Noise:  lawn care equipment (NCL),noise,835
+Noise,Jackhammer,noise,774
+Noise - House of Worship,Loud Music/Party,noise,751
+Noise,"Noise, Ice Cream Truck (NR4)",noise,722
+Noise,Manufacturing Business/Plant,noise,607
+Noise - Commercial,Car/Truck Horn,noise,604
+Noise,Lawn Care Equipment,noise,585
+Noise,Noise: Private Carting Noise (NQ1),noise,535
+Noise,"Noise: Boat(Engine,Music,Etc) (NR10)",noise,489
+Noise,Ice Cream Truck,noise,378
+Noise,Boat,noise,368
+Noise,Private Garbage Truck,noise,359
+Noise - Helicopter,NYPD,noise,301
+Noise,"Noise, Other Animals (NR6)",noise,260
+Noise - Commercial,Loud Television,noise,211
+Noise,Animal Other Than Dog,noise,119
+Noise - Helicopter,News Gathering,noise,115
+Noise - House of Worship,Banging/Pounding,noise,85
+Noise,Noise: Other Noise Sources (Use Comments) (NZZ),noise,24
+Noise - House of Worship,Loud Television,noise,3
+Noise,Noise: Loud Music/Daytime (Mark Date And Time) (NN1),noise,2
+Street Condition,Pothole,road,33202
+Street Condition,Cave-in,road,18825
+Street Condition,Failed Street Repair,road,4623
+Street Condition,"Rough, Pitted or Cracked Roads",road,4492
+Highway Condition,Pothole - Highway,road,3
+Highway Condition,Cave-in,road,2
+Sewer,Sewer Backup (Use Comments) (SA),sewer_backup,6767
+Sewer Maintenance,Backup,sewer_backup,3023

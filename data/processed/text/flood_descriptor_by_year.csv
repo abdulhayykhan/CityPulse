@@ -1,0 +1,390 @@
+dataset,year,complaint_type,descriptor,count
+76ig-c548,2010,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9411
+76ig-c548,2010,Sewer,Catch Basin Grating Missing (SA4),472
+76ig-c548,2010,Sewer,Catch Basin Search (SC2),1261
+76ig-c548,2010,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),5539
+76ig-c548,2010,Sewer,Culvert Blocked/Needs Cleaning (SE),181
+76ig-c548,2010,Sewer,Defective/Missing Curb Piece (SC4),1018
+76ig-c548,2010,Sewer,Highway Flooding (SH),367
+76ig-c548,2010,Sewer,Manhole Cover Broken/Making Noise (SB),2017
+76ig-c548,2010,Sewer,Manhole Cover Missing (Emergency) (SA3),1486
+76ig-c548,2010,Sewer,Manhole Overflow (Use Comments) (SA1),719
+76ig-c548,2010,Sewer,Manhole Sunken/Damaged/Raised (SB1),680
+76ig-c548,2010,Sewer,Plate Missing/Moved-Exposing Hole (SB4),71
+76ig-c548,2010,Sewer,Plate Noisy/Sunken/Raised (SB5),140
+76ig-c548,2010,Sewer,Sewer Backup (Use Comments) (SA),16149
+76ig-c548,2010,Sewer,Sewer Break (SBR),118
+76ig-c548,2010,Sewer,Sewer Odor (SA2),1301
+76ig-c548,2010,Sewer,Street Cave-In / Depression (SG),196
+76ig-c548,2010,Sewer,Street Flooding (SJ),2531
+76ig-c548,2010,Sewer,Trench (SZZ1),36
+76ig-c548,2011,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11916
+76ig-c548,2011,Sewer,Catch Basin Grating Missing (SA4),449
+76ig-c548,2011,Sewer,Catch Basin Search (SC2),1289
+76ig-c548,2011,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4597
+76ig-c548,2011,Sewer,Culvert Blocked/Needs Cleaning (SE),206
+76ig-c548,2011,Sewer,Defective/Missing Curb Piece (SC4),1003
+76ig-c548,2011,Sewer,Highway Flooding (SH),494
+76ig-c548,2011,Sewer,Manhole Cover Broken/Making Noise (SB),2299
+76ig-c548,2011,Sewer,Manhole Cover Missing (Emergency) (SA3),1552
+76ig-c548,2011,Sewer,Manhole Overflow (Use Comments) (SA1),717
+76ig-c548,2011,Sewer,Manhole Sunken/Damaged/Raised (SB1),528
+76ig-c548,2011,Sewer,Plate Missing/Moved-Exposing Hole (SB4),145
+76ig-c548,2011,Sewer,Plate Noisy/Sunken/Raised (SB5),193
+76ig-c548,2011,Sewer,Sewer Backup (Use Comments) (SA),16811
+76ig-c548,2011,Sewer,Sewer Break (SBR),213
+76ig-c548,2011,Sewer,Sewer Odor (SA2),1108
+76ig-c548,2011,Sewer,Street Cave-In / Depression (SG),56
+76ig-c548,2011,Sewer,Street Flooding (SJ),2644
+76ig-c548,2011,Sewer,Trench (SZZ1),62
+76ig-c548,2012,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9435
+76ig-c548,2012,Sewer,Catch Basin Grating Missing (SA4),315
+76ig-c548,2012,Sewer,Catch Basin Search (SC2),1252
+76ig-c548,2012,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2362
+76ig-c548,2012,Sewer,Culvert Blocked/Needs Cleaning (SE),153
+76ig-c548,2012,Sewer,Defective/Missing Curb Piece (SC4),814
+76ig-c548,2012,Sewer,Highway Flooding (SH),331
+76ig-c548,2012,Sewer,Manhole Cover Broken/Making Noise (SB),1762
+76ig-c548,2012,Sewer,Manhole Cover Missing (Emergency) (SA3),1173
+76ig-c548,2012,Sewer,Manhole Overflow (Use Comments) (SA1),466
+76ig-c548,2012,Sewer,Manhole Sunken/Damaged/Raised (SB1),382
+76ig-c548,2012,Sewer,Other Sewer Problem (Use Comments) (SZZ),1
+76ig-c548,2012,Sewer,Plate Missing/Moved-Exposing Hole (SB4),54
+76ig-c548,2012,Sewer,Plate Noisy/Sunken/Raised (SB5),88
+76ig-c548,2012,Sewer,Recurring after SOAP *FOR DEP INTERNAL USE ONLY* (SRAS),3
+76ig-c548,2012,Sewer,Sewer Backup (Use Comments) (SA),14705
+76ig-c548,2012,Sewer,Sewer Break (SBR),165
+76ig-c548,2012,Sewer,Sewer Odor (SA2),1239
+76ig-c548,2012,Sewer,Street Cave-In / Depression (SG),25
+76ig-c548,2012,Sewer,Street Flooding (SJ),2203
+76ig-c548,2012,Sewer,Trench (SZZ1),27
+76ig-c548,2013,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7776
+76ig-c548,2013,Sewer,Catch Basin Grating Missing (SA4),266
+76ig-c548,2013,Sewer,Catch Basin Search (SC2),290
+76ig-c548,2013,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1642
+76ig-c548,2013,Sewer,Culvert Blocked/Needs Cleaning (SE),157
+76ig-c548,2013,Sewer,Defective/Missing Curb Piece (SC4),851
+76ig-c548,2013,Sewer,Highway Flooding (SH),282
+76ig-c548,2013,Sewer,Manhole Cover Broken/Making Noise (SB),1733
+76ig-c548,2013,Sewer,Manhole Cover Missing (Emergency) (SA3),1301
+76ig-c548,2013,Sewer,Manhole Overflow (Use Comments) (SA1),486
+76ig-c548,2013,Sewer,Manhole Sunken/Damaged/Raised (SB1),288
+76ig-c548,2013,Sewer,Plate Missing/Moved-Exposing Hole (SB4),46
+76ig-c548,2013,Sewer,Plate Noisy/Sunken/Raised (SB5),49
+76ig-c548,2013,Sewer,Recurring after SOAP *FOR DEP INTERNAL USE ONLY* (SRAS),26
+76ig-c548,2013,Sewer,Sewer Backup (Use Comments) (SA),13041
+76ig-c548,2013,Sewer,Sewer Break (SBR),173
+76ig-c548,2013,Sewer,Sewer Odor (SA2),1326
+76ig-c548,2013,Sewer,SOAP segment *FOR DEP INTERNAL USE ONLY* (SOAP)  Recurring after SOAP *FOR DEP INTERNAL USE ONLY* (SRAS),1
+76ig-c548,2013,Sewer,Street Cave-In / Depression (SG),21
+76ig-c548,2013,Sewer,Street Flooding (SJ),1664
+76ig-c548,2013,Sewer,Trench (SZZ1),20
+76ig-c548,2014,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9374
+76ig-c548,2014,Sewer,Catch Basin Grating Missing (SA4),333
+76ig-c548,2014,Sewer,Catch Basin Search (SC2),5
+76ig-c548,2014,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2106
+76ig-c548,2014,Sewer,Culvert Blocked/Needs Cleaning (SE),136
+76ig-c548,2014,Sewer,Defective/Missing Curb Piece (SC4),799
+76ig-c548,2014,Sewer,Highway Flooding (SH),388
+76ig-c548,2014,Sewer,Manhole Cover Broken/Making Noise (SB),2237
+76ig-c548,2014,Sewer,Manhole Cover Missing (Emergency) (SA3),1928
+76ig-c548,2014,Sewer,Manhole Overflow (Use Comments) (SA1),591
+76ig-c548,2014,Sewer,Manhole Sunken/Damaged/Raised (SB1),267
+76ig-c548,2014,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+76ig-c548,2014,Sewer,Plate Missing/Moved-Exposing Hole (SB4),81
+76ig-c548,2014,Sewer,Plate Noisy/Sunken/Raised (SB5),118
+76ig-c548,2014,Sewer,Sewer Backup (Use Comments) (SA),14084
+76ig-c548,2014,Sewer,Sewer Break (SBR),163
+76ig-c548,2014,Sewer,Sewer Odor (SA2),1352
+76ig-c548,2014,Sewer,Street Cave-In / Depression (SG),4
+76ig-c548,2014,Sewer,Street Flooding (SJ),2498
+76ig-c548,2014,Sewer,Trench (SZZ1),45
+76ig-c548,2015,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7609
+76ig-c548,2015,Sewer,Catch Basin Grating Missing (SA4),387
+76ig-c548,2015,Sewer,Catch Basin Search (SC2),7
+76ig-c548,2015,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2542
+76ig-c548,2015,Sewer,Culvert Blocked/Needs Cleaning (SE),135
+76ig-c548,2015,Sewer,Defective/Missing Curb Piece (SC4),827
+76ig-c548,2015,Sewer,Highway Flooding (SH),185
+76ig-c548,2015,Sewer,Manhole Cover Broken/Making Noise (SB),2076
+76ig-c548,2015,Sewer,Manhole Cover Missing (Emergency) (SA3),2049
+76ig-c548,2015,Sewer,Manhole Overflow (Use Comments) (SA1),383
+76ig-c548,2015,Sewer,Manhole Sunken/Damaged/Raised (SB1),310
+76ig-c548,2015,Sewer,Other Sewer Problem (Use Comments) (SZZ),3
+76ig-c548,2015,Sewer,Plate Missing/Moved-Exposing Hole (SB4),66
+76ig-c548,2015,Sewer,Plate Noisy/Sunken/Raised (SB5),80
+76ig-c548,2015,Sewer,Sewer Backup (Use Comments) (SA),11906
+76ig-c548,2015,Sewer,Sewer Break (SBR),44
+76ig-c548,2015,Sewer,Sewer Odor (SA2),1448
+76ig-c548,2015,Sewer,Street Flooding (SJ),1839
+76ig-c548,2015,Sewer,Trench (SZZ1),2
+76ig-c548,2016,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7378
+76ig-c548,2016,Sewer,Catch Basin Grating Missing (SA4),388
+76ig-c548,2016,Sewer,Catch Basin Search (SC2),4
+76ig-c548,2016,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2629
+76ig-c548,2016,Sewer,Culvert Blocked/Needs Cleaning (SE),163
+76ig-c548,2016,Sewer,Defective/Missing Curb Piece (SC4),907
+76ig-c548,2016,Sewer,Highway Flooding (SH),186
+76ig-c548,2016,Sewer,Manhole Cover Broken/Making Noise (SB),2103
+76ig-c548,2016,Sewer,Manhole Cover Missing (Emergency) (SA3),1846
+76ig-c548,2016,Sewer,Manhole Overflow (Use Comments) (SA1),466
+76ig-c548,2016,Sewer,Manhole Sunken/Damaged/Raised (SB1),211
+76ig-c548,2016,Sewer,Other Sewer Problem (Use Comments) (SZZ),2
+76ig-c548,2016,Sewer,Plate Missing/Moved-Exposing Hole (SB4),43
+76ig-c548,2016,Sewer,Plate Noisy/Sunken/Raised (SB5),48
+76ig-c548,2016,Sewer,Sewer Backup (Use Comments) (SA),12249
+76ig-c548,2016,Sewer,Sewer Break (SBR),53
+76ig-c548,2016,Sewer,Sewer Odor (SA2),1711
+76ig-c548,2016,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),1
+76ig-c548,2016,Sewer,Street Flooding (SJ),2262
+76ig-c548,2017,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7064
+76ig-c548,2017,Sewer,Catch Basin Grating Missing (SA4),390
+76ig-c548,2017,Sewer,Catch Basin Search (SC2),16
+76ig-c548,2017,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2038
+76ig-c548,2017,Sewer,Culvert Blocked/Needs Cleaning (SE),170
+76ig-c548,2017,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),1
+76ig-c548,2017,Sewer,Defective/Missing Curb Piece (SC4),816
+76ig-c548,2017,Sewer,Highway Flooding (SH),229
+76ig-c548,2017,Sewer,Manhole Cover Broken/Making Noise (SB),2097
+76ig-c548,2017,Sewer,Manhole Cover Missing (Emergency) (SA3),1927
+76ig-c548,2017,Sewer,Manhole Overflow (Use Comments) (SA1),491
+76ig-c548,2017,Sewer,Manhole Sunken/Damaged/Raised (SB1),255
+76ig-c548,2017,Sewer,Other Sewer Problem (Use Comments) (SZZ),5
+76ig-c548,2017,Sewer,Plate Missing/Moved-Exposing Hole (SB4),57
+76ig-c548,2017,Sewer,Plate Noisy/Sunken/Raised (SB5),70
+76ig-c548,2017,Sewer,RAIN GARDEN DEBRIS (SRGDBR),4
+76ig-c548,2017,Sewer,Sewer Backup (Use Comments) (SA),12732
+76ig-c548,2017,Sewer,Sewer Break (SBR),40
+76ig-c548,2017,Sewer,Sewer Odor (SA2),1595
+76ig-c548,2017,Sewer,Street Flooding (SJ),2532
+76ig-c548,2018,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8510
+76ig-c548,2018,Sewer,Catch Basin Connection Broken *Dep Internal Use Only* (SC5),2
+76ig-c548,2018,Sewer,Catch Basin Grating Missing (SA4),357
+76ig-c548,2018,Sewer,Catch Basin Search (SC2),9
+76ig-c548,2018,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2274
+76ig-c548,2018,Sewer,Culvert Blocked/Needs Cleaning (SE),259
+76ig-c548,2018,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),12
+76ig-c548,2018,Sewer,Defective/Missing Curb Piece (SC4),761
+76ig-c548,2018,Sewer,Highway Flooding (SH),247
+76ig-c548,2018,Sewer,Manhole Cover Broken/Making Noise (SB),2299
+76ig-c548,2018,Sewer,Manhole Cover Missing (Emergency) (SA3),1993
+76ig-c548,2018,Sewer,Manhole Overflow (Use Comments) (SA1),845
+76ig-c548,2018,Sewer,Manhole Sunken/Damaged/Raised (SB1),316
+76ig-c548,2018,Sewer,Other Sewer Problem (Use Comments) (SZZ),63
+76ig-c548,2018,Sewer,Plate Missing/Moved-Exposing Hole (SB4),64
+76ig-c548,2018,Sewer,Plate Noisy/Sunken/Raised (SB5),65
+76ig-c548,2018,Sewer,RAIN GARDEN DEBRIS (SRGDBR),115
+76ig-c548,2018,Sewer,RAIN GARDEN FLOODING (SRGFLD),26
+76ig-c548,2018,Sewer,Sewer Backup (Use Comments) (SA),14040
+76ig-c548,2018,Sewer,Sewer Break (SBR),36
+76ig-c548,2018,Sewer,Sewer Odor (SA2),1324
+76ig-c548,2018,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),2
+76ig-c548,2018,Sewer,Street Flooding (SJ),4140
+76ig-c548,2019,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7146
+76ig-c548,2019,Sewer,Catch Basin Connection Broken *Dep Internal Use Only* (SC5),5
+76ig-c548,2019,Sewer,Catch Basin Grating Missing (SA4),267
+76ig-c548,2019,Sewer,Catch Basin Search (SC2),17
+76ig-c548,2019,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1873
+76ig-c548,2019,Sewer,Culvert Blocked/Needs Cleaning (SE),311
+76ig-c548,2019,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),29
+76ig-c548,2019,Sewer,Defective/Missing Curb Piece (SC4),485
+76ig-c548,2019,Sewer,Highway Flooding (SH),82
+76ig-c548,2019,Sewer,Manhole Cover Broken/Making Noise (SB),1142
+76ig-c548,2019,Sewer,Manhole Cover Missing (Emergency) (SA3),1466
+76ig-c548,2019,Sewer,Manhole Overflow (Use Comments) (SA1),885
+76ig-c548,2019,Sewer,Manhole Sunken/Damaged/Raised (SB1),181
+76ig-c548,2019,Sewer,Other Sewer Problem (Use Comments) (SZZ),621
+76ig-c548,2019,Sewer,Plate Missing/Moved-Exposing Hole (SB4),17
+76ig-c548,2019,Sewer,Plate Noisy/Sunken/Raised (SB5),23
+76ig-c548,2019,Sewer,RAIN GARDEN DEBRIS (SRGDBR),79
+76ig-c548,2019,Sewer,RAIN GARDEN FLOODING (SRGFLD),19
+76ig-c548,2019,Sewer,Sewer Backup (Use Comments) (SA),12277
+76ig-c548,2019,Sewer,Sewer Break (SBR),24
+76ig-c548,2019,Sewer,Sewer Odor (SA2),1578
+76ig-c548,2019,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),19
+76ig-c548,2019,Sewer,Street Flooding (SJ),3434
+erm2-nwe9,2020,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5062
+erm2-nwe9,2020,Sewer,Catch Basin Connection Broken *Dep Internal Use Only* (SC5),11
+erm2-nwe9,2020,Sewer,Catch Basin Grating Missing (SA4),141
+erm2-nwe9,2020,Sewer,Catch Basin Search (SC2),3
+erm2-nwe9,2020,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1129
+erm2-nwe9,2020,Sewer,Culvert Blocked/Needs Cleaning (SE),383
+erm2-nwe9,2020,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),15
+erm2-nwe9,2020,Sewer,Defective/Missing Curb Piece (SC4),243
+erm2-nwe9,2020,Sewer,Highway Flooding (SH),50
+erm2-nwe9,2020,Sewer,Manhole Cover Broken/Making Noise (SB),12
+erm2-nwe9,2020,Sewer,Manhole Cover Missing (Emergency) (SA3),804
+erm2-nwe9,2020,Sewer,Manhole Overflow (Use Comments) (SA1),818
+erm2-nwe9,2020,Sewer,Manhole Sunken/Damaged/Raised (SB1),36
+erm2-nwe9,2020,Sewer,Other Sewer Problem (Use Comments) (SZZ),692
+erm2-nwe9,2020,Sewer,Plate Missing/Moved-Exposing Hole (SB4),1
+erm2-nwe9,2020,Sewer,RAIN GARDEN DEBRIS (SRGDBR),188
+erm2-nwe9,2020,Sewer,RAIN GARDEN FLOODING (SRGFLD),32
+erm2-nwe9,2020,Sewer,Sewer Backup (Use Comments) (SA),11481
+erm2-nwe9,2020,Sewer,Sewer Break (SBR),9
+erm2-nwe9,2020,Sewer,Sewer Odor (SA2),1463
+erm2-nwe9,2020,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),12
+erm2-nwe9,2020,Sewer,Street Flooding (SJ),2155
+erm2-nwe9,2020,Sewer Maintenance,Backup,2
+erm2-nwe9,2020,Sewer Maintenance,Catch Basin Sunken,2
+erm2-nwe9,2020,Sewer Maintenance,Curb Piece,1
+erm2-nwe9,2021,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7734
+erm2-nwe9,2021,Sewer,Catch Basin Connection Broken *Dep Internal Use Only* (SC5),7
+erm2-nwe9,2021,Sewer,Catch Basin Grating Missing (SA4),208
+erm2-nwe9,2021,Sewer,Catch Basin Search (SC2),3
+erm2-nwe9,2021,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1442
+erm2-nwe9,2021,Sewer,Culvert Blocked/Needs Cleaning (SE),538
+erm2-nwe9,2021,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),37
+erm2-nwe9,2021,Sewer,Defective/Missing Curb Piece (SC4),303
+erm2-nwe9,2021,Sewer,Highway Flooding (SH),104
+erm2-nwe9,2021,Sewer,Manhole Cover Broken/Making Noise (SB),21
+erm2-nwe9,2021,Sewer,Manhole Cover Missing (Emergency) (SA3),1238
+erm2-nwe9,2021,Sewer,Manhole Overflow (Use Comments) (SA1),823
+erm2-nwe9,2021,Sewer,Manhole Sunken/Damaged/Raised (SB1),11
+erm2-nwe9,2021,Sewer,Other Sewer Problem (Use Comments) (SZZ),1123
+erm2-nwe9,2021,Sewer,Plate Missing/Moved-Exposing Hole (SB4),1
+erm2-nwe9,2021,Sewer,Plate Noisy/Sunken/Raised (SB5),1
+erm2-nwe9,2021,Sewer,RAIN GARDEN DEBRIS (SRGDBR),196
+erm2-nwe9,2021,Sewer,RAIN GARDEN FLOODING (SRGFLD),52
+erm2-nwe9,2021,Sewer,Sewer Backup (Use Comments) (SA),17984
+erm2-nwe9,2021,Sewer,Sewer Break (SBR),5
+erm2-nwe9,2021,Sewer,Sewer Odor (SA2),1430
+erm2-nwe9,2021,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),8
+erm2-nwe9,2021,Sewer,Street Flooding (SJ),3702
+erm2-nwe9,2021,Sewer Maintenance,Backup,1
+erm2-nwe9,2021,Sewer Maintenance,Catch Basin Clogged,1
+erm2-nwe9,2021,Sewer Maintenance,Catch Basin Sunken,4
+erm2-nwe9,2021,Sewer Maintenance,Curb Piece,2
+erm2-nwe9,2021,Sewer Maintenance,Manhole Cover Missing,2
+erm2-nwe9,2021,Sewer Maintenance,Odor,9
+erm2-nwe9,2022,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6798
+erm2-nwe9,2022,Sewer,Catch Basin Connection Broken *Dep Internal Use Only* (SC5),12
+erm2-nwe9,2022,Sewer,Catch Basin Grating Missing (SA4),203
+erm2-nwe9,2022,Sewer,Catch Basin Search (SC2),1
+erm2-nwe9,2022,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1337
+erm2-nwe9,2022,Sewer,Culvert Blocked/Needs Cleaning (SE),526
+erm2-nwe9,2022,Sewer,DAMAGE STRUCTURE/RAILING (SRGDM),9
+erm2-nwe9,2022,Sewer,Defective/Missing Curb Piece (SC4),305
+erm2-nwe9,2022,Sewer,Highway Flooding (SH),105
+erm2-nwe9,2022,Sewer,Manhole Cover Broken/Making Noise (SB),5
+erm2-nwe9,2022,Sewer,Manhole Cover Missing (Emergency) (SA3),916
+erm2-nwe9,2022,Sewer,Manhole Overflow (Use Comments) (SA1),841
+erm2-nwe9,2022,Sewer,Manhole Sunken/Damaged/Raised (SB1),4
+erm2-nwe9,2022,Sewer,Other Sewer Problem (Use Comments) (SZZ),1087
+erm2-nwe9,2022,Sewer,RAIN GARDEN DEBRIS (GIRGD),100
+erm2-nwe9,2022,Sewer,RAIN GARDEN DEBRIS (SRGDBR),88
+erm2-nwe9,2022,Sewer,RAIN GARDEN FLOODING (SRGFLD),23
+erm2-nwe9,2022,Sewer,RAIN GARDEN PLANTING (GIRGP),43
+erm2-nwe9,2022,Sewer,RAIN GARDEN STRUCTURE (GIRGS),43
+erm2-nwe9,2022,Sewer,Sewer Backup (Use Comments) (SA),11583
+erm2-nwe9,2022,Sewer,Sewer Break (SBR),8
+erm2-nwe9,2022,Sewer,Sewer Odor (SA2),1214
+erm2-nwe9,2022,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),4
+erm2-nwe9,2022,Sewer,Street Flooding (SJ),3079
+erm2-nwe9,2022,Sewer Maintenance,Backup,3
+erm2-nwe9,2022,Sewer Maintenance,Catch Basin Clogged,4
+erm2-nwe9,2022,Sewer Maintenance,Catch Basin Grate Missing,2
+erm2-nwe9,2022,Sewer Maintenance,Catch Basin Sunken,15
+erm2-nwe9,2022,Sewer Maintenance,Curb Piece,2
+erm2-nwe9,2022,Sewer Maintenance,Manhole Cover Missing,3
+erm2-nwe9,2023,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7221
+erm2-nwe9,2023,Sewer,Catch Basin Connection Broken *Dep Internal Use Only* (SC5),4
+erm2-nwe9,2023,Sewer,Catch Basin Grating Missing (SA4),193
+erm2-nwe9,2023,Sewer,Catch Basin Search (SC2),687
+erm2-nwe9,2023,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1273
+erm2-nwe9,2023,Sewer,Culvert Blocked/Needs Cleaning (SE),729
+erm2-nwe9,2023,Sewer,Defective/Missing Curb Piece (SC4),263
+erm2-nwe9,2023,Sewer,Highway Flooding (SH),80
+erm2-nwe9,2023,Sewer,Manhole Cover Missing (Emergency) (SA3),802
+erm2-nwe9,2023,Sewer,Manhole Overflow (Use Comments) (SA1),788
+erm2-nwe9,2023,Sewer,Manhole Sunken/Damaged/Raised (SB1),1
+erm2-nwe9,2023,Sewer,Other Sewer Problem (Use Comments) (SZZ),270
+erm2-nwe9,2023,Sewer,RAIN GARDEN DEBRIS (GIRGD),294
+erm2-nwe9,2023,Sewer,RAIN GARDEN PLANTING (GIRGP),83
+erm2-nwe9,2023,Sewer,RAIN GARDEN STRUCTURE (GIRGS),52
+erm2-nwe9,2023,Sewer,Sewer Backup (Use Comments) (SA),12638
+erm2-nwe9,2023,Sewer,Sewer Break (SBR),1
+erm2-nwe9,2023,Sewer,Sewer Odor (SA2),1071
+erm2-nwe9,2023,Sewer,Street Cave-In *Dep Internal Use Only* (SG1),1
+erm2-nwe9,2023,Sewer,Street Flooding (SJ),3491
+erm2-nwe9,2023,Sewer Maintenance,Backup,1552
+erm2-nwe9,2023,Sewer Maintenance,Catch Basin Clogged,551
+erm2-nwe9,2023,Sewer Maintenance,Catch Basin Grate Missing,4
+erm2-nwe9,2023,Sewer Maintenance,Catch Basin Sunken,42
+erm2-nwe9,2023,Sewer Maintenance,Curb Piece,5
+erm2-nwe9,2023,Sewer Maintenance,Flooding on Highway,15
+erm2-nwe9,2023,Sewer Maintenance,Flooding on Street,673
+erm2-nwe9,2023,Sewer Maintenance,Manhole Cover Missing,4
+erm2-nwe9,2023,Sewer Maintenance,Odor,1
+erm2-nwe9,2024,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6470
+erm2-nwe9,2024,Sewer,Catch Basin Grating Missing (SA4),178
+erm2-nwe9,2024,Sewer,Catch Basin Search (SC2),1698
+erm2-nwe9,2024,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1314
+erm2-nwe9,2024,Sewer,Culvert Blocked/Needs Cleaning (SE),615
+erm2-nwe9,2024,Sewer,Defective/Missing Curb Piece (SC4),260
+erm2-nwe9,2024,Sewer,Highway Flooding (SH),59
+erm2-nwe9,2024,Sewer,Manhole Cover Missing (Emergency) (SA3),948
+erm2-nwe9,2024,Sewer,Manhole Overflow (Use Comments) (SA1),1053
+erm2-nwe9,2024,Sewer,RAIN GARDEN DEBRIS (GIRGD),361
+erm2-nwe9,2024,Sewer,RAIN GARDEN PLANTING (GIRGP),164
+erm2-nwe9,2024,Sewer,RAIN GARDEN STRUCTURE (GIRGS),96
+erm2-nwe9,2024,Sewer,Sewer Backup (Use Comments) (SA),8572
+erm2-nwe9,2024,Sewer,Sewer Odor (SA2),1414
+erm2-nwe9,2024,Sewer,Street Flooding (SJ),3023
+erm2-nwe9,2024,Sewer Maintenance,Backup,3
+erm2-nwe9,2024,Sewer Maintenance,Catch Basin Clogged,2
+erm2-nwe9,2024,Sewer Maintenance,Catch Basin Grate Missing,1
+erm2-nwe9,2024,Sewer Maintenance,Catch Basin Sunken,12
+erm2-nwe9,2024,Sewer Maintenance,Curb Piece,1
+erm2-nwe9,2024,Sewer Maintenance,Manhole Cover Missing,4
+erm2-nwe9,2024,Sewer Maintenance,Odor,1
+erm2-nwe9,2025,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6393
+erm2-nwe9,2025,Sewer,Catch Basin Grating Missing (SA4),193
+erm2-nwe9,2025,Sewer,Catch Basin Search (SC2),1702
+erm2-nwe9,2025,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1227
+erm2-nwe9,2025,Sewer,Culvert Blocked/Needs Cleaning (SE),648
+erm2-nwe9,2025,Sewer,Defective/Missing Curb Piece (SC4),265
+erm2-nwe9,2025,Sewer,Highway Flooding (SH),53
+erm2-nwe9,2025,Sewer,Manhole Cover Missing (Emergency) (SA3),1017
+erm2-nwe9,2025,Sewer,Manhole Overflow (Use Comments) (SA1),950
+erm2-nwe9,2025,Sewer,RAIN GARDEN DEBRIS (GIRGD),441
+erm2-nwe9,2025,Sewer,RAIN GARDEN PLANTING (GIRGP),126
+erm2-nwe9,2025,Sewer,RAIN GARDEN STRUCTURE (GIRGS),99
+erm2-nwe9,2025,Sewer,Sewer Backup (Use Comments) (SA),8149
+erm2-nwe9,2025,Sewer,Sewer Odor (SA2),1180
+erm2-nwe9,2025,Sewer,Street Flooding (SJ),3616
+erm2-nwe9,2025,Sewer Maintenance,Backup,18
+erm2-nwe9,2025,Sewer Maintenance,Catch Basin Clogged,8
+erm2-nwe9,2025,Sewer Maintenance,Catch Basin Sunken,18
+erm2-nwe9,2025,Sewer Maintenance,Curb Piece,1
+erm2-nwe9,2025,Sewer Maintenance,Flooding on Street,5
+erm2-nwe9,2025,Sewer Maintenance,Manhole Cover Missing,8
+erm2-nwe9,2025,Sewer Maintenance,Odor,24
+erm2-nwe9,2026,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4673
+erm2-nwe9,2026,Sewer,Catch Basin Grating Missing (SA4),159
+erm2-nwe9,2026,Sewer,Catch Basin Search (SC2),921
+erm2-nwe9,2026,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),985
+erm2-nwe9,2026,Sewer,Culvert Blocked/Needs Cleaning (SE),329
+erm2-nwe9,2026,Sewer,Defective/Missing Curb Piece (SC4),187
+erm2-nwe9,2026,Sewer,Highway Flooding (SH),80
+erm2-nwe9,2026,Sewer,Manhole Cover Missing (Emergency) (SA3),1010
+erm2-nwe9,2026,Sewer,Manhole Overflow (Use Comments) (SA1),961
+erm2-nwe9,2026,Sewer,RAIN GARDEN DEBRIS (GIRGD),244
+erm2-nwe9,2026,Sewer,RAIN GARDEN FLOODING (SRGFLD),1
+erm2-nwe9,2026,Sewer,RAIN GARDEN PLANTING (GIRGP),53
+erm2-nwe9,2026,Sewer,RAIN GARDEN STRUCTURE (GIRGS),53
+erm2-nwe9,2026,Sewer,Sewer Backup (Use Comments) (SA),5478
+erm2-nwe9,2026,Sewer,Sewer Odor (SA2),802
+erm2-nwe9,2026,Sewer,Street Flooding (SJ),2397
+erm2-nwe9,2026,Sewer Maintenance,Backup,3018
+erm2-nwe9,2026,Sewer Maintenance,Catch Basin Clogged,3849
+erm2-nwe9,2026,Sewer Maintenance,Catch Basin Grate Missing,77
+erm2-nwe9,2026,Sewer Maintenance,Catch Basin Search,633
+erm2-nwe9,2026,Sewer Maintenance,Catch Basin Sunken,713
+erm2-nwe9,2026,Sewer Maintenance,Culvert,276
+erm2-nwe9,2026,Sewer Maintenance,Curb Piece,93
+erm2-nwe9,2026,Sewer Maintenance,Flooding on Highway,60
+erm2-nwe9,2026,Sewer Maintenance,Flooding on Street,1729
+erm2-nwe9,2026,Sewer Maintenance,Manhole Cover Missing,448
+erm2-nwe9,2026,Sewer Maintenance,Manhole Overflow,732
+erm2-nwe9,2026,Sewer Maintenance,Odor,620

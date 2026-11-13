@@ -1,0 +1,15 @@
+group,rank,channel,count,pct_within_group
+flood,1,ONLINE,2925,52.99
+flood,2,PHONE,2388,43.26
+flood,3,OTHER,207,3.75
+noise,1,ONLINE,133217,62.88
+noise,2,MOBILE,51529,24.32
+noise,3,PHONE,27016,12.75
+noise,4,OTHER,62,0.03
+noise,5,UNKNOWN,19,0.01
+road,1,UNKNOWN,9544,59.14
+road,2,ONLINE,4203,26.04
+road,3,PHONE,2391,14.82
+sewer_backup,1,PHONE,1891,62.91
+sewer_backup,2,ONLINE,1064,35.4
+sewer_backup,3,OTHER,51,1.7

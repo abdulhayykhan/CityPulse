@@ -1,0 +1,18 @@
+group,rank,location_type,count,pct_within_group
+flood,1,MISSING (empty),3293,59.66
+flood,2,Sewer,1605,29.08
+flood,3,Street,622,11.27
+noise,1,Residential Building/House,115290,54.42
+noise,2,Street/Sidewalk,53243,25.13
+noise,3,MISSING (empty),13336,6.3
+noise,4,Store/Commercial,10878,5.13
+noise,5,Club/Bar/Restaurant,9124,4.31
+noise,6,Building/Construction Site,2842,1.34
+noise,7,Above Address,2602,1.23
+noise,8,Park/Playground,1759,0.83
+noise,9,Residential,1002,0.47
+noise,10,Commercial/Mixed Use Building,788,0.37
+road,1,Street,9087,56.31
+road,2,MISSING (empty),7051,43.69
+sewer_backup,1,MISSING (empty),1965,65.37
+sewer_backup,2,Sewer,1041,34.63

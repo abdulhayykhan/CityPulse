@@ -1,0 +1,4 @@
+date,flood_count,rain_day_t_mm,rain_t_minus_1_mm,rain_t_minus_2_mm,rain_t_minus_3_mm,rain_3d_sum_mm,distinct_addresses,top1_address,top1_address_count,top1_address_share_pct,top_named_address,top_named_address_count,top_named_address_share_pct
+2026-05-20,145,7.2,1.5,0.0,0.0,8.7,100,'',34,23.45,443 KNICKERBOCKER AVENUE,7,4.83
+2026-05-21,148,7.2,7.2,1.5,0.0,15.9,108,'',36,24.32,578 TROY AVENUE,2,1.35
+2026-07-06,228,49.6,13.6,7.5,0.5,70.7,162,'',53,23.25,3401 AVENUE D,2,0.88

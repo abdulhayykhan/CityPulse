@@ -1,0 +1,4 @@
+metric,pearson_r,pearson_p,spearman_r,spearman_p
+rain_sum,0.5614,1.06e-31,0.3417,1.97e-11
+rain_max_hourly,0.4538,6.03e-20,0.356,2.40e-12
+rain_hours_ge_5mm,0.3029,3.51e-09,0.2871,2.33e-08

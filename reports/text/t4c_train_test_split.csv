@@ -1,0 +1,6 @@
+group,train_count,test_count,total_count,train_share_pct,test_share_pct
+flood,4270,1250,5520,77.36,22.64
+noise,159513,52330,211843,75.3,24.7
+road,12941,3197,16138,80.19,19.81
+sewer_backup,2227,779,3006,74.09,25.91
+ALL,178951,57556,236507,75.66,24.34

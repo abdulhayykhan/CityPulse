@@ -1,0 +1,32 @@
+month,complaint_type,count
+2025-06,Sewer,2014
+2025-06,Sewer Maintenance,9
+2025-07,Sewer,2737
+2025-07,Sewer Maintenance,8
+2025-08,Sewer,2475
+2025-08,Sewer Maintenance,4
+2025-09,Sewer,1849
+2025-09,Sewer Maintenance,12
+2025-10,Sewer,3548
+2025-10,Sewer Maintenance,20
+2025-11,Sewer,2160
+2025-11,Sewer Maintenance,7
+2025-12,Sewer,1996
+2025-12,Sewer Maintenance,12
+2026-01,Sewer,1548
+2026-01,Sewer Maintenance,13
+2026-02,Sewer,1765
+2026-02,Sewer Maintenance,28
+2026-03,Sewer,3042
+2026-03,Sewer Maintenance,57
+2026-04,Sewer,1952
+2026-04,Sewer Maintenance,82
+2026-05,Sewer,4338
+2026-05,Sewer Maintenance,148
+2026-06,Sewer,2705
+2026-06,Sewer Maintenance,188
+2026-07,Sewer,2983
+2026-07,Sewer Maintenance,1455
+2026-08,Sewer Maintenance,5060
+2026-09,Sewer Maintenance,3121
+2026-10,Sewer Maintenance,2096

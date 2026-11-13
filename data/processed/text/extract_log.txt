@@ -1,0 +1,248 @@
+NYC 311 Step 1.2 Extract Log - Started at 2026-11-07 21:21:20
+======================================================================
+
+======================================================================
+STARTING STEP 1.2: SINGLE-PASS EXTRACT & VERIFICATION
+======================================================================
+Input file   : C:\Users\USER\Desktop\CityPulse\data\raw\311_Service_Requests_from_2020_to_Present_20261107.csv
+Output file  : C:\Users\USER\Desktop\CityPulse\data\processed\complaints_window_all.csv.gz
+Window       : 2025-11-01 00:00:00 to 2026-10-31 23:59:59
+
+----------------------------------------------------------------------
+TASK 2: SINGLE-PASS EXTRACTION
+----------------------------------------------------------------------
+Found existing complaints_window_all.csv.gz (26.89 MB), resolution_lookup.csv, group_definitions.csv.
+Skipping raw CSV extraction pass. Using verified extracted files.
+======================================================================
+TASK 3: VERIFICATION AND REPORTS
+======================================================================
+
+--- 3a. Window completeness ---
+Monthly Row Totals (2025-10 through 2026-11):
+year_month  total  with_coords  without_coords  pct_with_coords
+   2025-10 293916       290639            3277             98.9
+   2025-11 304905       302045            2860             99.1
+   2025-12 332103       328888            3215             99.0
+   2026-01 348511       344090            4421             98.7
+   2026-02 334691       328757            5934             98.2
+   2026-03 342390       324276           18114             94.7
+   2026-04 302190       292319            9871             96.7
+   2026-05 331980       324187            7793             97.7
+   2026-06 334834       327939            6895             97.9
+   2026-07 343134       336416            6718             98.0
+   2026-08 328924       322651            6273             98.1
+   2026-09 323632       317992            5640             98.3
+   2026-10 347625       342052            5573             98.4
+   2026-11  43520        42842             678             98.4
+
+Median monthly total in 12-month window: 333,397
+Window Month Completeness Flags:
+  NOTE: 2025-10 is partial (293,916 rows, dataset starts 2025-10-05)
+  NOTE: 2026-11 is partial (43,520 rows, dataset ends 2026-11-05)
+
+Per-chunk created date ranges:
+  Chunk 01: min = 2026-09-20 23:15:23 | max = 2026-11-05 02:56:50
+  Chunk 02: min = 2026-08-05 07:41:39 | max = 2026-09-20 23:15:18
+  Chunk 03: min = 2026-06-20 21:27:33 | max = 2026-08-05 07:41:33
+  Chunk 04: min = 2026-05-06 07:40:40 | max = 2026-06-20 21:27:33
+  Chunk 05: min = 2026-03-18 16:25:55 | max = 2026-05-06 07:40:38
+  Chunk 06: min = 2026-02-03 09:11:17 | max = 2026-03-18 16:25:55
+  Chunk 07: min = 2025-12-18 10:43:14 | max = 2026-02-03 09:11:11
+  Chunk 08: min = 2025-11-02 20:09:28 | max = 2025-12-18 10:43:11
+  Chunk 09: min = 2025-10-05 09:27:07 | max = 2025-11-02 20:09:13
+File ordering assessment: Strictly DESCENDING by created date
+
+Loading extracted data for steps 3b - 3g...
+Loaded 874,893 rows from complaints_window_all.csv.gz
+
+--- 3b. Duplicates in unique_key ---
+Duplicate unique_key count: 0
+First 5 duplicate unique_key values: None (all unique_key values are strictly distinct)
+
+--- 3c. Coordinate sanity ---
+Total rows outside [lat 40.4 to 41.0, lon -74.3 to -73.6]: 0
+Rows outside bounding box by borough:
+  None - 0 rows outside bounding box across all boroughs.
+
+--- 3d. Borough x group table for the window ---
+      borough  noise  road  flood  sewer_backup  total  flood_days_ge1  flood_daily_median_active  flood_daily_median_all365  flood_daily_max
+        BRONX 218731  6486   1127           884 227228             293                        3.0                        2.0               29
+     BROOKLYN 211843 16138   5520          3006 236507             360                       10.0                       10.0              228
+    MANHATTAN 179159  8271   1165           452 189047             307                        3.0                        2.0               31
+       QUEENS 159288 25037   6787          4557 195669             363                       11.0                       11.0              243
+STATEN ISLAND  18887  5215   1449           891  26442             322                        3.0                        3.0               79
+
+--- 3e. Resolution readiness per group per month ---
+       group year_month  total  share_closed_pct  share_res_id_pct
+       flood    2025-11    957              98.5              98.7
+       flood    2025-12    895              96.2              96.9
+       flood    2026-01    372              93.0              93.3
+       flood    2026-02    573              94.1              95.5
+       flood    2026-03   1391              97.1              98.2
+       flood    2026-04    755              95.8              97.1
+       flood    2026-05   2166              98.0              98.9
+       flood    2026-06   1406              96.3              97.0
+       flood    2026-07   2509              97.9              98.5
+       flood    2026-08   2564              93.9              95.1
+       flood    2026-09   1633              93.6              95.5
+       flood    2026-10    827              79.7              83.6
+       noise    2025-11  69080              97.9              98.0
+       noise    2025-12  75190              97.8              97.9
+       noise    2026-01  45447              97.1              97.1
+       noise    2026-02  41926              97.5              97.5
+       noise    2026-03  59555              98.3              98.3
+       noise    2026-04  60695              97.8              97.8
+       noise    2026-05  78535              98.4              98.4
+       noise    2026-06  76257              99.3              99.3
+       noise    2026-07  70085              99.3              99.3
+       noise    2026-08  69975              99.6              99.7
+       noise    2026-09  68982              99.2              99.3
+       noise    2026-10  72181              98.2              98.8
+        road    2025-11   1966              97.1             100.0
+        road    2025-12   2738              96.7             100.0
+        road    2026-01   2386              93.4             100.0
+        road    2026-02   3539              92.1             100.0
+        road    2026-03  13304              95.2             100.0
+        road    2026-04   7249              93.9             100.0
+        road    2026-05   5538              95.8             100.0
+        road    2026-06   5622              97.1             100.0
+        road    2026-07   5852              95.1             100.0
+        road    2026-08   5186              95.5             100.0
+        road    2026-09   4203              95.5             100.0
+        road    2026-10   3564              92.1              97.8
+sewer_backup    2025-11    687              99.1              99.1
+sewer_backup    2025-12    607              99.3              99.3
+sewer_backup    2026-01    641              98.4              98.4
+sewer_backup    2026-02    680              98.8              98.8
+sewer_backup    2026-03    818             100.0             100.0
+sewer_backup    2026-04    541              99.4              99.4
+sewer_backup    2026-05   1376              99.4              99.4
+sewer_backup    2026-06    642              98.9              98.9
+sewer_backup    2026-07   1003              99.1              99.1
+sewer_backup    2026-08   1540              96.7              96.9
+sewer_backup    2026-09    753              96.4              96.5
+sewer_backup    2026-10    502              96.2              96.4
+
+--- 3f. Rainfall signal via Open-Meteo Archive API ---
+
+Pearson Correlation: Daily Flood Count vs Rainfall:
+      borough  mean_lat  mean_lon  r_same_day  r_prev_day  r_3d_rolling
+        BRONX   40.8493  -73.8735      0.5055      0.1749        0.4140
+     BROOKLYN   40.6494  -73.9522      0.5614      0.2293        0.4699
+    MANHATTAN   40.7700  -73.9719      0.5399      0.1944        0.4298
+       QUEENS   40.7131  -73.8245      0.4902      0.2084        0.4095
+STATEN ISLAND   40.5850  -74.1354      0.4207      0.1204        0.3175
+
+Borough with highest r_3d_rolling (0.4699): BROOKLYN
+
+Top 10 highest flood-count days in BROOKLYN:
+      date  flood_count  rain_mm  rain_3d_rolling
+2026-07-06          228     49.6             70.7
+2026-05-21          148      7.2             15.9
+2026-05-20          145      7.2              8.7
+2026-05-24          129     40.7             52.7
+2026-07-18          105     38.9             39.9
+2026-08-03           97     29.9             39.0
+2025-12-19           90     26.1             26.1
+2026-08-20           87     46.9             60.3
+2026-03-05           79     16.6             27.9
+2026-08-23           76      9.3             10.9
+
+--- 3g. Top 20 resolution texts per group (noise, road, flood) ---
+
+Top 20 resolution texts for GROUP: NOISE
+  [01] id=1 | n=278,034 | The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violati
+  [02] id=2 | n=235,070 | The New York City Police Department responded to the complaint and their investigation determined that no criminal violation existed. The co
+  [03] id=6 | n=78,573 | The New York City Police Department responded to the complaint and their investigation determined that police action was not necessary. If t
+  [04] id=3 | n=46,742 | The New York City Police Department responded to the complaint but officers were unable to gain entry into the premises. If the problem pers
+  [05] id=4 | n=36,210 | The New York City Police Department responded to the complaint and observed no criminal violation upon their arrival. If the problem persist
+  [06] id=17 | n=28,737 | The Department of Environmental Protection (DEP) didn't observe a violation of the NYC Air or Noise Code at the time of inspection and could
+  [07] id=7 | n=14,134 | The Department of Environmental Protection determined that this complaint is a duplicate of a previously filed complaint. The original compl
+  [08] id=143 | n=10,916 | The Police Department responded to the complaint and with the information available observed no evidence of the violation at that time.
+  [09] id=8 | n=7,586 | The Department of Environmental Protection researched this complaint and determined that it could be closed.
+  [10] id=144 | n=7,177 | The Police Department responded to the complaint and took action to fix the condition.
+  [11] id=5 | n=6,560 | The New York City Police Department responded to the complaint and their investigation determined that a violation of law occurred. Police i
+  [12] id=10 | n=5,087 | Your complaint has been received but does not fall under the jurisdiction of the New York City Police Department.  Please contact your local
+  [13] id=145 | n=3,456 | The Police Department responded to the complaint and determined that police action was not necessary.
+  [14] id=12 | n=3,159 | The Police Department reviewed your complaint and provided additional information below.
+  [15] id=146 | n=2,137 | The Police Department responded to the complaint but officers were unable to gain entry into the premises.
+  [16] id=109 | n=1,998 | The Department of Environmental Protection (DEP) sent the dog owner a warning letter. It includes recommendations on how to reduce their dog
+  [17] id=33 | n=1,562 | The Department of Environmental Protection requires contact with the complainant to investigate this complaint. A message was left for the c
+  [18] id=50 | n=1,086 | The Department of Environmental Protection (DEP) observed a violation of the NYC Air or Noise Code during the inspection. DEP issued a summo
+  [19] id=110 | n=1,036 | The Department of Environmental Protection (DEP) closed your Service Request because it didn't include your full name and address. DEP needs
+  [20] id=148 | n=920 | The Police Department responded and upon arrival those responsible for the condition were gone.
+
+Top 20 resolution texts for GROUP: ROAD
+  [01] id=16 | n=18,950 | The Department of Transportation inspected this complaint and repaired the problem.
+  [02] id=25 | n=12,105 | The Department of Transportation inspected and has requested the Department of Environmental Protection address the issue. The condition wil
+  [03] id=23 | n=7,605 | The Department of Transportation determined that this complaint is a duplicate of a previously filed complaint. The original complaint is be
+  [04] id=29 | n=3,970 | The Department of Transportation inspected the condition you reported and found that the condition meets its standards and/or there is a val
+  [05] id=22 | n=2,968 | The Department of Transportation inspected this complaint and did not find the reported problem.
+  [06] id=37 | n=1,858 | The Department of Transportation inspected the location for the condition you reported and could not find the problem. It you would like to 
+  [07] id=39 | n=1,628 | The Department of Transportation inspected the condition you reported. You can find additional information in the "Notes to Customer" field.
+  [08] id=46 | n=1,488 | The Department of Transportation inspected the condition and made the determination that the street meets resurfacing standards and will be 
+  [09] id=21 | n=1,146 | The Department of Transportation referred this complaint to the appropriate Maintenance Unit for repair.
+  [10] id=48 | n=1,115 | The Department of Transportation investigated this Service Request and determined this street requires general maintenance. This location ha
+  [11] id=44 | n=981 | The Department of Transportation inspected the condition and issued a Corrective Action Repair (CAR) to the contractor or utility company. T
+  [12] id=57 | n=821 | The condition was inspected and determined not to be under Department of Transportation's jurisdiction. The Department of Transportation not
+  [13] id=13 | n=793 | The Department of Transportation inspected this complaint and found that the problem was fixed.
+  [14] id=52 | n=772 | The Department of Transportation referred this complaint to the Inspections Unit for further action.
+  [15] id=28 | n=668 | The Department of Transportation inspected the condition you reported. It has been entered into the maintenance system. It will be repaired 
+  [16] id=42 | n=656 | The Department of Transportation investigated this request and determined this street requires a reconstruction project. This location is pa
+  [17] id=77 | n=559 | The status of this Service Request is currently not available online. Please call 311 for further assistance. If you are outside of New York
+  [18] id=63 | n=461 | The Department of Transportation inspected the condition, sent notice to responsible party, and temporary repairs were made to make the area
+  [19] id=49 | n=435 | The Department of Transportation inspected the condition and made the determination that the street meets resurfacing standards and will be 
+  [20] id=20 | n=299 | The Department of Transportation will inspect the complaint location and notify the property owner within 180 days if a defective sidewalk c
+
+Top 20 resolution texts for GROUP: FLOOD
+  [01] id=40 | n=5,018 | The Department of Environment Protection inspected your complaint but could not find the problem you reported. If the condition persists, pl
+  [02] id=47 | n=3,272 | The Department of Environmental Protection inspected your complaint and cleaned the catch basin or inlet. If the condition returns, please c
+  [03] id=9 | n=2,532 | The Department of Environmental Protection has determined that this issue was previously reported by another customer The original complaint
+  [04] id=55 | n=2,144 | The Department of Environmental Protection has investigated this complaint and found that debris was obstructing the catch basin.
+  [05] id=51 | n=594 | The Department of Environmental Protection inspected your complaint and referred it to the Department of Transportation for further action. 
+  [06] id=24 | n=212 | The Department of Environmental Protection investigated this complaint and found there was no sewer back up in the city system at the time o
+  [07] id=35 | n=183 | The Department of Environmental Protection has determined that this issue was previously reported by another customer The original complaint
+  [08] id=7 | n=179 | The Department of Environmental Protection determined that this complaint is a duplicate of a previously filed complaint. The original compl
+  [09] id=70 | n=166 | The Department of Environmental Protection investigated this complaint and resolved the street flooding.
+  [10] id=14 | n=152 | The Department of Environmental Protection has inspected your complaint and determined that further investigation is required. More informat
+  [11] id=73 | n=135 | The Department of Environmental Protection investigated this complaint and referred it to another agency or utility for further action.
+  [12] id=82 | n=129 | The Department of Environmental Protection has investigated this complaint. Surcharge conditions have been confirmed due to rain intensity o
+  [13] id=71 | n=117 | The Department of Environmental Protection inspected your complaint and determined that the catch basin is now functioning properly. If the 
+  [14] id=112 | n=94 | The Department of Environmental Protection inspected your complaint and determined that the catch basin is now functioning properly.  If the
+  [15] id=30 | n=70 | The Department of Environmental Protection has investigated this complaint. Surcharge conditions have been confirmed and attributed to greas
+  [16] id=95 | n=66 | NYC DEP investigated and determined the sewer or catchbasin was overtaxed due to heavy rain and no further action is required.
+  [17] id=59 | n=64 | The Department of Environmental Protection has investigated this complaint and has performed repair work.
+  [18] id=41 | n=44 | The Department of Environmental Protection investigated the complaint and determined that the condition is the responsibility of the home or
+  [19] id=31 | n=42 | The Department of Environmental Protection has investigated this complaint. Upon investigation, there was no indication of a city sewer issu
+  [20] id=81 | n=39 | NYC DEP investigated and determined the seepage basin was functioning properly and no further action required.  Seepage  basin typically dra
+
+======================================================================
+SAFETY & FILE SIZES
+======================================================================
+git status --short:
+?? data/processed/311_borough_group_counts.csv
+?? data/processed/311_boroughs.csv
+?? data/processed/311_complaint_types.csv
+?? data/processed/311_cube.csv
+?? data/processed/311_group_candidates.csv
+?? data/processed/311_resolutions.csv
+?? data/processed/311_resolutions_cube.csv
+?? data/processed/complaints_window_all.csv.gz
+?? data/processed/explore_log.txt
+?? data/processed/extract_log.txt
+?? data/processed/group_definitions.csv
+?? data/processed/resolution_lookup.csv
+?? src/preprocessing/explore_311.py
+?? src/preprocessing/extract_window.py
+?? src/preprocessing/groups.py
+
+
+Processed Files Size:
+  complaints_window_all.csv.gz: 26.89 MB (28,196,577 bytes)
+  resolution_lookup.csv: 0.03 MB (32,476 bytes)
+  group_definitions.csv: 0.00 MB (3,026 bytes)
+  extract_log.txt: 0.02 MB (19,628 bytes)
+
+======================================================================
+ALL STEP 1.2 TASKS COMPLETED SUCCESSFULLY
+======================================================================

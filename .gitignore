@@ -4,8 +4,29 @@ data/raw/*
 
 __pycache__/
 *.pyc
+
+# backend runtime database (rebuilt from incidents.csv on startup)
+*.db
+data/*.db
+# cached osmnx drive network (re-downloaded on first /route call)
+*.graphml
+data/*.graphml
 .ipynb_checkpoints/
 .venv/
 .env
 .DS_Store
 *.webm
+data/processed/*.csv.gz
+data/processed/311_cube.csv
+data/processed/311_resolutions_cube.csv
+data/processed/*_log.txt
+data/processed/complaints_clean.csv
+.pytest_cache/
+data/processed/flood_raw_aggregate_*.csv
+data/processed/flood_raw_erm2_quarterly/
+
+data/processed/incidents.csv
+data/processed/complaint_incident_map.csv
+cache/
+data/processed/text/complaints_clean.csv
+models/rf_mixed_candidate.joblib

@@ -1,0 +1,38 @@
+class,substring
+valid,inspected this complaint and repaired the problem
+valid,took action to fix the condition
+valid,issued a summons
+valid,made an arrest
+valid,debris was obstructing the catch basin
+valid,cleaned the catch basin
+valid,sent the dog owner a warning letter
+valid,issued a corrective action repair
+valid,found that the problem was fixed
+valid,temporary repairs were made
+valid,issued a notice to the responsible party
+valid,completed the request or corrected the condition
+valid,surcharge conditions have been confirmed
+valid,performed repair work
+valid,resolved the street flooding
+valid,required flushing
+valid,investigated this complaint and resolved the issue
+valid,resolved the leak
+valid,a defect was found
+valid,and made a repair
+valid,shut the running hydrant
+invalid,observed no evidence of a criminal violation
+invalid,observed no criminal violation
+invalid,police action was not necessary
+invalid,tow request was not necessary
+invalid,violation of the nyc air or noise code at the time of inspection
+invalid,observed no evidence of the violation
+invalid,meets its standards
+invalid,no sewer back up
+invalid,could not find the problem
+invalid,did not find the reported problem
+invalid,were gone
+invalid,now functioning properly
+invalid,could not find the address
+invalid,observed no encampment
+invalid,location/address was not found
+invalid,no indication of city sewer issue

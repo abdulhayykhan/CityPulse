@@ -1,0 +1,6 @@
+borough,days_dropped,robust_pearson_same_day,robust_spearman_same_day,robust_pearson_prev_day,robust_spearman_prev_day,robust_pearson_3d_sum,robust_spearman_3d_sum,log1p_pearson_same_day,log1p_pearson_prev_day,log1p_pearson_3d_sum
+BROOKLYN,3,0.6167,0.3286,0.2598,0.2367,0.5304,0.4181,0.422,0.2535,0.4376
+QUEENS,4,0.6002,0.2806,0.2209,0.2103,0.4992,0.3651,0.4137,0.2569,0.437
+BRONX,1,0.5144,0.2558,0.1425,0.1071,0.4042,0.2792,0.3618,0.1674,0.3613
+MANHATTAN,0,0.5399,0.2973,0.1944,0.2438,0.4298,0.3985,0.4034,0.232,0.4107
+STATEN ISLAND,2,0.4915,0.2273,0.155,0.2137,0.385,0.302,0.3835,0.1893,0.3674
