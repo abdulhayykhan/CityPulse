@@ -27,3 +27,6 @@ data/processed/flood_raw_erm2_quarterly/
 
 data/processed/incidents.csv
 data/processed/complaint_incident_map.csv
+cache/
+data/processed/text/complaints_clean.csv
+models/rf_mixed_candidate.joblib
