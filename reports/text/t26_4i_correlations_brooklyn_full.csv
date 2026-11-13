@@ -1,0 +1,5 @@
+predictor,flood_count_pearson_r,flood_count_spearman_r,log1p_flood_count_pearson_r,log1p_flood_count_spearman_r
+precip_mm,0.442454,0.350697,0.436373,0.350697
+precip_hours,0.328067,0.335216,0.397732,0.335216
+3-day rain sum (precip_mm),0.330448,0.347116,0.402297,0.347116
+3-day sum of precip_hours,0.235687,0.311479,0.34306,0.311479

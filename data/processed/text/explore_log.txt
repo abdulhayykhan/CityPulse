@@ -1,0 +1,498 @@
+NYC 311 Exploration Log - Started at 2026-11-07 20:39:21
+======================================================================
+
+======================================================================
+A. ENVIRONMENT & HARDWARE
+======================================================================
+Git branch : data-ml
+Python     : 3.11.18
+Free disk  : 10.89 GB on C:
+Total RAM  : 7.89 GB
+CPU count  : 4
+pandas ver : 3.1.1
+
+======================================================================
+B. INPUT FILES CHECK
+======================================================================
+File: 311_Service_Requests_from_2010_to_2019_20261107.csv
+  Size: 13.64 GB (14,645,245,616 bytes)
+  Last Modified: 2026-11-07 12:06:25
+File: 311_Service_Requests_from_2020_to_Present_20261107.csv
+  Size: 3.47 GB (3,725,622,845 bytes)
+  Last Modified: 2026-11-07 02:09:50
+Incomplete sibling files (.crdownload/.part/.tmp): NONE
+
+2020 File Completeness Check:
+  Header field count: 44
+  Last 3 lines in binary mode:
+    [1]: '  "message" : "Internal error",'
+    [2]: '  "status" : 500'
+    [3]: '}'
+  Last line field count: 1
+  Completeness result: PARTIAL / INTERRUPTED DOWNLOAD (ends with Socrata 500 error JSON)
+
+======================================================================
+C. STEP 1: HEADER AND FORMAT CHECK (nrows=5)
+======================================================================
+Total columns in CSV (44):
+  [00] Unique Key
+  [01] Created Date
+  [02] Closed Date
+  [03] Agency
+  [04] Agency Name
+  [05] Problem (formerly Complaint Type)
+  [06] Problem Detail (formerly Descriptor)
+  [07] Additional Details
+  [08] Location Type
+  [09] Incident Zip
+  [10] Incident Address
+  [11] Street Name
+  [12] Cross Street 1
+  [13] Cross Street 2
+  [14] Intersection Street 1
+  [15] Intersection Street 2
+  [16] Address Type
+  [17] City
+  [18] Landmark
+  [19] Facility Type
+  [20] Status
+  [21] Due Date
+  [22] Resolution Description
+  [23] Resolution Action Updated Date
+  [24] Community Board
+  [25] Council District
+  [26] Police Precinct
+  [27] BBL
+  [28] Borough
+  [29] X Coordinate (State Plane)
+  [30] Y Coordinate (State Plane)
+  [31] Open Data Channel Type
+  [32] Park Facility Name
+  [33] Park Borough
+  [34] Vehicle Type
+  [35] Taxi Company Borough
+  [36] Taxi Pick Up Location
+  [37] Bridge Highway Name
+  [38] Bridge Highway Direction
+  [39] Road Ramp
+  [40] Bridge Highway Segment
+  [41] Latitude
+  [42] Longitude
+  [43] Location
+
+Field Mapping Check:
+  ✓ created date              -> 'Created Date' (PRESENT)
+  ✓ closed date               -> 'Closed Date' (PRESENT)
+  ✓ complaint type            -> 'Problem (formerly Complaint Type)' (PRESENT)
+  ✓ descriptor                -> 'Problem Detail (formerly Descriptor)' (PRESENT)
+  ✓ status                    -> 'Status' (PRESENT)
+  ✓ resolution description    -> 'Resolution Description' (PRESENT)
+  ✓ borough                   -> 'Borough' (PRESENT)
+  ✓ latitude                  -> 'Latitude' (PRESENT)
+  ✓ longitude                 -> 'Longitude' (PRESENT)
+  ✓ incident address          -> 'Incident Address' (PRESENT)
+  ✓ location type             -> 'Location Type' (PRESENT)
+  ✓ open data channel type    -> 'Open Data Channel Type' (PRESENT)
+
+Sample Created Date strings: ['11/05/2026 02:56:50 AM', '11/05/2026 02:38:48 AM', '11/05/2026 02:06:20 AM']
+Chosen date parse format: %m/%d/%Y %I:%M:%S %p
+
+======================================================================
+D. STEP 2: ONE SINGLE PASS OVER 2020-PRESENT CSV
+======================================================================
+Existing aggregate cubes found at:
+  - C:\Users\USER\Desktop\CityPulse\data\processed\311_cube.csv (3.26 MB)
+  - C:\Users\USER\Desktop\CityPulse\data\processed\311_resolutions_cube.csv (3.21 MB)
+Loading pre-computed aggregate cubes directly (Step 3: computed from saved cubes)...
+
+Single pass summary:
+  Runtime                 : 337.76s (5.63 min)
+  Total rows scanned      : 4,312,360
+  Min created date        : 2025-10-05 09:27:07
+  Max created date        : 2026-11-05 02:56:50
+  Unparseable dates count : 5
+  Missing borough count   : 4,317
+
+======================================================================
+E. STEP 3: REPORTS COMPUTED FROM CUBES
+======================================================================
+Max created date in data : 2026-11-05 02:56:50
+Analysis window          : 12 full calendar months (2025-11 to 2026-10)
+Months included          : 2025-11, 2025-12, 2026-01, 2026-02, 2026-03, 2026-04, 2026-05, 2026-06, 2026-07, 2026-08, 2026-09, 2026-10
+
+------------------------------------------------------------
+D. BOROUGHS TABLE IN ANALYSIS WINDOW
+------------------------------------------------------------
+      borough   total  with_coords  pct_with_coords
+     BROOKLYN 1227987      1209588             98.5
+       QUEENS  969136       935506             96.5
+        BRONX  836346       825877             98.7
+    MANHATTAN  775112       763362             98.5
+STATEN ISLAND  162259       157002             96.8
+  Unspecified    4079          277              6.8
+
+Saved: C:\Users\USER\Desktop\CityPulse\data\processed\311_boroughs.csv (6 rows)
+
+------------------------------------------------------------
+E. TOP 80 COMPLAINT TYPES (WITH COORDINATES, IN WINDOW)
+------------------------------------------------------------
+                         complaint_type      n
+                        Illegal Parking 615869
+                    Noise - Residential 418059
+                         HEAT/HOT WATER 353662
+                       Blocked Driveway 196323
+                Noise - Street/Sidewalk 174366
+                   UNSANITARY CONDITION 139650
+                               PLUMBING  85334
+                       Street Condition  79372
+                      Abandoned Vehicle  71685
+                          PAINT/PLASTER  69465
+                        Dirty Condition  69163
+                           Water System  63182
+                            Snow or Ice  62601
+                     Noise - Commercial  60977
+                                  Noise  60706
+                            DOOR/WINDOW  54635
+               Traffic Signal Condition  53754
+                        Noise - Vehicle  51927
+                             WATER LEAK  49304
+                             Encampment  46290
+                                GENERAL  45192
+                           Damaged Tree  44128
+          General Construction/Plumbing  40433
+                        Illegal Dumping  37423
+                 Street Light Condition  37209
+                               ELECTRIC  36408
+                      Missed Collection  35695
+             Homeless Person Assistance  34320
+                      Derelict Vehicles  32639
+                        FLOORING/STAIRS  31315
+                Maintenance or Facility  28751
+                     Sidewalk Condition  26664
+                              APPLIANCE  26521
+                                 Rodent  26013
+                               Elevator  25539
+                           Building/Use  25337
+            Non-Emergency Police Matter  23989
+                     Vendor Enforcement  23816
+                Overgrown Tree/Branches  23628
+                                  Sewer  22216
+                      Water Maintenance  21989
+                            Obstruction  21685
+                     Consumer Complaint  20957
+             For Hire Vehicle Complaint  18699
+                               Graffiti  16425
+                                 SAFETY  14999
+                                   Lead  14642
+                     Food Establishment  14383
+         Residential Disposal Complaint  13552
+                      Sewer Maintenance  12115
+                           Animal-Abuse  11683
+                            Panhandling  11619
+                        Dead/Dying Tree  11311
+                     Noise - Helicopter  11009
+                     Indoor Air Quality  10860
+                            Dead Animal  10645
+                      Illegal Fireworks  10643
+                                Traffic  10588
+          Root/Sewer/Sidewalk Condition  10199
+                         Taxi Complaint  10159
+                            Air Quality   9903
+                          Drug Activity   8886
+                         Curb Condition   8869
+                      Smoking or Vaping   8241
+                           Noise - Park   8229
+              Street Sweeping Complaint   7924
+                    Illegal Tree Damage   7041
+                          Lost Property   6850
+                     Water Conservation   6405
+                  Real Time Enforcement   6306
+                       Animal in a Park   5746
+                  Street Sign - Damaged   5531
+                        Illegal Posting   5391
+                Violation of Park Rules   4874
+                      Cannabis Retailer   4512
+                               Drinking   4437
+                 Street Sign - Dangling   4163
+                  Litter Basket Request   4027
+                                Boilers   3971
+Special Projects Inspection Team (SPIT)   3949
+
+Saved: C:\Users\USER\Desktop\CityPulse\data\processed\311_complaint_types.csv (80 rows)
+
+------------------------------------------------------------
+F. CANDIDATE GROUPS (complaint_type + descriptor with counts in window)
+------------------------------------------------------------
+Noise candidates:
+          complaint_type                                           descriptor      n group
+     Noise - Residential                                     Loud Music/Party 231816 noise
+     Noise - Residential                                     Banging/Pounding 149786 noise
+ Noise - Street/Sidewalk                                     Loud Music/Party 140017 noise
+      Noise - Commercial                                     Loud Music/Party  47203 noise
+ Noise - Street/Sidewalk                                         Loud Talking  35598 noise
+     Noise - Residential                                         Loud Talking  29815 noise
+         Noise - Vehicle                                      Car/Truck Music  22137 noise
+         Noise - Vehicle                                       Car/Truck Horn  20250 noise
+                   Noise         Noise: Construction Before/After Hours (NM1)  15451 noise
+      Noise - Helicopter                                                Other  10593 noise
+         Noise - Vehicle                                        Engine Idling  10183 noise
+                   Noise                                         Construction   7582 noise
+     Noise - Residential                                      Loud Television   7257 noise
+      Noise - Commercial                                     Banging/Pounding   7114 noise
+            Noise - Park                                     Loud Music/Party   6749 noise
+                   Noise                             Noise, Barking Dog (NR5)   6102 noise
+                   Noise                                  Noise: Alarms (NR3)   5717 noise
+                   Noise                  Noise: Construction Equipment (NC1)   5626 noise
+      Noise - Commercial                                         Loud Talking   5153 noise
+                   Noise     Noise: air condition/ventilation equipment (NV1)   3343 noise
+                   Noise                                                  Dog   2513 noise
+                   Noise                               Construction Equipment   2341 noise
+                   Noise                                                Alarm   2086 noise
+Noise - House of Worship                                         Loud Talking   1820 noise
+                   Noise                          Noise: Jack Hammering (NC2)   1606 noise
+                   Noise                     Noise: Manufacturing Noise (NK1)   1503 noise
+            Noise - Park                                         Loud Talking   1492 noise
+                   Noise                          Air Conditioner/Ventilation   1455 noise
+      Noise - Commercial                                      Car/Truck Music    866 noise
+                   Noise                    Noise:  lawn care equipment (NCL)    859 noise
+                   Noise                                           Jackhammer    778 noise
+Noise - House of Worship                                     Loud Music/Party    757 noise
+                   Noise                         Noise, Ice Cream Truck (NR4)    729 noise
+                   Noise                         Manufacturing Business/Plant    607 noise
+      Noise - Commercial                                       Car/Truck Horn    604 noise
+                   Noise                                  Lawn Care Equipment    596 noise
+                   Noise                   Noise: Private Carting Noise (NQ1)    544 noise
+                   Noise                 Noise: Boat(Engine,Music,Etc) (NR10)    490 noise
+                   Noise                                      Ice Cream Truck    382 noise
+                   Noise                                                 Boat    370 noise
+                   Noise                                Private Garbage Truck    362 noise
+      Noise - Helicopter                                                 NYPD    301 noise
+                   Noise                           Noise, Other Animals (NR6)    261 noise
+      Noise - Commercial                                      Loud Television    211 noise
+                   Noise                                Animal Other Than Dog    119 noise
+      Noise - Helicopter                                       News Gathering    115 noise
+Noise - House of Worship                                     Banging/Pounding     85 noise
+                   Noise      Noise: Other Noise Sources (Use Comments) (NZZ)     24 noise
+Noise - House of Worship                                      Loud Television      3 noise
+                   Noise Noise: Loud Music/Daytime (Mark Date And Time) (NN1)      2 noise
+
+Road condition candidates:
+       complaint_type                     descriptor     n group
+     Street Condition                        Pothole 76031  road
+     Street Condition                        Cave-in 19320  road
+     Street Condition             Defective Hardware  6870  road
+     Street Condition         Blocked - Construction  4840  road
+     Street Condition           Failed Street Repair  4692  road
+     Street Condition Rough, Pitted or Cracked Roads  4612  road
+    Highway Condition              Pothole - Highway  3986  road
+     Street Condition        Plate Condition - Noisy  2871  road
+     Street Condition           Line/Marking - Faded   902  road
+     Street Condition  Line/Marking - After Repaving   818  road
+    Highway Condition                         Litter   817  road
+     Street Condition      Plate Condition - Shifted   747  road
+     Street Condition  Dumpster - Construction Waste   728  road
+    Highway Condition                        Cave-in   532  road
+    Highway Condition             Graffiti - Highway   443  road
+     Street Condition                    Wear & Tear   281  road
+    Highway Condition                    Dead Animal   258  road
+    Highway Condition           Painted Line/Marking   211  road
+     Street Condition            Guard Rail - Street   143  road
+     Street Condition           Crash Cushion Defect   128  road
+     Street Condition         Depression Maintenance   124  road
+     Street Condition                Unsafe Worksite    91  road
+    Highway Condition                     High Grass    84  road
+    Highway Condition                    Loose Plate    77  road
+    Highway Condition                Unsafe Worksite    68  road
+     Street Condition         Plate Condition - Open    67  road
+    Highway Condition           Crash Cushion Defect    64  road
+    Highway Condition                  Highway Fence    62  road
+     Street Condition    Plate Condition - Anti-Skid    33  road
+    Highway Condition           Guard Rail - Highway    17  road
+     Street Condition                        Hummock    15  road
+    Highway Condition           Sign Blocked by Tree    15  road
+     Street Condition                     Defacement    13  road
+    Highway Condition               Concrete Barrier    11  road
+ DEP Street Condition                        Cave-in     8  road
+DEP Highway Condition                        Cave-in     3  road
+ DEP Street Condition          Defective Catch Basin     2  road
+ DEP Street Condition        Failed Street Cut - DEP     2  road
+     Street Condition          General Bad Condition     2  road
+     Street Condition              Maintenance Cover     2  road
+ DEP Street Condition        Defective Manhole Cover     2  road
+     Street Condition                   Strip Paving     2  road
+DEP Highway Condition          Plate Condition - DEP     1  road
+ DEP Street Condition        Concrete Around Hydrant     1  road
+DEP Highway Condition        Defective Manhole Cover     1  road
+
+Flooding / Sewer candidates:
+               complaint_type                                       descriptor     n    group
+Root/Sewer/Sidewalk Condition                      Trees and Sidewalks Program 10211 flooding
+                        Sewer                 Sewer Backup (Use Comments) (SA)  6767 flooding
+                        Sewer Catch Basin Clogged/Flooding (Use Comments) (SC)  5879 flooding
+            Sewer Maintenance                              Catch Basin Clogged  3851 flooding
+            Sewer Maintenance                                           Backup  3023 flooding
+                        Sewer                             Street Flooding (SJ)  2891 flooding
+            Sewer Maintenance                               Flooding on Street  1732 flooding
+                        Sewer          Manhole Cover Missing (Emergency) (SA3)  1228 flooding
+                        Sewer                         Catch Basin Search (SC2)  1177 flooding
+                        Sewer          Catch Basin Sunken/Damaged/Raised (SC1)  1138 flooding
+                        Sewer            Manhole Overflow (Use Comments) (SA1)  1128 flooding
+                        Sewer                                 Sewer Odor (SA2)   974 flooding
+            Sewer Maintenance                                 Manhole Overflow   732 flooding
+            Sewer Maintenance                               Catch Basin Sunken   716 flooding
+            Sewer Maintenance                               Catch Basin Search   633 flooding
+            Sewer Maintenance                                             Odor   621 flooding
+            Sewer Maintenance                            Manhole Cover Missing   449 flooding
+                        Sewer              Culvert Blocked/Needs Cleaning (SE)   420 flooding
+                        Sewer                       RAIN GARDEN DEBRIS (GIRGD)   283 flooding
+            Sewer Maintenance                                          Culvert   276 flooding
+                        Sewer               Defective/Missing Curb Piece (SC4)   220 flooding
+                        Sewer                Catch Basin Grating Missing (SA4)   182 flooding
+            Sewer Maintenance                                       Curb Piece    94 flooding
+                        Sewer                            Highway Flooding (SH)    89 flooding
+            Sewer Maintenance                        Catch Basin Grate Missing    77 flooding
+Root/Sewer/Sidewalk Condition                    Affecting Sewer or Foundation    66 flooding
+                        Sewer                    RAIN GARDEN STRUCTURE (GIRGS)    60 flooding
+            Sewer Maintenance                              Flooding on Highway    60 flooding
+                        Sewer                     RAIN GARDEN PLANTING (GIRGP)    55 flooding
+                        Sewer                    RAIN GARDEN FLOODING (SRGFLD)     1 flooding
+
+Saved: C:\Users\USER\Desktop\CityPulse\data\processed\311_group_candidates.csv (125 rows)
+
+------------------------------------------------------------
+G. BOROUGH X GROUP COUNTS (WITH COORDINATES, IN WINDOW)
+------------------------------------------------------------
+      borough  noise  road  flooding  total_groups
+     BROOKLYN 211843 21588     14172        247603
+        BRONX 218731  7983      4223        230937
+       QUEENS 159288 29533     18477        207298
+    MANHATTAN 179159 13663      3072        195894
+STATEN ISLAND  18887  6575      4579         30041
+  Unspecified     21    53         7            81
+
+Saved: C:\Users\USER\Desktop\CityPulse\data\processed\311_borough_group_counts.csv (6 rows)
+
+------------------------------------------------------------
+H. TOP 30 RESOLUTION DESCRIPTION VALUES (CANDIDATE GROUPS COMBINED, IN WINDOW)
+------------------------------------------------------------
+[01] (n = 279,271)
+The New York City Police Department responded to the complaint and with the information available observed no evidence of a criminal violation at that time. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.
+
+[02] (n = 236,016)
+The New York City Police Department responded to the complaint and their investigation determined that no criminal violation existed. The condition was corrected without the need to issue a summons or effect an arrest. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. If necessary, your complaint may be referred to your local precinct's special operations units (Quality of Life, etc.). Thank you for your attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.
+
+[03] (n = 78,724)
+The New York City Police Department responded to the complaint and their investigation determined that police action was not necessary. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.
+
+[04] (n = 46,747)
+The New York City Police Department responded to the complaint but officers were unable to gain entry into the premises. If the problem persists, please contact 311 to create another complaint and ensure that contact information (e.g., buzzer number, phone number, etc.) is available to assist the responding officers in gaining entry to properly investigate the complaint.  We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.
+
+[05] (n = 38,962)
+The Department of Transportation inspected this complaint and repaired the problem.
+
+[06] (n = 36,469)
+The New York City Police Department responded to the complaint and observed no criminal violation upon their arrival. If the problem persists, please contact 311 to create another complaint. If possible, provide contact information so responding officers may reach out to you for more details. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.
+
+[07] (n = 29,046)
+The Department of Environmental Protection (DEP) didn't observe a violation of the NYC Air or Noise Code at the time of inspection and couldn't issue a summons.  If the problem still exists, please go to nyc.gov/311 or call 311 to file a new Service Request. If you're outside of New York City, please call (212) NEW-YORK (212-639-9675).
+
+[08] (n = 20,412)
+The Department of Transportation determined that this complaint is a duplicate of a previously filed complaint. The original complaint is being addressed.
+
+[09] (n = 15,685)
+The Department of Transportation inspected and has requested the Department of Environmental Protection address the issue. The condition will be re-inspected in 60 days.
+
+[10] (n = 14,627)
+The Department of Environmental Protection determined that this complaint is a duplicate of a previously filed complaint. The original complaint is being addressed.
+
+[11] (n = 10,947)
+The Police Department responded to the complaint and with the information available observed no evidence of the violation at that time.
+
+[12] (n = 8,086)
+The Department of Transportation inspected the condition you reported and found that the condition meets its standards and/or there is a valid permit to conduct work.
+
+[13] (n = 7,783)
+The Department of Transportation inspected this complaint and did not find the reported problem.
+
+[14] (n = 7,709)
+The Department of Environmental Protection researched this complaint and determined that it could be closed.
+
+[15] (n = 7,193)
+The Police Department responded to the complaint and took action to fix the condition.
+
+[16] (n = 7,138)
+The Department of Environment Protection inspected your complaint but could not find the problem you reported. If the condition persists, please call 311 (or 212-639-9675 if calling from a non-New York City area code) with more detailed information to submit a new complaint.
+
+[17] (n = 6,594)
+The New York City Police Department responded to the complaint and their investigation determined that a violation of law occurred. Police issued a summons in response to the complaint. Thank you for attention to this matter. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.
+
+[18] (n = 5,278)
+The Department of Environmental Protection investigated this complaint and found there was no sewer back up in the city system at the time of the inspection.
+
+[19] (n = 5,091)
+Your complaint has been received but does not fall under the jurisdiction of the New York City Police Department.  Please contact your local precinct for more information, including which City agency your request was referred to. We count on New Yorkers like yourself to maintain a safe City, so please let us know if you see other conditions that require our attention.
+
+[20] (n = 4,251)
+The Department of Transportation has completed the request or corrected the condition.
+
+[21] (n = 3,985)
+The Department of Environmental Protection has determined that this issue was previously reported by another customer The original complaint is being addressed. If the condition persists, please call 311 (or 212-639-9675 if calling from a non-New York City area code) to submit a new complaint.
+
+[22] (n = 3,637)
+The Department of Transportation inspected the condition you reported. You can find additional information in the "Notes to Customer" field.
+
+[23] (n = 3,629)
+The Department of Environmental Protection inspected your complaint and cleaned the catch basin or inlet. If the condition returns, please call 311 (or 212-639-9675 if calling from a non-New York City area code) to submit a new complaint.
+
+[24] (n = 3,458)
+The Police Department responded to the complaint and determined that police action was not necessary.
+
+[25] (n = 3,457)
+The Department of Transportation inspected the location for the condition you reported and could not find the problem. It you would like to pursue the complaint, please call 311 or (212) 639-9675 with additional information.
+
+[26] (n = 3,306)
+The Department of Transportation inspected the condition and issued a Corrective Action Repair (CAR) to the contractor or utility company. The responsible party has a maximum of 30 days to correct the condition. If the condition still exists, a summons will be issued. In some cases, the Department of Transportation will make the repairs and charge the responsible party for the costs.
+
+[27] (n = 3,178)
+The Police Department reviewed your complaint and provided additional information below.
+
+[28] (n = 3,105)
+The Department of Transportation referred this complaint to the appropriate Maintenance Unit for repair.
+
+[29] (n = 2,515)
+The Department of Environmental Protection has investigated this complaint. Upon investigation, there was no indication of a city sewer issue and there is a suspected sewer backup due to an internal plumbing issue.
+
+[30] (n = 2,274)
+The Department of Environmental Protection has investigated this complaint and found that debris was obstructing the catch basin.
+
+Saved: C:\Users\USER\Desktop\CityPulse\data\processed\311_resolutions.csv (50 rows)
+
+======================================================================
+I. GIT SAFETY & PROCESSED FILE SIZES
+======================================================================
+git status --short:
+?? data/processed/311_borough_group_counts.csv
+?? data/processed/311_boroughs.csv
+?? data/processed/311_complaint_types.csv
+?? data/processed/311_cube.csv
+?? data/processed/311_group_candidates.csv
+?? data/processed/311_resolutions.csv
+?? data/processed/311_resolutions_cube.csv
+?? data/processed/explore_log.txt
+?? src/preprocessing/explore_311.py
+
+
+Processed Files:
+  .gitkeep: 0.00 KB (0 bytes)
+  311_borough_group_counts.csv: 0.23 KB (240 bytes)
+  311_boroughs.csv: 0.21 KB (217 bytes)
+  311_complaint_types.csv: 1.87 KB (1,912 bytes)
+  311_cube.csv: 3339.19 KB (3,419,328 bytes)
+  311_group_candidates.csv: 5.79 KB (5,930 bytes)
+  311_resolutions.csv: 11.62 KB (11,896 bytes)
+  311_resolutions_cube.csv: 3282.19 KB (3,360,964 bytes)
+  explore_log.txt: 29.73 KB (30,444 bytes)
+
+======================================================================
+ALL STEPS COMPLETED SUCCESSFULLY
+======================================================================

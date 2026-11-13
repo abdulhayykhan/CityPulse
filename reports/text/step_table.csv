@@ -1,0 +1,8 @@
+step,description,rows_before,rows_removed,rows_after
+1,all rows (baseline),874893,0,874893
+2,keep borough == 'BROOKLYN',874893,638386,236507
+3,drop duplicate unique_key,236507,0,236507
+4,drop rows with missing or zero latitude or longitude,236507,0,236507
+5,"drop rows outside the box lat 40.55 to 40.74, lon -74.06 to -73.83",236507,0,236507
+6,where closed_date < created_date set closed_date to NaT (updated 101 rows),236507,0,236507
+7,"create address_norm = upper-case, whitespace-stripped incident_address, empty string if missing",236507,0,236507

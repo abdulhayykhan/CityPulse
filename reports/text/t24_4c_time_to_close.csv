@@ -1,0 +1,5 @@
+group,rows_with_closed_date,median_ttc_h,p90_ttc_h,p99_ttc_h,share_gt_14d_pct
+flood,5167,18.13,83.88,571.02,2.09
+noise,209057,1.18,13.52,221.8,0.62
+road,15134,51.27,222.57,684.57,4.64
+sewer_backup,2974,2.07,5.11,11.33,0.03

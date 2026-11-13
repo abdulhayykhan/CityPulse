@@ -1,0 +1,3023 @@
+day,borough,complaint_type,descriptor,n
+2026-07-01,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-01,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-01,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-01,BRONX,Sewer,Highway Flooding (SH),1
+2026-07-01,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-01,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-01,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-01,BRONX,Sewer,Sewer Odor (SA2),2
+2026-07-01,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-07-01,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2026-07-01,BROOKLYN,Sewer,Catch Basin Search (SC2),2
+2026-07-01,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-01,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),2
+2026-07-01,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-01,BROOKLYN,Sewer,RAIN GARDEN STRUCTURE (GIRGS),1
+2026-07-01,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),5
+2026-07-01,BROOKLYN,Sewer,Street Flooding (SJ),3
+2026-07-01,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-07-01,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-07-01,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-01,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-07-01,MANHATTAN,Sewer,Catch Basin Search (SC2),2
+2026-07-01,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-01,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-01,MANHATTAN,Sewer Maintenance,Backup,1
+2026-07-01,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-01,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-01,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2026-07-01,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-01,QUEENS,Sewer,Catch Basin Search (SC2),5
+2026-07-01,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2026-07-01,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-01,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-01,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2026-07-01,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-01,QUEENS,Sewer,Street Flooding (SJ),1
+2026-07-01,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-01,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-01,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-01,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-01,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2026-07-02,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-02,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-02,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-02,BRONX,Sewer,Sewer Odor (SA2),1
+2026-07-02,BRONX,Sewer,Street Flooding (SJ),3
+2026-07-02,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-02,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-02,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2026-07-02,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-02,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2026-07-02,BROOKLYN,Sewer,Street Flooding (SJ),3
+2026-07-02,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-02,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-02,MANHATTAN,Sewer,Catch Basin Search (SC2),1
+2026-07-02,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-02,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-02,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2026-07-02,MANHATTAN,Sewer,Street Flooding (SJ),2
+2026-07-02,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2026-07-02,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-02,QUEENS,Sewer,Catch Basin Search (SC2),4
+2026-07-02,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-02,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-02,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-02,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-02,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-02,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-02,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-03,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-03,BRONX,Sewer,Catch Basin Search (SC2),2
+2026-07-03,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-03,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-03,BRONX,Sewer,Street Flooding (SJ),1
+2026-07-03,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-03,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2026-07-03,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-03,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-03,BROOKLYN,Sewer,Street Flooding (SJ),1
+2026-07-03,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-03,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-03,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2026-07-03,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-03,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-03,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-03,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-03,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),2
+2026-07-03,QUEENS,Sewer,RAIN GARDEN PLANTING (GIRGP),1
+2026-07-03,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),5
+2026-07-03,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-03,QUEENS,Sewer,Street Flooding (SJ),3
+2026-07-03,QUEENS,Sewer Maintenance,Backup,1
+2026-07-03,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-07-03,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-03,STATEN ISLAND,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-03,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-04,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-04,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-04,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-04,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-04,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2026-07-04,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-04,BRONX,Sewer,Street Flooding (SJ),2
+2026-07-04,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2026-07-04,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-04,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-04,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),4
+2026-07-04,BROOKLYN,Sewer,Street Flooding (SJ),1
+2026-07-04,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-04,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-04,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-04,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2026-07-04,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-04,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2026-07-04,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-04,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-04,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-04,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-04,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-04,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-05,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-05,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-05,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-05,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-05,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-05,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2026-07-05,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2026-07-05,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),9
+2026-07-05,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2026-07-05,BROOKLYN,Sewer,Street Flooding (SJ),5
+2026-07-05,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,10
+2026-07-05,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-05,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-05,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-05,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2026-07-05,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-05,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),18
+2026-07-05,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-05,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-05,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-05,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-05,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2026-07-05,QUEENS,Sewer,Street Flooding (SJ),2
+2026-07-05,QUEENS,Sewer Maintenance,Backup,1
+2026-07-05,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-05,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-05,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-05,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-05,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2026-07-05,Unspecified,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-06,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2026-07-06,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-06,BRONX,Sewer,Catch Basin Search (SC2),2
+2026-07-06,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2026-07-06,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-06,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-06,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-06,BRONX,Sewer,Sewer Odor (SA2),3
+2026-07-06,BRONX,Sewer,Street Flooding (SJ),10
+2026-07-06,BRONX,Sewer Maintenance,Catch Basin Clogged,4
+2026-07-06,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),83
+2026-07-06,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-06,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),6
+2026-07-06,BROOKLYN,Sewer,Highway Flooding (SH),7
+2026-07-06,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-06,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),51
+2026-07-06,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2026-07-06,BROOKLYN,Sewer,Street Flooding (SJ),77
+2026-07-06,BROOKLYN,Sewer Maintenance,Backup,3
+2026-07-06,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,37
+2026-07-06,BROOKLYN,Sewer Maintenance,Culvert,4
+2026-07-06,BROOKLYN,Sewer Maintenance,Flooding on Street,33
+2026-07-06,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2026-07-06,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-06,MANHATTAN,Sewer,Highway Flooding (SH),1
+2026-07-06,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-06,MANHATTAN,Sewer,Street Flooding (SJ),7
+2026-07-06,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-06,MANHATTAN,Sewer Maintenance,Curb Piece,1
+2026-07-06,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),75
+2026-07-06,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-06,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-06,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),4
+2026-07-06,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-06,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-06,QUEENS,Sewer,Highway Flooding (SH),2
+2026-07-06,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-06,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2026-07-06,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),38
+2026-07-06,QUEENS,Sewer,Sewer Odor (SA2),2
+2026-07-06,QUEENS,Sewer,Street Flooding (SJ),56
+2026-07-06,QUEENS,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-06,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-06,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-07-06,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),32
+2026-07-06,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-06,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-06,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),8
+2026-07-06,STATEN ISLAND,Sewer,Street Flooding (SJ),47
+2026-07-06,Unspecified,Sewer,Highway Flooding (SH),1
+2026-07-07,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-07,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-07,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-07,BRONX,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-07,BRONX,Sewer,Sewer Odor (SA2),1
+2026-07-07,BRONX,Sewer,Street Flooding (SJ),2
+2026-07-07,BRONX,Sewer Maintenance,Backup,1
+2026-07-07,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2026-07-07,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-07,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-07,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-07,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-07,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-07,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),21
+2026-07-07,BROOKLYN,Sewer,Sewer Odor (SA2),5
+2026-07-07,BROOKLYN,Sewer,Street Flooding (SJ),11
+2026-07-07,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,13
+2026-07-07,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-07,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-07-07,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-07,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2026-07-07,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-07,MANHATTAN,Sewer,Street Flooding (SJ),1
+2026-07-07,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-07,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-07,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2026-07-07,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-07,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-07,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-07,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-07,QUEENS,Sewer,RAIN GARDEN PLANTING (GIRGP),1
+2026-07-07,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),16
+2026-07-07,QUEENS,Sewer,Sewer Odor (SA2),3
+2026-07-07,QUEENS,Sewer,Street Flooding (SJ),14
+2026-07-07,QUEENS,Sewer Maintenance,Culvert,1
+2026-07-07,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2026-07-07,STATEN ISLAND,Sewer,Catch Basin Search (SC2),1
+2026-07-07,STATEN ISLAND,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-07,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-07,STATEN ISLAND,Sewer,Street Flooding (SJ),2
+2026-07-08,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-08,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-08,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-08,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),5
+2026-07-08,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-08,BRONX,Sewer,Street Flooding (SJ),1
+2026-07-08,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-08,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-08,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-08,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-08,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-08,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2026-07-08,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-08,BROOKLYN,Sewer,Street Flooding (SJ),4
+2026-07-08,BROOKLYN,Sewer Maintenance,Backup,1
+2026-07-08,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,7
+2026-07-08,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-07-08,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-07-08,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-07-08,BROOKLYN,Sewer Maintenance,Odor,1
+2026-07-08,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-08,MANHATTAN,Sewer,Catch Basin Search (SC2),2
+2026-07-08,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-08,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-08,MANHATTAN,Sewer,Street Flooding (SJ),2
+2026-07-08,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),17
+2026-07-08,QUEENS,Sewer,Catch Basin Search (SC2),2
+2026-07-08,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-08,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),2
+2026-07-08,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2026-07-08,QUEENS,Sewer,RAIN GARDEN PLANTING (GIRGP),2
+2026-07-08,QUEENS,Sewer,RAIN GARDEN STRUCTURE (GIRGS),2
+2026-07-08,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),19
+2026-07-08,QUEENS,Sewer,Sewer Odor (SA2),2
+2026-07-08,QUEENS,Sewer,Street Flooding (SJ),6
+2026-07-08,QUEENS,Sewer Maintenance,Backup,1
+2026-07-08,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-08,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-07-08,QUEENS,Sewer Maintenance,Odor,1
+2026-07-08,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),7
+2026-07-08,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-08,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2026-07-08,STATEN ISLAND,Sewer,Street Flooding (SJ),2
+2026-07-09,BRONX,Sewer,Catch Basin Search (SC2),2
+2026-07-09,BRONX,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-09,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-09,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-09,BRONX,Sewer,Sewer Backup (Use Comments) (SA),4
+2026-07-09,BRONX,Sewer,Sewer Odor (SA2),1
+2026-07-09,BRONX,Sewer Maintenance,Backup,1
+2026-07-09,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-09,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-09,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-09,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-09,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-09,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-09,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),4
+2026-07-09,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),8
+2026-07-09,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2026-07-09,BROOKLYN,Sewer,Street Flooding (SJ),1
+2026-07-09,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,10
+2026-07-09,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-07-09,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-07-09,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-07-09,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-07-09,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-09,MANHATTAN,Sewer,Catch Basin Search (SC2),2
+2026-07-09,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-09,MANHATTAN,Sewer,RAIN GARDEN PLANTING (GIRGP),1
+2026-07-09,MANHATTAN,Sewer,Street Flooding (SJ),1
+2026-07-09,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),15
+2026-07-09,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-09,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-09,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-09,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-09,QUEENS,Sewer,RAIN GARDEN PLANTING (GIRGP),1
+2026-07-09,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),4
+2026-07-09,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-09,QUEENS,Sewer Maintenance,Odor,1
+2026-07-09,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2026-07-09,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-09,STATEN ISLAND,Sewer,Highway Flooding (SH),1
+2026-07-09,STATEN ISLAND,Sewer,Street Flooding (SJ),4
+2026-07-09,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-10,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-10,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-10,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-10,BRONX,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-10,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-10,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-10,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-10,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-10,BROOKLYN,Sewer Maintenance,Backup,2
+2026-07-10,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-10,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-10,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-07-10,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-10,MANHATTAN,Sewer,Catch Basin Search (SC2),1
+2026-07-10,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-10,MANHATTAN,Sewer,Highway Flooding (SH),1
+2026-07-10,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-10,MANHATTAN,Sewer,Street Flooding (SJ),1
+2026-07-10,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-10,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-10,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11
+2026-07-10,QUEENS,Sewer,Catch Basin Search (SC2),5
+2026-07-10,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-10,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),4
+2026-07-10,QUEENS,Sewer,RAIN GARDEN PLANTING (GIRGP),2
+2026-07-10,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),4
+2026-07-10,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-10,QUEENS,Sewer,Street Flooding (SJ),3
+2026-07-10,QUEENS,Sewer Maintenance,Backup,1
+2026-07-10,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-10,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-10,STATEN ISLAND,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-10,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-10,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-11,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-11,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-11,BRONX,Sewer,Sewer Backup (Use Comments) (SA),7
+2026-07-11,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-11,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-11,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-11,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-11,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-11,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-11,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2026-07-11,BROOKLYN,Sewer,Street Flooding (SJ),2
+2026-07-11,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-11,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-11,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-11,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-07-11,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-07-11,MANHATTAN,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-11,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-11,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2026-07-11,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-11,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-11,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2026-07-11,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-11,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),4
+2026-07-11,QUEENS,Sewer,RAIN GARDEN PLANTING (GIRGP),2
+2026-07-11,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),5
+2026-07-11,QUEENS,Sewer,Sewer Odor (SA2),4
+2026-07-11,QUEENS,Sewer,Street Flooding (SJ),1
+2026-07-11,QUEENS,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-11,QUEENS,Sewer Maintenance,Catch Basin Sunken,4
+2026-07-11,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-07-11,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-11,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-11,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-07-12,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-12,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-12,BRONX,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-12,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-12,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-12,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2026-07-12,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-12,BROOKLYN,Sewer,Street Flooding (SJ),1
+2026-07-12,BROOKLYN,Sewer Maintenance,Backup,1
+2026-07-12,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-12,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-07-12,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-07-12,MANHATTAN,Sewer,Catch Basin Search (SC2),2
+2026-07-12,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-12,MANHATTAN,Sewer,Street Flooding (SJ),1
+2026-07-12,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-12,QUEENS,Sewer,Catch Basin Search (SC2),2
+2026-07-12,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-12,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-12,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-12,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-12,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-12,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-12,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-12,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2026-07-12,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2026-07-13,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-13,BRONX,Sewer,Catch Basin Search (SC2),3
+2026-07-13,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-13,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-13,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-13,BRONX,Sewer,Sewer Odor (SA2),4
+2026-07-13,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-13,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-13,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-13,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-13,BROOKLYN,Sewer,RAIN GARDEN STRUCTURE (GIRGS),1
+2026-07-13,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),4
+2026-07-13,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2026-07-13,BROOKLYN,Sewer,Street Flooding (SJ),6
+2026-07-13,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-13,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-07-13,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-13,MANHATTAN,Sewer,Catch Basin Search (SC2),3
+2026-07-13,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-13,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2026-07-13,MANHATTAN,Sewer,Street Flooding (SJ),2
+2026-07-13,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2026-07-13,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-13,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),3
+2026-07-13,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2026-07-13,QUEENS,Sewer,Sewer Odor (SA2),3
+2026-07-13,QUEENS,Sewer,Street Flooding (SJ),2
+2026-07-13,QUEENS,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-13,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-13,STATEN ISLAND,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-13,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-13,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2026-07-13,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-14,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-14,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-14,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-14,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-14,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-14,BRONX,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-14,BRONX,Sewer,Sewer Backup (Use Comments) (SA),5
+2026-07-14,BRONX,Sewer Maintenance,Curb Piece,1
+2026-07-14,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-14,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-14,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-14,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),2
+2026-07-14,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-14,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2026-07-14,BROOKLYN,Sewer,Street Flooding (SJ),1
+2026-07-14,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-14,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-14,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-07-14,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-07-14,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-14,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-14,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-14,MANHATTAN,Sewer,Street Flooding (SJ),1
+2026-07-14,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-14,MANHATTAN,Sewer Maintenance,Curb Piece,1
+2026-07-14,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-14,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-14,QUEENS,Sewer,Catch Basin Search (SC2),4
+2026-07-14,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2026-07-14,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-14,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),5
+2026-07-14,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-14,QUEENS,Sewer Maintenance,Backup,1
+2026-07-14,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-14,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-14,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-07-14,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-07-14,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-14,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-14,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2026-07-15,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2026-07-15,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-15,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-15,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-15,BRONX,Sewer,Sewer Odor (SA2),2
+2026-07-15,BRONX,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-15,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2026-07-15,BROOKLYN,Sewer,Catch Basin Search (SC2),3
+2026-07-15,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-15,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2026-07-15,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-15,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2026-07-15,BROOKLYN,Sewer,Street Flooding (SJ),4
+2026-07-15,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,6
+2026-07-15,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-07-15,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-15,MANHATTAN,Sewer,Catch Basin Search (SC2),2
+2026-07-15,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-15,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-15,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-15,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-15,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),10
+2026-07-15,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-15,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-15,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-15,QUEENS,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-15,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-15,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-15,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),7
+2026-07-15,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-15,QUEENS,Sewer,Street Flooding (SJ),10
+2026-07-15,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-07-15,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-15,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-15,STATEN ISLAND,Sewer,Street Flooding (SJ),4
+2026-07-16,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-16,BRONX,Sewer,Catch Basin Search (SC2),2
+2026-07-16,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-16,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-16,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-16,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-16,BRONX,Sewer,Street Flooding (SJ),1
+2026-07-16,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2026-07-16,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-16,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-16,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),6
+2026-07-16,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-16,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2026-07-16,BROOKLYN,Sewer,Street Flooding (SJ),1
+2026-07-16,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-16,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-16,BROOKLYN,Sewer Maintenance,Flooding on Street,4
+2026-07-16,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-16,MANHATTAN,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-16,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-16,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-16,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-16,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-16,MANHATTAN,Sewer,Street Flooding (SJ),2
+2026-07-16,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-16,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-16,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2026-07-16,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-16,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-16,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-16,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-16,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-16,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-16,QUEENS,Sewer,RAIN GARDEN PLANTING (GIRGP),1
+2026-07-16,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),13
+2026-07-16,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-16,QUEENS,Sewer,Street Flooding (SJ),2
+2026-07-16,QUEENS,Sewer Maintenance,Backup,1
+2026-07-16,QUEENS,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-16,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-16,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-16,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-16,STATEN ISLAND,Sewer,Street Flooding (SJ),3
+2026-07-17,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2026-07-17,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-17,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-17,BRONX,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-17,BRONX,Sewer,Sewer Odor (SA2),2
+2026-07-17,BRONX,Sewer,Street Flooding (SJ),1
+2026-07-17,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-17,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-17,BROOKLYN,Sewer,Catch Basin Search (SC2),2
+2026-07-17,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-17,BROOKLYN,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-17,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),4
+2026-07-17,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),5
+2026-07-17,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-17,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2026-07-17,BROOKLYN,Sewer,Street Flooding (SJ),2
+2026-07-17,BROOKLYN,Sewer Maintenance,Backup,1
+2026-07-17,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,11
+2026-07-17,BROOKLYN,Sewer Maintenance,Odor,1
+2026-07-17,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-17,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-17,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-17,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-17,MANHATTAN,Sewer,Street Flooding (SJ),1
+2026-07-17,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),9
+2026-07-17,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-17,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-17,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-17,QUEENS,Sewer,Sewer Odor (SA2),2
+2026-07-17,QUEENS,Sewer,Street Flooding (SJ),2
+2026-07-17,QUEENS,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-17,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-17,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-07-17,QUEENS,Sewer Maintenance,Odor,1
+2026-07-17,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2026-07-17,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-17,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-17,STATEN ISLAND,Sewer,Sewer Odor (SA2),2
+2026-07-17,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2026-07-17,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-07-17,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-18,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5
+2026-07-18,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-18,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-18,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-18,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-18,BRONX,Sewer,Street Flooding (SJ),8
+2026-07-18,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-18,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),39
+2026-07-18,BROOKLYN,Sewer,Catch Basin Search (SC2),1
+2026-07-18,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-18,BROOKLYN,Sewer,Highway Flooding (SH),5
+2026-07-18,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),3
+2026-07-18,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),7
+2026-07-18,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),37
+2026-07-18,BROOKLYN,Sewer,Street Flooding (SJ),37
+2026-07-18,BROOKLYN,Sewer Maintenance,Backup,7
+2026-07-18,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,15
+2026-07-18,BROOKLYN,Sewer Maintenance,Culvert,3
+2026-07-18,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-07-18,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-07-18,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),20
+2026-07-18,MANHATTAN,Sewer,Catch Basin Grating Missing (SA4),2
+2026-07-18,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-18,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),4
+2026-07-18,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-18,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),13
+2026-07-18,MANHATTAN,Sewer,Street Flooding (SJ),9
+2026-07-18,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-18,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),58
+2026-07-18,QUEENS,Sewer,Catch Basin Grating Missing (SA4),3
+2026-07-18,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-18,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-18,QUEENS,Sewer,Highway Flooding (SH),7
+2026-07-18,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),20
+2026-07-18,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),5
+2026-07-18,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-18,QUEENS,Sewer,RAIN GARDEN STRUCTURE (GIRGS),1
+2026-07-18,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),98
+2026-07-18,QUEENS,Sewer,Sewer Odor (SA2),4
+2026-07-18,QUEENS,Sewer,Street Flooding (SJ),78
+2026-07-18,QUEENS,Sewer Maintenance,Backup,2
+2026-07-18,QUEENS,Sewer Maintenance,Catch Basin Clogged,44
+2026-07-18,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-18,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-18,QUEENS,Sewer Maintenance,Culvert,2
+2026-07-18,QUEENS,Sewer Maintenance,Flooding on Street,27
+2026-07-18,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-18,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-18,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-18,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-18,STATEN ISLAND,Sewer,Sewer Odor (SA2),1
+2026-07-18,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-07-18,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,10
+2026-07-18,STATEN ISLAND,Sewer Maintenance,Flooding on Street,8
+2026-07-18,Unspecified,Sewer,Highway Flooding (SH),2
+2026-07-19,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-19,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-19,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-19,BRONX,Sewer,Sewer Odor (SA2),1
+2026-07-19,BRONX,Sewer,Street Flooding (SJ),1
+2026-07-19,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-19,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),13
+2026-07-19,BROOKLYN,Sewer,Catch Basin Search (SC2),2
+2026-07-19,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-19,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-19,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),6
+2026-07-19,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-19,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),8
+2026-07-19,BROOKLYN,Sewer Maintenance,Backup,1
+2026-07-19,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,6
+2026-07-19,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-07-19,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),18
+2026-07-19,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-19,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-19,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),28
+2026-07-19,QUEENS,Sewer,Street Flooding (SJ),7
+2026-07-19,QUEENS,Sewer Maintenance,Backup,1
+2026-07-19,QUEENS,Sewer Maintenance,Catch Basin Clogged,12
+2026-07-19,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-19,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-19,QUEENS,Sewer Maintenance,Flooding on Highway,1
+2026-07-19,QUEENS,Sewer Maintenance,Flooding on Street,6
+2026-07-19,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-19,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-19,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,5
+2026-07-19,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-07-19,STATEN ISLAND,Sewer Maintenance,Flooding on Street,2
+2026-07-20,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-20,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-20,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-20,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-20,BRONX,Sewer,Street Flooding (SJ),1
+2026-07-20,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-20,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-20,BRONX,Sewer Maintenance,Odor,1
+2026-07-20,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),19
+2026-07-20,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-20,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-20,BROOKLYN,Sewer,Highway Flooding (SH),1
+2026-07-20,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-20,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),15
+2026-07-20,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2026-07-20,BROOKLYN,Sewer,Street Flooding (SJ),2
+2026-07-20,BROOKLYN,Sewer Maintenance,Backup,1
+2026-07-20,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,18
+2026-07-20,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-07-20,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-20,BROOKLYN,Sewer Maintenance,Flooding on Street,5
+2026-07-20,BROOKLYN,Sewer Maintenance,Odor,1
+2026-07-20,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),8
+2026-07-20,MANHATTAN,Sewer,Catch Basin Search (SC2),2
+2026-07-20,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-20,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-20,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),4
+2026-07-20,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),24
+2026-07-20,QUEENS,Sewer,Catch Basin Search (SC2),3
+2026-07-20,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-20,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-20,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-20,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-20,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),37
+2026-07-20,QUEENS,Sewer,Sewer Odor (SA2),3
+2026-07-20,QUEENS,Sewer,Street Flooding (SJ),3
+2026-07-20,QUEENS,Sewer Maintenance,Catch Basin Clogged,48
+2026-07-20,QUEENS,Sewer Maintenance,Catch Basin Search,3
+2026-07-20,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-20,QUEENS,Sewer Maintenance,Culvert,2
+2026-07-20,QUEENS,Sewer Maintenance,Flooding on Street,7
+2026-07-20,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-07-20,QUEENS,Sewer Maintenance,Odor,1
+2026-07-20,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-20,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-20,STATEN ISLAND,Sewer,Sewer Odor (SA2),2
+2026-07-20,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-07-20,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-20,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-07-21,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+2026-07-21,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-21,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-21,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-21,BRONX,Sewer,Highway Flooding (SH),1
+2026-07-21,BRONX,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-21,BRONX,Sewer,Sewer Backup (Use Comments) (SA),8
+2026-07-21,BRONX,Sewer,Street Flooding (SJ),9
+2026-07-21,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-21,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),15
+2026-07-21,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-21,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-21,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),4
+2026-07-21,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-21,BROOKLYN,Sewer,RAIN GARDEN PLANTING (GIRGP),1
+2026-07-21,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),13
+2026-07-21,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2026-07-21,BROOKLYN,Sewer,Street Flooding (SJ),5
+2026-07-21,BROOKLYN,Sewer Maintenance,Backup,3
+2026-07-21,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,14
+2026-07-21,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-07-21,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-07-21,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-07-21,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),11
+2026-07-21,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),2
+2026-07-21,MANHATTAN,Sewer,Highway Flooding (SH),2
+2026-07-21,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),4
+2026-07-21,MANHATTAN,Sewer,Street Flooding (SJ),5
+2026-07-21,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-21,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),18
+2026-07-21,QUEENS,Sewer,Culvert Blocked/Needs Cleaning (SE),3
+2026-07-21,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-21,QUEENS,Sewer,RAIN GARDEN PLANTING (GIRGP),1
+2026-07-21,QUEENS,Sewer,RAIN GARDEN STRUCTURE (GIRGS),1
+2026-07-21,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),43
+2026-07-21,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-21,QUEENS,Sewer,Street Flooding (SJ),10
+2026-07-21,QUEENS,Sewer Maintenance,Backup,1
+2026-07-21,QUEENS,Sewer Maintenance,Catch Basin Clogged,37
+2026-07-21,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-07-21,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-21,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-21,QUEENS,Sewer Maintenance,Culvert,2
+2026-07-21,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-07-21,QUEENS,Sewer Maintenance,Flooding on Street,8
+2026-07-21,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-21,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-21,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-21,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-21,STATEN ISLAND,Sewer,Street Flooding (SJ),1
+2026-07-21,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-21,STATEN ISLAND,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-07-21,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,3
+2026-07-21,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-07-22,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-22,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-22,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-22,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-22,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-22,BRONX,Sewer,Street Flooding (SJ),2
+2026-07-22,BRONX,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-22,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-22,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-22,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-22,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-22,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-22,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-22,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-22,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-22,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2026-07-22,BROOKLYN,Sewer,Street Flooding (SJ),1
+2026-07-22,BROOKLYN,Sewer Maintenance,Backup,2
+2026-07-22,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,5
+2026-07-22,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-07-22,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-07-22,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-07-22,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-07-22,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-07-22,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-22,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-22,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-22,MANHATTAN,Sewer,Street Flooding (SJ),2
+2026-07-22,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-22,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-22,MANHATTAN,Sewer Maintenance,Curb Piece,1
+2026-07-22,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-22,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-22,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-22,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-22,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-22,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-22,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),26
+2026-07-22,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-22,QUEENS,Sewer,Street Flooding (SJ),3
+2026-07-22,QUEENS,Sewer Maintenance,Catch Basin Clogged,12
+2026-07-22,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-07-22,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-22,QUEENS,Sewer Maintenance,Culvert,1
+2026-07-22,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-07-22,QUEENS,Sewer Maintenance,Odor,1
+2026-07-22,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-22,STATEN ISLAND,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-22,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-07-22,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-23,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-23,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),2
+2026-07-23,BRONX,Sewer,Sewer Odor (SA2),1
+2026-07-23,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-23,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),6
+2026-07-23,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-23,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-23,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),8
+2026-07-23,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-23,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2026-07-23,BROOKLYN,Sewer,Street Flooding (SJ),2
+2026-07-23,BROOKLYN,Sewer Maintenance,Backup,1
+2026-07-23,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,8
+2026-07-23,BROOKLYN,Sewer Maintenance,Catch Basin Search,4
+2026-07-23,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-07-23,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-07-23,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-07-23,BROOKLYN,Sewer Maintenance,Odor,2
+2026-07-23,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-23,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-23,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-23,MANHATTAN,Sewer,Street Flooding (SJ),1
+2026-07-23,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-07-23,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-23,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-23,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-23,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),20
+2026-07-23,QUEENS,Sewer,Sewer Odor (SA2),3
+2026-07-23,QUEENS,Sewer Maintenance,Catch Basin Clogged,12
+2026-07-23,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-23,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-07-23,QUEENS,Sewer Maintenance,Culvert,1
+2026-07-23,QUEENS,Sewer Maintenance,Flooding on Street,5
+2026-07-23,QUEENS,Sewer Maintenance,Odor,1
+2026-07-23,STATEN ISLAND,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-23,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-23,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-07-24,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),4
+2026-07-24,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-24,BRONX,Sewer,Street Flooding (SJ),1
+2026-07-24,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-24,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-07-24,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-24,BROOKLYN,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-24,BROOKLYN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-24,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-24,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),8
+2026-07-24,BROOKLYN,Sewer,Sewer Odor (SA2),1
+2026-07-24,BROOKLYN,Sewer,Street Flooding (SJ),2
+2026-07-24,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-24,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-07-24,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-24,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-07-24,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-24,MANHATTAN,Sewer,Catch Basin Search (SC2),4
+2026-07-24,MANHATTAN,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-24,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-24,MANHATTAN,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-24,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-24,MANHATTAN,Sewer,Street Flooding (SJ),1
+2026-07-24,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-24,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-24,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-07-24,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-24,QUEENS,Sewer,Catch Basin Search (SC2),1
+2026-07-24,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-24,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),9
+2026-07-24,QUEENS,Sewer,Sewer Odor (SA2),1
+2026-07-24,QUEENS,Sewer,Street Flooding (SJ),1
+2026-07-24,QUEENS,Sewer Maintenance,Backup,2
+2026-07-24,QUEENS,Sewer Maintenance,Catch Basin Clogged,20
+2026-07-24,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-24,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-24,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-07-24,QUEENS,Sewer Maintenance,Odor,1
+2026-07-24,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-24,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-24,STATEN ISLAND,Sewer Maintenance,Flooding on Street,3
+2026-07-24,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-07-24,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-07-25,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-25,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-25,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-25,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-25,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-25,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),5
+2026-07-25,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),7
+2026-07-25,BROOKLYN,Sewer,Street Flooding (SJ),2
+2026-07-25,BROOKLYN,Sewer Maintenance,Backup,1
+2026-07-25,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-25,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-07-25,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-25,MANHATTAN,Sewer,Catch Basin Search (SC2),1
+2026-07-25,MANHATTAN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-25,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-25,MANHATTAN,Sewer,Sewer Odor (SA2),2
+2026-07-25,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-25,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-25,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-25,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),2
+2026-07-25,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-25,QUEENS,Sewer,Sewer Odor (SA2),3
+2026-07-25,QUEENS,Sewer,Street Flooding (SJ),1
+2026-07-25,QUEENS,Sewer Maintenance,Backup,1
+2026-07-25,QUEENS,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-25,QUEENS,Sewer Maintenance,Catch Basin Search,5
+2026-07-25,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-25,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-07-25,QUEENS,Sewer Maintenance,Odor,1
+2026-07-25,STATEN ISLAND,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-25,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-25,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-07-25,STATEN ISLAND,Sewer Maintenance,Curb Piece,1
+2026-07-26,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-26,BRONX,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-26,BRONX,Sewer,Street Flooding (SJ),2
+2026-07-26,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-26,BROOKLYN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-26,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),4
+2026-07-26,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),6
+2026-07-26,BROOKLYN,Sewer,Sewer Odor (SA2),3
+2026-07-26,BROOKLYN,Sewer Maintenance,Backup,1
+2026-07-26,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,4
+2026-07-26,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-07-26,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-26,MANHATTAN,Sewer,Catch Basin Search (SC2),1
+2026-07-26,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-26,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-26,QUEENS,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-26,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-26,QUEENS,Sewer,RAIN GARDEN PLANTING (GIRGP),1
+2026-07-26,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),9
+2026-07-26,QUEENS,Sewer Maintenance,Catch Basin Clogged,12
+2026-07-26,QUEENS,Sewer Maintenance,Catch Basin Search,3
+2026-07-26,QUEENS,Sewer Maintenance,Catch Basin Sunken,6
+2026-07-26,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-07-26,STATEN ISLAND,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-26,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-07-26,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,1
+2026-07-26,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-07-27,BRONX,Sewer,Catch Basin Grating Missing (SA4),1
+2026-07-27,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-27,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),2
+2026-07-27,BRONX,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-27,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-27,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-27,BROOKLYN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-27,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-27,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2026-07-27,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-27,BROOKLYN,Sewer,RAIN GARDEN PLANTING (GIRGP),1
+2026-07-27,BROOKLYN,Sewer,Sewer Backup (Use Comments) (SA),3
+2026-07-27,BROOKLYN,Sewer,Sewer Odor (SA2),2
+2026-07-27,BROOKLYN,Sewer Maintenance,Backup,5
+2026-07-27,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,10
+2026-07-27,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-27,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,3
+2026-07-27,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-07-27,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),2
+2026-07-27,MANHATTAN,Sewer,Defective/Missing Curb Piece (SC4),1
+2026-07-27,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-27,MANHATTAN,Sewer,Sewer Odor (SA2),1
+2026-07-27,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,7
+2026-07-27,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-07-27,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-07-27,MANHATTAN,Sewer Maintenance,Curb Piece,1
+2026-07-27,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-27,QUEENS,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-27,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-27,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),10
+2026-07-27,QUEENS,Sewer,Street Flooding (SJ),1
+2026-07-27,QUEENS,Sewer Maintenance,Backup,9
+2026-07-27,QUEENS,Sewer Maintenance,Catch Basin Clogged,25
+2026-07-27,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-07-27,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-07-27,QUEENS,Sewer Maintenance,Catch Basin Sunken,4
+2026-07-27,QUEENS,Sewer Maintenance,Culvert,2
+2026-07-27,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-07-27,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-27,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-07-27,QUEENS,Sewer Maintenance,Odor,2
+2026-07-27,STATEN ISLAND,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-27,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-07-27,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-27,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-07-27,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-27,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-07-28,BRONX,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-28,BRONX,Sewer,Catch Basin Search (SC2),1
+2026-07-28,BRONX,Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1
+2026-07-28,BRONX,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-28,BRONX,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-28,BRONX,Sewer,Street Flooding (SJ),1
+2026-07-28,BRONX,Sewer Maintenance,Backup,2
+2026-07-28,BRONX,Sewer Maintenance,Catch Basin Clogged,5
+2026-07-28,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-07-28,BRONX,Sewer Maintenance,Odor,2
+2026-07-28,BROOKLYN,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-28,BROOKLYN,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2026-07-28,BROOKLYN,Sewer,Street Flooding (SJ),1
+2026-07-28,BROOKLYN,Sewer Maintenance,Backup,8
+2026-07-28,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,9
+2026-07-28,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-28,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-07-28,BROOKLYN,Sewer Maintenance,Flooding on Street,4
+2026-07-28,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-28,BROOKLYN,Sewer Maintenance,Odor,2
+2026-07-28,MANHATTAN,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),1
+2026-07-28,MANHATTAN,Sewer,Culvert Blocked/Needs Cleaning (SE),1
+2026-07-28,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),2
+2026-07-28,MANHATTAN,Sewer Maintenance,Backup,2
+2026-07-28,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-28,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-28,MANHATTAN,Sewer Maintenance,Flooding on Street,3
+2026-07-28,MANHATTAN,Sewer Maintenance,Odor,1
+2026-07-28,QUEENS,Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),3
+2026-07-28,QUEENS,Sewer,Manhole Cover Missing (Emergency) (SA3),1
+2026-07-28,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),3
+2026-07-28,QUEENS,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-28,QUEENS,Sewer,Sewer Backup (Use Comments) (SA),4
+2026-07-28,QUEENS,Sewer Maintenance,Backup,11
+2026-07-28,QUEENS,Sewer Maintenance,Catch Basin Clogged,37
+2026-07-28,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-07-28,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-07-28,QUEENS,Sewer Maintenance,Culvert,2
+2026-07-28,QUEENS,Sewer Maintenance,Curb Piece,2
+2026-07-28,QUEENS,Sewer Maintenance,Flooding on Street,7
+2026-07-28,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-28,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-07-28,QUEENS,Sewer Maintenance,Odor,2
+2026-07-28,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-07-28,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,9
+2026-07-28,STATEN ISLAND,Sewer Maintenance,Flooding on Street,9
+2026-07-29,BRONX,Sewer Maintenance,Catch Basin Clogged,9
+2026-07-29,BRONX,Sewer Maintenance,Catch Basin Sunken,3
+2026-07-29,BRONX,Sewer Maintenance,Flooding on Street,4
+2026-07-29,BRONX,Sewer Maintenance,Odor,1
+2026-07-29,BROOKLYN,Sewer,RAIN GARDEN DEBRIS (GIRGD),1
+2026-07-29,BROOKLYN,Sewer Maintenance,Backup,10
+2026-07-29,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,15
+2026-07-29,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-07-29,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,5
+2026-07-29,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-07-29,BROOKLYN,Sewer Maintenance,Flooding on Street,9
+2026-07-29,BROOKLYN,Sewer Maintenance,Manhole Overflow,10
+2026-07-29,BROOKLYN,Sewer Maintenance,Odor,2
+2026-07-29,MANHATTAN,Sewer,Sewer Backup (Use Comments) (SA),1
+2026-07-29,MANHATTAN,Sewer Maintenance,Backup,4
+2026-07-29,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,5
+2026-07-29,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-07-29,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-29,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-07-29,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,3
+2026-07-29,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-07-29,MANHATTAN,Sewer Maintenance,Odor,1
+2026-07-29,QUEENS,Sewer,Manhole Overflow (Use Comments) (SA1),1
+2026-07-29,QUEENS,Sewer Maintenance,Backup,12
+2026-07-29,QUEENS,Sewer Maintenance,Catch Basin Clogged,20
+2026-07-29,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-07-29,QUEENS,Sewer Maintenance,Culvert,2
+2026-07-29,QUEENS,Sewer Maintenance,Flooding on Street,9
+2026-07-29,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-07-29,STATEN ISLAND,Sewer Maintenance,Backup,7
+2026-07-29,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,5
+2026-07-29,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-29,STATEN ISLAND,Sewer Maintenance,Flooding on Street,7
+2026-07-29,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,2
+2026-07-29,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-07-30,BRONX,Sewer Maintenance,Backup,2
+2026-07-30,BRONX,Sewer Maintenance,Catch Basin Clogged,4
+2026-07-30,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-07-30,BRONX,Sewer Maintenance,Flooding on Street,3
+2026-07-30,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-07-30,BRONX,Sewer Maintenance,Odor,3
+2026-07-30,BROOKLYN,Sewer Maintenance,Backup,10
+2026-07-30,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,12
+2026-07-30,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-07-30,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-30,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-30,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-07-30,BROOKLYN,Sewer Maintenance,Flooding on Street,10
+2026-07-30,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,3
+2026-07-30,BROOKLYN,Sewer Maintenance,Manhole Overflow,6
+2026-07-30,BROOKLYN,Sewer Maintenance,Odor,2
+2026-07-30,MANHATTAN,Sewer Maintenance,Backup,3
+2026-07-30,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,4
+2026-07-30,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,4
+2026-07-30,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-07-30,MANHATTAN,Sewer Maintenance,Odor,1
+2026-07-30,QUEENS,Sewer Maintenance,Backup,8
+2026-07-30,QUEENS,Sewer Maintenance,Catch Basin Clogged,21
+2026-07-30,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-07-30,QUEENS,Sewer Maintenance,Catch Basin Sunken,4
+2026-07-30,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-07-30,QUEENS,Sewer Maintenance,Flooding on Highway,1
+2026-07-30,QUEENS,Sewer Maintenance,Flooding on Street,4
+2026-07-30,QUEENS,Sewer Maintenance,Manhole Cover Missing,4
+2026-07-30,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-07-30,QUEENS,Sewer Maintenance,Odor,2
+2026-07-30,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-07-30,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-30,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-07-30,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-07-31,BRONX,Sewer Maintenance,Backup,1
+2026-07-31,BRONX,Sewer Maintenance,Catch Basin Clogged,4
+2026-07-31,BRONX,Sewer Maintenance,Catch Basin Grate Missing,2
+2026-07-31,BRONX,Sewer Maintenance,Catch Basin Sunken,3
+2026-07-31,BRONX,Sewer Maintenance,Curb Piece,1
+2026-07-31,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-31,BRONX,Sewer Maintenance,Odor,1
+2026-07-31,BROOKLYN,Sewer Maintenance,Backup,5
+2026-07-31,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,2
+2026-07-31,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-07-31,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-31,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-07-31,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-07-31,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-31,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-07-31,BROOKLYN,Sewer Maintenance,Odor,1
+2026-07-31,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-07-31,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-07-31,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-07-31,QUEENS,Sewer Maintenance,Backup,5
+2026-07-31,QUEENS,Sewer Maintenance,Catch Basin Clogged,7
+2026-07-31,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-07-31,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-07-31,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-07-31,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-07-31,QUEENS,Sewer Maintenance,Manhole Cover Missing,4
+2026-07-31,QUEENS,Sewer Maintenance,Manhole Overflow,7
+2026-07-31,QUEENS,Sewer Maintenance,Odor,1
+2026-07-31,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,4
+2026-07-31,STATEN ISLAND,Sewer Maintenance,Flooding on Street,2
+2026-07-31,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-08-01,BRONX,Sewer Maintenance,Backup,2
+2026-08-01,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-01,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-08-01,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-01,BRONX,Sewer Maintenance,Curb Piece,1
+2026-08-01,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-01,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-01,BROOKLYN,Sewer Maintenance,Backup,4
+2026-08-01,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,6
+2026-08-01,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-01,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-08-01,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-01,MANHATTAN,Sewer Maintenance,Backup,1
+2026-08-01,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-01,MANHATTAN,Sewer Maintenance,Catch Basin Search,3
+2026-08-01,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-01,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-01,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-01,QUEENS,Sewer Maintenance,Backup,3
+2026-08-01,QUEENS,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-01,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-01,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-01,QUEENS,Sewer Maintenance,Culvert,2
+2026-08-01,QUEENS,Sewer Maintenance,Manhole Overflow,4
+2026-08-01,QUEENS,Sewer Maintenance,Odor,2
+2026-08-01,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-08-01,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-01,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-02,BRONX,Sewer Maintenance,Backup,1
+2026-08-02,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-02,BRONX,Sewer Maintenance,Curb Piece,1
+2026-08-02,BRONX,Sewer Maintenance,Odor,1
+2026-08-02,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,6
+2026-08-02,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-02,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-02,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-08-02,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,3
+2026-08-02,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-08-02,BROOKLYN,Sewer Maintenance,Odor,1
+2026-08-02,MANHATTAN,Sewer Maintenance,Backup,1
+2026-08-02,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-02,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-02,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-02,QUEENS,Sewer Maintenance,Backup,4
+2026-08-02,QUEENS,Sewer Maintenance,Catch Basin Clogged,23
+2026-08-02,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-08-02,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-08-02,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-02,QUEENS,Sewer Maintenance,Odor,1
+2026-08-02,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-08-02,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-02,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-02,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-08-03,BRONX,Sewer Maintenance,Backup,17
+2026-08-03,BRONX,Sewer Maintenance,Catch Basin Clogged,12
+2026-08-03,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-03,BRONX,Sewer Maintenance,Culvert,2
+2026-08-03,BRONX,Sewer Maintenance,Flooding on Street,11
+2026-08-03,BRONX,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-03,BROOKLYN,Sewer Maintenance,Backup,33
+2026-08-03,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,50
+2026-08-03,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-08-03,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-03,BROOKLYN,Sewer Maintenance,Culvert,9
+2026-08-03,BROOKLYN,Sewer Maintenance,Flooding on Highway,3
+2026-08-03,BROOKLYN,Sewer Maintenance,Flooding on Street,45
+2026-08-03,BROOKLYN,Sewer Maintenance,Manhole Overflow,3
+2026-08-03,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-03,MANHATTAN,Sewer Maintenance,Backup,8
+2026-08-03,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,16
+2026-08-03,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-03,MANHATTAN,Sewer Maintenance,Culvert,2
+2026-08-03,MANHATTAN,Sewer Maintenance,Flooding on Street,7
+2026-08-03,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-03,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-08-03,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-03,QUEENS,Sewer Maintenance,Backup,59
+2026-08-03,QUEENS,Sewer Maintenance,Catch Basin Clogged,69
+2026-08-03,QUEENS,Sewer Maintenance,Catch Basin Search,3
+2026-08-03,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-08-03,QUEENS,Sewer Maintenance,Culvert,10
+2026-08-03,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-08-03,QUEENS,Sewer Maintenance,Flooding on Highway,1
+2026-08-03,QUEENS,Sewer Maintenance,Flooding on Street,62
+2026-08-03,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-03,QUEENS,Sewer Maintenance,Manhole Overflow,5
+2026-08-03,STATEN ISLAND,Sewer Maintenance,Backup,9
+2026-08-03,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,11
+2026-08-03,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-08-03,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-03,STATEN ISLAND,Sewer Maintenance,Culvert,3
+2026-08-03,STATEN ISLAND,Sewer Maintenance,Flooding on Street,14
+2026-08-03,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-04,BRONX,Sewer Maintenance,Backup,7
+2026-08-04,BRONX,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-04,BRONX,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-04,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-04,BRONX,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-04,BROOKLYN,Sewer Maintenance,Backup,17
+2026-08-04,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,14
+2026-08-04,BROOKLYN,Sewer Maintenance,Catch Basin Search,5
+2026-08-04,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-04,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-04,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-08-04,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-04,BROOKLYN,Sewer Maintenance,Manhole Overflow,8
+2026-08-04,BROOKLYN,Sewer Maintenance,Odor,1
+2026-08-04,MANHATTAN,Sewer Maintenance,Backup,2
+2026-08-04,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,5
+2026-08-04,MANHATTAN,Sewer Maintenance,Catch Basin Search,4
+2026-08-04,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-04,QUEENS,Sewer Maintenance,Backup,9
+2026-08-04,QUEENS,Sewer Maintenance,Catch Basin Clogged,14
+2026-08-04,QUEENS,Sewer Maintenance,Catch Basin Search,3
+2026-08-04,QUEENS,Sewer Maintenance,Catch Basin Sunken,7
+2026-08-04,QUEENS,Sewer Maintenance,Culvert,2
+2026-08-04,QUEENS,Sewer Maintenance,Flooding on Street,4
+2026-08-04,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-04,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-08-04,QUEENS,Sewer Maintenance,Odor,3
+2026-08-04,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-08-04,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,6
+2026-08-04,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-08-04,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-04,Unspecified,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-05,BRONX,Sewer Maintenance,Backup,4
+2026-08-05,BRONX,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-05,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-08-05,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-05,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-08-05,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-05,BRONX,Sewer Maintenance,Odor,2
+2026-08-05,BROOKLYN,Sewer Maintenance,Backup,15
+2026-08-05,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,9
+2026-08-05,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-05,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-08-05,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-08-05,BROOKLYN,Sewer Maintenance,Manhole Overflow,7
+2026-08-05,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-05,MANHATTAN,Sewer Maintenance,Backup,2
+2026-08-05,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,7
+2026-08-05,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-05,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-05,MANHATTAN,Sewer Maintenance,Culvert,2
+2026-08-05,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-08-05,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-05,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-05,QUEENS,Sewer Maintenance,Backup,14
+2026-08-05,QUEENS,Sewer Maintenance,Catch Basin Clogged,16
+2026-08-05,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-05,QUEENS,Sewer Maintenance,Catch Basin Search,6
+2026-08-05,QUEENS,Sewer Maintenance,Catch Basin Sunken,7
+2026-08-05,QUEENS,Sewer Maintenance,Culvert,2
+2026-08-05,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-08-05,QUEENS,Sewer Maintenance,Manhole Cover Missing,4
+2026-08-05,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-08-05,QUEENS,Sewer Maintenance,Odor,1
+2026-08-05,STATEN ISLAND,Sewer Maintenance,Backup,4
+2026-08-05,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-05,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-05,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-08-06,BRONX,Sewer Maintenance,Backup,2
+2026-08-06,BRONX,Sewer Maintenance,Catch Basin Clogged,6
+2026-08-06,BRONX,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-06,BRONX,Sewer Maintenance,Culvert,1
+2026-08-06,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-06,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-06,BROOKLYN,Sewer Maintenance,Backup,5
+2026-08-06,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,12
+2026-08-06,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-06,BROOKLYN,Sewer Maintenance,Flooding on Street,4
+2026-08-06,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-08-06,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,6
+2026-08-06,MANHATTAN,Sewer Maintenance,Catch Basin Search,2
+2026-08-06,MANHATTAN,Sewer Maintenance,Flooding on Street,4
+2026-08-06,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-06,QUEENS,Sewer Maintenance,Backup,8
+2026-08-06,QUEENS,Sewer Maintenance,Catch Basin Clogged,18
+2026-08-06,QUEENS,Sewer Maintenance,Catch Basin Search,5
+2026-08-06,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-08-06,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-08-06,QUEENS,Sewer Maintenance,Manhole Overflow,7
+2026-08-06,STATEN ISLAND,Sewer Maintenance,Backup,6
+2026-08-06,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-06,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-08-06,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-07,BRONX,Sewer Maintenance,Backup,9
+2026-08-07,BRONX,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-07,BRONX,Sewer Maintenance,Culvert,1
+2026-08-07,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-07,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-07,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-07,BROOKLYN,Sewer Maintenance,Backup,17
+2026-08-07,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,18
+2026-08-07,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-08-07,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-07,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-07,BROOKLYN,Sewer Maintenance,Flooding on Street,4
+2026-08-07,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,3
+2026-08-07,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-08-07,BROOKLYN,Sewer Maintenance,Odor,1
+2026-08-07,MANHATTAN,Sewer Maintenance,Backup,2
+2026-08-07,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-07,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-07,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-08-07,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-07,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-08-07,QUEENS,Sewer Maintenance,Backup,17
+2026-08-07,QUEENS,Sewer Maintenance,Catch Basin Clogged,20
+2026-08-07,QUEENS,Sewer Maintenance,Catch Basin Search,4
+2026-08-07,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-07,QUEENS,Sewer Maintenance,Culvert,1
+2026-08-07,QUEENS,Sewer Maintenance,Flooding on Street,6
+2026-08-07,QUEENS,Sewer Maintenance,Manhole Cover Missing,3
+2026-08-07,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-07,QUEENS,Sewer Maintenance,Odor,2
+2026-08-07,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-08-07,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-07,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-07,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-08-07,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-08,BRONX,Sewer Maintenance,Backup,3
+2026-08-08,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-08,BRONX,Sewer Maintenance,Catch Basin Search,2
+2026-08-08,BRONX,Sewer Maintenance,Culvert,1
+2026-08-08,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-08,BROOKLYN,Sewer Maintenance,Backup,11
+2026-08-08,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,13
+2026-08-08,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-08-08,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-08,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-08-08,BROOKLYN,Sewer Maintenance,Manhole Overflow,3
+2026-08-08,MANHATTAN,Sewer Maintenance,Backup,1
+2026-08-08,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-08,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-08-08,MANHATTAN,Sewer Maintenance,Flooding on Street,3
+2026-08-08,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-08,QUEENS,Sewer Maintenance,Backup,10
+2026-08-08,QUEENS,Sewer Maintenance,Catch Basin Clogged,12
+2026-08-08,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-08,QUEENS,Sewer Maintenance,Culvert,1
+2026-08-08,QUEENS,Sewer Maintenance,Flooding on Street,4
+2026-08-08,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-08,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-08,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-08-08,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,5
+2026-08-08,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-08,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-08-09,BRONX,Sewer Maintenance,Backup,1
+2026-08-09,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-09,BRONX,Sewer Maintenance,Odor,1
+2026-08-09,BROOKLYN,Sewer Maintenance,Backup,3
+2026-08-09,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,17
+2026-08-09,BROOKLYN,Sewer Maintenance,Flooding on Street,6
+2026-08-09,BROOKLYN,Sewer Maintenance,Manhole Overflow,8
+2026-08-09,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-09,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-09,QUEENS,Sewer Maintenance,Backup,1
+2026-08-09,QUEENS,Sewer Maintenance,Catch Basin Clogged,12
+2026-08-09,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-09,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-08-09,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-09,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-09,QUEENS,Sewer Maintenance,Odor,1
+2026-08-09,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-08-09,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-09,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,2
+2026-08-10,BRONX,Sewer Maintenance,Backup,3
+2026-08-10,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-10,BRONX,Sewer Maintenance,Catch Basin Search,2
+2026-08-10,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-10,BRONX,Sewer Maintenance,Curb Piece,1
+2026-08-10,BRONX,Sewer Maintenance,Manhole Cover Missing,3
+2026-08-10,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-10,BROOKLYN,Sewer Maintenance,Backup,12
+2026-08-10,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,18
+2026-08-10,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,4
+2026-08-10,BROOKLYN,Sewer Maintenance,Culvert,2
+2026-08-10,BROOKLYN,Sewer Maintenance,Flooding on Street,4
+2026-08-10,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-10,BROOKLYN,Sewer Maintenance,Manhole Overflow,5
+2026-08-10,BROOKLYN,Sewer Maintenance,Odor,4
+2026-08-10,MANHATTAN,Sewer Maintenance,Backup,3
+2026-08-10,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-10,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-10,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-08-10,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-08-10,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-08-10,QUEENS,Sewer Maintenance,Backup,4
+2026-08-10,QUEENS,Sewer Maintenance,Catch Basin Clogged,22
+2026-08-10,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-10,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-10,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-10,QUEENS,Sewer Maintenance,Culvert,1
+2026-08-10,QUEENS,Sewer Maintenance,Flooding on Street,7
+2026-08-10,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-10,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-08-10,QUEENS,Sewer Maintenance,Odor,1
+2026-08-10,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-10,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-08-10,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-10,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,2
+2026-08-10,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-08-11,BRONX,Sewer Maintenance,Backup,3
+2026-08-11,BRONX,Sewer Maintenance,Catch Basin Clogged,5
+2026-08-11,BROOKLYN,Sewer Maintenance,Backup,4
+2026-08-11,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,14
+2026-08-11,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-08-11,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-11,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-11,BROOKLYN,Sewer Maintenance,Flooding on Street,7
+2026-08-11,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-11,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-08-11,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-11,MANHATTAN,Sewer Maintenance,Backup,2
+2026-08-11,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-11,MANHATTAN,Sewer Maintenance,Catch Basin Search,4
+2026-08-11,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-08-11,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-08-11,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-11,QUEENS,Sewer Maintenance,Backup,10
+2026-08-11,QUEENS,Sewer Maintenance,Catch Basin Clogged,13
+2026-08-11,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-11,QUEENS,Sewer Maintenance,Catch Basin Sunken,4
+2026-08-11,QUEENS,Sewer Maintenance,Culvert,1
+2026-08-11,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-08-11,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-08-11,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-11,QUEENS,Sewer Maintenance,Odor,2
+2026-08-11,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-08-11,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-11,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-08-11,STATEN ISLAND,Sewer Maintenance,Flooding on Street,2
+2026-08-11,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-08-12,BRONX,Sewer Maintenance,Backup,2
+2026-08-12,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-08-12,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-12,BRONX,Sewer Maintenance,Curb Piece,1
+2026-08-12,BRONX,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-12,BRONX,Sewer Maintenance,Odor,1
+2026-08-12,BROOKLYN,Sewer Maintenance,Backup,4
+2026-08-12,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,14
+2026-08-12,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-08-12,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-12,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-12,BROOKLYN,Sewer Maintenance,Flooding on Street,4
+2026-08-12,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-12,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-08-12,BROOKLYN,Sewer Maintenance,Odor,1
+2026-08-12,MANHATTAN,Sewer Maintenance,Backup,1
+2026-08-12,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-12,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-12,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-12,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-12,MANHATTAN,Sewer Maintenance,Odor,3
+2026-08-12,QUEENS,Sewer Maintenance,Backup,8
+2026-08-12,QUEENS,Sewer Maintenance,Catch Basin Clogged,20
+2026-08-12,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,3
+2026-08-12,QUEENS,Sewer Maintenance,Catch Basin Search,3
+2026-08-12,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-08-12,QUEENS,Sewer Maintenance,Culvert,2
+2026-08-12,QUEENS,Sewer Maintenance,Flooding on Street,4
+2026-08-12,QUEENS,Sewer Maintenance,Manhole Cover Missing,4
+2026-08-12,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-12,QUEENS,Sewer Maintenance,Odor,3
+2026-08-12,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-08-12,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-08-12,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-12,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-08-13,BRONX,Sewer Maintenance,Backup,6
+2026-08-13,BRONX,Sewer Maintenance,Catch Basin Search,2
+2026-08-13,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-13,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-08-13,BROOKLYN,Sewer Maintenance,Backup,4
+2026-08-13,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,7
+2026-08-13,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-08-13,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-13,BROOKLYN,Sewer Maintenance,Flooding on Street,4
+2026-08-13,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,3
+2026-08-13,BROOKLYN,Sewer Maintenance,Manhole Overflow,6
+2026-08-13,MANHATTAN,Sewer Maintenance,Backup,1
+2026-08-13,MANHATTAN,Sewer Maintenance,Catch Basin Search,2
+2026-08-13,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-08-13,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-08-13,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-13,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-13,MANHATTAN,Sewer Maintenance,Odor,2
+2026-08-13,QUEENS,Sewer Maintenance,Backup,8
+2026-08-13,QUEENS,Sewer Maintenance,Catch Basin Clogged,30
+2026-08-13,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-13,QUEENS,Sewer Maintenance,Catch Basin Sunken,7
+2026-08-13,QUEENS,Sewer Maintenance,Flooding on Street,4
+2026-08-13,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-13,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-08-13,QUEENS,Sewer Maintenance,Odor,3
+2026-08-13,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-08-13,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-13,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-14,BRONX,Sewer Maintenance,Backup,1
+2026-08-14,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-14,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-08-14,BROOKLYN,Sewer Maintenance,Backup,10
+2026-08-14,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,9
+2026-08-14,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-14,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-08-14,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-14,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-08-14,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-14,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-14,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-14,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-08-14,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-08-14,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-14,QUEENS,Sewer Maintenance,Backup,5
+2026-08-14,QUEENS,Sewer Maintenance,Catch Basin Clogged,15
+2026-08-14,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-14,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-14,QUEENS,Sewer Maintenance,Catch Basin Sunken,5
+2026-08-14,QUEENS,Sewer Maintenance,Culvert,1
+2026-08-14,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-08-14,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-08-14,QUEENS,Sewer Maintenance,Odor,3
+2026-08-14,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-08-14,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-14,STATEN ISLAND,Sewer Maintenance,Curb Piece,1
+2026-08-14,STATEN ISLAND,Sewer Maintenance,Flooding on Street,2
+2026-08-14,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-08-14,Unspecified,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-15,BRONX,Sewer Maintenance,Backup,2
+2026-08-15,BRONX,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-15,BRONX,Sewer Maintenance,Catch Basin Search,4
+2026-08-15,BRONX,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-15,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-08-15,BROOKLYN,Sewer Maintenance,Backup,3
+2026-08-15,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-15,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-08-15,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-15,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-08-15,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-15,BROOKLYN,Sewer Maintenance,Manhole Overflow,5
+2026-08-15,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-15,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-15,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-15,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-08-15,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-15,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-15,QUEENS,Sewer Maintenance,Backup,4
+2026-08-15,QUEENS,Sewer Maintenance,Catch Basin Clogged,8
+2026-08-15,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-15,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-15,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-08-15,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-15,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-15,QUEENS,Sewer Maintenance,Odor,2
+2026-08-15,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-08-15,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,2
+2026-08-16,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-16,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-16,BROOKLYN,Sewer Maintenance,Backup,2
+2026-08-16,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-16,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-08-16,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-16,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-08-16,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-08-16,BROOKLYN,Sewer Maintenance,Manhole Overflow,5
+2026-08-16,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-16,MANHATTAN,Sewer Maintenance,Backup,1
+2026-08-16,QUEENS,Sewer Maintenance,Backup,7
+2026-08-16,QUEENS,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-16,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-16,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-16,QUEENS,Sewer Maintenance,Flooding on Street,4
+2026-08-16,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-16,QUEENS,Sewer Maintenance,Odor,5
+2026-08-16,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-08-16,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-08-16,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-08-17,BRONX,Sewer Maintenance,Backup,7
+2026-08-17,BRONX,Sewer Maintenance,Catch Basin Clogged,6
+2026-08-17,BRONX,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-17,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-08-17,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-17,BROOKLYN,Sewer Maintenance,Backup,6
+2026-08-17,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,17
+2026-08-17,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-08-17,BROOKLYN,Sewer Maintenance,Flooding on Street,6
+2026-08-17,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-17,BROOKLYN,Sewer Maintenance,Manhole Overflow,6
+2026-08-17,BROOKLYN,Sewer Maintenance,Odor,1
+2026-08-17,MANHATTAN,Sewer Maintenance,Backup,2
+2026-08-17,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,8
+2026-08-17,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-17,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-08-17,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-17,QUEENS,Sewer Maintenance,Backup,11
+2026-08-17,QUEENS,Sewer Maintenance,Catch Basin Clogged,24
+2026-08-17,QUEENS,Sewer Maintenance,Catch Basin Search,6
+2026-08-17,QUEENS,Sewer Maintenance,Catch Basin Sunken,7
+2026-08-17,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-08-17,QUEENS,Sewer Maintenance,Flooding on Street,9
+2026-08-17,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-17,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-08-17,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-17,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-17,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-08-18,BRONX,Sewer Maintenance,Backup,3
+2026-08-18,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-18,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-08-18,BRONX,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-18,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-18,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-18,BRONX,Sewer Maintenance,Odor,1
+2026-08-18,BROOKLYN,Sewer Maintenance,Backup,6
+2026-08-18,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,13
+2026-08-18,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-08-18,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-18,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-08-18,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-18,BROOKLYN,Sewer Maintenance,Manhole Overflow,3
+2026-08-18,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-18,MANHATTAN,Sewer Maintenance,Backup,1
+2026-08-18,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,10
+2026-08-18,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-18,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-18,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-18,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-18,QUEENS,Sewer Maintenance,Backup,6
+2026-08-18,QUEENS,Sewer Maintenance,Catch Basin Clogged,12
+2026-08-18,QUEENS,Sewer Maintenance,Catch Basin Search,6
+2026-08-18,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-18,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-08-18,QUEENS,Sewer Maintenance,Flooding on Street,8
+2026-08-18,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-18,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-08-18,QUEENS,Sewer Maintenance,Odor,2
+2026-08-18,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-18,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-19,BRONX,Sewer Maintenance,Backup,2
+2026-08-19,BRONX,Sewer Maintenance,Catch Basin Clogged,5
+2026-08-19,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-19,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-08-19,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-19,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-19,BRONX,Sewer Maintenance,Odor,4
+2026-08-19,BROOKLYN,Sewer Maintenance,Backup,5
+2026-08-19,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,13
+2026-08-19,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-08-19,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-19,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-19,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-08-19,BROOKLYN,Sewer Maintenance,Manhole Overflow,8
+2026-08-19,BROOKLYN,Sewer Maintenance,Odor,3
+2026-08-19,MANHATTAN,Sewer Maintenance,Backup,2
+2026-08-19,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-19,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-19,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-19,MANHATTAN,Sewer Maintenance,Odor,2
+2026-08-19,QUEENS,Sewer Maintenance,Backup,6
+2026-08-19,QUEENS,Sewer Maintenance,Catch Basin Clogged,14
+2026-08-19,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-08-19,QUEENS,Sewer Maintenance,Catch Basin Sunken,5
+2026-08-19,QUEENS,Sewer Maintenance,Flooding on Street,8
+2026-08-19,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-19,QUEENS,Sewer Maintenance,Odor,4
+2026-08-19,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-08-19,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-19,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-19,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-20,BRONX,Sewer Maintenance,Backup,10
+2026-08-20,BRONX,Sewer Maintenance,Catch Basin Clogged,11
+2026-08-20,BRONX,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-20,BRONX,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-20,BRONX,Sewer Maintenance,Culvert,2
+2026-08-20,BRONX,Sewer Maintenance,Flooding on Street,6
+2026-08-20,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-20,BRONX,Sewer Maintenance,Manhole Overflow,4
+2026-08-20,BRONX,Sewer Maintenance,Odor,1
+2026-08-20,BROOKLYN,Sewer Maintenance,Backup,74
+2026-08-20,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,44
+2026-08-20,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-08-20,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,4
+2026-08-20,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-20,BROOKLYN,Sewer Maintenance,Flooding on Highway,5
+2026-08-20,BROOKLYN,Sewer Maintenance,Flooding on Street,40
+2026-08-20,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,7
+2026-08-20,BROOKLYN,Sewer Maintenance,Manhole Overflow,5
+2026-08-20,BROOKLYN,Sewer Maintenance,Odor,4
+2026-08-20,MANHATTAN,Sewer Maintenance,Backup,10
+2026-08-20,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,7
+2026-08-20,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-20,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-20,MANHATTAN,Sewer Maintenance,Flooding on Highway,1
+2026-08-20,MANHATTAN,Sewer Maintenance,Flooding on Street,10
+2026-08-20,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-20,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-20,QUEENS,Sewer Maintenance,Backup,112
+2026-08-20,QUEENS,Sewer Maintenance,Catch Basin Clogged,24
+2026-08-20,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-20,QUEENS,Sewer Maintenance,Catch Basin Search,3
+2026-08-20,QUEENS,Sewer Maintenance,Catch Basin Sunken,6
+2026-08-20,QUEENS,Sewer Maintenance,Culvert,2
+2026-08-20,QUEENS,Sewer Maintenance,Flooding on Highway,11
+2026-08-20,QUEENS,Sewer Maintenance,Flooding on Street,66
+2026-08-20,QUEENS,Sewer Maintenance,Manhole Cover Missing,9
+2026-08-20,QUEENS,Sewer Maintenance,Manhole Overflow,7
+2026-08-20,QUEENS,Sewer Maintenance,Odor,6
+2026-08-20,STATEN ISLAND,Sewer Maintenance,Backup,5
+2026-08-20,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,6
+2026-08-20,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-20,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-08-20,STATEN ISLAND,Sewer Maintenance,Flooding on Highway,2
+2026-08-20,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-20,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,2
+2026-08-21,BRONX,Sewer Maintenance,Backup,10
+2026-08-21,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-21,BRONX,Sewer Maintenance,Culvert,1
+2026-08-21,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-08-21,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-21,BROOKLYN,Sewer Maintenance,Backup,67
+2026-08-21,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,38
+2026-08-21,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-21,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-21,BROOKLYN,Sewer Maintenance,Culvert,3
+2026-08-21,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-08-21,BROOKLYN,Sewer Maintenance,Flooding on Highway,1
+2026-08-21,BROOKLYN,Sewer Maintenance,Flooding on Street,24
+2026-08-21,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,3
+2026-08-21,BROOKLYN,Sewer Maintenance,Manhole Overflow,3
+2026-08-21,BROOKLYN,Sewer Maintenance,Odor,5
+2026-08-21,MANHATTAN,Sewer Maintenance,Backup,2
+2026-08-21,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-21,MANHATTAN,Sewer Maintenance,Catch Basin Search,4
+2026-08-21,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-21,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-08-21,MANHATTAN,Sewer Maintenance,Flooding on Street,3
+2026-08-21,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-21,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-08-21,QUEENS,Sewer Maintenance,Backup,104
+2026-08-21,QUEENS,Sewer Maintenance,Catch Basin Clogged,70
+2026-08-21,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-08-21,QUEENS,Sewer Maintenance,Culvert,2
+2026-08-21,QUEENS,Sewer Maintenance,Flooding on Street,27
+2026-08-21,QUEENS,Sewer Maintenance,Manhole Cover Missing,8
+2026-08-21,QUEENS,Sewer Maintenance,Manhole Overflow,5
+2026-08-21,QUEENS,Sewer Maintenance,Odor,2
+2026-08-21,STATEN ISLAND,Sewer Maintenance,Backup,4
+2026-08-21,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-21,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-21,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-08-22,BRONX,Sewer Maintenance,Backup,3
+2026-08-22,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-22,BRONX,Sewer Maintenance,Catch Basin Search,2
+2026-08-22,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-22,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-22,BROOKLYN,Sewer Maintenance,Backup,14
+2026-08-22,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,8
+2026-08-22,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-22,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-08-22,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-08-22,BROOKLYN,Sewer Maintenance,Odor,3
+2026-08-22,MANHATTAN,Sewer Maintenance,Backup,4
+2026-08-22,MANHATTAN,Sewer Maintenance,Catch Basin Search,2
+2026-08-22,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-22,QUEENS,Sewer Maintenance,Backup,26
+2026-08-22,QUEENS,Sewer Maintenance,Catch Basin Clogged,24
+2026-08-22,QUEENS,Sewer Maintenance,Catch Basin Search,4
+2026-08-22,QUEENS,Sewer Maintenance,Catch Basin Sunken,5
+2026-08-22,QUEENS,Sewer Maintenance,Culvert,4
+2026-08-22,QUEENS,Sewer Maintenance,Flooding on Street,4
+2026-08-22,QUEENS,Sewer Maintenance,Manhole Cover Missing,5
+2026-08-22,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-08-22,QUEENS,Sewer Maintenance,Odor,1
+2026-08-22,STATEN ISLAND,Sewer Maintenance,Backup,4
+2026-08-22,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-22,STATEN ISLAND,Sewer Maintenance,Curb Piece,1
+2026-08-22,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-23,BRONX,Sewer Maintenance,Backup,6
+2026-08-23,BRONX,Sewer Maintenance,Catch Basin Clogged,7
+2026-08-23,BRONX,Sewer Maintenance,Culvert,2
+2026-08-23,BRONX,Sewer Maintenance,Flooding on Highway,1
+2026-08-23,BRONX,Sewer Maintenance,Flooding on Street,5
+2026-08-23,BRONX,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-23,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-23,BROOKLYN,Sewer Maintenance,Backup,54
+2026-08-23,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,44
+2026-08-23,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-23,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,3
+2026-08-23,BROOKLYN,Sewer Maintenance,Culvert,4
+2026-08-23,BROOKLYN,Sewer Maintenance,Flooding on Highway,3
+2026-08-23,BROOKLYN,Sewer Maintenance,Flooding on Street,32
+2026-08-23,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-23,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-23,MANHATTAN,Sewer Maintenance,Backup,8
+2026-08-23,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,5
+2026-08-23,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-23,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-08-23,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-08-23,QUEENS,Sewer Maintenance,Backup,102
+2026-08-23,QUEENS,Sewer Maintenance,Catch Basin Clogged,47
+2026-08-23,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-23,QUEENS,Sewer Maintenance,Catch Basin Sunken,4
+2026-08-23,QUEENS,Sewer Maintenance,Culvert,10
+2026-08-23,QUEENS,Sewer Maintenance,Flooding on Highway,1
+2026-08-23,QUEENS,Sewer Maintenance,Flooding on Street,55
+2026-08-23,QUEENS,Sewer Maintenance,Manhole Cover Missing,13
+2026-08-23,QUEENS,Sewer Maintenance,Manhole Overflow,4
+2026-08-23,QUEENS,Sewer Maintenance,Odor,3
+2026-08-23,STATEN ISLAND,Sewer Maintenance,Backup,11
+2026-08-23,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,7
+2026-08-23,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-23,STATEN ISLAND,Sewer Maintenance,Flooding on Street,2
+2026-08-23,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,2
+2026-08-24,BRONX,Sewer Maintenance,Backup,3
+2026-08-24,BRONX,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-24,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-24,BRONX,Sewer Maintenance,Culvert,1
+2026-08-24,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-24,BROOKLYN,Sewer Maintenance,Backup,32
+2026-08-24,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,27
+2026-08-24,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-08-24,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,4
+2026-08-24,BROOKLYN,Sewer Maintenance,Culvert,3
+2026-08-24,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-08-24,BROOKLYN,Sewer Maintenance,Flooding on Street,5
+2026-08-24,BROOKLYN,Sewer Maintenance,Manhole Overflow,8
+2026-08-24,BROOKLYN,Sewer Maintenance,Odor,2
+2026-08-24,MANHATTAN,Sewer Maintenance,Backup,5
+2026-08-24,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-24,MANHATTAN,Sewer Maintenance,Culvert,2
+2026-08-24,MANHATTAN,Sewer Maintenance,Flooding on Street,4
+2026-08-24,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-24,QUEENS,Sewer Maintenance,Backup,47
+2026-08-24,QUEENS,Sewer Maintenance,Catch Basin Clogged,35
+2026-08-24,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-24,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-24,QUEENS,Sewer Maintenance,Curb Piece,2
+2026-08-24,QUEENS,Sewer Maintenance,Flooding on Street,16
+2026-08-24,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-08-24,QUEENS,Sewer Maintenance,Odor,3
+2026-08-24,STATEN ISLAND,Sewer Maintenance,Backup,7
+2026-08-24,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,7
+2026-08-24,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-24,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-24,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-08-25,BRONX,Sewer Maintenance,Backup,2
+2026-08-25,BRONX,Sewer Maintenance,Catch Basin Clogged,5
+2026-08-25,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-08-25,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-25,BRONX,Sewer Maintenance,Culvert,1
+2026-08-25,BROOKLYN,Sewer Maintenance,Backup,16
+2026-08-25,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,12
+2026-08-25,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-08-25,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-25,BROOKLYN,Sewer Maintenance,Culvert,2
+2026-08-25,BROOKLYN,Sewer Maintenance,Flooding on Street,6
+2026-08-25,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-25,BROOKLYN,Sewer Maintenance,Manhole Overflow,6
+2026-08-25,BROOKLYN,Sewer Maintenance,Odor,3
+2026-08-25,MANHATTAN,Sewer Maintenance,Backup,2
+2026-08-25,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-25,MANHATTAN,Sewer Maintenance,Catch Basin Search,2
+2026-08-25,MANHATTAN,Sewer Maintenance,Culvert,4
+2026-08-25,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-08-25,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-25,QUEENS,Sewer Maintenance,Backup,33
+2026-08-25,QUEENS,Sewer Maintenance,Catch Basin Clogged,32
+2026-08-25,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-08-25,QUEENS,Sewer Maintenance,Catch Basin Sunken,5
+2026-08-25,QUEENS,Sewer Maintenance,Culvert,1
+2026-08-25,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-08-25,QUEENS,Sewer Maintenance,Flooding on Street,7
+2026-08-25,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-25,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-08-25,QUEENS,Sewer Maintenance,Odor,3
+2026-08-25,STATEN ISLAND,Sewer Maintenance,Backup,4
+2026-08-25,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-25,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-08-25,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-25,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-08-25,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-25,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-08-25,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-08-26,BRONX,Sewer Maintenance,Backup,7
+2026-08-26,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-26,BRONX,Sewer Maintenance,Catch Basin Search,3
+2026-08-26,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-26,BROOKLYN,Sewer Maintenance,Backup,15
+2026-08-26,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,14
+2026-08-26,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,7
+2026-08-26,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-08-26,BROOKLYN,Sewer Maintenance,Manhole Overflow,7
+2026-08-26,BROOKLYN,Sewer Maintenance,Odor,5
+2026-08-26,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-26,MANHATTAN,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-26,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-08-26,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,3
+2026-08-26,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-08-26,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-26,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-26,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-26,QUEENS,Sewer Maintenance,Backup,20
+2026-08-26,QUEENS,Sewer Maintenance,Catch Basin Clogged,30
+2026-08-26,QUEENS,Sewer Maintenance,Catch Basin Search,3
+2026-08-26,QUEENS,Sewer Maintenance,Catch Basin Sunken,7
+2026-08-26,QUEENS,Sewer Maintenance,Culvert,1
+2026-08-26,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-08-26,QUEENS,Sewer Maintenance,Flooding on Street,6
+2026-08-26,QUEENS,Sewer Maintenance,Manhole Cover Missing,4
+2026-08-26,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-08-26,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,6
+2026-08-26,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-08-27,BRONX,Sewer Maintenance,Backup,4
+2026-08-27,BRONX,Sewer Maintenance,Catch Basin Clogged,7
+2026-08-27,BRONX,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-27,BRONX,Sewer Maintenance,Flooding on Highway,1
+2026-08-27,BRONX,Sewer Maintenance,Flooding on Street,4
+2026-08-27,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-27,BRONX,Sewer Maintenance,Odor,1
+2026-08-27,BROOKLYN,Sewer Maintenance,Backup,39
+2026-08-27,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,27
+2026-08-27,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-08-27,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-27,BROOKLYN,Sewer Maintenance,Flooding on Street,9
+2026-08-27,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,3
+2026-08-27,BROOKLYN,Sewer Maintenance,Manhole Overflow,9
+2026-08-27,BROOKLYN,Sewer Maintenance,Odor,6
+2026-08-27,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,8
+2026-08-27,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-08-27,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-08-27,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,5
+2026-08-27,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-27,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-27,QUEENS,Sewer Maintenance,Backup,23
+2026-08-27,QUEENS,Sewer Maintenance,Catch Basin Clogged,33
+2026-08-27,QUEENS,Sewer Maintenance,Catch Basin Search,6
+2026-08-27,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-08-27,QUEENS,Sewer Maintenance,Culvert,1
+2026-08-27,QUEENS,Sewer Maintenance,Curb Piece,2
+2026-08-27,QUEENS,Sewer Maintenance,Flooding on Street,7
+2026-08-27,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-27,QUEENS,Sewer Maintenance,Odor,2
+2026-08-27,STATEN ISLAND,Sewer Maintenance,Backup,34
+2026-08-27,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,26
+2026-08-27,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-27,STATEN ISLAND,Sewer Maintenance,Flooding on Street,37
+2026-08-27,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,4
+2026-08-27,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,4
+2026-08-28,BRONX,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-28,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-08-28,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-28,BRONX,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-28,BROOKLYN,Sewer Maintenance,Backup,21
+2026-08-28,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,11
+2026-08-28,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-08-28,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-28,BROOKLYN,Sewer Maintenance,Culvert,2
+2026-08-28,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-08-28,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-08-28,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-28,BROOKLYN,Sewer Maintenance,Manhole Overflow,6
+2026-08-28,BROOKLYN,Sewer Maintenance,Odor,3
+2026-08-28,MANHATTAN,Sewer Maintenance,Backup,5
+2026-08-28,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-28,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-28,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-08-28,MANHATTAN,Sewer Maintenance,Flooding on Street,4
+2026-08-28,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-28,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-28,MANHATTAN,Sewer Maintenance,Odor,2
+2026-08-28,QUEENS,Sewer Maintenance,Backup,12
+2026-08-28,QUEENS,Sewer Maintenance,Catch Basin Clogged,13
+2026-08-28,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-08-28,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-28,QUEENS,Sewer Maintenance,Culvert,1
+2026-08-28,QUEENS,Sewer Maintenance,Flooding on Street,6
+2026-08-28,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-28,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-08-28,QUEENS,Sewer Maintenance,Odor,1
+2026-08-28,STATEN ISLAND,Sewer Maintenance,Backup,12
+2026-08-28,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,5
+2026-08-28,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-28,STATEN ISLAND,Sewer Maintenance,Flooding on Street,6
+2026-08-28,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-08-28,STATEN ISLAND,Sewer Maintenance,Odor,2
+2026-08-29,BRONX,Sewer Maintenance,Backup,1
+2026-08-29,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-29,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-29,BROOKLYN,Sewer Maintenance,Backup,2
+2026-08-29,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,5
+2026-08-29,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,3
+2026-08-29,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-08-29,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-08-29,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-08-29,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-29,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-29,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-29,MANHATTAN,Sewer Maintenance,Odor,2
+2026-08-29,QUEENS,Sewer Maintenance,Backup,3
+2026-08-29,QUEENS,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-29,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-29,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-29,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-29,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-08-29,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-29,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-08-29,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-08-29,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-08-29,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,2
+2026-08-29,STATEN ISLAND,Sewer Maintenance,Flooding on Street,3
+2026-08-30,BRONX,Sewer Maintenance,Backup,4
+2026-08-30,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-08-30,BRONX,Sewer Maintenance,Catch Basin Search,3
+2026-08-30,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-08-30,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-30,BROOKLYN,Sewer Maintenance,Backup,6
+2026-08-30,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,9
+2026-08-30,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-08-30,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-30,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-30,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-08-30,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-30,BROOKLYN,Sewer Maintenance,Manhole Overflow,7
+2026-08-30,BROOKLYN,Sewer Maintenance,Odor,1
+2026-08-30,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,5
+2026-08-30,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-30,MANHATTAN,Sewer Maintenance,Odor,1
+2026-08-30,QUEENS,Sewer Maintenance,Backup,9
+2026-08-30,QUEENS,Sewer Maintenance,Catch Basin Clogged,11
+2026-08-30,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-08-30,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-08-30,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-08-30,QUEENS,Sewer Maintenance,Odor,1
+2026-08-30,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-08-30,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-30,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-08-30,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-08-30,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-30,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-08-31,BRONX,Sewer Maintenance,Backup,4
+2026-08-31,BRONX,Sewer Maintenance,Catch Basin Clogged,8
+2026-08-31,BRONX,Sewer Maintenance,Catch Basin Search,3
+2026-08-31,BRONX,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-31,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-08-31,BRONX,Sewer Maintenance,Manhole Cover Missing,2
+2026-08-31,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-08-31,BROOKLYN,Sewer Maintenance,Backup,12
+2026-08-31,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,20
+2026-08-31,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-31,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-08-31,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-08-31,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-08-31,BROOKLYN,Sewer Maintenance,Flooding on Street,5
+2026-08-31,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-08-31,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-08-31,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-08-31,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-08-31,QUEENS,Sewer Maintenance,Backup,14
+2026-08-31,QUEENS,Sewer Maintenance,Catch Basin Clogged,17
+2026-08-31,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-08-31,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-08-31,QUEENS,Sewer Maintenance,Catch Basin Sunken,4
+2026-08-31,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-08-31,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-08-31,QUEENS,Sewer Maintenance,Odor,3
+2026-08-31,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,4
+2026-08-31,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-08-31,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-01,BRONX,Sewer Maintenance,Backup,4
+2026-09-01,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-01,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-01,BRONX,Sewer Maintenance,Curb Piece,1
+2026-09-01,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-01,BROOKLYN,Sewer Maintenance,Backup,8
+2026-09-01,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,11
+2026-09-01,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-01,BROOKLYN,Sewer Maintenance,Flooding on Street,6
+2026-09-01,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-01,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-09-01,BROOKLYN,Sewer Maintenance,Odor,2
+2026-09-01,MANHATTAN,Sewer Maintenance,Backup,2
+2026-09-01,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-01,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-09-01,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-01,MANHATTAN,Sewer Maintenance,Flooding on Street,3
+2026-09-01,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-01,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-09-01,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-01,QUEENS,Sewer Maintenance,Backup,20
+2026-09-01,QUEENS,Sewer Maintenance,Catch Basin Clogged,14
+2026-09-01,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-09-01,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-01,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-01,QUEENS,Sewer Maintenance,Flooding on Street,4
+2026-09-01,QUEENS,Sewer Maintenance,Odor,4
+2026-09-01,STATEN ISLAND,Sewer Maintenance,Backup,5
+2026-09-01,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,9
+2026-09-01,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-01,STATEN ISLAND,Sewer Maintenance,Culvert,2
+2026-09-01,STATEN ISLAND,Sewer Maintenance,Flooding on Street,4
+2026-09-01,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-01,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,5
+2026-09-01,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-09-02,BRONX,Sewer Maintenance,Backup,3
+2026-09-02,BRONX,Sewer Maintenance,Catch Basin Clogged,12
+2026-09-02,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-09-02,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-02,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-02,BROOKLYN,Sewer Maintenance,Backup,6
+2026-09-02,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,18
+2026-09-02,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-02,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-02,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-09-02,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-09-02,BROOKLYN,Sewer Maintenance,Flooding on Street,5
+2026-09-02,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-02,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-09-02,BROOKLYN,Sewer Maintenance,Odor,4
+2026-09-02,MANHATTAN,Sewer Maintenance,Backup,4
+2026-09-02,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-02,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-09-02,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-02,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-09-02,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-09-02,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-09-02,QUEENS,Sewer Maintenance,Backup,15
+2026-09-02,QUEENS,Sewer Maintenance,Catch Basin Clogged,25
+2026-09-02,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-09-02,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-02,QUEENS,Sewer Maintenance,Culvert,2
+2026-09-02,QUEENS,Sewer Maintenance,Flooding on Street,16
+2026-09-02,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-02,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-09-02,QUEENS,Sewer Maintenance,Odor,2
+2026-09-02,STATEN ISLAND,Sewer Maintenance,Backup,4
+2026-09-02,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-02,STATEN ISLAND,Sewer Maintenance,Flooding on Street,6
+2026-09-02,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-02,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,3
+2026-09-03,BRONX,Sewer Maintenance,Backup,1
+2026-09-03,BRONX,Sewer Maintenance,Catch Basin Clogged,4
+2026-09-03,BRONX,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-03,BRONX,Sewer Maintenance,Culvert,1
+2026-09-03,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-03,BRONX,Sewer Maintenance,Odor,1
+2026-09-03,BROOKLYN,Sewer Maintenance,Backup,8
+2026-09-03,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,6
+2026-09-03,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-03,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-09-03,BROOKLYN,Sewer Maintenance,Flooding on Street,5
+2026-09-03,BROOKLYN,Sewer Maintenance,Manhole Overflow,6
+2026-09-03,MANHATTAN,Sewer Maintenance,Backup,2
+2026-09-03,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-03,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-09-03,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-09-03,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-09-03,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-03,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-09-03,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-03,QUEENS,Sewer Maintenance,Backup,8
+2026-09-03,QUEENS,Sewer Maintenance,Catch Basin Clogged,25
+2026-09-03,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,2
+2026-09-03,QUEENS,Sewer Maintenance,Catch Basin Search,3
+2026-09-03,QUEENS,Sewer Maintenance,Catch Basin Sunken,4
+2026-09-03,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-03,QUEENS,Sewer Maintenance,Flooding on Street,9
+2026-09-03,QUEENS,Sewer Maintenance,Odor,4
+2026-09-03,STATEN ISLAND,Sewer Maintenance,Backup,6
+2026-09-03,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,6
+2026-09-03,STATEN ISLAND,Sewer Maintenance,Flooding on Street,2
+2026-09-03,STATEN ISLAND,Sewer Maintenance,Odor,3
+2026-09-04,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-04,BRONX,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-04,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-09-04,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-04,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-04,BROOKLYN,Sewer Maintenance,Backup,5
+2026-09-04,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-04,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-04,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-09-04,BROOKLYN,Sewer Maintenance,Flooding on Street,6
+2026-09-04,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-04,BROOKLYN,Sewer Maintenance,Manhole Overflow,3
+2026-09-04,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-04,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-09-04,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-04,QUEENS,Sewer Maintenance,Backup,10
+2026-09-04,QUEENS,Sewer Maintenance,Catch Basin Clogged,11
+2026-09-04,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-04,QUEENS,Sewer Maintenance,Catch Basin Sunken,5
+2026-09-04,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-04,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-09-04,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-09-04,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-04,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-09-04,QUEENS,Sewer Maintenance,Odor,1
+2026-09-04,STATEN ISLAND,Sewer Maintenance,Backup,5
+2026-09-04,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-04,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-09-04,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-09-05,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-09-05,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-05,BRONX,Sewer Maintenance,Curb Piece,1
+2026-09-05,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-05,BROOKLYN,Sewer Maintenance,Backup,1
+2026-09-05,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-05,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-05,BROOKLYN,Sewer Maintenance,Culvert,2
+2026-09-05,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-09-05,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-09-05,BROOKLYN,Sewer Maintenance,Odor,1
+2026-09-05,MANHATTAN,Sewer Maintenance,Backup,2
+2026-09-05,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-05,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-05,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-09-05,QUEENS,Sewer Maintenance,Backup,8
+2026-09-05,QUEENS,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-05,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-09-05,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-05,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-09-05,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-09-05,QUEENS,Sewer Maintenance,Odor,2
+2026-09-05,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-09-05,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-05,STATEN ISLAND,Sewer Maintenance,Flooding on Street,3
+2026-09-05,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-09-06,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-09-06,BROOKLYN,Sewer Maintenance,Backup,2
+2026-09-06,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-06,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-06,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-09-06,BROOKLYN,Sewer Maintenance,Odor,2
+2026-09-06,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-06,MANHATTAN,Sewer Maintenance,Catch Basin Search,2
+2026-09-06,MANHATTAN,Sewer Maintenance,Curb Piece,1
+2026-09-06,QUEENS,Sewer Maintenance,Backup,1
+2026-09-06,QUEENS,Sewer Maintenance,Catch Basin Clogged,6
+2026-09-06,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-06,QUEENS,Sewer Maintenance,Catch Basin Search,3
+2026-09-06,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-06,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-09-06,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-09-06,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-06,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-06,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-09-07,BRONX,Sewer Maintenance,Backup,2
+2026-09-07,BRONX,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-07,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-09-07,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-07,BROOKLYN,Sewer Maintenance,Backup,2
+2026-09-07,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-07,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-09-07,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-09-07,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-09-07,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-09-07,BROOKLYN,Sewer Maintenance,Odor,2
+2026-09-07,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-09-07,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-07,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-09-07,QUEENS,Sewer Maintenance,Backup,4
+2026-09-07,QUEENS,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-07,QUEENS,Sewer Maintenance,Catch Basin Search,7
+2026-09-07,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-07,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-09-07,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-09-07,QUEENS,Sewer Maintenance,Odor,1
+2026-09-07,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,9
+2026-09-07,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-09-07,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-07,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,3
+2026-09-08,BRONX,Sewer Maintenance,Backup,3
+2026-09-08,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-08,BRONX,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-08,BRONX,Sewer Maintenance,Manhole Overflow,2
+2026-09-08,BRONX,Sewer Maintenance,Odor,1
+2026-09-08,BROOKLYN,Sewer Maintenance,Backup,3
+2026-09-08,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-08,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-09-08,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-08,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-09-08,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-08,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-09-08,BROOKLYN,Sewer Maintenance,Odor,4
+2026-09-08,MANHATTAN,Sewer Maintenance,Backup,2
+2026-09-08,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-08,MANHATTAN,Sewer Maintenance,Catch Basin Search,3
+2026-09-08,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-08,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-08,QUEENS,Sewer Maintenance,Backup,9
+2026-09-08,QUEENS,Sewer Maintenance,Catch Basin Clogged,13
+2026-09-08,QUEENS,Sewer Maintenance,Catch Basin Search,6
+2026-09-08,QUEENS,Sewer Maintenance,Catch Basin Sunken,5
+2026-09-08,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-09-08,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-08,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-09-08,QUEENS,Sewer Maintenance,Odor,6
+2026-09-08,STATEN ISLAND,Sewer Maintenance,Backup,6
+2026-09-08,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-08,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-09-08,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-09-08,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-08,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,3
+2026-09-08,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-09-09,BRONX,Sewer Maintenance,Backup,2
+2026-09-09,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-09,BRONX,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-09,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-09,BRONX,Sewer Maintenance,Manhole Cover Missing,3
+2026-09-09,BRONX,Sewer Maintenance,Odor,3
+2026-09-09,BROOKLYN,Sewer Maintenance,Backup,5
+2026-09-09,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,8
+2026-09-09,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-09,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-09-09,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-09,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-09-09,BROOKLYN,Sewer Maintenance,Odor,5
+2026-09-09,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-09,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-09,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-09-09,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-09,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-09-09,MANHATTAN,Sewer Maintenance,Odor,3
+2026-09-09,QUEENS,Sewer Maintenance,Backup,15
+2026-09-09,QUEENS,Sewer Maintenance,Catch Basin Clogged,6
+2026-09-09,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-09,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-09,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-09-09,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-09-09,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-09,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-09-09,QUEENS,Sewer Maintenance,Odor,5
+2026-09-09,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-09-09,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-09,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-09-09,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-09,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-09-09,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-09-10,BRONX,Sewer Maintenance,Backup,2
+2026-09-10,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-10,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-10,BRONX,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-10,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-10,BROOKLYN,Sewer Maintenance,Backup,11
+2026-09-10,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,8
+2026-09-10,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-10,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-10,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-09-10,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-09-10,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,3
+2026-09-10,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-09-10,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-10,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-10,MANHATTAN,Sewer Maintenance,Catch Basin Search,2
+2026-09-10,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-10,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-09-10,QUEENS,Sewer Maintenance,Backup,6
+2026-09-10,QUEENS,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-10,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-09-10,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-10,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-09-10,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-09-10,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-10,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-09-10,QUEENS,Sewer Maintenance,Odor,6
+2026-09-10,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-09-10,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-10,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-11,BRONX,Sewer Maintenance,Backup,2
+2026-09-11,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-11,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-11,BRONX,Sewer Maintenance,Odor,1
+2026-09-11,BROOKLYN,Sewer Maintenance,Backup,6
+2026-09-11,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-11,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-11,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-11,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-11,BROOKLYN,Sewer Maintenance,Manhole Overflow,5
+2026-09-11,BROOKLYN,Sewer Maintenance,Odor,5
+2026-09-11,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-11,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-11,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-11,QUEENS,Sewer Maintenance,Backup,12
+2026-09-11,QUEENS,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-11,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-11,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-11,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-11,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-09-11,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-09-11,QUEENS,Sewer Maintenance,Odor,2
+2026-09-11,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-09-11,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-11,STATEN ISLAND,Sewer Maintenance,Culvert,1
+2026-09-11,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-09-11,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-09-11,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-09-12,BRONX,Sewer Maintenance,Backup,3
+2026-09-12,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-12,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-12,BRONX,Sewer Maintenance,Odor,1
+2026-09-12,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,4
+2026-09-12,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-12,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-09-12,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-09-12,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-09-12,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-12,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-12,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-09-12,QUEENS,Sewer Maintenance,Backup,5
+2026-09-12,QUEENS,Sewer Maintenance,Catch Basin Clogged,6
+2026-09-12,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-09-12,QUEENS,Sewer Maintenance,Catch Basin Sunken,5
+2026-09-12,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-09-12,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-12,QUEENS,Sewer Maintenance,Manhole Overflow,10
+2026-09-12,QUEENS,Sewer Maintenance,Odor,2
+2026-09-12,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-09-12,STATEN ISLAND,Sewer Maintenance,Flooding on Street,2
+2026-09-12,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-09-13,BRONX,Sewer Maintenance,Backup,5
+2026-09-13,BRONX,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-13,BRONX,Sewer Maintenance,Catch Basin Search,4
+2026-09-13,BRONX,Sewer Maintenance,Flooding on Street,6
+2026-09-13,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-13,BROOKLYN,Sewer Maintenance,Backup,10
+2026-09-13,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,13
+2026-09-13,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-09-13,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-13,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-09-13,BROOKLYN,Sewer Maintenance,Flooding on Highway,2
+2026-09-13,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-09-13,BROOKLYN,Sewer Maintenance,Manhole Overflow,2
+2026-09-13,BROOKLYN,Sewer Maintenance,Odor,3
+2026-09-13,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-13,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,10
+2026-09-13,MANHATTAN,Sewer Maintenance,Culvert,2
+2026-09-13,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-09-13,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-13,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-09-13,QUEENS,Sewer Maintenance,Backup,10
+2026-09-13,QUEENS,Sewer Maintenance,Catch Basin Clogged,19
+2026-09-13,QUEENS,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-13,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-13,QUEENS,Sewer Maintenance,Flooding on Street,13
+2026-09-13,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-13,QUEENS,Sewer Maintenance,Manhole Overflow,4
+2026-09-13,QUEENS,Sewer Maintenance,Odor,1
+2026-09-13,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-09-13,STATEN ISLAND,Sewer Maintenance,Flooding on Street,3
+2026-09-13,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-13,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-09-13,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-09-14,BRONX,Sewer Maintenance,Backup,4
+2026-09-14,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-14,BRONX,Sewer Maintenance,Catch Basin Search,2
+2026-09-14,BRONX,Sewer Maintenance,Curb Piece,1
+2026-09-14,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-09-14,BROOKLYN,Sewer Maintenance,Backup,10
+2026-09-14,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,10
+2026-09-14,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-14,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-09-14,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-09-14,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-14,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-09-14,BROOKLYN,Sewer Maintenance,Odor,2
+2026-09-14,MANHATTAN,Sewer Maintenance,Backup,2
+2026-09-14,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-14,MANHATTAN,Sewer Maintenance,Catch Basin Search,5
+2026-09-14,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-09-14,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-09-14,QUEENS,Sewer Maintenance,Backup,6
+2026-09-14,QUEENS,Sewer Maintenance,Catch Basin Clogged,17
+2026-09-14,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-09-14,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-14,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-14,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-09-14,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-14,QUEENS,Sewer Maintenance,Manhole Overflow,8
+2026-09-14,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-09-14,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-14,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-09-15,BRONX,Sewer Maintenance,Backup,1
+2026-09-15,BRONX,Sewer Maintenance,Catch Basin Clogged,6
+2026-09-15,BRONX,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-15,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-09-15,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-15,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-15,BRONX,Sewer Maintenance,Odor,1
+2026-09-15,BROOKLYN,Sewer Maintenance,Backup,8
+2026-09-15,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-15,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-15,BROOKLYN,Sewer Maintenance,Catch Basin Search,3
+2026-09-15,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-15,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-09-15,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-09-15,BROOKLYN,Sewer Maintenance,Odor,3
+2026-09-15,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-15,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-15,MANHATTAN,Sewer Maintenance,Catch Basin Search,2
+2026-09-15,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-15,MANHATTAN,Sewer Maintenance,Flooding on Street,4
+2026-09-15,QUEENS,Sewer Maintenance,Backup,7
+2026-09-15,QUEENS,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-15,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-15,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-15,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-09-15,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-15,QUEENS,Sewer Maintenance,Manhole Overflow,3
+2026-09-15,QUEENS,Sewer Maintenance,Odor,5
+2026-09-15,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-09-15,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-16,BRONX,Sewer Maintenance,Backup,7
+2026-09-16,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-09-16,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-09-16,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-16,BRONX,Sewer Maintenance,Odor,1
+2026-09-16,BROOKLYN,Sewer Maintenance,Backup,4
+2026-09-16,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-16,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-09-16,BROOKLYN,Sewer Maintenance,Odor,3
+2026-09-16,MANHATTAN,Sewer Maintenance,Backup,2
+2026-09-16,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-16,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-09-16,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-16,QUEENS,Sewer Maintenance,Backup,9
+2026-09-16,QUEENS,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-16,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-09-16,QUEENS,Sewer Maintenance,Catch Basin Sunken,5
+2026-09-16,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-09-16,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-16,QUEENS,Sewer Maintenance,Manhole Overflow,4
+2026-09-16,QUEENS,Sewer Maintenance,Odor,1
+2026-09-16,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-09-17,BRONX,Sewer Maintenance,Backup,3
+2026-09-17,BRONX,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-17,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-17,BRONX,Sewer Maintenance,Culvert,1
+2026-09-17,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-09-17,BRONX,Sewer Maintenance,Odor,2
+2026-09-17,BROOKLYN,Sewer Maintenance,Backup,6
+2026-09-17,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-17,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-09-17,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-09-17,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-09-17,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-17,BROOKLYN,Sewer Maintenance,Odor,4
+2026-09-17,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-17,MANHATTAN,Sewer Maintenance,Catch Basin Search,2
+2026-09-17,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-17,MANHATTAN,Sewer Maintenance,Curb Piece,1
+2026-09-17,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-17,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-17,QUEENS,Sewer Maintenance,Backup,3
+2026-09-17,QUEENS,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-17,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-09-17,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-17,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-17,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-09-17,QUEENS,Sewer Maintenance,Manhole Cover Missing,3
+2026-09-17,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-09-17,QUEENS,Sewer Maintenance,Odor,1
+2026-09-17,STATEN ISLAND,Sewer Maintenance,Backup,1
+2026-09-17,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-17,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-09-17,STATEN ISLAND,Sewer Maintenance,Odor,1
+2026-09-18,BRONX,Sewer Maintenance,Backup,4
+2026-09-18,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-18,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-18,BRONX,Sewer Maintenance,Flooding on Street,2
+2026-09-18,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-18,BROOKLYN,Sewer Maintenance,Backup,6
+2026-09-18,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,4
+2026-09-18,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-18,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-18,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-09-18,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-18,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-09-18,BROOKLYN,Sewer Maintenance,Odor,4
+2026-09-18,MANHATTAN,Sewer Maintenance,Backup,3
+2026-09-18,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-18,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-09-18,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-18,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-09-18,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-18,QUEENS,Sewer Maintenance,Backup,7
+2026-09-18,QUEENS,Sewer Maintenance,Catch Basin Clogged,16
+2026-09-18,QUEENS,Sewer Maintenance,Catch Basin Search,4
+2026-09-18,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-18,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-18,QUEENS,Sewer Maintenance,Flooding on Highway,1
+2026-09-18,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-09-18,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-18,QUEENS,Sewer Maintenance,Manhole Overflow,4
+2026-09-18,QUEENS,Sewer Maintenance,Odor,1
+2026-09-18,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-18,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-18,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-09-18,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,2
+2026-09-19,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-19,BRONX,Sewer Maintenance,Manhole Overflow,2
+2026-09-19,BROOKLYN,Sewer Maintenance,Backup,3
+2026-09-19,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,11
+2026-09-19,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-19,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-19,BROOKLYN,Sewer Maintenance,Odor,1
+2026-09-19,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-19,MANHATTAN,Sewer Maintenance,Catch Basin Search,3
+2026-09-19,MANHATTAN,Sewer Maintenance,Odor,2
+2026-09-19,QUEENS,Sewer Maintenance,Backup,4
+2026-09-19,QUEENS,Sewer Maintenance,Catch Basin Clogged,9
+2026-09-19,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-19,QUEENS,Sewer Maintenance,Flooding on Street,1
+2026-09-19,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-19,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-09-19,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-09-19,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-20,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-20,BRONX,Sewer Maintenance,Catch Basin Search,2
+2026-09-20,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-20,BROOKLYN,Sewer Maintenance,Backup,10
+2026-09-20,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,6
+2026-09-20,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-09-20,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-20,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-09-20,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-09-20,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-20,MANHATTAN,Sewer Maintenance,Catch Basin Search,4
+2026-09-20,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-20,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-09-20,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-09-20,QUEENS,Sewer Maintenance,Backup,6
+2026-09-20,QUEENS,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-20,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-09-20,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-09-20,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-09-20,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-09-20,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-09-20,STATEN ISLAND,Sewer Maintenance,Odor,2
+2026-09-21,BRONX,Sewer Maintenance,Backup,2
+2026-09-21,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-21,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-21,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-21,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-21,BRONX,Sewer Maintenance,Odor,4
+2026-09-21,BROOKLYN,Sewer Maintenance,Backup,11
+2026-09-21,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-21,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-09-21,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-21,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-09-21,BROOKLYN,Sewer Maintenance,Odor,1
+2026-09-21,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-21,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-21,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-09-21,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-21,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-21,QUEENS,Sewer Maintenance,Backup,9
+2026-09-21,QUEENS,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-21,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-21,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-09-21,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-21,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-21,QUEENS,Sewer Maintenance,Flooding on Street,3
+2026-09-21,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-21,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-09-21,QUEENS,Sewer Maintenance,Odor,3
+2026-09-21,STATEN ISLAND,Sewer Maintenance,Backup,5
+2026-09-21,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-21,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-21,STATEN ISLAND,Sewer Maintenance,Flooding on Street,3
+2026-09-21,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-22,BRONX,Sewer Maintenance,Backup,3
+2026-09-22,BRONX,Sewer Maintenance,Catch Basin Clogged,4
+2026-09-22,BRONX,Sewer Maintenance,Catch Basin Search,2
+2026-09-22,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-22,BRONX,Sewer Maintenance,Culvert,1
+2026-09-22,BRONX,Sewer Maintenance,Curb Piece,1
+2026-09-22,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-22,BRONX,Sewer Maintenance,Odor,2
+2026-09-22,BROOKLYN,Sewer Maintenance,Backup,12
+2026-09-22,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-22,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-22,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-09-22,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-22,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-09-22,BROOKLYN,Sewer Maintenance,Odor,3
+2026-09-22,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,2
+2026-09-22,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-09-22,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-22,QUEENS,Sewer Maintenance,Backup,7
+2026-09-22,QUEENS,Sewer Maintenance,Catch Basin Clogged,13
+2026-09-22,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-09-22,QUEENS,Sewer Maintenance,Catch Basin Sunken,7
+2026-09-22,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-09-22,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-22,QUEENS,Sewer Maintenance,Manhole Overflow,5
+2026-09-22,QUEENS,Sewer Maintenance,Odor,1
+2026-09-22,STATEN ISLAND,Sewer Maintenance,Backup,3
+2026-09-22,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-22,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-22,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-09-23,BRONX,Sewer Maintenance,Backup,4
+2026-09-23,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-23,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-09-23,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-23,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-23,BRONX,Sewer Maintenance,Odor,1
+2026-09-23,BROOKLYN,Sewer Maintenance,Backup,10
+2026-09-23,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-23,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-23,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-09-23,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-23,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-09-23,BROOKLYN,Sewer Maintenance,Odor,2
+2026-09-23,MANHATTAN,Sewer Maintenance,Backup,2
+2026-09-23,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-23,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-09-23,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-23,QUEENS,Sewer Maintenance,Backup,14
+2026-09-23,QUEENS,Sewer Maintenance,Catch Basin Clogged,11
+2026-09-23,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-09-23,QUEENS,Sewer Maintenance,Catch Basin Sunken,5
+2026-09-23,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-23,QUEENS,Sewer Maintenance,Flooding on Street,5
+2026-09-23,QUEENS,Sewer Maintenance,Odor,12
+2026-09-23,STATEN ISLAND,Sewer Maintenance,Backup,4
+2026-09-23,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-23,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-09-23,STATEN ISLAND,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-24,BRONX,Sewer Maintenance,Backup,2
+2026-09-24,BRONX,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-24,BRONX,Sewer Maintenance,Catch Basin Search,3
+2026-09-24,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-24,BRONX,Sewer Maintenance,Odor,2
+2026-09-24,BROOKLYN,Sewer Maintenance,Backup,4
+2026-09-24,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,13
+2026-09-24,BROOKLYN,Sewer Maintenance,Catch Basin Search,2
+2026-09-24,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-24,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-09-24,BROOKLYN,Sewer Maintenance,Flooding on Street,2
+2026-09-24,BROOKLYN,Sewer Maintenance,Manhole Overflow,5
+2026-09-24,MANHATTAN,Sewer Maintenance,Backup,4
+2026-09-24,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,9
+2026-09-24,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-09-24,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-09-24,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-09-24,MANHATTAN,Sewer Maintenance,Odor,1
+2026-09-24,QUEENS,Sewer Maintenance,Backup,4
+2026-09-24,QUEENS,Sewer Maintenance,Catch Basin Clogged,21
+2026-09-24,QUEENS,Sewer Maintenance,Catch Basin Search,2
+2026-09-24,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-24,QUEENS,Sewer Maintenance,Culvert,1
+2026-09-24,QUEENS,Sewer Maintenance,Flooding on Street,2
+2026-09-24,QUEENS,Sewer Maintenance,Manhole Cover Missing,3
+2026-09-24,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-09-24,STATEN ISLAND,Sewer Maintenance,Backup,4
+2026-09-24,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,9
+2026-09-24,STATEN ISLAND,Sewer Maintenance,Odor,3
+2026-09-25,BRONX,Sewer Maintenance,Backup,4
+2026-09-25,BRONX,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-25,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-09-25,BRONX,Sewer Maintenance,Curb Piece,1
+2026-09-25,BRONX,Sewer Maintenance,Flooding on Highway,1
+2026-09-25,BRONX,Sewer Maintenance,Odor,3
+2026-09-25,BROOKLYN,Sewer Maintenance,Backup,8
+2026-09-25,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,32
+2026-09-25,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,2
+2026-09-25,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-25,BROOKLYN,Sewer Maintenance,Culvert,1
+2026-09-25,BROOKLYN,Sewer Maintenance,Flooding on Street,1
+2026-09-25,BROOKLYN,Sewer Maintenance,Odor,6
+2026-09-25,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-25,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-25,MANHATTAN,Sewer Maintenance,Culvert,3
+2026-09-25,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-09-25,MANHATTAN,Sewer Maintenance,Manhole Overflow,2
+2026-09-25,MANHATTAN,Sewer Maintenance,Odor,4
+2026-09-25,QUEENS,Sewer Maintenance,Backup,14
+2026-09-25,QUEENS,Sewer Maintenance,Catch Basin Clogged,40
+2026-09-25,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-25,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-09-25,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-25,QUEENS,Sewer Maintenance,Culvert,3
+2026-09-25,QUEENS,Sewer Maintenance,Flooding on Street,9
+2026-09-25,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-25,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-09-25,QUEENS,Sewer Maintenance,Odor,6
+2026-09-25,STATEN ISLAND,Sewer Maintenance,Backup,2
+2026-09-25,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,10
+2026-09-25,STATEN ISLAND,Sewer Maintenance,Flooding on Street,2
+2026-09-25,STATEN ISLAND,Sewer Maintenance,Odor,2
+2026-09-26,BRONX,Sewer Maintenance,Backup,3
+2026-09-26,BRONX,Sewer Maintenance,Catch Basin Clogged,4
+2026-09-26,BRONX,Sewer Maintenance,Catch Basin Search,1
+2026-09-26,BRONX,Sewer Maintenance,Flooding on Highway,1
+2026-09-26,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-26,BRONX,Sewer Maintenance,Manhole Overflow,2
+2026-09-26,BRONX,Sewer Maintenance,Odor,2
+2026-09-26,BROOKLYN,Sewer Maintenance,Backup,32
+2026-09-26,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,21
+2026-09-26,BROOKLYN,Sewer Maintenance,Culvert,2
+2026-09-26,BROOKLYN,Sewer Maintenance,Flooding on Highway,1
+2026-09-26,BROOKLYN,Sewer Maintenance,Flooding on Street,41
+2026-09-26,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-09-26,BROOKLYN,Sewer Maintenance,Odor,3
+2026-09-26,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,6
+2026-09-26,MANHATTAN,Sewer Maintenance,Culvert,1
+2026-09-26,MANHATTAN,Sewer Maintenance,Flooding on Highway,3
+2026-09-26,MANHATTAN,Sewer Maintenance,Flooding on Street,3
+2026-09-26,QUEENS,Sewer Maintenance,Backup,25
+2026-09-26,QUEENS,Sewer Maintenance,Catch Basin Clogged,41
+2026-09-26,QUEENS,Sewer Maintenance,Catch Basin Sunken,4
+2026-09-26,QUEENS,Sewer Maintenance,Culvert,5
+2026-09-26,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-09-26,QUEENS,Sewer Maintenance,Flooding on Highway,1
+2026-09-26,QUEENS,Sewer Maintenance,Flooding on Street,56
+2026-09-26,STATEN ISLAND,Sewer Maintenance,Backup,16
+2026-09-26,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,11
+2026-09-26,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-09-26,STATEN ISLAND,Sewer Maintenance,Flooding on Street,10
+2026-09-26,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-09-26,STATEN ISLAND,Sewer Maintenance,Odor,2
+2026-09-26,Unspecified,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-27,BRONX,Sewer Maintenance,Backup,1
+2026-09-27,BRONX,Sewer Maintenance,Catch Basin Clogged,1
+2026-09-27,BRONX,Sewer Maintenance,Flooding on Highway,1
+2026-09-27,BRONX,Sewer Maintenance,Manhole Overflow,2
+2026-09-27,BROOKLYN,Sewer Maintenance,Backup,17
+2026-09-27,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,18
+2026-09-27,BROOKLYN,Sewer Maintenance,Culvert,3
+2026-09-27,BROOKLYN,Sewer Maintenance,Curb Piece,1
+2026-09-27,BROOKLYN,Sewer Maintenance,Flooding on Highway,3
+2026-09-27,BROOKLYN,Sewer Maintenance,Flooding on Street,26
+2026-09-27,BROOKLYN,Sewer Maintenance,Manhole Overflow,1
+2026-09-27,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-27,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,9
+2026-09-27,MANHATTAN,Sewer Maintenance,Culvert,2
+2026-09-27,MANHATTAN,Sewer Maintenance,Flooding on Highway,1
+2026-09-27,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-09-27,QUEENS,Sewer Maintenance,Backup,11
+2026-09-27,QUEENS,Sewer Maintenance,Catch Basin Clogged,24
+2026-09-27,QUEENS,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-27,QUEENS,Sewer Maintenance,Culvert,2
+2026-09-27,QUEENS,Sewer Maintenance,Flooding on Street,25
+2026-09-27,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-09-27,QUEENS,Sewer Maintenance,Odor,1
+2026-09-27,STATEN ISLAND,Sewer Maintenance,Backup,10
+2026-09-27,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-27,STATEN ISLAND,Sewer Maintenance,Culvert,2
+2026-09-27,STATEN ISLAND,Sewer Maintenance,Flooding on Street,11
+2026-09-27,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1
+2026-09-28,BRONX,Sewer Maintenance,Backup,7
+2026-09-28,BRONX,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-28,BRONX,Sewer Maintenance,Culvert,2
+2026-09-28,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-28,BRONX,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-28,BRONX,Sewer Maintenance,Manhole Overflow,1
+2026-09-28,BROOKLYN,Sewer Maintenance,Backup,29
+2026-09-28,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,26
+2026-09-28,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-28,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,5
+2026-09-28,BROOKLYN,Sewer Maintenance,Flooding on Street,17
+2026-09-28,BROOKLYN,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-28,BROOKLYN,Sewer Maintenance,Manhole Overflow,4
+2026-09-28,BROOKLYN,Sewer Maintenance,Odor,2
+2026-09-28,MANHATTAN,Sewer Maintenance,Backup,3
+2026-09-28,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-28,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-09-28,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-28,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-09-28,MANHATTAN,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-28,QUEENS,Sewer Maintenance,Backup,13
+2026-09-28,QUEENS,Sewer Maintenance,Catch Basin Clogged,34
+2026-09-28,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-09-28,QUEENS,Sewer Maintenance,Culvert,2
+2026-09-28,QUEENS,Sewer Maintenance,Flooding on Street,19
+2026-09-28,QUEENS,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-28,QUEENS,Sewer Maintenance,Manhole Overflow,1
+2026-09-28,STATEN ISLAND,Sewer Maintenance,Backup,6
+2026-09-28,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,3
+2026-09-28,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-09-28,STATEN ISLAND,Sewer Maintenance,Curb Piece,1
+2026-09-28,STATEN ISLAND,Sewer Maintenance,Flooding on Street,8
+2026-09-29,BRONX,Sewer Maintenance,Backup,5
+2026-09-29,BRONX,Sewer Maintenance,Catch Basin Clogged,2
+2026-09-29,BRONX,Sewer Maintenance,Culvert,1
+2026-09-29,BRONX,Sewer Maintenance,Flooding on Street,1
+2026-09-29,BRONX,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-29,BROOKLYN,Sewer Maintenance,Backup,10
+2026-09-29,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-29,BROOKLYN,Sewer Maintenance,Catch Basin Grate Missing,3
+2026-09-29,BROOKLYN,Sewer Maintenance,Catch Basin Search,1
+2026-09-29,BROOKLYN,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-29,BROOKLYN,Sewer Maintenance,Culvert,2
+2026-09-29,BROOKLYN,Sewer Maintenance,Flooding on Street,11
+2026-09-29,BROOKLYN,Sewer Maintenance,Manhole Overflow,13
+2026-09-29,BROOKLYN,Sewer Maintenance,Odor,1
+2026-09-29,MANHATTAN,Sewer Maintenance,Backup,1
+2026-09-29,MANHATTAN,Sewer Maintenance,Culvert,2
+2026-09-29,MANHATTAN,Sewer Maintenance,Flooding on Street,1
+2026-09-29,QUEENS,Sewer Maintenance,Backup,7
+2026-09-29,QUEENS,Sewer Maintenance,Catch Basin Clogged,16
+2026-09-29,QUEENS,Sewer Maintenance,Catch Basin Grate Missing,1
+2026-09-29,QUEENS,Sewer Maintenance,Catch Basin Sunken,4
+2026-09-29,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-09-29,QUEENS,Sewer Maintenance,Flooding on Street,11
+2026-09-29,QUEENS,Sewer Maintenance,Manhole Cover Missing,1
+2026-09-29,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-09-29,QUEENS,Sewer Maintenance,Odor,3
+2026-09-29,STATEN ISLAND,Sewer Maintenance,Backup,4
+2026-09-29,STATEN ISLAND,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-29,STATEN ISLAND,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-29,STATEN ISLAND,Sewer Maintenance,Flooding on Highway,1
+2026-09-29,STATEN ISLAND,Sewer Maintenance,Flooding on Street,1
+2026-09-30,BRONX,Sewer Maintenance,Backup,1
+2026-09-30,BRONX,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-30,BRONX,Sewer Maintenance,Catch Basin Search,4
+2026-09-30,BRONX,Sewer Maintenance,Catch Basin Sunken,1
+2026-09-30,BRONX,Sewer Maintenance,Manhole Cover Missing,2
+2026-09-30,BRONX,Sewer Maintenance,Odor,2
+2026-09-30,BROOKLYN,Sewer Maintenance,Backup,6
+2026-09-30,BROOKLYN,Sewer Maintenance,Catch Basin Clogged,9
+2026-09-30,BROOKLYN,Sewer Maintenance,Catch Basin Search,4
+2026-09-30,BROOKLYN,Sewer Maintenance,Flooding on Street,3
+2026-09-30,BROOKLYN,Sewer Maintenance,Manhole Overflow,8
+2026-09-30,BROOKLYN,Sewer Maintenance,Odor,5
+2026-09-30,MANHATTAN,Sewer Maintenance,Backup,2
+2026-09-30,MANHATTAN,Sewer Maintenance,Catch Basin Clogged,5
+2026-09-30,MANHATTAN,Sewer Maintenance,Catch Basin Search,1
+2026-09-30,MANHATTAN,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-30,MANHATTAN,Sewer Maintenance,Flooding on Street,2
+2026-09-30,MANHATTAN,Sewer Maintenance,Manhole Overflow,1
+2026-09-30,QUEENS,Sewer Maintenance,Backup,6
+2026-09-30,QUEENS,Sewer Maintenance,Catch Basin Clogged,7
+2026-09-30,QUEENS,Sewer Maintenance,Catch Basin Search,1
+2026-09-30,QUEENS,Sewer Maintenance,Catch Basin Sunken,3
+2026-09-30,QUEENS,Sewer Maintenance,Curb Piece,1
+2026-09-30,QUEENS,Sewer Maintenance,Manhole Overflow,2
+2026-09-30,STATEN ISLAND,Sewer Maintenance,Backup,5
+2026-09-30,STATEN ISLAND,Sewer Maintenance,Catch Basin Search,1
+2026-09-30,STATEN ISLAND,Sewer Maintenance,Manhole Overflow,1

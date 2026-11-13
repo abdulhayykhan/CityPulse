@@ -1,0 +1,5 @@
+group,total_rows,rows_with_coord_dup_24h,share_coord_dup_pct,dup_rows_with_address,share_dup_with_address_pct
+flood,5520,826,14.96,677,81.96
+noise,211843,98432,46.46,98300,99.87
+road,16138,3483,21.58,2008,57.65
+sewer_backup,3006,528,17.56,528,100.0

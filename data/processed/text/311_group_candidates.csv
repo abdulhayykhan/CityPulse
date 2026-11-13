@@ -1,0 +1,126 @@
+complaint_type,descriptor,n,group
+Root/Sewer/Sidewalk Condition,Trees and Sidewalks Program,10211,flooding
+Sewer,Sewer Backup (Use Comments) (SA),6767,flooding
+Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),5879,flooding
+Sewer Maintenance,Catch Basin Clogged,3851,flooding
+Sewer Maintenance,Backup,3023,flooding
+Sewer,Street Flooding (SJ),2891,flooding
+Sewer Maintenance,Flooding on Street,1732,flooding
+Sewer,Manhole Cover Missing (Emergency) (SA3),1228,flooding
+Sewer,Catch Basin Search (SC2),1177,flooding
+Sewer,Catch Basin Sunken/Damaged/Raised (SC1),1138,flooding
+Sewer,Manhole Overflow (Use Comments) (SA1),1128,flooding
+Sewer,Sewer Odor (SA2),974,flooding
+Sewer Maintenance,Manhole Overflow,732,flooding
+Sewer Maintenance,Catch Basin Sunken,716,flooding
+Sewer Maintenance,Catch Basin Search,633,flooding
+Sewer Maintenance,Odor,621,flooding
+Sewer Maintenance,Manhole Cover Missing,449,flooding
+Sewer,Culvert Blocked/Needs Cleaning (SE),420,flooding
+Sewer,RAIN GARDEN DEBRIS (GIRGD),283,flooding
+Sewer Maintenance,Culvert,276,flooding
+Sewer,Defective/Missing Curb Piece (SC4),220,flooding
+Sewer,Catch Basin Grating Missing (SA4),182,flooding
+Sewer Maintenance,Curb Piece,94,flooding
+Sewer,Highway Flooding (SH),89,flooding
+Sewer Maintenance,Catch Basin Grate Missing,77,flooding
+Root/Sewer/Sidewalk Condition,Affecting Sewer or Foundation,66,flooding
+Sewer,RAIN GARDEN STRUCTURE (GIRGS),60,flooding
+Sewer Maintenance,Flooding on Highway,60,flooding
+Sewer,RAIN GARDEN PLANTING (GIRGP),55,flooding
+Sewer,RAIN GARDEN FLOODING (SRGFLD),1,flooding
+Noise - Residential,Loud Music/Party,231816,noise
+Noise - Residential,Banging/Pounding,149786,noise
+Noise - Street/Sidewalk,Loud Music/Party,140017,noise
+Noise - Commercial,Loud Music/Party,47203,noise
+Noise - Street/Sidewalk,Loud Talking,35598,noise
+Noise - Residential,Loud Talking,29815,noise
+Noise - Vehicle,Car/Truck Music,22137,noise
+Noise - Vehicle,Car/Truck Horn,20250,noise
+Noise,Noise: Construction Before/After Hours (NM1),15451,noise
+Noise - Helicopter,Other,10593,noise
+Noise - Vehicle,Engine Idling,10183,noise
+Noise,Construction,7582,noise
+Noise - Residential,Loud Television,7257,noise
+Noise - Commercial,Banging/Pounding,7114,noise
+Noise - Park,Loud Music/Party,6749,noise
+Noise,"Noise, Barking Dog (NR5)",6102,noise
+Noise,Noise: Alarms (NR3),5717,noise
+Noise,Noise: Construction Equipment (NC1),5626,noise
+Noise - Commercial,Loud Talking,5153,noise
+Noise,Noise: air condition/ventilation equipment (NV1),3343,noise
+Noise,Dog,2513,noise
+Noise,Construction Equipment,2341,noise
+Noise,Alarm,2086,noise
+Noise - House of Worship,Loud Talking,1820,noise
+Noise,Noise: Jack Hammering (NC2),1606,noise
+Noise,Noise: Manufacturing Noise (NK1),1503,noise
+Noise - Park,Loud Talking,1492,noise
+Noise,Air Conditioner/Ventilation,1455,noise
+Noise - Commercial,Car/Truck Music,866,noise
+Noise,Noise:  lawn care equipment (NCL),859,noise
+Noise,Jackhammer,778,noise
+Noise - House of Worship,Loud Music/Party,757,noise
+Noise,"Noise, Ice Cream Truck (NR4)",729,noise
+Noise,Manufacturing Business/Plant,607,noise
+Noise - Commercial,Car/Truck Horn,604,noise
+Noise,Lawn Care Equipment,596,noise
+Noise,Noise: Private Carting Noise (NQ1),544,noise
+Noise,"Noise: Boat(Engine,Music,Etc) (NR10)",490,noise
+Noise,Ice Cream Truck,382,noise
+Noise,Boat,370,noise
+Noise,Private Garbage Truck,362,noise
+Noise - Helicopter,NYPD,301,noise
+Noise,"Noise, Other Animals (NR6)",261,noise
+Noise - Commercial,Loud Television,211,noise
+Noise,Animal Other Than Dog,119,noise
+Noise - Helicopter,News Gathering,115,noise
+Noise - House of Worship,Banging/Pounding,85,noise
+Noise,Noise: Other Noise Sources (Use Comments) (NZZ),24,noise
+Noise - House of Worship,Loud Television,3,noise
+Noise,Noise: Loud Music/Daytime (Mark Date And Time) (NN1),2,noise
+Street Condition,Pothole,76031,road
+Street Condition,Cave-in,19320,road
+Street Condition,Defective Hardware,6870,road
+Street Condition,Blocked - Construction,4840,road
+Street Condition,Failed Street Repair,4692,road
+Street Condition,"Rough, Pitted or Cracked Roads",4612,road
+Highway Condition,Pothole - Highway,3986,road
+Street Condition,Plate Condition - Noisy,2871,road
+Street Condition,Line/Marking - Faded,902,road
+Street Condition,Line/Marking - After Repaving,818,road
+Highway Condition,Litter,817,road
+Street Condition,Plate Condition - Shifted,747,road
+Street Condition,Dumpster - Construction Waste,728,road
+Highway Condition,Cave-in,532,road
+Highway Condition,Graffiti - Highway,443,road
+Street Condition,Wear & Tear,281,road
+Highway Condition,Dead Animal,258,road
+Highway Condition,Painted Line/Marking,211,road
+Street Condition,Guard Rail - Street,143,road
+Street Condition,Crash Cushion Defect,128,road
+Street Condition,Depression Maintenance,124,road
+Street Condition,Unsafe Worksite,91,road
+Highway Condition,High Grass,84,road
+Highway Condition,Loose Plate,77,road
+Highway Condition,Unsafe Worksite,68,road
+Street Condition,Plate Condition - Open,67,road
+Highway Condition,Crash Cushion Defect,64,road
+Highway Condition,Highway Fence,62,road
+Street Condition,Plate Condition - Anti-Skid,33,road
+Highway Condition,Guard Rail - Highway,17,road
+Highway Condition,Sign Blocked by Tree,15,road
+Street Condition,Hummock,15,road
+Street Condition,Defacement,13,road
+Highway Condition,Concrete Barrier,11,road
+DEP Street Condition,Cave-in,8,road
+DEP Highway Condition,Cave-in,3,road
+DEP Street Condition,Defective Catch Basin,2,road
+DEP Street Condition,Defective Manhole Cover,2,road
+DEP Street Condition,Failed Street Cut - DEP,2,road
+Street Condition,General Bad Condition,2,road
+Street Condition,Maintenance Cover,2,road
+Street Condition,Strip Paving,2,road
+DEP Highway Condition,Defective Manhole Cover,1,road
+DEP Highway Condition,Plate Condition - DEP,1,road
+DEP Street Condition,Concrete Around Hydrant,1,road

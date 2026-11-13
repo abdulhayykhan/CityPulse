@@ -1,0 +1,5 @@
+group,rows_with_addr,n_clusters,clusters_ge_2,rows_in_clusters_ge_2,share_rows_ge_2_pct,size_2,size_3,size_4,size_5plus,max_cluster_size
+flood,4542,4168,244,618,13.61,181,35,12,16,11
+noise,211011,139900,26560,97671,46.29,16082,4935,2088,3455,8843
+road,10957,9802,776,1931,17.62,570,119,43,44,12
+sewer_backup,3006,2761,194,439,14.6,158,30,2,4,8

@@ -1,0 +1,170 @@
+[
+  {
+    "zone_id": 0,
+    "centre_lat": 40.713236,
+    "centre_lon": -73.950159,
+    "count": 29760,
+    "dominant_group": "mixed",
+    "counts_by_group": {
+      "flood": 520,
+      "noise": 27482,
+      "road": 1549,
+      "sewer_backup": 209
+    },
+    "lift_by_group": {
+      "flood": 0.7486,
+      "noise": 1.031,
+      "road": 0.7628,
+      "sewer_backup": 0.5525
+    },
+    "dominant_lift": 1.031,
+    "radius_m_p90": 2143.15
+  },
+  {
+    "zone_id": 1,
+    "centre_lat": 40.683859,
+    "centre_lon": -73.926347,
+    "count": 46451,
+    "dominant_group": "mixed",
+    "counts_by_group": {
+      "flood": 753,
+      "noise": 42767,
+      "road": 2361,
+      "sewer_backup": 570
+    },
+    "lift_by_group": {
+      "flood": 0.6946,
+      "noise": 1.0279,
+      "road": 0.7449,
+      "sewer_backup": 0.9655
+    },
+    "dominant_lift": 1.0279,
+    "radius_m_p90": 2307.6
+  },
+  {
+    "zone_id": 2,
+    "centre_lat": 40.680038,
+    "centre_lon": -73.979533,
+    "count": 39475,
+    "dominant_group": "mixed",
+    "counts_by_group": {
+      "flood": 755,
+      "noise": 35870,
+      "road": 2562,
+      "sewer_backup": 288
+    },
+    "lift_by_group": {
+      "flood": 0.8195,
+      "noise": 1.0145,
+      "road": 0.9512,
+      "sewer_backup": 0.574
+    },
+    "dominant_lift": 1.0145,
+    "radius_m_p90": 2381.82
+  },
+  {
+    "zone_id": 3,
+    "centre_lat": 40.670215,
+    "centre_lon": -73.884358,
+    "count": 20164,
+    "dominant_group": "road",
+    "counts_by_group": {
+      "flood": 334,
+      "noise": 17802,
+      "road": 1717,
+      "sewer_backup": 311
+    },
+    "lift_by_group": {
+      "flood": 0.7097,
+      "noise": 0.9856,
+      "road": 1.2479,
+      "sewer_backup": 1.2135
+    },
+    "dominant_lift": 1.2479,
+    "radius_m_p90": 2207.78
+  },
+  {
+    "zone_id": 4,
+    "centre_lat": 40.645276,
+    "centre_lon": -73.956426,
+    "count": 34109,
+    "dominant_group": "mixed",
+    "counts_by_group": {
+      "flood": 664,
+      "noise": 31485,
+      "road": 1633,
+      "sewer_backup": 327
+    },
+    "lift_by_group": {
+      "flood": 0.8341,
+      "noise": 1.0305,
+      "road": 0.7016,
+      "sewer_backup": 0.7543
+    },
+    "dominant_lift": 1.0305,
+    "radius_m_p90": 2239.06
+  },
+  {
+    "zone_id": 5,
+    "centre_lat": 40.632604,
+    "centre_lon": -73.917194,
+    "count": 12741,
+    "dominant_group": "sewer_backup",
+    "counts_by_group": {
+      "flood": 704,
+      "noise": 9918,
+      "road": 1583,
+      "sewer_backup": 536
+    },
+    "lift_by_group": {
+      "flood": 2.3674,
+      "noise": 0.8691,
+      "road": 1.8208,
+      "sewer_backup": 3.3099
+    },
+    "dominant_lift": 3.3099,
+    "radius_m_p90": 2687.39
+  },
+  {
+    "zone_id": 6,
+    "centre_lat": 40.630535,
+    "centre_lon": -74.006939,
+    "count": 28487,
+    "dominant_group": "road",
+    "counts_by_group": {
+      "flood": 632,
+      "noise": 25102,
+      "road": 2484,
+      "sewer_backup": 269
+    },
+    "lift_by_group": {
+      "flood": 0.9506,
+      "noise": 0.9838,
+      "road": 1.2779,
+      "sewer_backup": 0.743
+    },
+    "dominant_lift": 1.2779,
+    "radius_m_p90": 2560.64
+  },
+  {
+    "zone_id": 7,
+    "centre_lat": 40.595699,
+    "centre_lon": -73.967012,
+    "count": 25320,
+    "dominant_group": "flood",
+    "counts_by_group": {
+      "flood": 1158,
+      "noise": 21417,
+      "road": 2249,
+      "sewer_backup": 496
+    },
+    "lift_by_group": {
+      "flood": 1.9595,
+      "noise": 0.9443,
+      "road": 1.3017,
+      "sewer_backup": 1.5412
+    },
+    "dominant_lift": 1.9595,
+    "radius_m_p90": 3087.78
+  }
+]

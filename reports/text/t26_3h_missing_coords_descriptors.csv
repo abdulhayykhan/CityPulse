@@ -1,0 +1,9 @@
+complaint_type,descriptor,n
+Sewer,Catch Basin Clogged/Flooding (Use Comments) (SC),16
+Sewer,Street Flooding (SJ),16
+Sewer,Highway Flooding (SH),13
+Sewer,Manhole Overflow (Use Comments) (SA1),7
+Sewer Maintenance,Flooding on Highway,24
+Sewer Maintenance,Flooding on Street,8
+Sewer Maintenance,Catch Basin Clogged,7
+Sewer Maintenance,Manhole Overflow,3

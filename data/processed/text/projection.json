@@ -1,0 +1,5 @@
+{
+  "lat0": 40.661641,
+  "lon0": -73.952455,
+  "note": "x_m=(lon-lon0)*111320*cos(radians(lat0)); y_m=(lat-lat0)*110540"
+}
