@@ -12,6 +12,7 @@ The project is an academic machine-learning and full-stack prototype. Its histor
 
 ## Contents
 
+- [Live deployment](#live-deployment)
 - [Project at a glance](#project-at-a-glance)
 - [What the application currently does](#what-the-application-currently-does)
 - [System architecture](#system-architecture)
@@ -37,6 +38,20 @@ The project is an academic machine-learning and full-stack prototype. Its histor
 - [Limitations and responsible interpretation](#limitations-and-responsible-interpretation)
 - [Team](#team)
 - [License and attribution](#license-and-attribution)
+
+---
+
+## Live deployment
+
+CityPulse is publicly deployed and accessible online:
+
+| Resource | Live URL | Description |
+|---|---|---|
+| 🌐 **Interactive Dashboard** | [https://citypulse-axi2.onrender.com/](https://citypulse-axi2.onrender.com/) | Live Leaflet map, forecasting sliders, and report submission |
+| 📑 **Interactive Swagger UI** | [https://citypulse-axi2.onrender.com/docs](https://citypulse-axi2.onrender.com/docs) | Interactive API exploration and testing |
+| ⚡ **System Health Check** | [https://citypulse-axi2.onrender.com/health](https://citypulse-axi2.onrender.com/health) | API runtime and SQLite connectivity status probe |
+
+> **Note on initial load:** Hosted on Render's free tier. The instance spins down during periods of inactivity and may take ~50 seconds to complete its initial cold-start wake-up on the first request.
 
 ---
 
@@ -776,12 +791,12 @@ uvicorn backend.main:app --reload --port 8000
 
 ### Open the application
 
-| Resource | Local URL |
-|---|---|
-| CityPulse dashboard | http://localhost:8000/ |
-| API health | http://localhost:8000/health |
-| Interactive Swagger UI | http://localhost:8000/docs |
-| OpenAPI schema | http://localhost:8000/openapi.json |
+| Resource | Local URL | Production Live URL |
+|---|---|---|
+| CityPulse dashboard | http://localhost:8000/ | https://citypulse-axi2.onrender.com/ |
+| API health | http://localhost:8000/health | https://citypulse-axi2.onrender.com/health |
+| Interactive Swagger UI | http://localhost:8000/docs | https://citypulse-axi2.onrender.com/docs |
+| OpenAPI schema | http://localhost:8000/openapi.json | https://citypulse-axi2.onrender.com/openapi.json |
 
 ### First route request
 
