@@ -1,0 +1,12 @@
+.git
+.github
+__pycache__
+*.pyc
+.pytest_cache
+tests/
+notebooks/
+data/raw/
+cache/
+.venv/
+.DS_Store
+*.log

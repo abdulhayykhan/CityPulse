@@ -16,6 +16,8 @@ data/*.graphml
 .env
 .DS_Store
 *.webm
+cloudflared.exe
+*.exe
 data/processed/*.csv.gz
 data/processed/311_cube.csv
 data/processed/311_resolutions_cube.csv
