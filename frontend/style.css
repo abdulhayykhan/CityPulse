@@ -68,6 +68,13 @@ h1,h2{font-family:'Space Grotesk','Inter',sans-serif}
   font-size:13px;font-weight:600;cursor:pointer;transition:.18s}
 .seg-btn.active{background:linear-gradient(180deg,var(--accent),var(--accent2));color:#042027;box-shadow:0 4px 12px rgba(34,211,238,.3)}
 .hint{font-size:11px;color:var(--faint);margin:10px 0;line-height:1.5}
+.lbl-or{color:var(--faint);text-transform:none;font-weight:400;letter-spacing:0}
+.src-row{display:flex;align-items:center;gap:8px;margin:8px 0 2px}
+.btn.small{padding:7px 11px;font-size:12px;flex:0 0 auto}
+.src-name{font-size:11px;color:var(--warn);cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1}
+.preview{margin:8px 0;border:1px solid var(--line2);border-radius:10px;padding:8px;background:var(--bg2);text-align:center}
+.prev-img{max-width:100%;max-height:150px;border-radius:8px;display:block;margin:0 auto}
+.prev-audio{width:100%;height:34px}
 .btn-row{display:flex;gap:8px;margin-top:10px}
 .btn{flex:1;border:0;border-radius:10px;padding:10px;font-size:13px;font-weight:600;cursor:pointer;
   font-family:inherit;transition:.18s;color:var(--txt)}
