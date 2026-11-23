@@ -47,8 +47,14 @@
             <button class="seg-btn active" data-mod="audio">🎧 Audio</button>
             <button class="seg-btn" data-mod="image">📷 Image</button>
           </div>
-          <label class="lbl">Demo sample</label>
+          <label class="lbl">Demo sample <span class="lbl-or">or upload your own</span></label>
           <select id="demoSelect" class="select"></select>
+          <div class="src-row">
+            <button id="uploadBtn" class="btn ghost small" type="button">⬆ Upload a file</button>
+            <span id="srcName" class="src-name" title="click to clear"></span>
+          </div>
+          <input type="file" id="fileInput" accept="audio/*" hidden />
+          <div id="preview" class="preview hidden"></div>
           <p class="hint" id="pickHint">Click anywhere on the map to drop the report location.</p>
           <div class="btn-row">
             <button id="submitBtn" class="btn primary" disabled>Analyze &amp; drop pin</button>
