@@ -16,6 +16,8 @@ const state = {
   mapMode: "report",     // "report" | "route"
   route: { a: null, b: null },
   colorMode: "livability",
+  uploadFile: null,      // a File the user chose from their computer (overrides the demo)
+  _prevUrl: null,        // object URL for the current upload preview (revoked on change)
 };
 
 let map, layerIncidents, layerZones, layerReports, layerRoute, livChart;
@@ -247,21 +249,63 @@ async function runPredict() {
 /* ----------------------------- report submit ----------------------------- */
 function currentModality() { return document.querySelector(".seg-btn.active").dataset.mod; }
 
+// What will be submitted: the user's uploaded file if any, otherwise the demo sample.
+function currentSource() {
+  const mod = currentModality();
+  if (state.uploadFile) {
+    return { kind: "upload", file: state.uploadFile, name: state.uploadFile.name, modality: mod };
+  }
+  const opt = $("demoSelect").selectedOptions[0];
+  if (opt && opt.value) {
+    const meta = JSON.parse(opt.value);
+    return { kind: "demo", url: API + meta.url, name: meta.name, modality: meta.modality };
+  }
+  return null;
+}
+
+// Forget the uploaded file and fall back to the demo dropdown.
+function clearUpload() {
+  state.uploadFile = null;
+  $("fileInput").value = "";
+  $("srcName").textContent = "";
+}
+
+// Show the selected image as a thumbnail, or the selected audio in a player.
+function renderPreview() {
+  const box = $("preview");
+  const mod = currentModality();
+  if (state._prevUrl) { URL.revokeObjectURL(state._prevUrl); state._prevUrl = null; }
+  const src = currentSource();
+  if (!src) { box.classList.add("hidden"); box.innerHTML = ""; return; }
+  let url;
+  if (src.kind === "upload") { url = URL.createObjectURL(src.file); state._prevUrl = url; }
+  else { url = src.url; }
+  box.innerHTML = (mod === "image")
+    ? `<img class="prev-img" src="${url}" alt="preview" />`
+    : `<audio class="prev-audio" controls src="${url}"></audio>`;
+  box.classList.remove("hidden");
+}
+
 async function submitReport() {
   if (!state.reportLoc) { toast("Click the map to set a location first"); return; }
-  const opt = $("demoSelect").selectedOptions[0];
-  if (!opt || !opt.value) { toast("Pick a demo sample"); return; }
-  const meta = JSON.parse(opt.value);
+  const src = currentSource();
+  if (!src) { toast("Pick a demo sample or upload a file"); return; }
   $("submitBtn").disabled = true; $("submitBtn").textContent = "Analyzing…";
   try {
-    const blob = await (await fetch(API + meta.url)).blob();
+    let blob;
+    if (src.kind === "upload") blob = src.file;                       // a File is already a Blob
+    else blob = await (await fetch(src.url)).blob();                  // fetch the demo file bytes
     const fd = new FormData();
-    fd.append("file", blob, meta.name);
+    fd.append("file", blob, src.name);
     fd.append("lat", state.reportLoc.lat); fd.append("lon", state.reportLoc.lon);
-    fd.append("modality", meta.modality);
-    const res = await (await fetch(API + "/report", { method: "POST", body: fd })).json();
-    showResult(res); state.reports.unshift(res); addReportPin(res, true);
-    toast(`Detected: ${res.type} (${(res.confidence * 100).toFixed(0)}%)`);
+    fd.append("modality", currentModality());
+    const r = await fetch(API + "/report", { method: "POST", body: fd });
+    const res = await r.json();
+    if (!r.ok || !res.type) { toast(res.detail || "Report failed"); }
+    else {
+      showResult(res); state.reports.unshift(res); addReportPin(res, true);
+      toast(`Detected: ${res.type} (${(res.confidence * 100).toFixed(0)}%)`);
+    }
   } catch (e) { toast("Report failed: " + e.message); }
   $("submitBtn").disabled = false; $("submitBtn").textContent = "Analyze & drop pin";
 }
@@ -361,10 +405,27 @@ function wireUI() {
   $("modSeg").addEventListener("click", (e) => {
     const b = e.target.closest(".seg-btn"); if (!b) return;
     document.querySelectorAll(".seg-btn").forEach((x) => x.classList.remove("active"));
-    b.classList.add("active"); fillDemoSelect(b.dataset.mod);
+    b.classList.add("active");
+    clearUpload();                                   // an image upload makes no sense in audio mode
+    $("fileInput").accept = b.dataset.mod === "image" ? "image/*" : "audio/*";
+    fillDemoSelect(b.dataset.mod);
+    renderPreview();
   });
   $("submitBtn").addEventListener("click", submitReport);
   $("recBtn").addEventListener("click", recordMic);
+
+  // Upload-your-own-file + preview
+  $("uploadBtn").addEventListener("click", () => $("fileInput").click());
+  $("fileInput").addEventListener("change", (e) => {
+    const f = e.target.files && e.target.files[0];
+    if (!f) return;
+    state.uploadFile = f;
+    $("srcName").textContent = "📄 " + f.name + "  ✕";   // click to clear
+    if (state.reportLoc) $("submitBtn").disabled = false;
+    renderPreview();
+  });
+  $("srcName").addEventListener("click", () => { clearUpload(); renderPreview(); });
+  $("demoSelect").addEventListener("change", () => { clearUpload(); renderPreview(); });
 
   $("rain").addEventListener("input", (e) => { $("rainVal").textContent = e.target.value + " mm"; });
   $("rain").addEventListener("change", runPredict);
@@ -409,7 +470,7 @@ async function boot() {
   try { state.incidents = await getJSON("/incidents?limit=600"); renderIncidents(); } catch (e) {}
   try { state.reports = await getJSON("/reports"); renderReports(); } catch (e) {}
   try { await loadAdmin(); } catch (e) {}
-  try { await loadDemo(); } catch (e) {}
+  try { await loadDemo(); renderPreview(); } catch (e) {}
   await runPredict();
 }
 document.addEventListener("DOMContentLoaded", boot);
